@@ -7,7 +7,8 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price"
+      "product-selling-price",
+      "product-list-price"
     ]
   },
 

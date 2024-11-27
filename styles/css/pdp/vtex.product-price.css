@@ -1,0 +1,13 @@
+.sellingPrice {
+    color: #02012E;
+    font-size: 30px;
+}
+.sellingPriceValue {
+    font-size: 30px;
+}
+.listPrice {
+    font-size: 19px;
+    margin-top: 9px;
+    margin-left: 10px;
+    color: #02012E;
+}

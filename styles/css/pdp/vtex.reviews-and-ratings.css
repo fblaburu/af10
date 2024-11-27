@@ -1,0 +1,52 @@
+.reviewsHeading {
+    display: none;
+}
+.reviewsOrderBy {
+    display: none;
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    flex-shrink: 0;
+}
+.writeReviewContainer {
+    position: absolute;
+    bottom: 0px;
+}
+.reviewsRating {
+    width: 50%;
+}
+.reviewCommentsContainer {
+    width: 50%;
+    position: relative;
+}
+.star {
+    color: #DE1940;
+    padding-right: 5px;
+}
+.reviewCommentUser {
+    display: block;
+    color: #02012E;
+    font-family: 'gothambook';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
+}
+.reviewCommentMessage {
+    display: block;
+    color: #02012E;
+    font-family: 'gothambook';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
+}
+.reviewInfo {
+    position: absolute;
+    bottom: 0px;
+}

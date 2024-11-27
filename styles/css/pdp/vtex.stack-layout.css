@@ -1,0 +1,13 @@
+.stackItem--product--buttonFloat {
+  display: block;
+  height: auto;
+  max-height: 90px;
+  display: block;
+  height: auto;
+  max-height: 90px;
+  position: inherit;
+  min-height: auto;
+  padding: 20px 30px;
+  justify-content: center;
+  background: #02012E;
+}

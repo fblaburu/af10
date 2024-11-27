@@ -1,0 +1,88 @@
+
+
+/* faqs home */
+.flexColChild--descriptionpdp{
+    width: 100%;
+}
+.flexColChild--descriptionpdp :global(.vtex-disclosure-layout-1-x-trigger){
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #02012E;
+    background-color: transparent;
+    position: relative;
+}
+:global(.vtex-disclosure-layout-1-x-trigger)::after{
+    display: block;
+    content: url('assets/img/icons/angle-down.png');
+    position: absolute;
+    right: 11px;
+    top: 24px;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--visible)::after{
+    transform: rotate(180deg);
+    top: 16px;
+}
+.flexCol--descriptionpdp {
+    margin-top: 30px;
+}
+.flexRowContent--buttonFloat {
+    margin: 0;
+}
+.flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPriceValue) {
+    color: white;
+    font-size: 25.8px;
+}
+.flexRowContent--buttonFloat :global(.vtex-button) {
+    background-color: #DE1940;
+    height: 50px;
+    width: 288px;
+}
+.flexRowContent--buttonFloat :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    display: flex;
+    color: #FFF;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.flexRowContent--buttonFloat :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 10px;
+    background-image: url(https://lf10.vtexassets.com/assets/vtex/assets-builder/lf10.store-theme/0.0.1/img/icons/Icono-carrito___498117f….svg);
+    background-repeat: no-repeat;
+}
+.flexRowContent--buttonFloat :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    display: none;
+}
+.flexRowContent--buttonFloat :global(.vtex-numeric-stepper__input), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__plus-button-container), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__minus-button-container) {
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+.flexRowContent--buttonFloat :global(.vtex-numeric-stepper__plus-button), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__minus-button) {
+    height: 50px;
+    background-color: transparent;
+    color: #DE1940;
+    border: none;
+}
+.flexRowContent--buttonFloat :global(.vtex-numeric-stepper__minus-button__text), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__plus-button__text){
+    border: 1px solid #DE1940;
+    padding: 10px;
+    border-radius: 20px;
+}
+.flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPrice) {
+    margin-top: 7px;
+}
+.flexRowContent--product-main :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    position: sticky;
+    top: 159px;
+    height: 100%;  
+}
+
