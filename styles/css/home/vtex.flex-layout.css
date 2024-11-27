@@ -147,3 +147,16 @@
 .flexCol--CarouselPlusImage:hover :global(.vtex-rich-text-0-x-container--CarouselPlusImageText){
     bottom: 95px;
 }
+
+/* destacados */
+.flexCol--DestacadosHome{
+    position: relative;
+}
+
+
+/* Componente xona hincha */
+.flexCol--zonaHincha{
+    position: relative;
+    margin: 60px 0;
+    padding: 60px;
+}

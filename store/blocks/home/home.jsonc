@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#slider",
+      "flex-layout.row#zonaHincha",
       "flex-layout.row#bannerCountDown",
       "flex-layout.row#destacadosHome",
       "flex-layout.row#bannerMarcas",      

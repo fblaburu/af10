@@ -1,0 +1,167 @@
+{
+    "flex-layout.row#zonaHincha": {
+      "title": "zonaHincha Home Carousel",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": "zonaHincha"
+      },
+      "children": [
+        "flex-layout.col#zonaHincha"   
+      ]
+    },
+    "flex-layout.col#zonaHincha": {
+      "title": "zonaHincha Home Image",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": "zonaHincha"
+      },
+      "children": [
+        "image#zonaHinchaCarousel",
+        "image#zonaHinchaEquipo",        
+        "rich-text#zonaHinchaCarousel",
+        "rich-text#zonaHinchaCarouselDescription",
+        "flex-layout.row#zonaHinchaInnerCarousel"        
+      ]
+    },
+    "flex-layout.row#zonaHinchaInnerCarousel": {
+      "title": "zonaHincha Home Carousel",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "bottom",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": "zonaHincha"
+      },
+      "children": [
+        "flex-layout.col#zonaHinchaCarousel",
+        "flex-layout.col#zonaHinchaCarouselText"
+      ]
+    },
+    "flex-layout.col#zonaHinchaCarousel":{
+        "title": "zonaHincha Home Carousel",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "bottom",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": "zonaHinchaHomeCarousel",
+        "width":"60%"
+      },
+      "children": [
+        "list-context.product-list#zonaHinchaCarousel"
+      ]
+    },
+    "flex-layout.col#zonaHinchaCarouselText":{
+        "title": "zonaHincha Home Image",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "bottom",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": "zonaHincha",
+        "width":"40%"
+      },
+      "children": [   
+        "rich-text#zonaHinchaTeam",
+        "rich-text#zonaHinchaTeamTitle",
+        "rich-text#zonaHinchaTeamLink"
+      ]
+    },
+    "list-context.product-list#zonaHinchaCarousel": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "slider-layout#zonaHinchaCarousel": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": false
+      }
+    },    
+    "image#zonaHinchaEquipo": {
+          "props": {
+              "src": "assets/img/home/millonarios.png",
+              "width": "100%",
+              "blockClass":"zonaHinchaImageEquipo"
+          }
+    },
+    "image#zonaHinchaCarousel": {
+          "props": {
+              "src": "assets/img/home/background-zona-hincha.png",
+              "width": "100%",
+              "blockClass":"zonaHinchaImage"
+          }
+    },
+    "rich-text#zonaHinchaCarousel": {
+          "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "¡Bienvenido a la zona hincha!",
+              "blockClass": "zonaHinchaCarouselTextTitle",
+              "width": "100%"
+          }
+    },
+    "rich-text#zonaHinchaCarouselDescription": {
+          "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "Encuentra toda la indumentaria del equipo de tus amores",
+              "blockClass": "zonaHinchaCarouselTextDescription",
+              "width": "100%"
+          }
+    },
+    "rich-text#zonaHinchaTeam":{
+        "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "Millonarios F.C.",
+              "blockClass": "zonaHinchaCarouselTeam",
+              "width": "100%"
+          }
+    },
+    "rich-text#zonaHinchaTeamTitle":{
+       "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "INDUMENTARIA OFICIAL\nTEMPORADA 2024-II",
+              "blockClass": "zonaHinchaCarouselTeamTitle",
+              "width": "100%"
+          } 
+    },
+    "rich-text#zonaHinchaTeamLink":{
+        "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "[Ver toda la indumentaria](#)",
+              "blockClass": "zonaHinchaCarouselTeamLink",
+              "width": "100%"
+          } 
+    }
+  }
