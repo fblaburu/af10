@@ -1,0 +1,71 @@
+{
+    "flex-layout.row#destacadosHome": {
+      "title": "Destacados Home Carousel",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": "destacadosHome"
+      },
+      "children": [
+        "flex-layout.col#destacadosHome"   
+      ]
+    },
+    "flex-layout.col#destacadosHome": {
+      "title": "Destacados Home Image",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": "DestacadosHome"
+      },
+      "children": [
+        "image#destacadosHomeCarousel",
+        "rich-text#destacadosHomeCarousel",
+        "list-context.product-list#destacadosHomeCarousel"
+      ]
+    },
+    "list-context.product-list#destacadosHomeCarousel": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "slider-layout#destacadosHomeCarousel": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": false
+      }
+    },
+    "image#destacadosHomeCarousel": {
+          "props": {
+              "src": "assets/img/home/destacados.png",
+              "width": "100%",
+              "blockClass":"destacadosHomeImage"
+          }
+    },
+    "rich-text#destacadosHomeCarousel": {
+          "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "DESTACADOS",
+              "blockClass": "destacadosHomeCarouselText",
+              "width": "100%"
+          }
+    }
+  }

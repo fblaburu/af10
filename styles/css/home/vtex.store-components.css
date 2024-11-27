@@ -149,3 +149,10 @@ margin: 0 auto;
     margin: 0;
     margin-top: 2px;
 }
+
+/* Destacados home */
+.imageElement--destacadosHomeImage{
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}

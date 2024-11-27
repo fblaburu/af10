@@ -381,3 +381,21 @@
     left: 0;
     transform: rotate(-135deg);
 }
+
+
+/* destacados home */
+.container--destacadosHomeCarouselText{
+    position: relative;    
+}
+.paragraph--destacadosHomeCarouselText{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway';
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 40px auto 30px;
+}
