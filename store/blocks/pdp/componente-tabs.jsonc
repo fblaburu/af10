@@ -1,0 +1,71 @@
+{
+    "tab-layout#pdp": {
+    "children": [
+      "tab-list#pdp",
+      "tab-content#pdp"
+    ],
+    "props": {
+      "blockClass": "pdp",
+      "defaultActiveTabId": "pdp1"
+    }
+  },
+
+  "tab-list#pdp": {
+    "children": [
+      "tab-list.item#pdp1",
+      "tab-list.item#pdp2",
+      "tab-list.item#pdp3"
+    ]
+  },
+  "tab-list.item#pdp1": {
+    "props": {
+      "tabId": "pdp1",
+      "label": "Descripcion",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#pdp2": {
+    "props": {
+      "tabId": "pdp2",
+      "label": "Caracteristicas"
+    }
+  },
+  "tab-list.item#pdp3": {
+    "props": {
+      "tabId": "pdp3",
+      "label": "Garantias"
+    }
+  },
+
+  "tab-content#pdp": {
+    "children": [
+      "tab-content.item#pdp1",
+      "tab-content.item#pdp2",
+      "tab-content.item#pdp3"
+    ]
+  },
+  "tab-content.item#pdp1": {
+    "children": [
+      "flex-layout.row#description"
+    ],
+    "props": {
+      "tabId": "pdp1"
+    }
+  },
+  "tab-content.item#pdp2": {
+    "children": [
+      "flex-layout.row#description"
+    ],
+    "props": {
+      "tabId": "pdp2"
+    }
+  },
+  "tab-content.item#pdp3": {
+    "children": [
+      "flex-layout.row#description"
+    ],
+    "props": {
+      "tabId": "pdp3"
+    }
+  }
+}

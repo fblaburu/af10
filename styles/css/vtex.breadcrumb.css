@@ -1,0 +1,42 @@
+.homeLink::after {
+    display: block;
+    content: "Homne";
+    color: #02012E;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.homeLink .homeIcon {
+    display: none;
+}
+.homeLink {
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+.link {
+    color: #02012E;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.term {
+    color: #02012E;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.caretIcon {
+    color: #02012E;
+}

@@ -1,0 +1,14 @@
+.productNameContainer {
+    font-size: 30px;    
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'gothambook';
+    color: #02012E;
+    margin-top: 15px;
+}
+.productDescriptionTitle {
+    display: none;
+}
+.productDescriptionContainer {
+    margin-top: 15px;
+}

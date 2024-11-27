@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#descriptionpdp": {
+        "title": "description",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "descriptionpdp",
+            "colGap": "20"
+        },
+        "children": [
+          "flex-layout.col#descriptionpdp"
+        ]
+    },
+    "flex-layout.col#descriptionpdp": {
+        "title": "FAQS HOME",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "descriptionpdp",
+            "colGap": "20"
+        },
+        "children": [
+          "disclosure-layout#descriptionpdp",
+          "disclosure-layout#descriptionpdp2"
+
+        ]
+    },
+    "disclosure-layout#descriptionpdp": {
+        "props":{
+            "initialVisibility": "visible"
+        },
+        "children": ["disclosure-trigger#descriptionpdp", "disclosure-content#descriptionpdp"]
+    },
+    "disclosure-trigger#descriptionpdp": {
+        "children": ["rich-text#question"]
+    },
+    "disclosure-content#descriptionpdp": {
+        "children": ["flex-layout.row#description"]
+    },
+    "rich-text#question": {
+        "title":"Description",
+        "props": {
+        "text": "Descripción",
+        "blockClass": "descriptionpdp"
+        }
+    },
+
+
+    "disclosure-layout#descriptionpdp2": {
+        "children": ["disclosure-trigger#descriptionpdp2", "disclosure-content#descriptionpdp2"]
+    },
+    "disclosure-trigger#descriptionpdp2": {
+        "children": ["rich-text#question2"]
+    },
+    "disclosure-content#descriptionpdp2": {
+        "children": [
+            "product-specification-group#table"
+        ]
+    },
+    "rich-text#question2": {
+        "title":"Caracteristicas",
+        "props": {
+        "text": "Caracteristicas",
+        "blockClass": "descriptionpdp"
+        }
+    }
+}
