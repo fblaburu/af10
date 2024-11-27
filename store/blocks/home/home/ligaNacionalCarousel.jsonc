@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#ligaNacionalCarousel": {
+    "title": "Ligas Nacional",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "ligasInternacionalesCarousel"
+    },
+    "children": [
+      "flex-layout.col#ligaNacionalCarousel",
+      "flex-layout.col#ligasNacionalImage"
+    ]
+  },
+  "flex-layout.col#ligasNacionalImage": {
+    "title": "Ligas Nacional Image",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "CarouselPlusImage"
+    },
+    "children": [
+      "image#LigaNacional",
+      "rich-text#LigaNacional"
+    ]
+  },
+  "flex-layout.col#ligaNacionalCarousel": {
+    "title": "Ligas Nacional Col",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "ligasInternacionalesCarousel"
+    },
+    "children": [
+      "list-context.product-list#ligasNacional"
+    ]
+  },
+  "list-context.product-list#ligasNacional": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout"
+    ],
+    "props": {
+      "collection": "137"
+    }
+  },
+  "slider-layout#ligasNacional": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": false
+    }
+  },
+  "image#LigaNacional": {
+        "props": {
+            "src": "assets/img/home/banner-golty.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            },
+            "width": "100%",
+            "blockClass":"CarouselPlusImage"
+        }
+  },
+  "rich-text#LigaNacional": {
+        "title": "Titulo banner carrusel",
+        "props": {
+            "textAlignment": "center",
+            "textPosition": "center",
+            "text": "LIGA NACIONAL [Ver todo](#)",
+            "blockClass": ["CarouselPlusImageText","Invert"],
+            "width": "100%"
+        }
+  }
+}

@@ -69,7 +69,10 @@
 .flexCol--homeSliderContainer .flexColChild--homeSliderContainer:last-child{
     z-index: 1;    
 }
-
+/* banner marcas */
+.flexRow--bannerMarcas{
+    padding: 60px 0;
+}
 /* componente banner implementos */
 .flexRow--bannerImplementos{
     padding: 60px 0;
@@ -116,6 +119,9 @@
 }
 
 /* banner Countdown home */
+.flexRow--bannerCountDown{
+    padding: 60px 0;
+}
 .flexRowContent--bannerCountDown{
     position: relative;
 }
@@ -133,4 +139,11 @@
 /* bannerpluscarrusel */
 .flexCol--CarouselPlusImage{
     position: relative;
+}
+
+.flexRow--ligasInternacionalesCarousel{
+    padding: 60px 0;
+}
+.flexCol--CarouselPlusImage:hover :global(.vtex-rich-text-0-x-container--CarouselPlusImageText){
+    bottom: 95px;
 }

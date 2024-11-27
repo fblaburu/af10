@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#guayosCarousel": {
+    "title": "Guayos Carousel",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "ligasInternacionalesCarousel"
+    },
+    "children": [
+      "flex-layout.col#guayosCarouselImage",
+      "flex-layout.col#guayosCarousel"      
+    ]
+  },
+  "flex-layout.col#guayosCarouselImage": {
+    "title": "Guayos Carousel Image",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "CarouselPlusImage"
+    },
+    "children": [
+      "image#GuayosCarousel",
+      "rich-text#GuayosCarousel"
+    ]
+  },
+  "flex-layout.col#guayosCarousel": {
+    "title": "Guayos Carousel Col",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "ligasInternacionalesCarousel"
+    },
+    "children": [
+      "list-context.product-list#guayosCarousel"
+    ]
+  },
+  "list-context.product-list#guayosCarousel": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout"
+    ],
+    "props": {
+      "collection": "137"
+    }
+  },
+  "slider-layout#guayosCarousel": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": false
+    }
+  },
+  "image#GuayosCarousel": {
+        "props": {
+            "src": "assets/img/home/guayos.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            },
+            "width": "100%",
+            "blockClass":"CarouselPlusImage"
+        }
+  },
+  "rich-text#GuayosCarousel": {
+        "title": "Titulo banner carrusel",
+        "props": {
+            "textAlignment": "center",
+            "textPosition": "center",
+            "text": "Guayos [Ver todo](#)",
+            "blockClass": "CarouselPlusImageText",
+            "width": "100%"
+        }
+  }
+}

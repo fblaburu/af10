@@ -5,6 +5,8 @@
       "flex-layout.row#bannerCountDown",
       "flex-layout.row#bannerMarcas",      
       "flex-layout.row#ligasInternacionalesCarousel",
+      "flex-layout.row#ligaNacionalCarousel",
+      "flex-layout.row#guayosCarousel",
       "flex-layout.row#bannerImplementos",
       "flex-layout.row#OurExperience",
       "flex-layout.row#bannerBlogs",

@@ -319,6 +319,7 @@
     margin: 0 auto;
     width: 90%;
     display: block;
+    transition: bottom 0.2s linear;
 }
 .paragraph--CarouselPlusImageText{
     color: #FFF;
@@ -373,4 +374,10 @@
     font-size: 0;
     display: block;
     transform: rotate(45deg);
+}
+
+.wrapper--CarouselPlusImageText.wrapper--Invert .link--CarouselPlusImageText::after{
+    right: inherit;
+    left: 0;
+    transform: rotate(-135deg);
 }
