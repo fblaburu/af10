@@ -1,0 +1,151 @@
+.searchBarContainer{
+    background-color: #32316E;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.autoCompleteOuterContainer--mainSearch{
+    height: 34px;    
+}
+.autoCompleteOuterContainer--mainSearch :global(.vtex-input-prefix__group){
+    border: 0;
+    align-items: center;
+    display: flex;
+}
+.autoCompleteOuterContainer--mainSearch :global(.vtex-input__suffix){
+    background-color: #32316E;
+    padding: 0;
+    border-radius: 0;
+}
+.autoCompleteOuterContainer--mainSearch .searchIcon, .autoCompleteOuterContainer--mainSearch .closeIcon{
+    color: #fff;
+}
+.autoCompleteOuterContainer--mainSearch :global(.vtex-styleguide-9-x-input){
+    font-size: 14px;
+    font-family: 'gothambook';
+    border-bottom: 1px solid #9898b7;
+    padding: 0;
+    background-color: #32316E;
+    order: 1;
+    padding-left: 3px;
+}
+
+
+/* footer */
+.newsletter .form{
+    width: 90%;
+    max-width: 1600px;
+    background-color: #DE1940;
+    padding: 20px 30px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .form .label {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+}
+.newsletter .form .inputGroup {
+max-width: 857px;
+margin: 0 auto;
+}
+.newsletter .form .inputGroup :global(.vtex-styleguide-9-x-input){
+    background-color: #DE1940;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.newsletter .form .inputGroup :global(.vtex-styleguide-9-x-input)::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+.newsletter .form .inputGroup :global(.vtex-input-prefix__group){
+    border: 0 !important;
+    border-bottom: 1px solid #ef8c9f !important;
+}
+.newsletter .form .inputGroup :global(.vtex-button){
+    background-color: #fff;
+    color: #DE1940;
+    border: 0;
+    font-family: 'gothambold';
+    min-width: 237px;
+    text-transform: capitalize;
+}
+.imageElement--footerSocialLink{
+    margin: 0 10px;
+}
+
+.imageElement--imageLogo{
+    margin: 0 40px 0 20px;
+}
+
+
+.order2{
+    order: 2;
+}
+.order1{
+    order: 1;
+}
+.order3{
+    order: 3;
+}
+
+
+/* Countdown */
+.CountDownContainer{
+    border-radius: 12px;
+    background: #02012E;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 526px;
+}
+.CountDownBox{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    padding: 16px 0;
+    position: relative;
+}
+.CountDownBox::after{
+    position: absolute;
+    right: 0;
+    content: 'a';
+    font-size: 0;
+    width: 1px;
+    height: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-color: #fff;
+}
+.CountDownBox:last-child::after{
+    display: none;
+}
+.CountDownBoxText{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+    margin-top: 2px;
+}

@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#faqsHome": {
+        "title": "FAQS HOME",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "faqsHome",
+            "colGap": "20"
+        },
+        "children": [
+          "flex-layout.col#faqsHome"
+        ]
+    },
+    "flex-layout.col#faqsHome": {
+        "title": "FAQS HOME",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "faqsHome",
+            "colGap": "20"
+        },
+        "children": [
+          "disclosure-layout#faqshome"
+        ]
+    },
+    "disclosure-layout#faqshome": {
+        "children": ["disclosure-trigger#faqshome", "disclosure-content#faqshome"]
+    },
+    "disclosure-trigger#faqshome": {
+        "children": ["rich-text#question"]
+    },
+    "disclosure-content#faqshome": {
+        "children": ["rich-text#answer"]
+    },
+    "rich-text#question": {
+        "title":"FAQ Pregunta 1",
+        "props": {
+        "text": "How can I change my shipping address?",
+        "blockClass": "faqsHome"
+        }
+    },
+    "rich-text#answer": {
+        "title":"FAQ Respuesta 1",
+        "props": {
+        "text": "Call us at (212) 123-1234",
+        "blockClass": "faqsHomeAnswer"
+        }
+    }
+}

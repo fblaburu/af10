@@ -1,0 +1,374 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "newsletter",
+      "flex-layout.row#footer",
+      "flex-layout.row#designedBy"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": {
+    "children": [
+      "flex-layout.col#logo",
+      "flex-layout.col#footermenu",
+      "flex-layout.col#footerRichLinks",
+      "flex-layout.col#socialLinks",
+      "flex-layout.col#footermenu2"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-content"
+      ]
+    }
+  },
+  "flex-layout.row#designedBy": {
+    "children": [
+      "rich-text#allrights",
+      "rich-text#laburu"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-content-designedby"
+      ]
+    }
+  },
+  "flex-layout.col#logo": {
+    "children": [
+      "logo"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#footermenu": {
+    "children": [
+      "vtex.menu@2.x:menu#footer"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#footermenu2": {
+    "children": [
+      "vtex.menu@2.x:menu#footer2"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#socialLinks": {
+    "children":[
+      "image#facebook",
+      "image#instagram",
+      "image#youtube"
+    ],
+    "props":{
+      "blockClass":[
+        "socialLinksContent"
+      ]
+    }
+  },
+  "flex-layout.col#footerRichLinks": {
+    "children":[
+      "rich-text#address",
+      "rich-text#phone",
+      "rich-text#email"
+    ],
+    "props":{
+      "blockClass":[
+        "footerRichLinks"
+      ]
+    }
+  },
+  "rich-text#address": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "![dirección](assets/img/icons/address-icon.svg) Calle 82 # 14 - Bogotá",
+      "blockClass": "footer-richlinks"
+    }
+  },
+  "rich-text#phone": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "![dirección](assets/img/icons/phone-icon.svg) (601) 123 45 67 - 765 43 21",
+      "blockClass": "footer-richlinks"
+    }
+  },
+  "rich-text#email": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "![dirección](assets/img/icons/email-icon.svg) correoelectronico@gmail.com",
+      "blockClass": "footer-richlinks"
+    }
+  },
+  "rich-text#allrights": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**© 2024** - AF10 All rights reserved.",
+      "blockClass": "footer-richlinksallRights"
+    }
+  },
+  "rich-text#laburu": {
+    "props": {
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "text": "Powered by: ![laburu](assets/img/icons/laburu-agencia.jpg)",
+      "blockClass": "footer-richlinksallRights"
+    }
+  },
+  "logo": {
+    "props": {
+      "title": "Logo AF10",
+      "href": "/",
+      "url": "https://rimax.vtexassets.com/assets/vtex.file-manager-graphql/images/76530d8d-8734-49e2-a0e1-ae23ba54a375___2ce141ac4511f4744e801fd95c747021.svg",
+      "width": "170"
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "width": 13,
+      "src": "assets/img/icons/facebook.svg",
+      "blockClass":[
+        "footerSocialLink"
+      ],
+      "link":{
+        "url":"#",
+        "newTab":true
+      }
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "width": 22,
+      "src": "assets/img/icons/instagram.svg",
+      "blockClass":[
+        "footerSocialLink"
+      ],
+      "link":{
+        "url":"#",
+        "newTab":true
+      }
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "width": 29,
+      "src": "assets/img/icons/youtube.svg",
+      "blockClass":[
+        "footerSocialLink"
+      ],
+      "link":{
+        "url":"#",
+        "newTab":true
+      }
+    }
+  },
+  "newsletter": {
+    "props": {
+      "label": "¿Quieres ser de los primeros en enterarte del tiempo de rebajas? ¡Regístrate!",
+      "placeholder": "Correo electrónico",
+      "submit": "Enviar"
+    }
+  },
+  "vtex.menu@2.x:menu#footer": {
+    "props": {
+      "items": [
+        {
+          "id": "Bootroom",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Bootroom",
+            "noFollow": false,
+            "tagTitle": "Bootroom",
+            "text": "Bootroom"
+          }
+        },
+        {
+          "id": "Teamwear",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Teamwear",
+            "noFollow": false,
+            "tagTitle": "Teamwear",
+            "text": "Teamwear"
+          }
+        },
+        {
+          "id": "Keepers",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Keepers",
+            "noFollow": false,
+            "tagTitle": "Keepers",
+            "text": "Keepers"
+          }
+        },
+        {
+          "id": "Trainers",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Trainers",
+            "noFollow": false,
+            "tagTitle": "Trainers",
+            "text": "Trainers"
+          }
+        },
+        {
+          "id": "Clothing",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Clothing",
+            "noFollow": false,
+            "tagTitle": "Clothing",
+            "text": "Clothing"
+          }
+        },
+        {
+          "id": "Football kits",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Football kits",
+            "noFollow": false,
+            "tagTitle": "Football kits",
+            "text": "Football kits"
+          }
+        },
+        {
+          "id": "Football-equipment",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Football-equipment",
+            "noFollow": false,
+            "tagTitle": "Football & equipment",
+            "text": "Football & equipment"
+          }
+        },
+        {
+          "id": "Ofertas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ofertas",
+            "noFollow": false,
+            "tagTitle": "Ofertas %",
+            "text": "Ofertas %"
+          }
+        }
+      ],
+      "blockClass":[
+        "footermenu"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#footer2": {
+    "props": {
+      "items": [
+        {
+          "id": "Distribuidores",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Distribuidores",
+            "noFollow": false,
+            "tagTitle": "Distribuidores",
+            "text": "Distribuidores"
+          }
+        },
+        {
+          "id": "Soporteygarantia",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Soporte-y-garantia",
+            "noFollow": false,
+            "tagTitle": "Soporte y garantía",
+            "text": "Soporte y garantía"
+          }
+        },
+        {
+          "id": "Cambiosydevoluciones",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Cambios-y-devoluciones",
+            "noFollow": false,
+            "tagTitle": "Cambios y devoluciones",
+            "text": "Cambios y devoluciones"
+          }
+        },
+        {
+          "id": "SIC",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/SIC",
+            "noFollow": false,
+            "tagTitle": "SIC",
+            "text": "SIC"
+          }
+        },
+        {
+          "id": "Estado-de-pedidos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Estado-de-pedidos",
+            "noFollow": false,
+            "tagTitle": "Estado de pedidos",
+            "text": "Estado de pedidos"
+          }
+        },
+        {
+          "id": "Politicas-de-privacidad",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Politicas-de-privacidad",
+            "noFollow": false,
+            "tagTitle": "Políticas de privacidad",
+            "text": "Políticas de privacidad"
+          }
+        }
+      ],
+      "blockClass":[
+        "footermenu",
+        "footermenu2"
+      ]
+    }
+  }
+}

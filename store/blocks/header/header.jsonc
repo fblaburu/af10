@@ -1,0 +1,181 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "title": "header",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "sticky-header-row"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#header-content"
+    ]
+  },
+  "flex-layout.col#header-content": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": [
+      "flex-layout.row#headerUp",
+      "flex-layout.row#headerDown"
+    ]
+  },
+  "flex-layout.row#headerUp": {
+    "props": {
+      "horizontalAlign": "right",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "sticky-header-row"
+    },
+    "children": [
+     "flex-layout.col#search-bar",
+      "flex-layout.col#iconwhishlist",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.row#headerDown": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "sticky-header-row-menu"
+    },
+    "children": [
+       "flex-layout.col#menu"
+    ]
+  },
+  "flex-layout.col#menu": {
+     "children": [
+      "vtex.menu@2.x:menu#mainmenu"
+    ]
+  },  
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#logo"
+    ]
+  },
+  "image#logo": {
+    "props": {
+      "width": 196,
+      "src": "assets/img/icons/logo-lf10.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass":["imageLogo"]
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  },
+  "flex-layout.col#search-bar":{
+    "children":[
+      "search-bar"
+    ],
+    "props":{
+      "width": "grow"
+    }
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": 567,
+      "blockClass":[
+        "mainSearch"
+      ]
+    }
+  },
+  "login": {
+    "props":{
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "blockClass":[
+        "loginHeader"
+      ]
+    }
+  },
+  "flex-layout.col#iconwhishlist":{
+    "children":[
+      "image#iconwhishlist"
+    ],
+    "props":{
+      "verticalAlign": "center",
+      "blockClass":[
+        "wishlistIcon"
+      ]
+    }
+  },
+  "image#iconwhishlist": {
+    "props": {
+      "src": "assets/img/icons/Icono-wishlist.svg",
+      "maxHeight": 24
+    }
+  }
+}

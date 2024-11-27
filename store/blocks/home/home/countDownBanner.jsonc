@@ -1,0 +1,102 @@
+{
+    "flex-layout.row#bannerCountDown": {
+        "title": "banners CountDown",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "bannerCountDown"
+        },
+        "children": [
+          "flex-layout.col#bannerCountDown"
+        ]
+    },
+    "flex-layout.col#bannerCountDown": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "children": [
+            "image#bannerCountDown",
+            "flex-layout.row#bannerCountDownRow",
+            "countdown"
+        ]
+    },
+    "image#bannerCountDown": {
+        "title": "Banner Countdown",
+        "props": {
+            "src": "assets/img/home/bg-preventa-countdown.png",
+            "width": "100%",
+            "blockClass":"bannerCountDown"
+        }
+    },
+    "flex-layout.row#bannerCountDownRow": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass":"bannerCountDownTextContainer"
+        },
+        "children": [
+          "flex-layout.row#bannerCountDownCol"
+        ]
+    },
+    "flex-layout.row#bannerCountDownCol": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "children": [
+          "rich-text#bannerCountDown1",
+          "rich-text#bannerCountDown2",
+          "rich-text#bannerCountDown3",
+          "rich-text#bannerCountDown4"
+        ]
+    },
+    "rich-text#bannerCountDown1": {
+        "title": "Banner CountDown Home 1",
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "CENTER",
+            "text": "¡Preventa exclusiva!",
+            "blockClass": "bannerCountDownText1"
+        }
+    },
+    "rich-text#bannerCountDown2": {
+        "title": "Banner CountDown Home 2",
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "CENTER",
+            "text": "COLOMBIA EDICIÓN 100 AÑOS",
+            "blockClass": "bannerCountDownText2"
+        }
+    },
+    "rich-text#bannerCountDown3": {
+        "title": "Banner CountDown Home 3",
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "CENTER",
+            "text": "Suscríbete para poder tener acceso anticipado a la nueva camiseta de la selección Colombia, no pierdas esta oportunidad.",
+            "blockClass": "bannerCountDownText3"
+        }
+    },
+    "rich-text#bannerCountDown4": {
+        "title": "Banner CountDown Home 4",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Ver todas las selecciones](#)",
+            "blockClass": "bannerCountDownText4"
+        }
+    }
+}

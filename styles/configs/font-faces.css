@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'gothambold';
+    src: url('assets/fonts/gotham/gotham-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/gotham/gotham-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamlight';
+    src: url('assets/fonts/gotham/gotham-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/gotham/gotham-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothamthin';
+    src: url('assets/fonts/gotham/gotham-thin-webfont.woff2') format('woff2'),
+         url('assets/fonts/gotham/gotham-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothamxlight';
+    src: url('assets/fonts/gotham/gotham-xlight-webfont.woff2') format('woff2'),
+         url('assets/fonts/gotham/gotham-xlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('assets/fonts/gotham/gothambold-webfont.woff2') format('woff2'),
+         url('assets/fonts/gotham/gothambold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothambook';
+    src: url('assets/fonts/gotham/gothambook-webfont.woff2'),
+         url('assets/fonts/gotham/gothambook-webfont.woff'),
+         url('assets/fonts/gotham/GothamBook.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamlight';
+    src: url('assets/fonts/gotham/gothamlight-webfont.woff2') format('woff2'),
+         url('assets/fonts/gotham/gothamlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothammedium';
+    src: url('assets/fonts/gotham/gothammedium-webfont.woff2') format('woff2'),
+         url('assets/fonts/gotham/gothammedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

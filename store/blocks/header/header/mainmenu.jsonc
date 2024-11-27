@@ -1,0 +1,96 @@
+{
+    "vtex.menu@2.x:menu#mainmenu": {
+        "children": [
+            "menu-item#camisetasdefutbol",
+            "menu-item#hombre",
+            "menu-item#mujer",
+            "menu-item#niños",
+            "menu-item#teamwear"
+        ]
+    },
+    "menu-item#camisetasdefutbol": {
+        "props": {
+            "id": "camisetasdefutbol",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/camisetas-de-futbol",
+                "noFollow": false,
+                "tagTitle": "Camisetas de fútbol",
+                "text": "Camisetas de fútbol"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#camisetasdefutbol"
+        ]
+    },
+    "menu-item#hombre": {
+        "props": {
+            "id": "hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre",
+                "noFollow": false,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#hombre"
+        ]
+    },
+    "menu-item#mujer": {
+        "props": {
+            "id": "mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#camisetasdefutbol"
+        ]
+    },
+    "menu-item#niños": {
+        "props": {
+            "id": "niños",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/niños",
+                "noFollow": false,
+                "tagTitle": "Niños",
+                "text": "Niños"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#camisetasdefutbol"
+        ]
+    },
+    "menu-item#teamwear": {
+        "props": {
+            "id": "teamwear",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/teamwear",
+                "noFollow": false,
+                "tagTitle": "Teamwear",
+                "text": "Teamwear"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#camisetasdefutbol"
+        ]
+    }
+}

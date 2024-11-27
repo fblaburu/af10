@@ -1,0 +1,96 @@
+.styledLink {
+    display: block;
+    padding: 0;
+}
+.styledLinkContainer {
+    padding: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.menuItem .styledLinkContent{
+    color: #fff;
+    font-family: 'gothambook';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 10px;
+}
+.menuItem .styledLinkContent--boldMenu{
+    font-family: 'gothambold';
+}
+.menuItem--isOpen .styledLinkContent{
+    color:#DE1940;
+}
+.styledLink--highlight{
+    background-color: #DE1940;
+}
+.menuItem--isOpen .styledLink--highlight .styledLinkContent{
+    color: #fff;
+}
+.submenuContainer{
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.submenuContainer .menuContainer {
+    flex-wrap: wrap;
+}
+.submenuWrapper--isOpen{
+    width: 100%;
+}
+.submenuWrapper .styledLinkContent{
+    color: #02012E;
+    padding: 20px 20px;
+}
+.submenuWrapper--imageSubmenu .menuItem{
+    width: 23%;
+    margin-right: 2%;   
+    display: flex;
+    align-items: center;    
+}
+.submenuWrapper--imageSubmenu .menuItem .styledLinkContent{
+    font-size: 16px;
+    font-family: 'gothamlight';
+}
+.menuItem .styledLinkContent .imageSubmenu{
+    margin-right: 5px;
+}
+.submenuWrapper .menuItem--isOpen .styledLinkContent{
+    font-family: 'gothambold';
+    color: #02012E;
+}
+.submenu--thirdlevel{
+    border-top: 1px solid #000;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.submenu--thirdlevel .menuItem .styledLinkContent{
+    font-size: 16px;
+    font-family: 'gothamlight';
+}
+.submenu--thirdlevel .menuItem--isOpen .styledLinkContent{
+    font-family: 'gothambold';
+    color: #02012E;
+}
+
+
+/* footer menu */
+.menuContainer--footermenu{
+    justify-content: center;
+}
+.menuContainerNav--footermenu::after{
+    margin: 30px 0 60px;
+    content: '-';
+    color: #DE1940;
+    font-size: 1px;
+    background-color: #DE1940;
+    height: 1px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.menuContainerNav--footermenu2::after{
+    display: none;
+}

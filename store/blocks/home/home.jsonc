@@ -1,0 +1,14 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#slider",
+      "flex-layout.row#bannerCountDown",
+      "flex-layout.row#bannerMarcas",      
+      "flex-layout.row#ligasInternacionalesCarousel",
+      "flex-layout.row#bannerImplementos",
+      "flex-layout.row#OurExperience",
+      "flex-layout.row#bannerBlogs",
+      "flex-layout.row#faqsHome"
+    ]
+  }  
+}

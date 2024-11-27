@@ -1,0 +1,376 @@
+.paragraph--footer-richlinks{
+    color: #fff;
+    font-family: 'gothambook';
+    font-size: 18px;
+    display: flex;
+}
+.image--footer-richlinks{
+    margin-right: 10px;
+}
+.paragraph--footer-richlinksallRights{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.image--footer-richlinksallRights{
+    max-width: 150px;
+}
+.container--footer-richlinksallRights{
+    display: flex;
+    align-items: center;
+}
+
+
+/* banner marcas home */
+.container--bannerMarcas{
+    padding: 0 10px;
+}
+.link--bannerMarcas{
+    position: relative;
+    display: flex;
+}
+.strong--bannerMarcas{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: block;
+    font-size: 50px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    height: 40px !important;
+    line-height: 41px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+.link--bannerMarcas::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+.link--bannerMarcas::before{
+    content: 'Ver todo';
+    position: absolute;
+    display: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'gothammedium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 1;
+    width: 90%;
+    bottom: -100px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: bottom 0.2s linear;
+}
+.link--bannerMarcas:hover::after{
+    display: block;
+}
+.link--bannerMarcas:hover::before{
+    display: block;
+    bottom: 40px;
+}
+/* fin banner marcas home */
+
+
+/* banner Implementos home */
+.container--bannerImplementos{
+    padding: 0 10px;
+}
+.link--bannerImplementos{
+    position: relative;
+    display: flex;
+}
+.strong--bannerImplementos{
+    position: absolute;
+    bottom: 20px;
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    height: 40px !important;
+    line-height: 41px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    text-align: center;
+    transition: bottom 0.2s linear, margin 0.2s linear;
+}
+.wrapper--bannerImplementosBig .strong--bannerImplementos{
+    font-size: 45px;
+}
+.link--bannerImplementos::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+.link--bannerImplementos:hover::after{
+    display: block;
+}
+.link--bannerImplementos:hover .strong--bannerImplementos{
+    z-index: 3;
+    font-size: 35px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.wrapper--bannerImplementosBig .link--bannerImplementos:hover .strong--bannerImplementos{
+    font-size: 45px;
+}
+/* fin banner Implementos home */
+
+
+/* Our experience Home*/
+.paragraph--OurExperienceTitle{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    max-width: 80%;
+    text-align: left;
+    padding-left: 60px;
+    margin: 0 0 20px 0;
+}
+
+.paragraph--OurExperienceSubtitle{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 108% */
+    margin: 0 0 20px 0;
+    padding-left: 60px;
+}
+.paragraph--OurExperienceDescription{
+    color: #FFF;
+    font-family: 'gothamlight';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+    margin: 0 0 20px 0;
+}
+
+.paragraph--OurExperienceAddress{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px; /* 105% */
+    margin: 0 0 20px 0;
+}
+
+.paragraph--OurExperienceQRTextTitle{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    padding-left: 20px;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.paragraph--OurExperienceQRTextDescription{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 108% */
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+
+/* banner blogs */
+.container--bannerBlogsText, .container--bannerBlogDate{
+    position: absolute;
+}
+
+.container--bannerBlogDate{
+    top: -7px;
+    left: 28px;
+    color: #fff;
+    font-family: 'gothambold';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 100% */
+}
+
+.container--bannerBlogsText{
+    bottom: 25px;
+    left: 29px;    
+}
+.container--bannerBlogsText .paragraph--bannerBlogsText{
+    color: #fff;
+    font-family: 'gothambold';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 200px;
+    text-align: left;
+    line-height: 25px;
+    margin: 0;
+}
+
+
+/* faqs home */
+    .paragraph--faqsHome{
+        color: #000;
+        text-align: center;
+        font-family: 'gothambold';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 15px 64px;
+    }
+    .paragraph--faqsHomeAnswer{
+        color: #000;
+        text-align: center;
+        font-family: 'gothammedium';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 15px 64px;
+    }
+
+
+    /* banner countdown home */
+    .paragraph--bannerCountDownText1{
+        color: #FFF;
+        font-family: 'Raleway';
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 100% */
+        margin: 6px 0;
+    }
+    .paragraph--bannerCountDownText2{
+        color: #FFF;
+        font-family: 'gothambook';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 100% */
+        margin: 6px 0;
+    }
+    .paragraph--bannerCountDownText3{
+        color: #FFF;
+        font-family: 'gothambook';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 100% */
+        margin: 6px 0;
+    }
+
+    .paragraph--bannerCountDownText4{        
+        margin-top: 60px;
+    }
+    .paragraph--bannerCountDownText4 .link--bannerCountDownText4{
+        padding: 15px 50px;
+        border-radius: 15px;
+        background: #DE1940;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #FFF;
+        font-family: 'gothambook';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    /* bannerpluscarrusel */
+.container--CarouselPlusImageText{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    display: block;
+}
+.paragraph--CarouselPlusImageText{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.link--CarouselPlusImageText{
+    color: #FFF;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-decoration: none;
+    width: 80%;
+    position: relative;
+}
+.link--CarouselPlusImageText::before{
+    bottom: -8px;
+    position: absolute;
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: 'a';
+    font-size: 0;
+    display: block;
+}
+.link--CarouselPlusImageText::after{
+    bottom: -13px;
+    position: absolute;
+    height: 10px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    width: 10px;
+    right: 0;
+    content: 'a';
+    font-size: 0;
+    display: block;
+    transform: rotate(45deg);
+}

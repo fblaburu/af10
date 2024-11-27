@@ -1,0 +1,37 @@
+.minicartContainer :global(.vtex-button){
+    width: 40px;
+    height: 20px;
+    margin: 4px 20px 0 0;
+}
+.minicartContainer :global(.vtex-button):hover{
+    background-color: #DE1940 !important;
+    border-radius: 100%;
+}
+.minicartContainer :global(.vtex-button):focus{
+    background-color: #DE1940 !important;
+}
+.cartIcon{
+    display: none;
+}
+.minicartContainer :global(.vtex-button){
+    align-items: center;
+    position: relative;
+}
+.minicartContainer :global(.vtex-button)::after{
+    display: block;
+    content: url('assets/img/icons/Icono-carrito.svg');
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    top: 7px;
+    left: -4px;    
+}
+.minicartQuantityBadge{
+    top: -18px;
+    right: -25px;
+    z-index: 1;
+}
+.openIconContainer{
+    padding: 0;
+}

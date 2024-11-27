@@ -1,0 +1,130 @@
+ {
+    "flex-layout.row#bannerImplementos": {
+        "title": "banners implementos",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "bannerImplementos"
+        },
+        "children": [
+          "flex-layout.col#bannerImplementos"
+        ]
+    },
+    "flex-layout.col#bannerImplementos": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "children": [
+          "flex-layout.row#bannerImplementos4col",
+          "flex-layout.row#bannerImplementos3col"
+        ]
+    },
+    "flex-layout.row#bannerImplementos4col": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "children": [
+          "rich-text#bannerImplementos1",
+          "rich-text#bannerImplementos2",
+          "rich-text#bannerImplementos3",
+          "rich-text#bannerImplementos4"
+        ]
+    },
+    "flex-layout.row#bannerImplementos3col": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "children": [
+          "rich-text#bannerImplementos5",
+          "rich-text#bannerImplementos6",
+          "rich-text#bannerImplementos7"
+        ]
+    },
+    "rich-text#bannerImplementos1": {
+        "title": "Banner Implementos Home 1",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![MEDIAS](assets/img/home/banner-implementos/medias.png) **MEDIAS**](#)",
+            "blockClass": "bannerImplementos"
+        }
+    },
+    "rich-text#bannerImplementos2": {
+        "title": "Banner Implementos Home 2",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![PANTALONETAS](assets/img/home/banner-implementos/pantalonetas.png) **PANTALONETAS**](#)",
+            "blockClass": "bannerImplementos"
+        }
+    },
+    "rich-text#bannerImplementos3": {
+        "title": "Banner Implementos Home 3",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![GUANTES](assets/img/home/banner-implementos/guantes.png) **GUANTES**](#)",
+            "blockClass": "bannerImplementos"
+        }
+    },
+    "rich-text#bannerImplementos4": {
+        "title": "Banner Implementos Home 4",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![ROPA](assets/img/home/banner-implementos/ropa.png) **ROPA**](#)",
+            "blockClass": "bannerImplementos"
+        }
+    },
+    "rich-text#bannerImplementos5": {
+        "title": "Banner Implementos Home 5",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![BALONES](assets/img/home/banner-implementos/balones.png) **BALONES**](#)",
+            "blockClass": [
+                "bannerImplementos",
+                "bannerImplementosBig"
+            ]
+        }
+    },
+    "rich-text#bannerImplementos6": {
+        "title": "Banner Implementos Home 6",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![ACCESORIOS](assets/img/home/banner-implementos/accesorios.png) **ACCESORIOS**](#)",
+            "blockClass": [
+                "bannerImplementos",
+                "bannerImplementosBig"
+            ]
+        }
+    },
+    "rich-text#bannerImplementos7": {
+        "title": "Banner Implementos Home 7",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![TEAMWEAR](assets/img/home/banner-implementos/teamwear.png) **TEAMWEAR**](#)",
+            "blockClass": [
+                "bannerImplementos",
+                "bannerImplementosBig"
+            ]
+        }
+    }
+}

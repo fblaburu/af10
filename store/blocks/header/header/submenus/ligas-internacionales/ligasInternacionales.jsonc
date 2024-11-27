@@ -1,0 +1,135 @@
+{
+    "vtex.menu@2.x:submenu#camisetasdefutbol": {
+        "children": [
+            "experimental__visibility-layout#bannercamisetasdefutbol",
+            "vtex.menu@2.x:menu#camisetasdefutbol",
+            "AddCustomMenuIcon"
+        ]
+    },
+    "experimental__visibility-layout#bannercamisetasdefutbol": {
+        "children": [
+            "image#bannercamisetasdefutbol"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "image#bannercamisetasdefutbol": {
+        "title": "Banner Camisetas de fútbol",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png"
+        }
+    },
+    "vtex.menu@2.x:menu#camisetasdefutbol": {
+        "children": [
+            "menu-item#premier-league",
+            "menu-item#serie-a",
+            "menu-item#la-liga",
+            "menu-item#bundesliga",
+            "menu-item#ligue-1",
+            "menu-item#eredivisie",
+            "menu-item#mls"
+        ]
+    },
+    "menu-item#premier-league": {
+        "props": {
+            "id": "premier-league",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/premier-league",
+                "noFollow": false,
+                "tagTitle": "Premier League",
+                "text": "Premier League"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#premier-league"
+        ]
+    },
+    "menu-item#serie-a": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/serie-a",
+                "noFollow": false,
+                "tagTitle": "Serie A",
+                "text": "Serie A"
+            }
+        }
+    },
+    "menu-item#la-liga": {
+        "props": {
+            "id": "la-liga",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/la-liga",
+                "noFollow": false,
+                "tagTitle": "La Liga",
+                "text": "La Liga"
+            }
+        }
+    },
+    "menu-item#bundesliga": {
+        "props": {
+            "id": "bundesliga",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bundesliga",
+                "noFollow": false,
+                "tagTitle": "Bundesliga",
+                "text": "Bundesliga"
+            }
+        }
+    },
+    "menu-item#ligue-1": {
+        "props": {
+            "id": "ligue-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ligue-1",
+                "noFollow": false,
+                "tagTitle": "Ligue 1",
+                "text": "Ligue 1"
+            }
+        }
+    },
+    "menu-item#eredivisie": {
+        "props": {
+            "id": "eredivisie",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/eredivisie",
+                "noFollow": false,
+                "tagTitle": "Eredivisie",
+                "text": "Eredivisie"
+            }
+        }
+    },
+    "menu-item#mls": {
+        "props": {
+            "id": "mls",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mls",
+                "noFollow": false,
+                "tagTitle": "Liga Argentina",
+                "text": "Liga Argentina"
+            }
+        }
+    }
+}

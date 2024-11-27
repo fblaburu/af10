@@ -1,0 +1,136 @@
+@import '../../configs/globals.css';
+
+/* header */
+
+
+.flexRow--sticky-header-row{    
+    background-color: #02012E;    
+}
+.flexColChild--wishlistIcon{
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+}
+.flexRowContent--sticky-header-row-menu {
+    border-top: 1px solid #DE1940;
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+
+/* footer */
+.flexRow--footer-content{
+    background-color: #02012E;
+    margin-top: -122px;
+    padding-top: 130px;
+    position: relative;
+}
+
+.flexRow--footer-content :global(.vtex-store-components-3-x-logoImage){
+    margin: 0 auto;
+    display: block;
+    min-width: 339px;
+}
+.flexRowContent--footer-content{
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+.flexRowContent--footer-content .stretchChildrenWidth{
+    width: 100% !important;
+}
+.flexCol--socialLinksContent, .flexCol--footerRichLinks{
+    flex-direction: row;
+    justify-content: center;
+}
+.flexCol--footerRichLinks{
+    margin-bottom: 20px;
+}
+.flexColChild--footerRichLinks {
+    padding: 0 20px;
+}
+.flexCol--socialLinksContent{
+    margin-bottom: 20px;
+}
+.flexRow--footer-content-designedby{
+    background-color: #1F3134;
+    padding: 0 20px;
+}
+
+
+
+/* slider */
+.flexCol--homeSliderContainer{
+    margin-bottom: 73px;
+}
+.flexCol--homeSliderContainer .flexColChild--homeSliderContainer:first-child{
+    margin-bottom: -73px;
+}
+
+.flexCol--homeSliderContainer .flexColChild--homeSliderContainer:last-child{
+    z-index: 1;    
+}
+
+/* componente banner implementos */
+.flexRow--bannerImplementos{
+    padding: 60px 0;
+}
+
+/* componente our experience home */
+.flexRow--OurExperience{
+    background-color: #02012E;
+}
+.flexCol--OurExperienceText{
+    padding: 80px 30px 0 30px;
+}
+
+
+/* banner blogs */
+.flexRow--bannerBlogs{
+    position: relative;
+    padding: 0 8px;
+}
+.flexRow--bannerBlogsContainer{
+    padding: 60px 0;
+}
+
+/* faqs home */
+.flexColChild--faqsHome{
+    width: 100%;
+}
+.flexColChild--faqsHome :global(.vtex-disclosure-layout-1-x-trigger){
+    width: 100%;
+    border: 1px solid #DDD;
+    background-color: #fff;
+    position: relative;
+}
+:global(.vtex-disclosure-layout-1-x-trigger)::after{
+    display: block;
+    content: url('assets/img/icons/angle-down.png');
+    position: absolute;
+    right: 11px;
+    top: 24px;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--visible)::after{
+    transform: rotate(180deg);
+    top: 16px;
+}
+
+/* banner Countdown home */
+.flexRowContent--bannerCountDown{
+    position: relative;
+}
+.flexRow--bannerCountDownTextContainer{
+    position: absolute;
+    top: 100px;
+    max-width: 479px;
+    left: 160px;
+}
+.flexRow--bannerCountDownTextContainer .flexRowContent{
+    flex-direction: column;
+}
+
+
+/* bannerpluscarrusel */
+.flexCol--CarouselPlusImage{
+    position: relative;
+}

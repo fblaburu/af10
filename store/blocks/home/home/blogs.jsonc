@@ -1,0 +1,154 @@
+{
+    "flex-layout.row#bannerBlogs": {
+        "title": "banners blogs",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "bannerBlogsContainer",
+            "colGap": "20"
+        },
+        "children": [
+          "flex-layout.row#bannerBlogsCol1",
+          "flex-layout.row#bannerBlogsCol2",
+          "flex-layout.row#bannerBlogsCol3"
+        ]
+    },
+    "flex-layout.row#bannerBlogsCol1":{
+        "title": "banner 1 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "bannerBlogs",
+            "colGap": "20"
+        },
+        "children": [
+            "image#bannerBlogs1Image",
+            "rich-text#bannerBlogs1date",
+            "rich-text#bannerBlogs1text"
+        ]
+    },
+    "flex-layout.row#bannerBlogsCol2":{
+        "title": "banner 2 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "bannerBlogs",
+            "colGap": "20"
+        },
+        "children": [
+            "image#bannerBlogs2Image",
+            "rich-text#bannerBlogs2date",
+            "rich-text#bannerBlogs2text"
+        ]
+    },
+    "flex-layout.row#bannerBlogsCol3":{
+        "title": "banner 3 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "bannerBlogs",
+            "colGap": "20"
+        },
+        "children": [
+            "image#bannerBlogs3Image",
+            "rich-text#bannerBlogs3date",
+            "rich-text#bannerBlogs3text"
+        ]
+    },
+    "image#bannerBlogs1Image": {
+        "title": "imagen 1 blog",
+        "props": {
+            "src": "assets/img/home/blog1.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#bannerBlogs1date": {
+        "title": "fecha 1 blog home",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "13 - OCT",
+            "blockClass": "bannerBlogDate"
+        }
+    },
+    "rich-text#bannerBlogs1text": {
+        "title": "texto 1 blog home",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Lorem Ipsum dolor sit amet",
+            "blockClass": "bannerBlogsText"
+        }
+    },
+    "image#bannerBlogs2Image": {
+        "title": "imagen 2 blog",
+        "props": {
+            "src": "assets/img/home/blog2.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#bannerBlogs2date": {
+        "title": "fecha 2 blog home",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "13 - OCT",
+            "blockClass": "bannerBlogDate"
+        }
+    },
+    "rich-text#bannerBlogs2text": {
+        "title": "texto 2 blog home",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Lorem Ipsum dolor sit amet",
+            "blockClass": "bannerBlogsText"
+        }
+    },
+    "image#bannerBlogs3Image": {
+        "title": "imagen 3 blog",
+        "props": {
+            "src": "assets/img/home/blog3.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#bannerBlogs3date": {
+        "title": "fecha 3 blog home",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "13 - OCT",
+            "blockClass": "bannerBlogDate"
+        }
+    },
+    "rich-text#bannerBlogs3text": {
+        "title": "texto 3 blog home",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Lorem Ipsum dolor sit amet",
+            "blockClass": "bannerBlogsText"
+        }
+    }
+}

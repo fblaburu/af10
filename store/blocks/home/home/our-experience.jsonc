@@ -1,0 +1,160 @@
+{
+    "flex-layout.row#OurExperience": {
+        "title": "nuestra experiencia",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "OurExperience"
+        },
+        "children": [
+          "flex-layout.col#ourexperienceImage",
+          "flex-layout.col#OurExperience"
+        ]
+    },
+    "flex-layout.col#ourexperienceImage": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "OurExperience",
+            "width": "50%"
+        },
+        "children": [
+          "image#ourexperience"
+        ]
+    },
+    "flex-layout.col#OurExperience": {
+        "props": {
+            "horizontalAlign": "LEFT",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "OurExperienceText",
+            "width": "50%"
+        },
+        "children": [
+          "rich-text#OurExperiencetitle",
+          "rich-text#OurExperienceSubtitle",
+          "rich-text#OurExperienceDescription",
+          "rich-text#OurExperienceAddress",
+          "flex-layout.row#OurExperienceQR"
+        ]
+    },
+    "image#ourexperience": {
+        "props": {
+            "src": "assets/img/home/af10-fachada.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            },
+            "width": "100%",
+            "blockClass":"ourExperienceFachada"
+        }
+    },
+    "rich-text#OurExperiencetitle": {
+        "title": "Nuestra Experiencia titulo",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "¡Conoce nuestra nueva experienca 360!",
+            "blockClass": "OurExperienceTitle",
+            "width": "100%"
+        }
+    },
+    "rich-text#OurExperienceSubtitle": {
+        "title": "Nuestra Experiencia subtitulo",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+            "blockClass": "OurExperienceSubtitle",
+            "width": "100%"
+        }
+    },
+    "rich-text#OurExperienceDescription": {
+        "title": "Nuestra Experiencia descripcion",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "blockClass": "OurExperienceDescription",
+            "width": "100%"
+        }
+    },
+    "rich-text#OurExperienceAddress": {
+        "title": "Nuestra Experiencia Direccion",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "![dirección](assets/img/icons/ico-address.png) **Calle 82 - 14** Bogotá - Colombia",
+            "blockClass": "OurExperienceAddress",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#OurExperienceQR": {
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "OurExperience",
+            "width": "100%"
+        },
+        "children": [
+            "image#ourexperienceQR",
+            "flex-layout.col#OurExperienceQR"
+        ]
+    },
+    "flex-layout.col#OurExperienceQR": {
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "OurExperience",
+            "width": "100%"
+        },
+        "children": [          
+          "rich-text#OurExperienceTextQRTitle",
+          "rich-text#OurExperienceTextQRDescripcion"
+        ]
+    },
+    "image#ourexperienceQR": {
+        "title": "¡Escanea el QR!",
+        "props": {
+            "src": "assets/img/home/qr-af10.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#OurExperienceTextQRTitle": {
+        "title": "Nuestra Experiencia QR titulo",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "¡Escanea el QR!",
+            "blockClass": "OurExperienceQRTextTitle",
+            "width": "100%"
+        }
+    },
+    "rich-text#OurExperienceTextQRDescripcion": {
+        "title": "Nuestra Experiencia QR Descripcion",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+            "blockClass": "OurExperienceQRTextDescription",
+            "width": "100%"
+        }
+    }
+}

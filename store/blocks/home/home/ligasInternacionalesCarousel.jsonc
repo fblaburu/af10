@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#ligasInternacionalesCarousel": {
+    "title": "Ligas Internacionales",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "ligasInternacionalesCarousel"
+    },
+    "children": [
+      "flex-layout.col#ligasInternacionalesImage",
+      "flex-layout.col#ligasInternacionalesCarousel"
+    ]
+  },
+  "flex-layout.col#ligasInternacionalesImage": {
+    "title": "Ligas Internacionales Image",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "CarouselPlusImage"
+    },
+    "children": [
+      "image#LigasInternacionacionales",
+      "rich-text#LigasInternacionacionales"
+    ]
+  },
+  "flex-layout.col#ligasInternacionalesCarousel": {
+    "title": "Ligas Internacionales Col",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "ligasInternacionalesCarousel"
+    },
+    "children": [
+      "list-context.product-list#ligasInternacionales"
+    ]
+  },
+  "list-context.product-list#ligasInternacionales": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout"
+    ],
+    "props": {
+      "collection": "137"
+    }
+  },
+  "slider-layout#ligasInternacionales": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": false
+    }
+  },
+  "image#LigasInternacionacionales": {
+        "props": {
+            "src": "assets/img/home/ligasInternacionales.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            },
+            "width": "100%",
+            "blockClass":"CarouselPlusImage"
+        }
+  },
+  "rich-text#LigasInternacionacionales": {
+        "title": "Titulo banner carrusel",
+        "props": {
+            "textAlignment": "center",
+            "textPosition": "center",
+            "text": "LIGAS INTERNACIONALES [Ver todo](#)",
+            "blockClass": "CarouselPlusImageText",
+            "width": "100%"
+        }
+  }
+}
