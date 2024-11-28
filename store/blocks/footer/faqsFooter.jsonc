@@ -1,6 +1,6 @@
 {
-    "flex-layout.row#faqsHome": {
-        "title": "FAQS HOME",
+    "flex-layout.row#faqsFooter": {
+        "title": "FAQS Footer",
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",

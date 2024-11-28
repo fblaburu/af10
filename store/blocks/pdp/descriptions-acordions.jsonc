@@ -38,12 +38,12 @@
         "children": ["disclosure-trigger#descriptionpdp", "disclosure-content#descriptionpdp"]
     },
     "disclosure-trigger#descriptionpdp": {
-        "children": ["rich-text#question"]
+        "children": ["rich-text#questionpdp"]
     },
     "disclosure-content#descriptionpdp": {
         "children": ["flex-layout.row#description"]
     },
-    "rich-text#question": {
+    "rich-text#questionpdp": {
         "title":"Description",
         "props": {
         "text": "Descripción",

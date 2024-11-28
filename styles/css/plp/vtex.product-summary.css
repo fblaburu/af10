@@ -1,0 +1,48 @@
+.imageContainer {
+  border-radius: 5px;
+  border: 1px solid rgba(2, 1, 46, 0.10);
+}
+.productNameContainer .brandName{
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #02012E;
+  text-align: center;
+  font-family: 'gothambold';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.containerNormal{
+  background-color: #fff;
+}
+.containerNormal :global(.vtex-stack-layout-0-x-stackContainer) :global(.vtex-stack-layout-0-x-stackItem--productprices){
+  top: 80%;
+  width: 100%;
+}
+:global(.vtex-product-price-1-x-currencyLiteral--summary), :global(.vtex-product-price-1-x-currencyDecimal--summary), :global(.vtex-product-price-1-x-currencyFraction--summary){
+  display: none;
+}
+.SKUSelectorContainer{
+  width: 100%;
+}
+.SKUSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSelectContainer){
+  width: 98%;
+}
+.skuSelectorContainer {
+  margin-top: 0;
+}
+.skuSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSubcontainer){
+  margin-bottom: 5px;
+}
+.containerNormal {
+  position: relative;
+  min-height: 420px;
+}
+.containerNormal:hover :global(.vtex-flex-layout-0-x-flexCol--HoverSection){
+  display: block;
+  top:40%;
+}
+.containerNormal:hover :global(.vtex-stack-layout-0-x-stackItem--productprices){
+  top: 35%;
+}

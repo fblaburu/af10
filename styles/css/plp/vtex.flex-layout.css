@@ -1,0 +1,175 @@
+.flexRowContent--orderByAndSwitcher{
+    justify-content: flex-start;
+}
+.flexColChild--HighlightsCol {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexColChild--HighlightsCol :global(.vtex-product-highlights-2-x-productHighlightWrapper){
+    position: relative;
+    top: inherit;
+    left: inherit;
+    width: max-content;
+    margin: 0 5px;
+}
+.flexRowContent--productprices{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #02012E;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+}
+.flexRowContent--productprices :global(.vtex-product-price-1-x-currencyContainer--summary){
+    color: #FFF;
+    text-align: center;
+    font-family: 'gothamlight';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px; /* 100% */
+}
+.flexRowContent--productprices :global(.vtex-product-price-1-x-listPrice){
+    color: #fff;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    font-size: inherit;
+}
+.flexRowContent--productprices :global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
+    color: #FFF;
+    text-align: center;
+    font-family: 'gothambold';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 81.818% */
+}
+.flexCol--HoverSection{
+    position: absolute;
+    background-color: #fff;
+    height: max-content;
+    border-radius: 15px 15px 5px 5px;
+    border: 1px solid #E7E7E7;
+    top:100%;
+    transition: top 0.2s ease-in;
+    display: none;
+    z-index: 13;
+    padding: 10px 20px;
+}
+.flexCol--HoverSection :global(.vtex-product-summary-2-x-nameContainer){
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+.flexCol--HoverSection :global(.vtex-numeric-stepper-wrapper){
+    display: flex;
+    justify-content: center;
+}
+.flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button-container), .flexCol--HoverSection :global(.vtex-numeric-stepper__minus-button-container){
+    display: flex;
+    align-items: center;
+}
+.flexCol--HoverSection :global(.vtex-numeric-stepper__minus-button), .flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button){
+    width: 22px!important;
+    height: 15px;    
+    background-color: #fff;
+    border: 0px;    
+}
+.flexCol--HoverSection :global(.vtex-numeric-stepper__minus-button__text), .flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button__text){
+    font-size: 0;
+}
+.flexCol--HoverSection :global(.vtex-numeric-stepper__minus-button__text)::after{
+    content: url('assets/img/plp/minus.png');
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+.flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button__text)::after{
+    content: url('assets/img/plp/plus.png');
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+.flexCol--HoverSection :global(.vtex-numeric-stepper__input){
+    border: 0;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.flexCol--Addbutton :global(.vtex-button){
+    border-radius: 8px;
+    border: 1px solid #DE1940;
+    background: #DE1940;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 216px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.flexCol--Addbutton :global(.vtex-button):hover{
+    background: #fff;
+}
+.flexCol--Addbutton :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary){
+    text-transform: none;
+    color: #FFF;
+font-family: 'gothambook';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.flexCol--Addbutton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary){
+    color: #DE1940;
+}
+.flexCol--Addbutton :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary)::before{
+    content: url('assets/img/plp/ico-cart.png');
+    display: block;
+    margin-right: 15px;
+}
+.flexCol--Addbutton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary)::before{
+    display: none;
+}
+
+
+
+
+.flexCol--ViewButton :global(.vtex-button){
+    border-radius: 8px;
+    border: 1px solid #fce8ec;
+    border-radius: 8px;
+    background: #fce8ec;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 216px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.flexCol--ViewButton :global(.vtex-button):hover{
+    background: #fff;
+}
+.flexCol--ViewButton :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--ViewButtonSummary){
+    text-transform: none;
+    color: #DE1940;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.flexCol--ViewButton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--ViewButtonSummary){
+    color: #DE1940;
+}
+.flexCol--ViewButton :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--ViewButtonSummary)::after{
+    content: url('assets/img/plp/icon-eye.png');
+    display: block;
+    margin-left: 15px;
+}
+.flexCol--ViewButton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--ViewButtonSummary)::after{
+    display: none;
+}

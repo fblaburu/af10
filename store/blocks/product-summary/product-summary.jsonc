@@ -3,12 +3,10 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "flex-layout.col#productRating",
-      "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
       "product-installments#summary",
-      "add-to-cart-button"
+      "flex-layout.col#Highlights",
+      // "flex-layout.col#productRating",
+      "flex-layout.col#HoverSection"
     ]
   },
   "flex-layout.col#productRating": {
@@ -21,7 +19,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
+      "flex-layout.row#selling-price-savings",      
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
@@ -33,7 +31,67 @@
       "maxHeight": 300
     }
   },
-
+  
+  "flex-layout.col#Highlights": {
+    "props": {
+      "blockClass": "HighlightsCol"
+    },
+    "children": ["vtex.product-highlights@2.x:product-highlights#collection"]
+  },
+  
+  "flex-layout.col#HoverSection": {
+    "props": {
+      "blockClass": "HoverSection"
+    },
+    "children": [
+      "product-summary-name",
+      // "product-summary-sku-selector",
+      "product-quantity#summary",
+      "flex-layout.col#Addbutton",
+      "flex-layout.col#ViewButton"
+    ]
+  },
+  
+  "flex-layout.col#Addbutton": {
+    "props": {
+      "blockClass": "Addbutton"
+    },
+    "children": [
+      "add-to-cart-button#summary"
+    ]
+  },
+  
+  "flex-layout.col#ViewButton": {
+    "props": {
+      "blockClass": "ViewButton"
+    },
+    "children": [
+      "add-to-cart-button#Verproducto"
+    ]
+  },
+  "add-to-cart-button#summary":{
+    "props":{
+      "blockClass":"AddButtonSummary",
+      "text": "Agregar"
+    }
+  },
+  "add-to-cart-button#Verproducto":{
+    "props":{
+      "blockClass":"ViewButtonSummary",
+      "text": "Ver producto",
+      "onClickBehavior":"go-to-product-page"
+    }
+  },
+  "product-quantity#summary": {
+    "props":{
+      "showLabel": false
+    }
+  },
+  "product-summary-sku-selector":{
+    "props":{
+      "displayMode": "select"
+    }
+  },
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "collection"
@@ -62,11 +120,13 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4,
+      "blockClass":"productprices"
     },
     "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
+      "product-list-price#summary",
+      "product-selling-price#summary"
+      // "product-price-savings#summary"
     ]
   },
   "product-installments#summary": {
