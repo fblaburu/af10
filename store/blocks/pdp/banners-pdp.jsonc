@@ -1,0 +1,99 @@
+{
+    "flex-layout.row#bannerMarcaspdp": {
+        "title":"banners marcas",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": false,
+            "fullWidth": true,
+            "blockClass": "bannerMarcas",
+            "colGap": "20"
+        },
+        "children": [
+          "flex-layout.col#bannerBigMarcaspdp",
+          "flex-layout.col#bannerSmallsMarcaspdp"
+        ]
+    },
+
+    "flex-layout.col#bannerBigMarcaspdp": {
+        "title":"banners marcas",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "bannerMarcas pdpbanners",
+            "colGap": "20"
+        },
+        "children": [
+          "rich-text#bannerMarcas1pdp"
+        ]
+    },
+
+    "flex-layout.col#bannerSmallsMarcaspdp": {
+        "title":"banners marcas",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "bannerMarcasSmall",
+            "colGap": "20"
+        },
+        "children": [
+          "rich-text#bannerMarcas2pdp",
+          "rich-text#bannerMarcas3pdp",
+          "rich-text#bannerMarcas4pdp",
+          "rich-text#bannerMarcas5pdp"
+        ]
+    },
+
+    "rich-text#bannerMarcas1pdp": {
+        "title": "Banner Marcas Home 1",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![nike](assets/img/pdp/bigimage.png) **NIKE**](#)",
+            "blockClass": "bannerMarcaspdp"
+        }
+    },
+    "rich-text#bannerMarcas2pdp": {
+        "title": "Banner Marcas Home 2",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![puma](assets/img/pdp/smallimage.png) **PUMA**](#)",
+            "blockClass": "bannerMarcaspdp"
+        }
+    },
+    "rich-text#bannerMarcas3pdp": {
+        "title": "Banner Marcas Home 3",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![adidas](assets/img/pdp/smallimage.png) **ADIDAS**](#)",
+            "blockClass": "bannerMarcaspdp"
+        }
+    },
+    "rich-text#bannerMarcas4pdp": {
+        "title": "Banner Marcas Home 3",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![adidas](assets/img/pdp/smallimage.png) **ADIDAS**](#)",
+            "blockClass": "bannerMarcaspdp"
+        }
+    },
+    "rich-text#bannerMarcas5pdp": {
+        "title": "Banner Marcas Home 3",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![adidas](assets/img/pdp/smallimage.png) **ADIDAS**](#)",
+            "blockClass": "bannerMarcaspdp"
+        }
+    }
+}

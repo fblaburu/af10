@@ -7,3 +7,66 @@
   line-height: 35px;
   margin: 15px 0px 15px 0px;
 }
+.wrapper--bannerMarcaspdp :global(.vtex-rich-text-0-x-paragraph--bannerMarcaspdp) {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.link--bannerMarcaspdp{
+  position: relative;
+  display: flex;
+}
+.strong--bannerMarcaspdp{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  display: block;
+  font-size: 50px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  height: 40px !important;
+  line-height: 41px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.link--bannerMarcaspdp::after{
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+.link--bannerMarcaspdp::before{
+  content: 'Ver todo';
+  position: absolute;
+  display: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'gothammedium';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+  width: 90%;
+  bottom: -100px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: bottom 0.2s linear;
+}
+.link--bannerMarcaspdp:hover::after{
+  display: block;
+}
+.link--bannerMarcaspdp:hover::before{
+  display: block;
+  bottom: 40px;
+}
+/* fin banner marcas home */

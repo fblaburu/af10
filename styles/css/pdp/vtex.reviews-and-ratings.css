@@ -50,3 +50,11 @@
     position: absolute;
     bottom: 0px;
 }
+.loginLink {
+    color: #02012E;
+    font-family: 'gothambook';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}

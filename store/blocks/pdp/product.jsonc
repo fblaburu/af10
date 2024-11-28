@@ -5,7 +5,9 @@
       "condition-layout.product#availability",
       "product-reviews",
       "product-questions-and-answers",
-      "shelf.relatedProducts"
+      "shelf.relatedProducts",
+      "flex-layout.row#bannerMarcaspdp",
+      "flex-layout.row#destacadosHome"
     ]
   },
 
@@ -141,6 +143,18 @@
     }
   },
 
+  "responsive-layout.desktop#buttonBuy": {
+    "children": [
+      "flex-layout.row#buy-button"
+    ]
+  },
+
+  "responsive-layout.phone#buttonBuy": {
+    "children": [
+      "flex-layout.row#buy-button2"
+    ]
+  },
+
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
@@ -153,6 +167,18 @@
       "add-to-cart-button"
     ]
   },
+  "flex-layout.row#buy-button2": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "buttonFloat"
+    },
+    "children": [
+      "product-quantity",
+      "add-to-cart-button"
+    ]
+  },
+  
   "add-to-cart-button": {
     "props": {
       "text": "Agregar",

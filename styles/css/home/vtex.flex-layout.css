@@ -44,6 +44,9 @@
 }
 .flexCol--footerRichLinks{
     margin-bottom: 20px;
+    @media screen and (max-width: 720px) {
+        display: block;
+    }
 }
 .flexColChild--footerRichLinks {
     padding: 0 20px;

@@ -398,6 +398,9 @@
     line-height: normal;
     text-transform: uppercase;
     margin: 40px auto 30px;
+    @media screen and (max-width: 720px) {
+        font-size: 40px;
+    }
 }
 
 
