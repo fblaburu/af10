@@ -5,6 +5,7 @@
       "product-summary-name",
       "product-installments#summary",
       "flex-layout.col#Highlights",
+      "flex-layout.col#Addbutton",
       // "flex-layout.col#productRating",
       "flex-layout.col#HoverSection"
     ]

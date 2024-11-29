@@ -94,8 +94,9 @@
 .menuContainerNav--footermenu2::after{
     display: none;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1026px) {
     .menuContainer--footermenu {
-        display: ruby;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

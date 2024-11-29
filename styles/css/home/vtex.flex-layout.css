@@ -21,9 +21,14 @@
 /* footer */
 .flexRow--footer-content{
     background-color: #02012E;
-    margin-top: -122px;
-    padding-top: 130px;
+    padding-top: 40px;
     position: relative;
+}
+@media screen and (min-width:1027px) {
+    .flexRow--footer-content{
+        margin-top: -122px;
+        padding-top: 130px;
+    }
 }
 
 .flexRow--footer-content :global(.vtex-store-components-3-x-logoImage){
@@ -71,6 +76,11 @@
 
 .flexCol--homeSliderContainer .flexColChild--homeSliderContainer:last-child{
     z-index: 1;    
+}
+@media screen and (max-width:1026px) {
+    .flexCol--homeSliderContainer .flexColChild--homeSliderContainer:last-child{
+        display: none;
+    }
 }
 /* banner marcas */
 .flexRow--bannerMarcas{
@@ -134,6 +144,13 @@
     max-width: 479px;
     left: 160px;
 }
+@media screen and (max-width:1026px) {
+    .flexRow--bannerCountDownTextContainer{
+        position: relative;
+        top: inherit;
+        left: inherit;
+    }
+}
 .flexRow--bannerCountDownTextContainer .flexRowContent{
     flex-direction: column;
 }
@@ -163,12 +180,31 @@
     margin: 60px 0;
     overflow: hidden;
 }
+@media screen and (max-width: 1026px) {
+    .flexRowContent--zonaHincha{
+        flex-direction: column;
+    }    
+}
+
 .flexRowContent--zonaHinchaInner{
     position: absolute;
     bottom: 145px;
     left: 0;
     width: 100%;    
     padding: 0 60px;    
+}
+@media screen and (max-width: 1026px) {
+    .flexRowContent--zonaHinchaInner{
+        bottom: 0;
+        position: relative;
+        padding-top: 40px;
+    }
+    .flexCol--zonaHincha{
+        margin: 0;
+    }
+    .flexRowContent--zonaHinchaInner .stretchChildrenWidth{
+        width: 100% !important;
+    }
 }
 /* carruseles home */
 .flexRowContent--CarouselHome :global(.vtex-slider-layout-0-x-sliderLayoutContainer) :global(.vtex-slider-layout-0-x-slideChildrenContainer){

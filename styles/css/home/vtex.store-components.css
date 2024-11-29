@@ -107,6 +107,13 @@ margin: 0 auto;
     margin: 0 auto;
     max-width: 526px;
 }
+@media screen and (max-width:1026px) {
+    .CountDownContainer{
+        bottom: inherit;
+        top: 111px;
+        width: 80%;
+    }
+}
 .CountDownBox{
     color: #FFF;
     text-align: center;
@@ -157,11 +164,19 @@ margin: 0 auto;
     z-index: 0;
 }
 
-
 /* zona hincha home */
+
 .imageElement--zonaHinchaImage{
-    /* position: absolute;
-    bottom: 60px;
+    display: none !important;
+}
+.imageElement--zonaHinchaImage.imageElement--zonaHinchaMobile{
+    display: block !important;
+    position: absolute;
+    bottom: 0;
     left: 0;
-    z-index: 0; */
+}
+@media screen and (min-width:1027px) {    
+    .imageElement--zonaHinchaImage.imageElement--zonaHinchaMobile{
+        display: none !important;
+    }
 }

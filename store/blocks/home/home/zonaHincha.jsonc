@@ -25,6 +25,7 @@
       },
       "children": [
         "image#zonaHinchaCarousel",
+        "image#zonaHinchaCarouselMobile",
         "flex-layout.row#zonaHinchaInner"     
       ]
     },
@@ -141,6 +142,13 @@
               "src": "assets/img/home/background-zona-hincha.png",
               "width": "100%",
               "blockClass":"zonaHinchaImage"
+          }
+    },
+    "image#zonaHinchaCarouselMobile": {
+          "props": {
+              "src": "assets/img/home/zonahinchamobile.png",
+              "width": "100%",
+              "blockClass":["zonaHinchaImage","zonaHinchaMobile"]
           }
     },
     "rich-text#zonaHinchaCarousel": {

@@ -309,7 +309,18 @@
         line-height: normal;
         text-decoration: none;
     }
-
+@media screen and (max-width:1026px) {
+    .paragraph--bannerCountDownText1{
+        margin-top: 40px;
+        color: #02012E;
+    }
+    .paragraph--bannerCountDownText2{
+        color: #02012E;
+    }
+    .paragraph--bannerCountDownText3{
+        color: #02012E;
+    }
+}
     /* bannerpluscarrusel */
 .container--CarouselPlusImageText{
     position: absolute;
@@ -465,4 +476,12 @@ position: relative;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+}
+@media screen and (max-width: 1026px) {
+    .paragraph--zonaHinchaCarouselTextDescription{
+        text-align: center;
+    }
+    .paragraph--zonaHinchaCarouselTextTitle{
+        text-align: center;
+    }
 }
