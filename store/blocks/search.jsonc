@@ -63,8 +63,8 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
-      "image#bannersearch",
-      // "video#backgroundPLP",
+      // "image#bannersearch",
+      "video#backgroundPLP",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -106,8 +106,8 @@
   
   "video#backgroundPLP": {
     "props": {
-      "width": "100%",
-      "height": "420px",
+      "width": "200%",
+      "height": "800px",
       "loop": true,
       "autoPlay": true,
       "muted": true,
@@ -190,6 +190,8 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "video#backgroundPLP",
+      "flex-layout.row#searchtitle",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",

@@ -45,7 +45,7 @@
     },
     "children": [
       "product-summary-name",
-      // "product-summary-sku-selector",
+      "product-summary-sku-selector",
       "product-quantity#summary",
       "flex-layout.col#Addbutton",
       "flex-layout.col#ViewButton"

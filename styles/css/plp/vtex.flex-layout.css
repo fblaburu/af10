@@ -4,7 +4,6 @@
 .flexColChild--HighlightsCol {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .flexColChild--HighlightsCol :global(.vtex-product-highlights-2-x-productHighlightWrapper){
@@ -13,6 +12,7 @@
     left: inherit;
     width: max-content;
     margin: 0 5px;
+    display: inline-block;
 }
 .flexRowContent--productprices{
     width: 80%;
@@ -39,6 +39,10 @@
     display: flex;
     font-size: inherit;
 }
+.flexRowContent--productprices :global(.vtex-product-price-1-x-sellingPriceValue--summary){
+    display: flex;
+    align-items: center;
+}
 .flexRowContent--productprices :global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
     color: #FFF;
     text-align: center;
@@ -47,6 +51,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 18px; /* 81.818% */
+    
 }
 .flexCol--HoverSection{
     position: absolute;
@@ -58,7 +63,7 @@
     transition: top 0.2s ease-in;
     display: none;
     z-index: 13;
-    padding: 10px 20px;
+    padding: 10px;
 }
 .flexCol--HoverSection :global(.vtex-product-summary-2-x-nameContainer){
     padding-bottom: 0;
@@ -87,6 +92,10 @@
     height: 15px;
     display: block;
 }
+.flexCol--HoverSection :global(.vtex-store-components-3-x-skuSelectorItemImage){
+    width: 30px;
+    height: 30px;
+}
 .flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button__text)::after{
     content: url('assets/img/plp/plus.png');
     width: 15px;
@@ -110,7 +119,7 @@
     max-width: 216px;
     margin: 0 auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .flexCol--Addbutton :global(.vtex-button):hover{
     background: #fff;
@@ -119,10 +128,12 @@
     text-transform: none;
     color: #FFF;
 font-family: 'gothambook';
-font-size: 18px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+display: flex;
+align-items: center;
 }
 .flexCol--Addbutton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary){
     color: #DE1940;
@@ -157,7 +168,7 @@ line-height: normal;
     text-transform: none;
     color: #DE1940;
     font-family: 'gothambook';
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

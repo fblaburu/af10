@@ -7,7 +7,7 @@
       "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "fullWidth": false,
-      "blockClass": "ligasInternacionalesCarousel"
+      "blockClass": ["ligasInternacionalesCarousel","CarouselHome"]
     },
     "children": [
       "flex-layout.col#guayosCarouselImage",
@@ -22,7 +22,8 @@
       "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "fullWidth": false,
-      "blockClass": "CarouselPlusImage"
+      "blockClass": "CarouselPlusImage",
+      "width":"40%"
     },
     "children": [
       "image#GuayosCarousel",
@@ -37,7 +38,7 @@
       "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "fullWidth": false,
-      "blockClass": "ligasInternacionalesCarousel"
+      "blockClass": ["ligasInternacionalesCarousel","CarouselHome"]
     },
     "children": [
       "list-context.product-list#guayosCarousel"

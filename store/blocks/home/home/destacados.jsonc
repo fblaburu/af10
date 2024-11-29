@@ -7,7 +7,7 @@
         "preventHorizontalStretch": false,
         "preventVerticalStretch": true,
         "fullWidth": false,
-        "blockClass": "destacadosHome"
+        "blockClass": ["destacadosHome","CarouselHome","noImageborder"]
       },
       "children": [
         "flex-layout.col#destacadosHome"   

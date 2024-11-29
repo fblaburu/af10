@@ -161,5 +161,33 @@
 .flexCol--zonaHincha{
     position: relative;
     margin: 60px 0;
-    padding: 60px;
+    overflow: hidden;
+}
+.flexRowContent--zonaHinchaInner{
+    position: absolute;
+    bottom: 145px;
+    left: 0;
+    width: 100%;    
+    padding: 0 60px;    
+}
+/* carruseles home */
+.flexRowContent--CarouselHome :global(.vtex-slider-layout-0-x-sliderLayoutContainer) :global(.vtex-slider-layout-0-x-slideChildrenContainer){
+    padding: 0 10px;    
+}
+.flexRowContent--CarouselHome :global(.vtex-product-summary-2-x-imageContainer){
+    border: 0;
+}
+.flexRowContent--CarouselHome :global(.vtex-product-price-1-x-currencyContainer--summary){
+    font-size: 13px !important;
+}
+.flexRowContent--CarouselHome :global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
+    font-size: 18px !important;
+}
+
+.flexRowContent--CarouselHome :global(.vtex-product-summary-2-x-containerNormal){
+    height: 511px;
+    margin: 0 10px;
+}
+.flexRowContent--CarouselHome :global(.vtex-button__label){
+    padding: 0 5px;
 }

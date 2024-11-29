@@ -7,7 +7,7 @@
         "preventHorizontalStretch": false,
         "preventVerticalStretch": true,
         "fullWidth": false,
-        "blockClass": "zonaHincha"
+        "blockClass": ["zonaHincha"]
       },
       "children": [
         "flex-layout.col#zonaHincha"   
@@ -25,6 +25,34 @@
       },
       "children": [
         "image#zonaHinchaCarousel",
+        "flex-layout.row#zonaHinchaInner"     
+      ]
+    },
+    "flex-layout.row#zonaHinchaInner": {
+      "title": "zonaHincha Home Carousel",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": ["zonaHinchaInner"]
+      },
+      "children": [
+        "flex-layout.col#zonaHinchaInner"   
+      ]
+    },
+    "flex-layout.col#zonaHinchaInner": {
+      "title": "zonaHincha Home Image",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "fullWidth": false,
+        "blockClass": "zonaHincha"
+      },
+      "children": [
         "image#zonaHinchaEquipo",        
         "rich-text#zonaHinchaCarousel",
         "rich-text#zonaHinchaCarouselDescription",
@@ -39,7 +67,7 @@
         "preventHorizontalStretch": false,
         "preventVerticalStretch": true,
         "fullWidth": false,
-        "blockClass": "zonaHincha"
+        "blockClass": ["zonaHincha","CarouselHome","noImageborder"]
       },
       "children": [
         "flex-layout.col#zonaHinchaCarousel",
@@ -94,7 +122,8 @@
         "itemsPerPage": {
           "desktop": 3,
           "tablet": 2,
-          "phone": 1
+          "phone": 1,
+          "blockClass":["CarouselHomeSlider"]
         },
         "infinite": true,
         "showNavigationArrows": false
