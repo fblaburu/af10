@@ -12,3 +12,11 @@
 .productDescriptionContainer {
     margin-top: 15px;
 }
+.skuSelectorName {
+    color: #02012E;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
