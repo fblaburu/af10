@@ -60,3 +60,118 @@
     top: 16%;
   }
 }
+
+
+
+
+/* estilos lista */
+:global(.vtex-search-result-3-x-galleryItem--list){
+  border-bottom: 0;
+}
+.containerNormal--listLayout{
+  min-height: inherit;
+}
+.element--listLayout{
+  border-radius: 12px;
+border: 1px solid #E6E6E6;
+background: #FFF;
+box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+padding: 15px;
+}
+.element--listLayout :global(.vtex-stack-layout-0-x-stackItem--HighlightsCol){
+  top: 70%;
+    height: max-content;
+    display: block;
+    left: 10px;
+}
+
+.element--listLayout :global(.vtex-flex-layout-0-x-flexCol--Addbutton ) :global(.vtex-button){
+  display: block !important;
+  min-width: 200px;
+}
+
+.element--listLayout .nameContainer {
+  justify-content: flex-start;
+}
+.element--listLayout .nameContainer .productBrand {
+  color: #02012E;
+  font-family: 'gothambook';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 106.667% */
+}
+
+.element--listLayout .description {
+  color: #02012E;
+  font-family: 'gothambook';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.element--listLayout :global(.vtex-flex-layout-0-x-flexCol--priceListLayout){
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.element--listLayout :global(.vtex-flex-layout-0-x-flexColChild--priceListLayout){
+  display: flex;
+  align-items: center;
+}
+.element--listLayout :global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
+  color: #02012E;
+  font-family: 'gothambold';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.element--listLayout :global(.vtex-product-price-1-x-listPrice--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
+  color: #02012E;
+  font-family: 'gothambook';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+.element--listLayout :global(.vtex-product-summary-2-x-skuSelectorContainer){
+  max-height: 115px;
+}
+.element--listLayout :global(.vtex-store-components-3-x-skuSelectorItemImage){
+  width: 50px;
+  height: 50px;
+}
+.element--listLayout :global(.vtex-store-components-3-x-skuSelectorSubcontainer--color) :global(.vtex-store-components-3-x-skuSelectorTextContainer){
+  display: none;
+}
+.element--listLayout :global(.vtex-store-components-3-x-skuSelectorNameContainer){
+  display: flex;
+  align-items: center;
+}
+.element--listLayout :global(.vtex-store-components-3-x-skuSelectorName){
+  color: #02012E;
+  font-family: 'gothambook';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  margin-right: 10px;
+}
+.element--listLayout :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+  border-radius: 5px;
+  background: #F5F5F5;
+}
+.element--listLayout :global(.vtex-store-components-3-x-skuSelectorSubcontainer--color) :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+  background: #fff;
+}
+.element--listLayout :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+  color: #02012E;
+  text-align: center;
+  font-family: 'gothambook';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+}

@@ -15,7 +15,7 @@
   },
   "responsive-layout.mobile#productSummaryList": {
     "children": [
-      "flex-layout.row#summaryListMobile"
+      "flex-layout.row#summaryListDesktop"
     ]
   },
   "product-price-savings#summaryPercentage": {
@@ -39,7 +39,8 @@
     "props":{
       "fullWidth": true,
       "colSizing": "auto",
-      "blockClass": "summaryListDesktop"
+      "blockClass": "summaryListDesktop",
+      "preventVerticalStretch":true
     },
     "children": [
       "flex-layout.row#summaryLeftListDesktop"
@@ -49,7 +50,8 @@
     "props": {
       "blockClass": "summaryLeftListDesktop",
       "colSizing": "auto",
-      "colGap": 7
+      "colGap": 7,
+      "preventVerticalStretch":true
     },
     "children": [
       "stack-layout#summaryListDesktop",
@@ -90,12 +92,21 @@
     },
     "children": [
       "product-summary-name",
+      "product-summary-description",
       "product-installments#summary",
       "flex-layout.col#priceSummaryListDesktop",
       "product-summary-sku-selector#list",
-      "product-quantity#summary",
-      "flex-layout.col#Addbutton"      
+      "flex-layout.row#PriceAddRow"
     ]
+  },
+  "flex-layout.row#PriceAddRow": {
+    "children":[
+      "product-quantity#summary",
+      "flex-layout.col#Addbutton" 
+    ],
+    "props":{
+      "preventHorizontalStretch": true
+    }
   },
   "flex-layout.row#buyButtonsSummaryListDesktop": {
     "props": {
@@ -127,8 +138,11 @@
   "flex-layout.col#priceSummaryListDesktop": {
     "children": [
       "product-selling-price#summary",
-      "product-list-price#summary"
-    ]
+      "product-list-price#summary"      
+    ],
+    "props":{
+      "blockClass":"priceListLayout"
+    }
   },
   "stack-layout#summaryListDesktop": {
     "children": [

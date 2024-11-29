@@ -85,7 +85,8 @@
   },
   "product-quantity#summary": {
     "props":{
-      "showLabel": false
+      "showLabel": false,
+      "blockClass":"numericStepperSummary"
     }
   },
   "product-summary-sku-selector":{

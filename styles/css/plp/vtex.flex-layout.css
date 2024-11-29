@@ -5,6 +5,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    height: max-content !important;
 }
 
 .flexColChild--HighlightsCol :global(.vtex-product-highlights-2-x-productHighlightWrapper){
@@ -78,24 +79,24 @@
     padding-bottom: 0;
     margin-bottom: 15px;
 }
-.flexCol--HoverSection :global(.vtex-numeric-stepper-wrapper){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper-wrapper){
     display: flex;
     justify-content: center;
 }
-.flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button-container), .flexCol--HoverSection :global(.vtex-numeric-stepper__minus-button-container){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__plus-button-container), :global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__minus-button-container){
     display: flex;
     align-items: center;
 }
-.flexCol--HoverSection :global(.vtex-numeric-stepper__minus-button), .flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__minus-button), :global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__plus-button){
     width: 22px!important;
     height: 15px;    
     background-color: #fff;
     border: 0px;    
 }
-.flexCol--HoverSection :global(.vtex-numeric-stepper__minus-button__text), .flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button__text){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__minus-button__text), :global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__plus-button__text){
     font-size: 0;
 }
-.flexCol--HoverSection :global(.vtex-numeric-stepper__minus-button__text)::after{
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__minus-button__text)::after{
     content: url('assets/img/plp/minus.png');
     width: 15px;
     height: 15px;
@@ -105,13 +106,13 @@
     width: 30px;
     height: 30px;
 }
-.flexCol--HoverSection :global(.vtex-numeric-stepper__plus-button__text)::after{
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__plus-button__text)::after{
     content: url('assets/img/plp/plus.png');
     width: 15px;
     height: 15px;
     display: block;
 }
-.flexCol--HoverSection :global(.vtex-numeric-stepper__input){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) :global(.vtex-numeric-stepper__input){
     border: 0;
     color: #000;
     font-family: 'Montserrat';
