@@ -35,7 +35,7 @@
   width: 98%;
 }
 .SKUSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSelectContainer) :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-styleguide-9-x-container){
-  height: 30px;
+  height: 27px;
   color: #02012E;
 text-align: center;
 font-family: 'gothambook';
