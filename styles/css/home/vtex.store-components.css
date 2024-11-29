@@ -176,6 +176,9 @@ margin: 0 auto;
     left: 0;
 }
 @media screen and (min-width:1027px) {    
+    .imageElement--zonaHinchaImage{
+        display: block !important;
+    }
     .imageElement--zonaHinchaImage.imageElement--zonaHinchaMobile{
         display: none !important;
     }

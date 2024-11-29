@@ -5,7 +5,7 @@
             "flex-layout.col#sliderContent"
         ],
         "props":{
-            "fullWidth":false
+            "fullWidth":true
         }
     },
     "flex-layout.col#sliderContent": {

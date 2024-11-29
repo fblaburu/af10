@@ -20,8 +20,8 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "flex-layout.row#selling-price-savings",      
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "flex-layout.row#selling-price-savings"      
+      // "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
 
