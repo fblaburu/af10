@@ -1,56 +1,56 @@
 {
-    "vtex.menu@2.x:submenu#serie-a": {
+    "vtex.menu@2.x:submenu#ligasinternacionales": {
         "children": [
-            "experimental__visibility-layout#bannerserie-a",
-            "vtex.menu@2.x:menu#serie-a",
+            "experimental__visibility-layout#bannerligasinternacionales",
+            "vtex.menu@2.x:menu#ligasinternacionales",
             "AddCustomMenuIcon"
         ],
         "props": {
             "blockClass": [
-                "imageSubmenu"
+                "thirdlevel"
             ]
         }
     },
-    "experimental__visibility-layout#bannerserie-a": {
+    "experimental__visibility-layout#bannerligasinternacionales": {
         "children": [
-            "image#bannerserie-a"
+            "image#bannerligasinternacionales"
         ],
         "props": {
             "visible": false
         }
     },
-    "image#bannerserie-a": {
-        "title": "Banner Serie a",
+    "image#bannerligasinternacionales": {
+        "title": "Banner Premier League",
         "props": {
             "src": "assets/img/menu/banner-golty-menu.png"
         }
     },
-    "vtex.menu@2.x:menu#serie-a": {
+    "vtex.menu@2.x:menu#ligasinternacionales": {
         "children": [
-            "menu-item#serie-asubitem1",
-            "menu-item#serie-asubitem2",
-            "menu-item#serie-asubitem3",
-            "menu-item#serie-asubitem4",
-            "menu-item#serie-asubitem5",
-            "menu-item#serie-asubitem6",
-            "menu-item#serie-asubitem7"
+            "menu-item#ligasinternacionalessubitem1",
+            "menu-item#ligasinternacionalessubitem2",
+            "menu-item#ligasinternacionalessubitem3",
+            "menu-item#ligasinternacionalessubitem4",
+            "menu-item#ligasinternacionalessubitem5",
+            "menu-item#ligasinternacionalessubitem6",
+            "menu-item#ligasinternacionalessubitem7"
         ]
     },
-    "menu-item#serie-asubitem1": {
+    "menu-item#ligasinternacionalessubitem1": {
         "props": {
-            "id": "serie-a",
+            "id": "ligasinternacionales",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/serie-a",
+                "href": "/ligasinternacionales",
                 "noFollow": false,
                 "tagTitle": "Premier League",
                 "text": "Premier League"
             }
         }
     },
-    "menu-item#serie-asubitem2": {
+    "menu-item#ligasinternacionalessubitem2": {
         "props": {
             "id": "serie-a",
             "type": "custom",
@@ -64,7 +64,7 @@
             }
         }
     },
-    "menu-item#serie-asubitem3": {
+    "menu-item#ligasinternacionalessubitem3": {
         "props": {
             "id": "la-liga",
             "type": "custom",
@@ -78,7 +78,7 @@
             }
         }
     },
-    "menu-item#serie-asubitem4": {
+    "menu-item#ligasinternacionalessubitem4": {
         "props": {
             "id": "bundesliga",
             "type": "custom",
@@ -92,7 +92,7 @@
             }
         }
     },
-    "menu-item#serie-asubitem5": {
+    "menu-item#ligasinternacionalessubitem5": {
         "props": {
             "id": "ligue-1",
             "type": "custom",
@@ -106,7 +106,7 @@
             }
         }
     },
-    "menu-item#serie-asubitem6": {
+    "menu-item#ligasinternacionalessubitem6": {
         "props": {
             "id": "eredivisie",
             "type": "custom",
@@ -120,7 +120,7 @@
             }
         }
     },
-    "menu-item#serie-asubitem7": {
+    "menu-item#ligasinternacionalessubitem7": {
         "props": {
             "id": "mls",
             "type": "custom",

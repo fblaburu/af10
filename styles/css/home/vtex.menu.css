@@ -61,7 +61,6 @@
     color: #02012E;
 }
 .submenu--thirdlevel{
-    border-top: 1px solid #000;
     margin-top: 5px;
     padding-top: 10px;
 }
@@ -99,4 +98,50 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+.submenuWrapper--noImage{
+    background-color: #DE1940;
+}
+.submenuWrapper--noImage .styledLinkContent {
+    padding: 0;
+    color: #fff;
+}
+.submenuWrapper--noImage .styledLinkContent:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.submenuWrapper--noImage .menuItem {
+    margin: 0 20px;
+}
+.submenuWrapper--noImage .imageSubmenu{
+    display: none;
+}
+.submenuWrapper--noImage .submenu--thirdlevel .imageSubmenu{
+    display: block;
+}
+.submenuWrapper--noImage .submenu--thirdlevel{
+    top: 12px;
+}
+
+.submenuWrapper--noImage .submenu--thirdlevel .styledLinkContent:hover {
+    color: #02012E;
+}
+.submenuWrapper--noImage .menuItem--isOpen .styledLinkContent{
+    color: #fff;
+    text-decoration: underline;
+}
+.submenuWrapper--noImage .submenu--thirdlevel .styledLinkContent{
+    color: #02012E !important;
+    text-decoration: none;
+}
+.submenuContainer--noImageChildSubmenu  .styledLinkContent{
+    color: #02012E !important;
+    text-decoration: none !important;
+    font-family: 'gothambook' !important;
+}
+.submenuContainer--noImageChildSubmenu .menuItem--isOpen .styledLinkContent{
+    color: #02012E !important;
+    text-decoration: none !important;
+    font-family: 'gothambook' !important;
 }

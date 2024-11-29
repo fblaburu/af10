@@ -56,7 +56,7 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#camisetasdefutbol"
+            "vtex.menu@2.x:submenu#mujer"
         ]
     },
     "menu-item#niños": {
@@ -73,7 +73,7 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#camisetasdefutbol"
+            "vtex.menu@2.x:submenu#ninos"
         ]
     },
     "menu-item#teamwear": {
@@ -90,7 +90,7 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#camisetasdefutbol"
+            "vtex.menu@2.x:submenu#teamwear"
         ]
     }
 }

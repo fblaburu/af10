@@ -1,0 +1,84 @@
+{
+    "vtex.menu@2.x:submenu#camisetasdefutbol": {
+        "children": [
+            "experimental__visibility-layout#bannercamisetasdefutbol",
+            "vtex.menu@2.x:menu#camisetasdefutbol",
+            "AddCustomMenuIcon"
+        ],
+        "props":{
+            "blockClass":["noImage"]
+        }
+    },
+    "experimental__visibility-layout#bannercamisetasdefutbol": {
+        "children": [
+            "image#bannercamisetasdefutbol"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "image#bannercamisetasdefutbol": {
+        "title": "Banner Camisetas de fútbol",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png"
+        }
+    },
+    "vtex.menu@2.x:menu#camisetasdefutbol": {
+        "children": [
+            "menu-item#ligasinternacionales",
+            "menu-item#liganacional",
+            "menu-item#federaciones"
+        ]
+    },
+    "menu-item#ligasinternacionales": {
+        "props": {
+            "id": "premier-league",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ligas-internacionales",
+                "noFollow": false,
+                "tagTitle": "Ligas Internacionales",
+                "text": "Ligas Internacionales"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#ligasinternacionales"
+        ]
+    },
+    "menu-item#liganacional": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/liganacional",
+                "noFollow": false,
+                "tagTitle": "liganacional",
+                "text": "Liga Nacional"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#liganacional"
+        ]
+    },
+    "menu-item#federaciones": {
+        "props": {
+            "id": "la-liga",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/federaciones",
+                "noFollow": false,
+                "tagTitle": "federaciones",
+                "text": "Federaciones"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#federaciones"
+        ]
+    }
+}

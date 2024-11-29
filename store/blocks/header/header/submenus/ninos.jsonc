@@ -1,0 +1,101 @@
+{
+    "vtex.menu@2.x:submenu#ninos": {
+        "children": [
+            "experimental__visibility-layout#bannerninos",
+            "vtex.menu@2.x:menu#ninos",
+            "AddCustomMenuIcon"
+        ]
+    },
+    "experimental__visibility-layout#bannerninos": {
+        "children":[
+            "image#bannerninos"
+        ],
+        "props":{
+            "visible":true
+        }
+    },
+    "image#bannerninos": {
+        "title": "Banner Ligas nacionales",
+      "props": {
+        "src": "assets/img/menu/banner-golty-menu.png"
+      }
+    },
+    "vtex.menu@2.x:menu#ninos": {
+        "props": {
+            "items": [
+                {
+                    "id": "premier-league",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/premier-league",
+                        "noFollow": false,
+                        "tagTitle": "Premier League",
+                        "text": "Premier League"
+                    }
+                },
+                {
+                    "id": "serie-a",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/serie-a",
+                        "noFollow": false,
+                        "tagTitle": "Serie A",
+                        "text": "Premier League"
+                    }
+                },
+                {
+                    "id": "la-liga",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/la-liga",
+                        "noFollow": false,
+                        "tagTitle": "La Liga",
+                        "text": "Premier League"
+                    }
+                },
+                {
+                    "id": "bundesliga",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/bundesliga",
+                        "noFollow": false,
+                        "tagTitle": "Bundesliga",
+                        "text": "Bundesliga"
+                    }
+                },
+                {
+                    "id": "ligue-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/ligue-1",
+                        "noFollow": false,
+                        "tagTitle": "Ligue 1",
+                        "text": "Ligue 1"
+                    }
+                },
+                {
+                    "id": "ligue-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/ligue-1",
+                        "noFollow": false,
+                        "tagTitle": "Ligue 1",
+                        "text": "Ligue 1"
+                    }
+                }
+            ]
+        }
+    }
+}

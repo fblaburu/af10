@@ -13,7 +13,7 @@ const AddCustomMenuIcon = () => {
                 const elem = item.querySelector('.vtex-menu-2-x-styledLinkContent');
                 if (elem) {
                     if(!elem.querySelector('.vtex-menu-2-x-imageSubmenu')){
-                        const html = `<img class="vtex-menu-2-x-imageSubmenu" src="/arquivos/premier-league.svg">`;
+                        const html = `<img class="vtex-menu-2-x-imageSubmenu" src="/arquivos/premier-league.svg?v=1.1">`;
                         // const html = `<img src="/arquivos/${id}.svg">`;
                         elem.innerHTML = html + elem.innerHTML;
                     }                    
