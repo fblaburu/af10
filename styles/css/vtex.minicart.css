@@ -1,0 +1,87 @@
+.minicartTitle::before {
+    content: "Tu carrito";
+    color:#02012E;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.minicartTitle{
+    font-size: 0px;
+    border-bottom: 1px solid #DE1940;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
+    color: #02012E;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName ) {
+    font-family: 'gothambook';
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-deleteIcon) {
+    color: #DE1940;
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer ) {
+    font-family: 'gothambook';
+    display: none;
+
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-productPrice){
+    color: #02012E;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+}
+.minicartCheckoutButton :global(.vtex-button__label) {
+    font-size: 0px;
+}
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: #DE1940;
+    border: none;
+ }
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+    content: "Ir al carrito";
+    color: #FFF;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 10px;
+    background-image: url(https://lf10.vtexassets.com/assets/vtex/assets-builder/lf10.store-theme/0.0.1/img/icons/Icono-carrito___498117f….svg);
+    background-repeat: no-repeat;
+}
+.minicartSummary {
+    font-family: 'gothambook';
+}
+.minicartSummary :global(.vtex-checkout-summary-0-x-price){
+    color: #02012E;
+    font-family: 'gothambook';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.closeIconContainer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
