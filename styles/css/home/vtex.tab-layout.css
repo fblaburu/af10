@@ -1,0 +1,11 @@
+.container--pdp-tabs {
+    position: relative;
+    margin: 100px 0px;
+}
+.container--pdp-tabs :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
+    z-index: 99;
+}
+.container--pdp-tabs :global(.vtex-tab-layout-0-x-listContainer){
+    z-index: 99;
+    position: relative;
+}

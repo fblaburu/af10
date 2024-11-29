@@ -1,11 +1,13 @@
 {
     "tab-layout#pdp": {
     "children": [
+      "rich-text#tabCarruselHomeCarouselTabs",
+      "tab-content#pdp",
       "tab-list#pdp",
-      "tab-content#pdp"
+      "image#tabCarruselHomeCarouselTabs"
     ],
     "props": {
-      "blockClass": "pdp",
+      "blockClass": "pdp-tabs",
       "defaultActiveTabId": "pdp1"
     }
   },
@@ -14,39 +16,79 @@
     "children": [
       "tab-list.item#pdp1",
       "tab-list.item#pdp2",
-      "tab-list.item#pdp3"
+      "tab-list.item#pdp3",
+      "tab-list.item#pdp4",
+      "tab-list.item#pdp5",
+      "tab-list.item#pdp6",
+      "tab-list.item#pdp7"
     ]
   },
   "tab-list.item#pdp1": {
     "props": {
       "tabId": "pdp1",
-      "label": "Descripcion",
-      "defaultActiveTab": true
+      "label": "Portugal",
+      "blockClass":"portugal"
     }
   },
   "tab-list.item#pdp2": {
     "props": {
       "tabId": "pdp2",
-      "label": "Caracteristicas"
+      "label": "Inglaterra",
+      "blockClass":"inglaterra"
     }
   },
   "tab-list.item#pdp3": {
     "props": {
       "tabId": "pdp3",
-      "label": "Garantias"
+      "label": "Uruguay",
+      "blockClass":"uruguay"
     }
   },
+  "tab-list.item#pdp4": {
+    "props": {
+      "tabId": "pdp4",
+      "label": "Colombia",
+      "blockClass":"colombia",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#pdp5": {
+    "props": {
+      "tabId": "pdp5",
+      "label": "Francia",
+      "blockClass":"francia"
+    }
+  },
+  "tab-list.item#pdp6": {
+    "props": {
+      "tabId": "pdp6",
+      "label": "Argentina",
+      "blockClass":"argentina"
+    }
+  },
+  "tab-list.item#pdp7": {
+    "props": {
+      "tabId": "pdp7",
+      "label": "Brasil",
+      "blockClass":"brasil"
+    }
+  },
+  
 
   "tab-content#pdp": {
     "children": [
       "tab-content.item#pdp1",
       "tab-content.item#pdp2",
-      "tab-content.item#pdp3"
+      "tab-content.item#pdp3",
+      "tab-content.item#pdp4",
+      "tab-content.item#pdp5",
+      "tab-content.item#pdp6",
+      "tab-content.item#pdp7"
     ]
   },
   "tab-content.item#pdp1": {
     "children": [
-      "flex-layout.row#description"
+      "list-context.product-list#tabCarruselHomeCarousel"
     ],
     "props": {
       "tabId": "pdp1"
@@ -54,7 +96,7 @@
   },
   "tab-content.item#pdp2": {
     "children": [
-      "flex-layout.row#description"
+      "list-context.product-list#tabCarruselHomeCarousel"
     ],
     "props": {
       "tabId": "pdp2"
@@ -62,10 +104,59 @@
   },
   "tab-content.item#pdp3": {
     "children": [
-      "flex-layout.row#description"
+      "list-context.product-list#tabCarruselHomeCarousel"
     ],
     "props": {
       "tabId": "pdp3"
     }
-  }
+  },
+  "tab-content.item#pdp4": {
+    "children": [
+      "list-context.product-list#tabCarruselHomeCarousel"
+    ],
+    "props": {
+      "tabId": "pdp4"
+    }
+  },
+  "tab-content.item#pdp5": {
+    "children": [
+      "list-context.product-list#tabCarruselHomeCarousel"
+    ],
+    "props": {
+      "tabId": "pdp5"
+    }
+  },
+  "tab-content.item#pdp6": {
+    "children": [
+      "list-context.product-list#tabCarruselHomeCarousel"
+    ],
+    "props": {
+      "tabId": "pdp6"
+    }
+  },
+  "tab-content.item#pdp7": {
+    "children": [
+      "list-context.product-list#tabCarruselHomeCarousel"
+    ],
+    "props": {
+      "tabId": "pdp7"
+    }
+  },
+  "image#tabCarruselHomeCarouselTabs": {
+          "props": {
+              "src": "assets/img/home/FondoTabs.png",
+              "width": "100%",
+              "blockClass":"tabCarruselHomeImage"
+          }
+    },
+    "rich-text#tabCarruselHomeCarouselTabs": {
+          "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "DESTACADOS",
+              "blockClass": "tabCarruselHomeCarouselText",
+              "width": "100%"
+          }
+    }
 }
