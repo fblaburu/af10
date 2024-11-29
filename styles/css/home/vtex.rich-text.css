@@ -110,6 +110,11 @@
     text-align: center;
     transition: bottom 0.2s linear, margin 0.2s linear;
 }
+@media screen and (max-width:1026px) {
+    .strong--bannerImplementos{
+        font-size: 20px;
+    }
+}
 .wrapper--bannerImplementosBig .strong--bannerImplementos{
     font-size: 45px;
 }

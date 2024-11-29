@@ -83,7 +83,7 @@
   }
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){
-  background-color: #02012E;
+  background-color: #02012E !important;
 }
 :global(.vtex-store-drawer-0-x-menuIcon),:global(.vtex-store-drawer-0-x-closeIcon){
   color:#DE1940;

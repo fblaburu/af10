@@ -30,16 +30,49 @@
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
-            "preventHorizontalStretch": true,
+            "preventHorizontalStretch": false,
             "preventVerticalStretch": true,
-            "fullWidth": false
+            "fullWidth": false,
+            "blockClass":["bannerImplementosfour"]
         },
         "children": [
-          "rich-text#bannerImplementos1",
-          "rich-text#bannerImplementos2",
-          "rich-text#bannerImplementos3",
-          "rich-text#bannerImplementos4"
+          "flex-layout.col#bannerImplementos4col1",
+          "flex-layout.col#bannerImplementos4col2",
+          "flex-layout.col#bannerImplementos4col3",
+          "flex-layout.col#bannerImplementos4col4"
         ]
+    },
+    "flex-layout.col#bannerImplementos4col1":{
+        "children": [
+          "rich-text#bannerImplementos1"
+        ],
+        "props":{
+            "blockClass":"bannerImplementos4col"
+        }
+    },
+    "flex-layout.col#bannerImplementos4col2":{
+        "children": [
+          "rich-text#bannerImplementos2"
+        ],
+        "props":{
+            "blockClass":"bannerImplementos4col"
+        }
+    },
+    "flex-layout.col#bannerImplementos4col3":{
+        "children": [
+          "rich-text#bannerImplementos3"
+        ],
+        "props":{
+            "blockClass":"bannerImplementos4col"
+        }
+    },
+    "flex-layout.col#bannerImplementos4col4":{
+        "children": [
+          "rich-text#bannerImplementos4"
+        ],
+        "props":{
+            "blockClass":"bannerImplementos4col"
+        }
     },
     "flex-layout.row#bannerImplementos3col": {
         "props": {

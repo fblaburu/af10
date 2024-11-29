@@ -228,3 +228,24 @@
     padding: 0 5px;
 }
 
+@media screen and (max-width:1026px) {
+    .flexRowContent--ligasInternacionalesCarousel{
+        flex-direction: column;
+    }
+    .flexRowContent--ligasInternacionalesCarousel .stretchChildrenWidth {
+        width: 100% !important;
+    }
+    .flexRowContent--ligasNacionalesCarousel .stretchChildrenWidth:last-child{
+        order: 0;
+    }
+    .flexRowContent--ligasNacionalesCarousel .stretchChildrenWidth:first-child{
+        order: 1;
+    }
+    .flexRowContent--bannerImplementosfour {
+        display: flex;
+        flex-wrap: wrap;
+    }    
+    .flexRowContent--bannerImplementosfour .stretchChildrenWidth{
+        width: 50% !important;
+    }
+}
