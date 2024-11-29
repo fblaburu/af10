@@ -113,7 +113,8 @@
       "muted": true,
       "src": "https://youtu.be/KoFJRfgpWE8",
       "blockClass": "videoEl",
-      "controlsType": "native"
+      "controlsType": "native",
+      "poster": "assets/img/plp/cancha.png"
     }
   },
   "flex-layout.row#result": {

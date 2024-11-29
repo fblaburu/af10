@@ -82,3 +82,12 @@
     transition: none;
   }
 }
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){
+  background-color: #02012E;
+}
+:global(.vtex-store-drawer-0-x-menuIcon),:global(.vtex-store-drawer-0-x-closeIcon){
+  color:#DE1940;
+}
+:global(.vtex-store-drawer-0-x-opened){
+  background-color: #02012E;
+}

@@ -111,6 +111,16 @@
       "sticky-layout#mobile"
     ]
   },
+  "image#logoMobile": {
+    "props": {
+      "width": 80,
+      "src": "assets/img/icons/logo-lf10.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass":["imageLogo"]
+    }
+  },
   "sticky-layout#mobile": {
     "children": [
       "flex-layout.row#mobile"
@@ -119,7 +129,8 @@
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "logo",
+      "image#iconwhishlist",
+      "image#logoMobile",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
