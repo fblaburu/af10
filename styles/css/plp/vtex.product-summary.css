@@ -34,10 +34,21 @@
 .SKUSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSelectContainer){
   width: 98%;
 }
+.SKUSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSelectContainer) :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-styleguide-9-x-container){
+  height: 30px;
+  color: #02012E;
+text-align: center;
+font-family: 'gothambook';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 100% */
+background-color: #f5f5f5;
+}
 .skuSelectorContainer {
   margin-top: 0;
   overflow: hidden;
-    max-height: 150px;
+    max-height: 143px;
 }
 .skuSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSubcontainer){
   margin-bottom: 5px;
