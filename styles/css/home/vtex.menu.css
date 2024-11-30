@@ -79,8 +79,11 @@
 .menuContainer--footermenu{
     justify-content: center;
 }
+.menuContainer--footermenu .menuItem .styledLinkContent{
+    font-size: 15px;
+}
 .menuContainerNav--footermenu::after{
-    margin: 30px 0 60px;
+    margin: 20px 0 20px;
     content: '-';
     color: #DE1940;
     font-size: 1px;

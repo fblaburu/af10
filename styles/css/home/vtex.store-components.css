@@ -45,7 +45,7 @@
 .newsletter .form .label {
     font-family: "Raleway", sans-serif;
     color: #fff;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
 }
 .newsletter .form .inputGroup {
@@ -56,6 +56,7 @@ margin: 0 auto;
     background-color: #DE1940;
     color: #fff;
     font-family: "Raleway", sans-serif;
+    font-size: 20px;
 }
 .newsletter .form .inputGroup :global(.vtex-styleguide-9-x-input)::placeholder{
     color: #fff;

@@ -27,7 +27,7 @@
 @media screen and (min-width:1027px) {
     .flexRow--footer-content{
         margin-top: -122px;
-        padding-top: 130px;
+        padding-top: 85px;
     }
 }
 
@@ -38,7 +38,7 @@
 }
 .flexRowContent--footer-content{
     flex-direction: column;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 .flexRowContent--footer-content .stretchChildrenWidth{
     width: 100% !important;
