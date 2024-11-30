@@ -134,6 +134,7 @@
 @media screen and (max-width:1025px) {
     .flexCol--Addbutton :global(.vtex-button){
         display: block;
+        margin-top: 20px;
     }
 }
 
@@ -202,4 +203,55 @@ align-items: center;
 }
 .flexCol--ViewButton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--ViewButtonSummary)::after{
     display: none;
+}
+
+/* ligas interncionales */
+.flexRowContent--ligasInternacionalesPLP{
+    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: self-end;
+}
+.flexRowContent--ligaInternacionalPLP{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.flexRowContent--ligaInternacionalPLP .stretchChildrenWidth{
+    width: 100% !important;
+}
+@media screen and (max-width:1026px) {
+    .flexRowContent--ligasInternacionalesPLP{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px) {
+    .flexRowContent--ligasInternacionalesPLP{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+
+    }
+    .flexRowContent--ligaInternacionalPLP{
+        justify-content: center;
+    }
+    .flexRowContent--ligasInternacionalesPLP .stretchChildrenWidth{
+        min-width: 25%;
+    }
+}
+@media screen and (max-width:639px) {
+    .flexRowContent--ligasInternacionalesPLP .stretchChildrenWidth{
+        width: 50% !important;
+    }
+    .flexRowContent--ligasInternacionalesPLP .flexRowContent--ligaInternacionalPLP .stretchChildrenWidth{
+        width: 100% !important;
+    }
 }

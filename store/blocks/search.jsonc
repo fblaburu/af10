@@ -66,6 +66,7 @@
       // "image#bannersearch",
       "video#backgroundPLP",
       "flex-layout.row#searchtitle",
+      "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#result"
     ],
     "props": {
@@ -193,6 +194,7 @@
     "children": [
       "video#backgroundPLP",
       "flex-layout.row#searchtitle",
+      "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",

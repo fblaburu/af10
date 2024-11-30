@@ -1,0 +1,304 @@
+{
+    "flex-layout.row#ligasInternacionalesPLP": {
+        "title": "Ligas Internacionales PLP",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligasInternacionalesPLP",
+            "colGap": "20"
+        },
+        "children": [
+          "flex-layout.row#ligaInternacional1",
+          "flex-layout.row#ligaInternacional2",
+          "flex-layout.row#ligaInternacional3",
+          "flex-layout.row#ligaInternacional4",
+          "flex-layout.row#ligaInternacional5",
+          "flex-layout.row#ligaInternacional6",
+          "flex-layout.row#ligaInternacional7",
+          "flex-layout.row#ligaInternacional8"
+        ]
+    },
+    "flex-layout.row#ligaInternacional1":{
+        "title": "banner 1 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligaInternacionalPLP",
+            "colGap": "20"
+        },
+        "children": [
+            "image#ligaInternacional1Image",
+            "rich-text#ligaInternacional1Text"
+        ]
+    },
+    "flex-layout.row#ligaInternacional2":{
+        "title": "banner 2 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligaInternacionalPLP",
+            "colGap": "20"
+        },
+        "children": [
+            "image#ligaInternacional2Image",
+            "rich-text#ligaInternacional2Text"
+        ]
+    },
+    "flex-layout.row#ligaInternacional3":{
+        "title": "banner 3 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligaInternacionalPLP",
+            "colGap": "20"
+        },
+        "children": [
+            "image#ligaInternacional3Image",
+            "rich-text#ligaInternacional3Text"
+        ]
+    },
+    "flex-layout.row#ligaInternacional4":{
+        "title": "banner 4 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligaInternacionalPLP",
+            "colGap": "20"
+        },
+        "children": [
+            "image#ligaInternacional4Image",
+            "rich-text#ligaInternacional4Text"
+        ]
+    },
+    "flex-layout.row#ligaInternacional5":{
+        "title": "banner 5 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligaInternacionalPLP",
+            "colGap": "20"
+        },
+        "children": [
+            "image#ligaInternacional5Image",
+            "rich-text#ligaInternacional5Text"
+        ]
+    },
+    "flex-layout.row#ligaInternacional6":{
+        "title": "banner 6 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligaInternacionalPLP",
+            "colGap": "20"
+        },
+        "children": [
+            "image#ligaInternacional6Image",
+            "rich-text#ligaInternacional6Text"
+        ]
+    },
+    "flex-layout.row#ligaInternacional7":{
+        "title": "banner 7 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligaInternacionalPLP",
+            "colGap": "20"
+        },
+        "children": [
+            "image#ligaInternacional7Image",
+            "rich-text#ligaInternacional7Text"
+        ]
+    },
+    "flex-layout.row#ligaInternacional8":{
+        "title": "banner 8 blog home",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "ligaInternacionalPLP",
+            "colGap": "20"
+        },
+        "children": [
+            "image#ligaInternacional8Image",
+            "rich-text#ligaInternacional8Text"
+        ]
+    },
+    "image#ligaInternacional1Image": {
+        "title": "imagen 1 ligaInternacional",
+        "props": {
+            "src": "assets/img/plp/Premier-League-Logo.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#ligaInternacional1Text": {
+        "title": "texto 1 liga Internacional",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Premier League",
+            "blockClass": "ligaInternacionalPLPText"
+        }
+    },
+    "image#ligaInternacional2Image": {
+        "title": "imagen 2 ligaInternacional",
+        "props": {
+            "src": "assets/img/plp/Serie_A.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#ligaInternacional2Text": {
+        "title": "texto 2 liga Internacional",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Serie A",
+            "blockClass": "ligaInternacionalPLPText"
+        }
+    },
+    "image#ligaInternacional3Image": {
+        "title": "imagen 3 ligaInternacional",
+        "props": {
+            "src": "assets/img/plp/la-liga.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#ligaInternacional3Text": {
+        "title": "texto 3 liga Internacional",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "La Liga",
+            "blockClass": "ligaInternacionalPLPText"
+        }
+    },
+    "image#ligaInternacional4Image": {
+        "title": "imagen 4 ligaInternacional",
+        "props": {
+            "src": "assets/img/plp/Bundesliga.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#ligaInternacional4Text": {
+        "title": "texto 4 liga Internacional",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Bundesliga",
+            "blockClass": "ligaInternacionalPLPText"
+        }
+    },
+    "image#ligaInternacional5Image": {
+        "title": "imagen 5 ligaInternacional",
+        "props": {
+            "src": "assets/img/plp/ligue-1.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#ligaInternacional5Text": {
+        "title": "texto 5 liga Internacional",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Ligue 1",
+            "blockClass": "ligaInternacionalPLPText"
+        }
+    },
+    "image#ligaInternacional6Image": {
+        "title": "imagen 6 ligaInternacional",
+        "props": {
+            "src": "assets/img/plp/Eredivisie.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#ligaInternacional6Text": {
+        "title": "texto 6 liga Internacional",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Eredivisie",
+            "blockClass": "ligaInternacionalPLPText"
+        }
+    },
+    "image#ligaInternacional7Image": {
+        "title": "imagen 7 ligaInternacional",
+        "props": {
+            "src": "assets/img/plp/mls.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#ligaInternacional7Text": {
+        "title": "texto 7 liga Internacional",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "MLS",
+            "blockClass": "ligaInternacionalPLPText"
+        }
+    },
+    "image#ligaInternacional8Image": {
+        "title": "imagen 8 ligaInternacional",
+        "props": {
+            "src": "assets/img/plp/liga-argentina.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#ligaInternacional8Text": {
+        "title": "texto 8 liga Internacional",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Liga argentina",
+            "blockClass": "ligaInternacionalPLPText"
+        }
+    }
+}
