@@ -24,6 +24,7 @@
 .containerNormal :global(.vtex-stack-layout-0-x-stackContainer) :global(.vtex-stack-layout-0-x-stackItem--productprices){
   top: 80%;
   width: 100%;
+  transition: top 0.5s ease;
 }
 :global(.vtex-product-price-1-x-currencyLiteral--summary), :global(.vtex-product-price-1-x-currencyDecimal--summary), :global(.vtex-product-price-1-x-currencyFraction--summary){
   display: none;
@@ -66,6 +67,7 @@ background-color: #f5f5f5;
   .containerNormal:hover :global(.vtex-flex-layout-0-x-flexCol--HoverSection){
     display: block;
     top:18%;
+    opacity: 1;
   }
   .containerNormal:hover :global(.vtex-stack-layout-0-x-stackItem--productprices){
     top: 16%;
