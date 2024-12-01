@@ -54,7 +54,7 @@
         "blockClass": "zonaHincha"
       },
       "children": [
-        "image#zonaHinchaEquipo",        
+        //"image#zonaHinchaEquipo",        
         "rich-text#zonaHinchaCarousel",
         "rich-text#zonaHinchaCarouselDescription",
         "flex-layout.row#zonaHinchaInnerCarousel"        

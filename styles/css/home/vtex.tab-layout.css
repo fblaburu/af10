@@ -1,6 +1,6 @@
 .container--pdp-tabs {
     position: relative;
-    margin: 100px 0px;
+    margin: 20px 0px 100px;
 }
 .container--pdp-tabs :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
     z-index: 99;
@@ -8,4 +8,66 @@
 .container--pdp-tabs :global(.vtex-tab-layout-0-x-listContainer){
     z-index: 99;
     position: relative;
+    background-color: white;
+    border-radius: 3px;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.container--pdp-tabs :global(.vtex-tab-layout-0-x-listItem){
+    margin: 0px;
+    padding: 0px;
+}
+.container--pdp-tabs :global(.vtex-button__label){
+    font-size: 0px;
+}
+.container--pdp-tabs :global(.vtex-button){
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: 0px;
+    background-position: center;
+    padding: 0px 15px;
+    margin: 15px 0px;
+    animation-duration: 1s;
+}
+.container--pdp-tabs :global(.vtex-button):hover{
+    background-size: 65%;
+    animation-duration: 1s;
+    animation: alternate;
+    animation-delay: 1;
+    animation: backwards;
+}
+.container--pdp-tabs :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button){
+    background-size: 65%;
+}
+.listItem--portugal :global(.vtex-button){
+    background-image: url("assets/img/home/equipos/portugal.png");
+}
+.listItem--inglaterra :global(.vtex-button){
+    background-image: url("assets/img/home/equipos/inglaterra.png");
+}
+.listItem--uruguay :global(.vtex-button){
+    background-image: url("assets/img/home/equipos/uruguay.png");
+}
+.listItem--colombia :global(.vtex-button){
+    background-image: url("assets/img/home/equipos/colombia.png");
+}
+.listItem--francia :global(.vtex-button){
+    background-image: url("assets/img/home/equipos/francia.png");
+}
+.listItem--argentina :global(.vtex-button){
+    background-image: url("assets/img/home/equipos/argentina.png");
+}
+.listItem--brasil :global(.vtex-button){
+    background-image: url("assets/img/home/equipos/brasil.png");
+}
+.container--pdp-tabs :global(.vtex-rich-text-0-x-container--zonaHinchaCarouselTextTitle){
+    display: block;
+    text-align: center;
+}
+.container--pdp-tabs :global(.vtex-rich-text-0-x-container--zonaHinchaCarouselTextDescription){
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
 }

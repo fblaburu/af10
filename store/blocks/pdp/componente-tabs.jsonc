@@ -1,15 +1,28 @@
 {
     "tab-layout#pdp": {
     "children": [
-      "rich-text#tabCarruselHomeCarouselTabs",
+      "rich-text#tabsTitleCarousel",
+      "rich-text#TabsCarouselDescription",
       "tab-content#pdp",
       "tab-list#pdp",
+      "rich-text#tabsPdpTeamLink",
       "image#tabCarruselHomeCarouselTabs"
     ],
     "props": {
       "blockClass": "pdp-tabs",
       "defaultActiveTabId": "pdp1"
     }
+  },
+
+  "rich-text#tabsPdpTeamLink":{
+        "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "[Ver todas las selecciones](#)",
+              "blockClass": "buttonCall",
+              "width": "100%"
+          } 
   },
 
   "tab-list#pdp": {

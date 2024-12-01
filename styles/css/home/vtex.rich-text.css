@@ -492,3 +492,24 @@ position: relative;
         text-align: center;
     }
 }
+.container--buttonCall {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    z-index: 99;
+}
+.wrapper--buttonCall :global(.vtex-rich-text-0-x-link--buttonCall){
+    background-color: #DE1940;
+    border: 0px;
+    padding: 15px 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: 'gothamlight';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}

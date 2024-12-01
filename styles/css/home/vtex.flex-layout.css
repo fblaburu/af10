@@ -177,7 +177,7 @@
 /* Componente xona hincha */
 .flexCol--zonaHincha{
     position: relative;
-    margin: 60px 0;
+    margin: 40px 0;
     overflow: hidden;
 }
 @media screen and (max-width: 1026px) {

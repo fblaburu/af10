@@ -25,9 +25,28 @@
       },
       "children": [
         "image#tabCarruselHomeCarousel",
-        "rich-text#tabCarruselHomeCarousel",
         "list-context.product-list#tabCarruselHomeCarousel"
       ]
+    },
+    "rich-text#tabsTitleCarousel": {
+          "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "¡Las mejores selecciones nacionales del mundo!",
+              "blockClass": "zonaHinchaCarouselTextTitle",
+              "width": "100%"
+          }
+    },
+    "rich-text#TabsCarouselDescription": {
+          "title": "Titulo banner carrusel",
+          "props": {
+              "textAlignment": "center",
+              "textPosition": "center",
+              "text": "Lorem ipsum dolor sit",
+              "blockClass": "zonaHinchaCarouselTextDescription",
+              "width": "100%"
+          }
     },
     "list-context.product-list#tabCarruselHomeCarousel": {
       "blocks": [
@@ -68,4 +87,4 @@
               "width": "100%"
           }
     }
-  }
+}
