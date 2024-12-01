@@ -186,3 +186,18 @@ padding: 15px;
   font-weight: 400;
   line-height: 18px; /* 100% */
 }
+:global(.vtex-search-2-x-tileListItem) .containerNormal {
+  margin: 0 10px;
+}
+:global(.vtex-search-2-x-tileListItem) .containerNormal :global(.vtex-flex-layout-0-x-flexCol--HoverSection){
+display: none !important;
+}
+:global(.vtex-search-2-x-tileListItem) :global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-stack-layout-0-x-stackItem--productprices){
+  top: 80%;
+}
+:global(.vtex-search-2-x-tileListItem) :global(.vtex-flex-layout-0-x-flexCol--Addbutton) :global(.vtex-button){
+  display: block;
+}
+:global(.vtex-search-2-x-tileListItem) :global(.vtex-flex-layout-0-x-flexCol--HighlightsCol){
+display: none;
+}

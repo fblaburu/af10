@@ -99,3 +99,6 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+:global(.vtex-search-2-x-itemListItem),:global(.vtex-search-2-x-itemListTitle){
+  font-family: 'gothambook';
+}

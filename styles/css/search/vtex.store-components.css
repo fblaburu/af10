@@ -10,3 +10,10 @@
   color: #0067C7;
   font-size: .875rem;
 }
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--mainSearch) :global(.vtex-styleguide-9-x-input){
+color: #fff;
+font-family: 'gothambook';
+}
+:global(.vtex-search-2-x-tileListTitle){
+  font-family: 'gothambook';
+}

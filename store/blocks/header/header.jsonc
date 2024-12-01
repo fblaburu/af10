@@ -163,6 +163,9 @@
       ]
     }
   },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"]
+  },
   "login": {
     "props":{
       "hideIconLabel": true,
