@@ -34,3 +34,12 @@
 .slideChildrenContainer--slider-home :global(.vtex-store-components-3-x-imageElementLink) :global(.vtex-store-components-3-x-imageElement){
   width: 100% !important;
 }
+.paginationDotsContainer {
+  bottom: -38px;
+}
+.paginationDot{  
+  background-color: #b3b3c0;
+}
+.paginationDot--isActive {
+  background-color: #02012E;
+}

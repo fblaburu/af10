@@ -49,7 +49,7 @@
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout"
+      "slider-layout#ligasNacional"
     ],
     "props": {
       "collection": "137"

@@ -10,6 +10,7 @@
   padding: 20px 30px;
   justify-content: center;
   background: #02012E;
+  border-radius: 8px;
   @media screen and (max-width: 720px) {
     max-height: none;
     padding: 20px 30px 20px 10px;

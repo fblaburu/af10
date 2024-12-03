@@ -32,7 +32,7 @@
 
 
 /* footer */
-.newsletter .form{
+.newsletter .form {
     width: 90%;
     max-width: 1600px;
     background-color: #DE1940;
@@ -41,7 +41,22 @@
     position: relative;
     z-index: 2;
 }
-
+.newsletter.confirmation{
+    width: 90%;
+    max-width: 1600px;
+    background-color: #DE1940;
+    padding: 20px 30px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    margin: 99px auto 0 auto;
+    color: #fff;
+    top: -68px;
+}
+.newsletter.confirmation .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .newsletter .form .label {
     font-family: "Raleway", sans-serif;
     color: #fff;
@@ -74,6 +89,10 @@ margin: 0 auto;
     min-width: 237px;
     text-transform: capitalize;
 }
+.newsletter :global(.vtex-input__error){
+    color: #fff;
+}
+
 .imageElement--footerSocialLink{
     margin: 0 10px;
 }
@@ -108,10 +127,15 @@ margin: 0 auto;
     margin: 0 auto;
     max-width: 526px;
 }
-@media screen and (max-width:1026px) {
+@media screen and (max-width:1439px) {
+    .CountDownContainer{
+        bottom: -36px
+    }
+}
+@media screen and (max-width:1120px) {
     .CountDownContainer{
         bottom: inherit;
-        top: 111px;
+        top: 16%;
         width: 80%;
     }
 }
@@ -176,7 +200,7 @@ margin: 0 auto;
     bottom: 0;
     left: 0;
 }
-@media screen and (min-width:1027px) {    
+@media screen and (min-width:1199px) {    
     .imageElement--zonaHinchaImage{
         display: block !important;
     }

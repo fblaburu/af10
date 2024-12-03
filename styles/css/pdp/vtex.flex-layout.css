@@ -1,5 +1,8 @@
 
 
+.flexRow--containerPDP{
+    padding: 0 20px;
+}
 /* faqs home */
 .flexColChild--descriptionpdp{
     width: 100%;
@@ -10,6 +13,9 @@
     border-bottom: 1px solid #02012E;
     background-color: transparent;
     position: relative;
+}
+.flexColChild--descriptionpdp .flexRowContent {
+    margin-bottom: 0;
 }
 :global(.vtex-disclosure-layout-1-x-trigger)::after{
     display: block;
@@ -34,7 +40,10 @@
 .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPriceValue) {
     color: white;
     font-size: 25.8px;
-    @media screen and (max-width: 720px) {
+    
+}
+@media screen and (max-width: 720px) {
+    .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPriceValue) {
         font-size: 17px;
         display: none;
     }
@@ -46,10 +55,24 @@
 }
 .flexRowContent--buttonFloat :global(.vtex-button) {
     background-color: #DE1940;
+    border: 1px solid #DE1940;
     height: 50px;
     width: 288px;
-    @media screen and (max-width: 720px) {
-        width: 200PX;
+    border: 0;    
+}
+.flexRowContent--buttonFloat :global(.vtex-button):hover {
+    background-color: #fff;
+    border: 1px solid #DE1940;
+}
+.flexRowContent--buttonFloat :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText){
+    color:#DE1940;
+}
+.flexRowContent--buttonFloat :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    .flexRowContent--buttonFloat :global(.vtex-button) {
+        width: 187px;
     }
 }
 .flexRowContent--buttonFloat :global(.vtex-add-to-cart-button-0-x-buttonText) {
@@ -80,6 +103,7 @@
     color: white;
     font-size: 30px;
     border: none;
+    font-family: 'Montserrat';
     @media screen and (max-width: 720px) {
         height: 25px;
     }
@@ -100,12 +124,18 @@
     }
 }
 .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__minus-button__text), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__plus-button__text){
-    border: 1px solid #DE1940;
-    padding: 10px;
-    border-radius: 20px;
+    border: 3px solid #DE1940;
+    padding: 7px 9px;
+    border-radius: 41px;
+    font-size: 25px;
 }
 .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPrice) {
     margin-top: 7px;
+}
+.flexRowContent--product-main{
+    @media screen and (max-width: 720px) {
+        padding-bottom: 0;
+    }
 }
 .flexRowContent--product-main :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     position: sticky;

@@ -1,6 +1,19 @@
 {
   "store.product": {
     "children": [
+      "flex-layout.row#containerPDP"
+    ]
+  },
+  "flex-layout.row#containerPDP": {
+    "children": [
+      "flex-layout.col#containerPDP"
+    ],
+    "props":{
+      "blockClass":"containerPDP"
+    }
+  },
+  "flex-layout.col#containerPDP": {
+    "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
       "product-reviews",
@@ -10,7 +23,6 @@
       "flex-layout.row#destacadosHome"
     ]
   },
-
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
@@ -84,7 +96,10 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "horizontal",
+      "showNavigationArrows":false,
+      "showPaginationDots":false
     }
   },
   "flex-layout.col#right-col": {

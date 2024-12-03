@@ -18,7 +18,8 @@
 }
 @media screen and (max-width:1027px) {
     .flexColChild--HighlightsCol {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
     .flexColChild--HighlightsCol :global(.vtex-product-highlights-2-x-productHighlightWrapper){
         margin: 0 2px;
@@ -63,6 +64,9 @@
     line-height: 18px; /* 81.818% */
     
 }
+.flexCol--buttonsSelector{
+    padding: 10px;
+}
 .flexCol--HoverSection{
     position: absolute;
     background-color: #fff;
@@ -75,6 +79,12 @@
     padding: 10px;
     opacity: 0;
 }
+@media screen and (min-width:1027px) {
+    .flexCol--HoverSection :global(.vtex-product-summary-2-x-SKUSelectorContainer){
+        display: block;
+    }    
+}
+
 .flexCol--HoverSection :global(.vtex-product-summary-2-x-nameContainer){
     padding-bottom: 0;
     margin-bottom: 15px;
@@ -128,7 +138,7 @@
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
     max-width: 216px;
     margin: 0 auto;
-    display: none;
+    display: block;
     margin-bottom: 10px;
 }
 @media screen and (max-width:1025px) {
@@ -169,7 +179,11 @@ align-items: center;
 
 
 
-
+.flexCol--ViewButton{
+    @media screen and (max-width:1026px) {
+        display: none;
+    }
+}
 .flexCol--ViewButton :global(.vtex-button){
     border-radius: 8px;
     border: 1px solid #fce8ec;

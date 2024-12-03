@@ -1,12 +1,14 @@
 .homeLink::after {
     display: block;
-    content: "Homne";
+    content: "Home";
     color: #02012E;
     text-align: center;
     font-family: 'gothambook';
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
+    position: relative;
+    top: 2px;
 }
 
 .homeLink .homeIcon {
@@ -21,7 +23,7 @@
     color: #02012E;
     text-align: center;
     font-family: 'gothambook';
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     padding-right: 10px;
@@ -32,7 +34,7 @@
     color: #02012E;
     text-align: center;
     font-family: 'gothambook';
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     padding-left: 10px;

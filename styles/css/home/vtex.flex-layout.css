@@ -34,7 +34,7 @@
 .flexRow--footer-content :global(.vtex-store-components-3-x-logoImage){
     margin: 0 auto;
     display: block;
-    min-width: 339px;
+    min-width: 197px;
 }
 .flexRowContent--footer-content{
     flex-direction: column;
@@ -60,7 +60,7 @@
     margin-bottom: 20px;
 }
 .flexRow--footer-content-designedby{
-    background-color: #1F3134;
+    background-color: #02012E;
     padding: 0 20px;
 }
 
@@ -144,7 +144,12 @@
     max-width: 479px;
     left: 160px;
 }
-@media screen and (max-width:1026px) {
+@media screen and (max-width:1300px) {
+    .flexRow--bannerCountDownTextContainer{
+        top: 45px;
+    }
+}
+@media screen and (max-width:1120px) {
     .flexRow--bannerCountDownTextContainer{
         position: relative;
         top: inherit;
@@ -160,10 +165,13 @@
 .flexCol--CarouselPlusImage{
     position: relative;
 }
-
-.flexRow--ligasInternacionalesCarousel{
-    padding: 60px 0;
+.flexColChild--ligasInternacionalesCarousel, .flexColChild--guayosCarousel{
+    width: 100%;
 }
+.flexRow--ligasInternacionalesCarousel{
+    padding: 60px 20px;
+}
+
 .flexCol--CarouselPlusImage:hover :global(.vtex-rich-text-0-x-container--CarouselPlusImageText){
     bottom: 95px;
 }
@@ -177,10 +185,10 @@
 /* Componente xona hincha */
 .flexCol--zonaHincha{
     position: relative;
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
     overflow: hidden;
 }
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 1199px) {
     .flexRowContent--zonaHincha{
         flex-direction: column;
     }    
@@ -188,12 +196,12 @@
 
 .flexRowContent--zonaHinchaInner{
     position: absolute;
-    bottom: 145px;
+    bottom: 98px;
     left: 0;
     width: 100%;    
     padding: 0 60px;    
 }
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 1199px) {
     .flexRowContent--zonaHinchaInner{
         bottom: 0;
         position: relative;
@@ -208,7 +216,7 @@
 }
 /* carruseles home */
 .flexRowContent--CarouselHome :global(.vtex-slider-layout-0-x-sliderLayoutContainer) :global(.vtex-slider-layout-0-x-slideChildrenContainer){
-    padding: 0 10px;    
+    padding: 0 6px;    
 }
 .flexRowContent--CarouselHome :global(.vtex-product-summary-2-x-imageContainer){
     border: 0;

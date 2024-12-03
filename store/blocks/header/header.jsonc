@@ -99,7 +99,7 @@
   "image#logo": {
     "props": {
       "width": 196,
-      "src": "assets/img/icons/logo-lf10.png",
+      "src": "assets/img/footer/lf10Footer.png",
       "link":{
         "url":"/"
       },

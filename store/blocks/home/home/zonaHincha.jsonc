@@ -112,7 +112,7 @@
         "product-summary.shelf"
       ],
       "children": [
-        "slider-layout"
+        "slider-layout#zonaHinchaCarousel"
       ],
       "props": {
         "collection": "137"
@@ -121,13 +121,13 @@
     "slider-layout#zonaHinchaCarousel": {
       "props": {
         "itemsPerPage": {
-          "desktop": 3,
+          "(min-width:1400px)": 3,
           "tablet": 2,
-          "phone": 1,
-          "blockClass":["CarouselHomeSlider"]
+          "phone": 1          
         },
         "infinite": true,
-        "showNavigationArrows": false
+        "showNavigationArrows": false,
+        "blockClass":["CarouselHomeSlider"]
       }
     },    
     "image#zonaHinchaEquipo": {

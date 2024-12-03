@@ -34,7 +34,7 @@
         "product-summary.shelf"
       ],
       "children": [
-        "slider-layout"
+        "slider-layout#destacadosHomeCarousel"
       ],
       "props": {
         "collection": "137"
@@ -43,12 +43,13 @@
     "slider-layout#destacadosHomeCarousel": {
       "props": {
         "itemsPerPage": {
-          "desktop": 3,
+          "(min-width:1300px)": 5,
+          "desktop": 5,
           "tablet": 2,
-          "phone": 2
+          "phone": 1          
         },
         "infinite": true,
-        "showNavigationArrows": false
+      "showNavigationArrows": false
       }
     },
     "image#destacadosHomeCarousel": {

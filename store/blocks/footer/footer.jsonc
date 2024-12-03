@@ -45,7 +45,7 @@
   },
   "flex-layout.col#logo": {
     "children": [
-      "logo"
+      "logo#footer"
     ],
     "props": {
       "width": "100%"
@@ -127,15 +127,15 @@
     "props": {
       "textAlignment": "RIGHT",
       "textPosition": "RIGHT",
-      "text": "Powered by: ![laburu](assets/img/icons/laburu-agencia.jpg)",
+      "text": "Powered by: ![laburu](assets/img/footer/laburu-vtex.png)",
       "blockClass": "footer-richlinksallRights"
     }
   },
-  "logo": {
+  "logo#footer": {
     "props": {
-      "title": "Logo AF10",
+      "title": "Logo LF10",
       "href": "/",
-      "url": "https://rimax.vtexassets.com/assets/vtex.file-manager-graphql/images/76530d8d-8734-49e2-a0e1-ae23ba54a375___2ce141ac4511f4744e801fd95c747021.svg",
+      "url": "assets/img/footer/lf10Footer.png",
       "width": "170"
     }
   },

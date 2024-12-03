@@ -35,9 +35,10 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "preventHorizontalStretch": false,
+      "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": false,
+      "width":"60%",
       "blockClass": ["ligasInternacionalesCarousel"]
     },
     "children": [
@@ -49,7 +50,7 @@
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout"
+      "slider-layout#ligasInternacionales"
     ],
     "props": {
       "collection": "137"

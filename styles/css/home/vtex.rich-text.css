@@ -16,7 +16,7 @@
     margin: 0;
 }
 .image--footer-richlinksallRights{
-    max-width: 125px;
+    max-width: 180px;
     padding: 5px 0;
 }
 .container--footer-richlinksallRights{
@@ -156,7 +156,6 @@
     line-height: 42px;
     max-width: 80%;
     text-align: left;
-    padding-left: 60px;
     margin: 0 0 20px 0;
 }
 
@@ -168,7 +167,6 @@
     font-weight: 400;
     line-height: 27px; /* 108% */
     margin: 0 0 20px 0;
-    padding-left: 60px;
 }
 .paragraph--OurExperienceDescription{
     color: #FFF;
@@ -316,7 +314,7 @@
         line-height: normal;
         text-decoration: none;
     }
-@media screen and (max-width:1026px) {
+@media screen and (max-width:1120px) {
     .paragraph--bannerCountDownText1{
         margin-top: 40px;
         color: #02012E;
@@ -465,6 +463,9 @@ position: relative;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    @media screen and (max-width:768px) {
+        font-size: 20px; 
+    }
 }
 .link--zonaHinchaCarouselTeamLink{
     border-radius: 15px;
@@ -483,6 +484,9 @@ position: relative;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+    @media screen and (max-width:768px) {
+        padding: 15px 27px;
+    }
 }
 @media screen and (max-width: 1026px) {
     .paragraph--zonaHinchaCarouselTextDescription{

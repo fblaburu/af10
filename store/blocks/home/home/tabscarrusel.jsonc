@@ -53,7 +53,7 @@
         "product-summary.shelf"
       ],
       "children": [
-        "slider-layout"
+        "slider-layout#tabCarruselHomeCarousel"
       ],
       "props": {
         "collection": "137"
