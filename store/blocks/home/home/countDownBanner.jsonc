@@ -23,8 +23,8 @@
         },
         "children": [
             "image#bannerCountDown",
-            "flex-layout.row#bannerCountDownRow",
-            "countdown"
+            "flex-layout.row#bannerCountDownRow"
+            // "countdown"
         ]
     },
     "image#bannerCountDown": {
