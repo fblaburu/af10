@@ -20,3 +20,9 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+.buttonShowMore :global(.vtex-button){
+  border: 1px solid #DE1940;
+    background: #DE1940;
+    font-family: 'gothambook';
+    margin-bottom: 20px;
+}

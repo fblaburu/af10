@@ -182,8 +182,12 @@
 /* destacados */
 .flexCol--DestacadosHome{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
-
+.flexColChild--DestacadosHome{
+    width: 100%;
+}
 
 /* Componente xona hincha */
 .flexCol--zonaHincha{

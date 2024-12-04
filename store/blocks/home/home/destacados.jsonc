@@ -26,6 +26,11 @@
       "children": [
         "image#destacadosHomeCarousel",
         "rich-text#destacadosHomeCarousel",
+        "flex-layout.row#destacadosHomeContainerCarrusel"
+      ]
+    },
+    "flex-layout.row#destacadosHomeContainerCarrusel":{
+      "children":[
         "list-context.product-list#destacadosHomeCarousel"
       ]
     },
@@ -43,11 +48,11 @@
     "slider-layout#destacadosHomeCarousel": {
       "props": {
         "itemsPerPage": {
-          "desktop": 5,
+          "(min-width:1300px)": 5,
+          "desktop": 4,
           "tablet": 2,
           "phone": 1          
         },
-        "navigationStep":5,
         "infinite": true,
       "showNavigationArrows": false
       }

@@ -198,3 +198,6 @@
 .submenuWrapper--noImage.submenuWrapper--secondLevel .menuItem--isOpen .styledLinkContent:hover{
     font-family: 'gothambold' !important;
 }
+.submenuWrapper--noImage.submenuWrapper--secondLevel .menuItem--isOpen .styledLinkContent--bold{
+    font-family: 'gothambold' !important;
+}

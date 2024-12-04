@@ -17,6 +17,9 @@
     display: inline-block;
 }
 @media screen and (max-width:1027px) {
+    .flexCol--HighlightsCol {
+        display: none;
+    }
     .flexColChild--HighlightsCol {
         display: flex;
         flex-wrap: wrap;

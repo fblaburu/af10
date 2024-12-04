@@ -402,6 +402,8 @@
 /* destacados home */
 .container--destacadosHomeCarouselText{
     position: relative;    
+    width: 100%;
+    display: block;
 }
 .paragraph--destacadosHomeCarouselText{
     color: #FFF;
