@@ -1,0 +1,120 @@
+{
+    "vtex.menu@2.x:submenu#NiñosTextil": {
+        "children": [
+            "experimental__visibility-layout#bannerTextilNiño",
+            "vtex.menu@2.x:menu#TextilNiño",
+            "AddCustomMenuIcon"
+        ],
+        "props":{
+            "blockClass":["noImage"]
+        }
+    },
+    "experimental__visibility-layout#bannerTextilNiño": {
+        "children": [
+            "image#bannerTextilNiño"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "image#bannerTextilNiño": {
+        "title": "Banner Camisetas de fútbol",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png"
+        }
+    },
+    "vtex.menu@2.x:menu#TextilNiño": {
+        "children": [
+            "menu-item#TextilNiñoCamisetasdeequipos",
+            "menu-item#TextilNiñoShorts",
+            "menu-item#TextilBuzosySuéteres",
+            "menu-item#TextilNiñoPantalonesyLicras",
+            "menu-item#TextilNiñoCamisetas",
+            "menu-item#TextilNiñoConjuntos"
+        ]
+    },
+    "menu-item#TextilNiñoCamisetasdeequipos": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Niño/Camisetas-de-equipos",
+                "noFollow": false,
+                "tagTitle": "Camisetas de equipos",
+                "text": "Camisetas de equipos"
+            }
+        }
+    },
+    "menu-item#TextilNiñoShorts": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Niño/shorts",
+                "noFollow": false,
+                "tagTitle": "Shorts",
+                "text": "Shorts"
+            }
+        }
+    },
+    "menu-item#TextilNiñoBuzosySuéteres": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Niño/buzos-y-sueteres",
+                "noFollow": false,
+                "tagTitle": "Buzos y Suéteres",
+                "text": "Buzos y Suéteres"
+            }
+        }
+    },
+    "menu-item#TextilNiñoPantalonesyLicras": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Niño/Pantalones-y-Licras",
+                "noFollow": false,
+                "tagTitle": "Pantalones y Licras",
+                "text": "Pantalones y Licras"
+            }
+        }
+    },
+    "menu-item#TextilNiñoCamisetas": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Niño/Camisetas",
+                "noFollow": false,
+                "tagTitle": "Camisetas",
+                "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#TextilNiñoConjuntos": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Niño/Conjuntos",
+                "noFollow": false,
+                "tagTitle": "Conjuntos",
+                "text": "Conjuntos"
+            }
+        }
+    }
+}

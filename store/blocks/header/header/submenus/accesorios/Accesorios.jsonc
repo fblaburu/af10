@@ -1,0 +1,90 @@
+{
+    "vtex.menu@2.x:submenu#Accesorios": {
+        "children": [
+            "experimental__visibility-layout#bannerAccesorios",
+            "vtex.menu@2.x:menu#Accesorios",
+            "AddCustomMenuIcon"
+        ],
+        "props":{
+            "blockClass":["noImage"]
+        }
+    },
+    "experimental__visibility-layout#bannerAccesorios": {
+        "children": [
+            "image#bannerAccesorios"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "image#bannerAccesorios": {
+        "title": "Banner Camisetas de fútbol",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png"
+        }
+    },
+    "vtex.menu@2.x:menu#Accesorios": {
+        "children": [
+            "menu-item#BalonesAccesorios",
+            "menu-item#MediasAccesorios",
+            "menu-item#MorralesAccesorios",
+            "menu-item#MaletasAccesorios"
+        ]
+    },
+    "menu-item#BalonesAccesorios": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Accesorios/Balones",
+                "noFollow": false,
+                "tagTitle": "Balones",
+                "text": "Balones"
+            }
+        }
+    },
+    "menu-item#MediasAccesorios": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Accesorios/Medias",
+                "noFollow": false,
+                "tagTitle": "Medias",
+                "text": "Medias"
+            }
+        }
+    },
+    "menu-item#MorralesAccesorios": {
+        "props": {
+            "id": "la-liga",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Accesorios/Morrales",
+                "noFollow": false,
+                "tagTitle": "Morrales",
+                "text": "Morrales"
+            }
+        }
+    },
+    "menu-item#MaletasAccesorios": {
+        "props": {
+            "id": "la-liga",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Accesorios/Maletas",
+                "noFollow": false,
+                "tagTitle": "Maletas",
+                "text": "Maletas"
+            }
+        }
+    }
+}

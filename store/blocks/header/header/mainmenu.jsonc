@@ -3,18 +3,16 @@
         "children": [
             "menu-item#CalzadoHombre",
             "menu-item#Textil",
-            "menu-item#mujer",
-            "menu-item#niños",
-            "menu-item#teamwear"
+            "menu-item#Accesorios",
+            "menu-item#teamwear2"
         ]
     },
     "menu#drawerS": {
         "children": [
             "menu-item#CalzadoHombre",
             "menu-item#Textil",
-            "menu-item#mujer",
-            "menu-item#niños",
-            "menu-item#teamwear"
+            "menu-item#Accesorios",
+            "menu-item#teamwear2"
         ],
         "props": {
           "orientation": "vertical"
@@ -54,41 +52,24 @@
             "vtex.menu@2.x:submenu#Textil"
         ]
     },
-    "menu-item#mujer": {
+    "menu-item#Accesorios": {
         "props": {
-            "id": "mujer",
+            "id": "accesorios",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/mujer",
+                "href": "/accesorios",
                 "noFollow": false,
-                "tagTitle": "Mujer",
-                "text": "Mujer"
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#mujer"
+            "vtex.menu@2.x:submenu#Accesorios"
         ]
     },
-    "menu-item#niños": {
-        "props": {
-            "id": "niños",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/niños",
-                "noFollow": false,
-                "tagTitle": "Niños",
-                "text": "Niños"
-            }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#ninos"
-        ]
-    },
-    "menu-item#teamwear": {
+    "menu-item#teamwear2": {
         "props": {
             "id": "teamwear",
             "type": "custom",
@@ -100,9 +81,6 @@
                 "tagTitle": "Teamwear",
                 "text": "Teamwear"
             }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#teamwear"
-        ]
+        }
     }
 }

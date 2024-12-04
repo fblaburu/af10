@@ -26,8 +26,8 @@
     "vtex.menu@2.x:menu#Textil": {
         "children": [
             "menu-item#HombreTextil",
-            "menu-item#MujerTextil"
-            // "menu-item#NiñosTextil"
+            "menu-item#MujerTextil",
+            "menu-item#NiñosTextil"
         ]
     },
     "menu-item#HombreTextil": {
@@ -63,22 +63,22 @@
         "blocks": [
             "vtex.menu@2.x:submenu#MujerTextil"
         ]
+    },
+    "menu-item#NiñosTextil": {
+        "props": {
+            "id": "la-liga",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/niños",
+                "noFollow": false,
+                "tagTitle": "Niños",
+                "text": "Niños"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#NiñosTextil"
+        ]
     }
-    // "menu-item#NiñosTextil": {
-    //     "props": {
-    //         "id": "la-liga",
-    //         "type": "custom",
-    //         "highlight": false,
-    //         "itemProps": {
-    //             "type": "internal",
-    //             "href": "/Textil/niños",
-    //             "noFollow": false,
-    //             "tagTitle": "Niños",
-    //             "text": "Niños"
-    //         }
-    //     },
-    //     "blocks": [
-    //         "vtex.menu@2.x:submenu#NiñosTextil"
-    //     ]
-    // }
 }
