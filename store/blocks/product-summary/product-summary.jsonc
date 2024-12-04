@@ -1,6 +1,7 @@
 {
   "product-summary.shelf": {
     "children": [
+      "add-to-list-btn",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-installments#summary",

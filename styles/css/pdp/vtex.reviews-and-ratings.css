@@ -14,14 +14,23 @@
 .writeReviewContainer {
     position: absolute;
     bottom: -30px;
+    @media screen and (max-width:720px) {
+        position: initial;
+    }
 }
 .reviewsRating {
     width: 50%;
     padding: 10px;
+    @media screen and (max-width:720px) {
+        width: 100%;
+    }
 }
 .reviewCommentsContainer {
     width: 50%;
     position: relative;
+    @media screen and (max-width:720px) {
+       width: 100%;
+    }
 }
 .star {
     color: #DE1940;

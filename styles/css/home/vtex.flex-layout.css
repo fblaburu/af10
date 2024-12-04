@@ -107,6 +107,9 @@
 }
 .flexRow--bannerBlogsContainer{
     padding: 60px 0;
+    @media screen and (max-width:720px) {
+        display: none;
+    }
 }
 
 /* faqs home */

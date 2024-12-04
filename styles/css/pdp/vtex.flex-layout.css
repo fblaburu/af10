@@ -155,4 +155,8 @@
     max-width: 1550px;
     margin: 0 auto;
 }
+.flexRow--containerPDP  :global(.vtex-flex-layout-0-x-flexRow--destacadosHome){
+    margin-bottom: 100px;
+
+}
 

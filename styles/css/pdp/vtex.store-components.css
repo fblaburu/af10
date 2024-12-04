@@ -20,3 +20,28 @@
     font-weight: 400;
     line-height: 25px; 
 }
+.skuSelectorItem {
+    border-radius: 5px;
+    background: #F5F5F5;
+}
+.valueWrapper {
+    color:#02012E;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.skuSelectorItem--selected {
+    border-radius: 5px;
+    border: 1px solid #02012E;
+    background: #02012E;
+    border: none;
+}
+.skuSelectorItem--selected :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+    color: white;
+}
+.frameAround {
+    display: none;
+}

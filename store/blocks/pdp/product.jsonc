@@ -66,7 +66,8 @@
     "children": [
       "flex-layout.row#product-image",
       "flex-layout.row#buy-button",
-      "product-bookmark"
+      "product-bookmark",
+      "add-to-list-btn"
     ]
   },
 

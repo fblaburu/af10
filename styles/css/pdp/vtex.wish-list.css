@@ -1,0 +1,13 @@
+.wishlistIconContainer {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.wishlistIconContainer :global(.vtex-button):hover {
+    background-color: transparent;
+
+}
+.wishlistIconContainer :global(.vtex-button):focus {
+    background-color: transparent;
+
+}

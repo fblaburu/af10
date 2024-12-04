@@ -7,6 +7,10 @@
     background-color: #DE1940 !important;
     border-radius: 100%;
 }
+.container :global(.vtex-button):focus{
+    background-color: #DE1940 !important;
+    border-radius: 100%;
+}
 .container :global(.vtex-button__label){
     display: none;
 }
