@@ -178,3 +178,23 @@
 .submenuWrapper--thirdlevel{
     top: 14px;
 }
+.submenuWrapper--noImage{
+    /* background-color: #DE1940;
+    position: relative;
+    top: 13px;
+    border: 1px solid #000; */
+}
+.submenuWrapper--secondLevel{
+    background-color: #fff;
+    position: relative;
+    top: 12px;
+}
+.submenuWrapper--noImage.submenuWrapper--secondLevel .menuItem .styledLinkContent, .submenuWrapper--noImage.submenuWrapper--secondLevel .menuItem--isOpen .styledLinkContent {
+    color: #02012E !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-family: 'gothambook';
+}
+.submenuWrapper--noImage.submenuWrapper--secondLevel .menuItem--isOpen .styledLinkContent:hover{
+    font-family: 'gothambold' !important;
+}

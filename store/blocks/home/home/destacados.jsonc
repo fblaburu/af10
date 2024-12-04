@@ -43,11 +43,11 @@
     "slider-layout#destacadosHomeCarousel": {
       "props": {
         "itemsPerPage": {
-          "(min-width:1300px)": 5,
           "desktop": 5,
           "tablet": 2,
           "phone": 1          
         },
+        "navigationStep":5,
         "infinite": true,
       "showNavigationArrows": false
       }

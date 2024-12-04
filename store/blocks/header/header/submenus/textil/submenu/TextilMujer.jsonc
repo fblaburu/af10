@@ -6,7 +6,7 @@
             "AddCustomMenuIcon"
         ],
         "props":{
-            "blockClass":["noImage"]
+            "blockClass":["noImage","secondLevel"]
         }
     },
     "experimental__visibility-layout#bannerTextilMujer": {
