@@ -1,0 +1,67 @@
+{
+    "vtex.menu@2.x:menu#HombreCalzadoCanchaCubierta": {
+        "children": [
+            "menu-item#HombreCalzadoCanchaCubiertasubitem1",
+            "menu-item#HombreCalzadoCanchaCubiertasubitem2",
+            "menu-item#HombreCalzadoCanchaCubiertasubitem3",
+            "menu-item#HombreCalzadoCanchaCubiertasubitem4"
+        ]
+    },
+    "menu-item#HombreCalzadoCanchaCubiertasubitem1": {
+        "props": {
+            "id": "HombreCalzadoCanchaCubierta",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre/cancha-cubierta",
+                "noFollow": false,
+                "tagTitle": "Cancha Cubierta",
+                "text": "Cancha Cubierta"                
+            },
+            "blockClass":"bold"
+        }
+    },
+    "menu-item#HombreCalzadoCanchaCubiertasubitem2": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre/cancha-cubierta/Principiante",
+                "noFollow": false,
+                "tagTitle": "Principiante",
+                "text": "Principiante"
+            }
+        }
+    },
+    "menu-item#HombreCalzadoCanchaCubiertasubitem3": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre/cancha-cubierta/Semi-Profesional",
+                "noFollow": false,
+                "tagTitle": "Semi-Profesional",
+                "text": "Semi-Profesional"
+            }
+        }
+    },
+    "menu-item#HombreCalzadoCanchaCubiertasubitem4": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre/cancha-cubierta/Profesional",
+                "noFollow": false,
+                "tagTitle": "Profesional",
+                "text": "Profesional"
+            }
+        }
+    }
+}

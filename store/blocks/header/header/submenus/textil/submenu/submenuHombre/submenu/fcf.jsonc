@@ -1,0 +1,67 @@
+{
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposFCF": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposFCFsubitem1",
+            "menu-item#TextilHombreCamisetasdeequiposFCFsubitem2",
+            "menu-item#TextilHombreCamisetasdeequiposFCFsubitem3",
+            "menu-item#TextilHombreCamisetasdeequiposFCFsubitem4"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposFCFsubitem1": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposFCF",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre/terreno-firme",
+                "noFollow": false,
+                "tagTitle": "Terreno Firme",
+                "text": "Terreno Firme"                
+            },
+            "blockClass":"bold"
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposFCFsubitem2": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre/terreno-firme/Principiante",
+                "noFollow": false,
+                "tagTitle": "Principiante",
+                "text": "Principiante"
+            }
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposFCFsubitem3": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre/terreno-firme/Semi-Profesional",
+                "noFollow": false,
+                "tagTitle": "Semi-Profesional",
+                "text": "Semi-Profesional"
+            }
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposFCFsubitem4": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre/terreno-firme/Profesional",
+                "noFollow": false,
+                "tagTitle": "Profesional",
+                "text": "Profesional"
+            }
+        }
+    }
+}

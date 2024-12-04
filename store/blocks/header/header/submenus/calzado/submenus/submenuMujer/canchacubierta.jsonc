@@ -1,0 +1,67 @@
+{
+    "vtex.menu@2.x:menu#MujerCalzadoCanchaCubierta": {
+        "children": [
+            "menu-item#MujerCalzadoCanchaCubiertasubitem1",
+            "menu-item#MujerCalzadoCanchaCubiertasubitem2",
+            "menu-item#MujerCalzadoCanchaCubiertasubitem3",
+            "menu-item#MujerCalzadoCanchaCubiertasubitem4"
+        ]
+    },
+    "menu-item#MujerCalzadoCanchaCubiertasubitem1": {
+        "props": {
+            "id": "MujerCalzadoCanchaCubierta",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/Mujer/cancha-cubierta",
+                "noFollow": false,
+                "tagTitle": "Cancha Cubierta",
+                "text": "Cancha Cubierta"                
+            },
+            "blockClass":"bold"
+        }
+    },
+    "menu-item#MujerCalzadoCanchaCubiertasubitem2": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/Mujer/cancha-cubierta/Principiante",
+                "noFollow": false,
+                "tagTitle": "Principiante",
+                "text": "Principiante"
+            }
+        }
+    },
+    "menu-item#MujerCalzadoCanchaCubiertasubitem3": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/Mujer/cancha-cubierta/Semi-Profesional",
+                "noFollow": false,
+                "tagTitle": "Semi-Profesional",
+                "text": "Semi-Profesional"
+            }
+        }
+    },
+    "menu-item#MujerCalzadoCanchaCubiertasubitem4": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/Mujer/cancha-cubierta/Profesional",
+                "noFollow": false,
+                "tagTitle": "Profesional",
+                "text": "Profesional"
+            }
+        }
+    }
+}

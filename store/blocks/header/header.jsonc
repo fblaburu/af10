@@ -143,7 +143,9 @@
     }
   },
   "drawer": {
-    "children": []
+    "children": [
+      "menu#drawerS"
+    ]
   },
   "flex-layout.col#search-bar":{
     "children":[

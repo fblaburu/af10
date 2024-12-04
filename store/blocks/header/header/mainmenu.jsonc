@@ -1,45 +1,57 @@
 {
     "vtex.menu@2.x:menu#mainmenu": {
         "children": [
-            "menu-item#camisetasdefutbol",
-            "menu-item#hombre",
+            "menu-item#CalzadoHombre",
+            "menu-item#Textil",
             "menu-item#mujer",
             "menu-item#niños",
             "menu-item#teamwear"
         ]
     },
-    "menu-item#camisetasdefutbol": {
+    "menu#drawerS": {
+        "children": [
+            "menu-item#CalzadoHombre",
+            "menu-item#Textil",
+            "menu-item#mujer",
+            "menu-item#niños",
+            "menu-item#teamwear"
+        ],
         "props": {
-            "id": "camisetasdefutbol",
+          "orientation": "vertical"
+        }
+    },
+    "menu-item#CalzadoHombre": {
+        "props": {
+            "id": "Calzado",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/camisetas-de-futbol",
+                "href": "/Calzado",
                 "noFollow": false,
-                "tagTitle": "Camisetas de fútbol",
-                "text": "Camisetas de fútbol"
+                "tagTitle": "Calzado",
+                "text": "Calzado"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#camisetasdefutbol"
+            "vtex.menu@2.x:submenu#Calzado"
         ]
     },
-    "menu-item#hombre": {
+    "menu-item#Textil": {
         "props": {
-            "id": "hombre",
+            "id": "textil",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/hombre",
+                "href": "/textil",
                 "noFollow": false,
-                "tagTitle": "Hombre",
-                "text": "Hombre"
+                "tagTitle": "Textil",
+                "text": "Textil"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#hombre"
+            "vtex.menu@2.x:submenu#Textil"
         ]
     },
     "menu-item#mujer": {

@@ -1,0 +1,168 @@
+{
+    "vtex.menu@2.x:submenu#TextilHombreCamisetasdeequiposPremierLeague": {
+        "children": [
+            "experimental__visibility-layout#bannerTextilHombreCamisetasdeequiposPremierLeague",
+            "flex-layout.row#premier-league",
+            "AddCustomMenuIcon"
+        ],
+        "props": {
+            "blockClass": [
+                "thirdlevel"
+            ]
+        }
+    },
+    "experimental__visibility-layout#bannerTextilHombreCamisetasdeequiposPremierLeague": {
+        "children": [
+            "image#bannerTextilHombreCamisetasdeequiposPremierLeague"
+        ],
+        "props": {
+            "visible": true
+        }
+    },
+    "image#bannerTextilHombreCamisetasdeequiposPremierLeague": {
+        "title": "Banner Premier League",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png",
+            "blockClass":"imagenMenu"
+        }
+    },
+    "flex-layout.row#premier-league": {
+        "title":"Col menu",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass":"columna-submenu"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueAFCBournemouth",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueArsenal",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueAstonVilla",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueChelsea",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueEverton",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueLiverpool"
+        ]
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueAFCBournemouth": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposPremierLeagueAFCBournemouthsubitem1"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposPremierLeagueAFCBournemouthsubitem1": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposPremierLeagueAFCBournemouth",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/premier-league/AFC-Bournemouth",
+                "noFollow": false,
+                "tagTitle": "AFC Bournemouth",
+                "text": "AFC Bournemouth"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueArsenal": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposPremierLeagueArsenalsubitem1"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposPremierLeagueArsenalsubitem1": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposPremierLeagueArsenal",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/premier-league/Arsenal",
+                "noFollow": false,
+                "tagTitle": "Nacional",
+                "text": "Nacional"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueAstonVilla": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposPremierLeagueAstonVillasubitem1"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposPremierLeagueAstonVillasubitem1": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposPremierLeagueAstonVilla",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/premier-league/Aston-Villa",
+                "noFollow": false,
+                "tagTitle": "Aston Villa",
+                "text": "Aston Villa"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueChelsea": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposPremierLeagueChelsea"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposPremierLeagueChelsea": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposPremierLeagueChelsea",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/premier-league/Chelsea",
+                "noFollow": false,
+                "tagTitle": "Chelsea",
+                "text": "Chelsea"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueEverton": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposPremierLeagueEverton"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposPremierLeagueEverton": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposPremierLeagueEverton",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/premier-league/Everton",
+                "noFollow": false,
+                "tagTitle": "Everton",
+                "text": "Everton"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposPremierLeagueLiverpool": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposPremierLeagueLiverpool"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposPremierLeagueLiverpool": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposPremierLeagueLiverpool",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/premier-league/Liverpool",
+                "noFollow": false,
+                "tagTitle": "Liverpool",
+                "text": "Liverpool"                
+            },
+            "blockClass":"bold"
+        }
+    }
+}

@@ -1,3 +1,4 @@
+
 .styledLink {
     display: block;
     padding: 0;
@@ -29,9 +30,12 @@
     color: #fff;
 }
 .submenuContainer{
-    left: 0;
-    position: absolute;
-    width: 100%;
+    @media screen and (min-width:768px) {
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+   
 }
 .submenuContainer .menuContainer {
     flex-wrap: wrap;
@@ -44,10 +48,12 @@
     padding: 20px 20px;
 }
 .submenuWrapper--imageSubmenu .menuItem{
+    @media screen and (min-width:768px) {
     width: 23%;
     margin-right: 2%;   
     display: flex;
     align-items: center;    
+    }
 }
 .submenuWrapper--imageSubmenu .menuItem .styledLinkContent{
     font-size: 16px;
@@ -147,4 +153,28 @@
     color: #02012E !important;
     text-decoration: none !important;
     font-family: 'gothambook' !important;
+}
+.submenu--thirdlevel{
+    justify-content: flex-start;
+}
+.submenu--thirdlevel .styledLinkContent{
+    color: #02012E;
+    font-family: 'gothammedium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.submenu--thirdlevel .styledLinkContent--bold{
+    color: #02012E;
+    font-family: 'gothambold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.submenuWrapper--thirdlevel{
+    top: 14px;
 }

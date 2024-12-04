@@ -1,0 +1,45 @@
+{
+    "vtex.menu@2.x:submenu#MujerCalzado": {
+        "children": [
+            "experimental__visibility-layout#bannerMujerCalzado",
+            "flex-layout.row#calzadoMujer",
+            "AddCustomMenuIcon"
+        ],
+        "props": {
+            "blockClass": [
+                "thirdlevel"
+            ]
+        }
+    },
+    "experimental__visibility-layout#bannerMujerCalzado": {
+        "children": [
+            "image#bannerMujerCalzado"
+        ],
+        "props": {
+            "visible": true
+        }
+    },
+    "image#bannerMujerCalzado": {
+        "title": "Banner Premier League",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png",
+            "blockClass":"imagenMenu"
+        }
+    },
+    "flex-layout.row#calzadoMujer": {
+        "title":"Col menu",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass":"columna-submenu"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#MujerCalzadoTerrenoFirme",
+          "vtex.menu@2.x:menu#MujerCalzadoSintetica",
+          "vtex.menu@2.x:menu#MujerCalzadoCanchaCubierta"
+        ]
+    }
+}

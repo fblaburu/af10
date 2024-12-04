@@ -1,0 +1,84 @@
+{
+    "vtex.menu@2.x:submenu#Textil": {
+        "children": [
+            "experimental__visibility-layout#bannerTextil",
+            "vtex.menu@2.x:menu#Textil",
+            "AddCustomMenuIcon"
+        ],
+        "props":{
+            "blockClass":["noImage"]
+        }
+    },
+    "experimental__visibility-layout#bannerTextil": {
+        "children": [
+            "image#bannerTextil"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "image#bannerTextil": {
+        "title": "Banner Camisetas de fútbol",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png"
+        }
+    },
+    "vtex.menu@2.x:menu#Textil": {
+        "children": [
+            "menu-item#HombreTextil",
+            "menu-item#MujerTextil"
+            // "menu-item#NiñosTextil"
+        ]
+    },
+    "menu-item#HombreTextil": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/hombre",
+                "noFollow": false,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#TextilHombre"
+        ]
+    },
+    "menu-item#MujerTextil": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/mujer",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#MujerTextil"
+        ]
+    }
+    // "menu-item#NiñosTextil": {
+    //     "props": {
+    //         "id": "la-liga",
+    //         "type": "custom",
+    //         "highlight": false,
+    //         "itemProps": {
+    //             "type": "internal",
+    //             "href": "/Textil/niños",
+    //             "noFollow": false,
+    //             "tagTitle": "Niños",
+    //             "text": "Niños"
+    //         }
+    //     },
+    //     "blocks": [
+    //         "vtex.menu@2.x:submenu#NiñosTextil"
+    //     ]
+    // }
+}

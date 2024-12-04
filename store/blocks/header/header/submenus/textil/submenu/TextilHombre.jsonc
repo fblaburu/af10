@@ -1,0 +1,138 @@
+{
+    "vtex.menu@2.x:submenu#TextilHombre": {
+        "children": [
+            "experimental__visibility-layout#bannerTextilHombre",
+            "vtex.menu@2.x:menu#TextilHombre",
+            "AddCustomMenuIcon"
+        ],
+        "props":{
+            "blockClass":["noImage"]
+        }
+    },
+    "experimental__visibility-layout#bannerTextilHombre": {
+        "children": [
+            "image#bannerTextilHombre"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "image#bannerTextilHombre": {
+        "title": "Banner Camisetas de fútbol",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png"
+        }
+    },
+    "vtex.menu@2.x:menu#TextilHombre": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequipos",
+            "menu-item#TextilHombreShorts",
+            "menu-item#TextilBuzosySuéteres",
+            "menu-item#PantalonesyLicras",
+            "menu-item#Camisetas",
+            "menu-item#Chaquetas",
+            "menu-item#Conjuntos"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequipos": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos",
+                "noFollow": false,
+                "tagTitle": "Camisetas de equipos",
+                "text": "Camisetas de equipos"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#TextilHombreCamisetasdeequipos"
+        ]
+    },
+    "menu-item#TextilHombreShorts": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/shorts",
+                "noFollow": false,
+                "tagTitle": "Shorts",
+                "text": "Shorts"
+            }
+        }
+    },
+    "menu-item#TextilBuzosySuéteres": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/buzos-y-sueteres",
+                "noFollow": false,
+                "tagTitle": "Buzos y Suéteres",
+                "text": "Buzos y Suéteres"
+            }
+        }
+    },
+    "menu-item#PantalonesyLicras": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Pantalones-y-Licras",
+                "noFollow": false,
+                "tagTitle": "Pantalones y Licras",
+                "text": "Pantalones y Licras"
+            }
+        }
+    },
+    "menu-item#Camisetas": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas",
+                "noFollow": false,
+                "tagTitle": "Camisetas",
+                "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#Chaquetas": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Chaquetas",
+                "noFollow": false,
+                "tagTitle": "Chaquetas",
+                "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#Conjuntos": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Conjuntos",
+                "noFollow": false,
+                "tagTitle": "Conjuntos",
+                "text": "Conjuntos"
+            }
+        }
+    }
+}

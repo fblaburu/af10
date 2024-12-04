@@ -1,0 +1,45 @@
+{
+    "vtex.menu@2.x:submenu#HombreCalzado": {
+        "children": [
+            "experimental__visibility-layout#bannerHombreCalzado",
+            "flex-layout.row#calzadoHombre",
+            "AddCustomMenuIcon"
+        ],
+        "props": {
+            "blockClass": [
+                "thirdlevel"
+            ]
+        }
+    },
+    "experimental__visibility-layout#bannerHombreCalzado": {
+        "children": [
+            "image#bannerHombreCalzado"
+        ],
+        "props": {
+            "visible": true
+        }
+    },
+    "image#bannerHombreCalzado": {
+        "title": "Banner Premier League",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png",
+            "blockClass":"imagenMenu"
+        }
+    },
+    "flex-layout.row#calzadoHombre": {
+        "title":"Col menu",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass":"columna-submenu"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#HombreCalzadoTerrenoFirme",
+          "vtex.menu@2.x:menu#HombreCalzadoSintetica",
+          "vtex.menu@2.x:menu#HombreCalzadoCanchaCubierta"
+        ]
+    }
+}

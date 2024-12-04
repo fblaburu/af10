@@ -1,0 +1,111 @@
+{
+    "vtex.menu@2.x:submenu#TextilHombreCamisetasdeequipos": {
+        "children": [
+            "experimental__visibility-layout#bannerTextilHombre",
+            "vtex.menu@2.x:menu#TextilHombreCamisetasdeEquipos",
+            "AddCustomMenuIcon"
+        ],
+        "props":{
+            "blockClass":["noImage"]
+        }
+    },
+    "experimental__visibility-layout#bannerTextilHombre": {
+        "children": [
+            "image#bannerTextilHombre"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "image#bannerTextilHombre": {
+        "title": "Banner Camisetas de fútbol",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png"
+        }
+    },
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeEquipos": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionales",
+            "menu-item#TextilHombreCamisetasdeequiposPremierLeague",
+            "menu-item#TextilHombreCamisetasdeequiposEquiposLocales",
+            "menu-item#TextilHombreCamisetasdeequiposLaLiga",
+            "menu-item#TextilHombreCamisetasdeequiposFCF"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionales": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales",
+                "noFollow": false,
+                "tagTitle": "Equipos nacionales",
+                "text": "Equipos nacionales"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#TextilHombreCamisetasdeequiposEquiposnacionales"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposPremierLeague": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/premier-league",
+                "noFollow": false,
+                "tagTitle": "Premier League",
+                "text": "Premier League"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#TextilHombreCamisetasdeequiposPremierLeague"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposLocales": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-locales",
+                "noFollow": false,
+                "tagTitle": "Equipos Locales",
+                "text": "Equipos Locales"
+            }
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposLaLiga": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/la-liga",
+                "noFollow": false,
+                "tagTitle": "La Liga",
+                "text": "La Liga"
+            }
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposFCF": {
+        "props": {
+            "id": "Hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/FCF",
+                "noFollow": false,
+                "tagTitle": "FCF",
+                "text": "FCF"
+            }
+        }
+    }
+}

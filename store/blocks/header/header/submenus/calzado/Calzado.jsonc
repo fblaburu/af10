@@ -1,84 +1,84 @@
 {
-    "vtex.menu@2.x:submenu#camisetasdefutbol": {
+    "vtex.menu@2.x:submenu#Calzado": {
         "children": [
-            "experimental__visibility-layout#bannercamisetasdefutbol",
-            "vtex.menu@2.x:menu#camisetasdefutbol",
+            "experimental__visibility-layout#bannerCalzado",
+            "vtex.menu@2.x:menu#Calzado",
             "AddCustomMenuIcon"
         ],
         "props":{
             "blockClass":["noImage"]
         }
     },
-    "experimental__visibility-layout#bannercamisetasdefutbol": {
+    "experimental__visibility-layout#bannerCalzado": {
         "children": [
-            "image#bannercamisetasdefutbol"
+            "image#bannerCalzado"
         ],
         "props": {
             "visible": false
         }
     },
-    "image#bannercamisetasdefutbol": {
+    "image#bannerCalzado": {
         "title": "Banner Camisetas de fútbol",
         "props": {
             "src": "assets/img/menu/banner-golty-menu.png"
         }
     },
-    "vtex.menu@2.x:menu#camisetasdefutbol": {
+    "vtex.menu@2.x:menu#Calzado": {
         "children": [
-            "menu-item#ligasinternacionales",
-            "menu-item#liganacional",
-            "menu-item#federaciones"
+            "menu-item#HombreCalzado",
+            "menu-item#MujerCalzado",
+            "menu-item#NiñosCalzado"
         ]
     },
-    "menu-item#ligasinternacionales": {
+    "menu-item#HombreCalzado": {
         "props": {
-            "id": "premier-league",
+            "id": "Hombre",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ligas-internacionales",
+                "href": "/calzado/hombre",
                 "noFollow": false,
-                "tagTitle": "Ligas Internacionales",
-                "text": "Ligas Internacionales"
+                "tagTitle": "Hombre",
+                "text": "Hombre"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#ligasinternacionales"
+            "vtex.menu@2.x:submenu#HombreCalzado"
         ]
     },
-    "menu-item#liganacional": {
+    "menu-item#MujerCalzado": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/liganacional",
+                "href": "/calzado/mujer",
                 "noFollow": false,
-                "tagTitle": "liganacional",
-                "text": "Liga Nacional"
+                "tagTitle": "Mujer",
+                "text": "Mujer"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#liganacional"
+            "vtex.menu@2.x:submenu#MujerCalzado"
         ]
     },
-    "menu-item#federaciones": {
+    "menu-item#NiñosCalzado": {
         "props": {
             "id": "la-liga",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/federaciones",
+                "href": "/calzado/niños",
                 "noFollow": false,
-                "tagTitle": "federaciones",
-                "text": "Federaciones"
+                "tagTitle": "Niños",
+                "text": "Niños"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#federaciones"
+            "vtex.menu@2.x:submenu#NiñosCalzado"
         ]
     }
 }

@@ -96,3 +96,21 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexColChild--colSubMenu :global(.vtex-menu-2-x-menuContainer){
+  display: inline-block;
+}
+.flexRow--columna-submenu{
+  width: 60%;
+}
+.flexRow--columna-submenu :global(.vtex-menu-2-x-menuItem){
+  width: 100%;
+}
+.flexRowContent--columna-submenu{
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.flexRowContent--columna-submenu .stretchChildrenWidth{
+  width: 25% !important;
+  margin-bottom: 10px;
+}

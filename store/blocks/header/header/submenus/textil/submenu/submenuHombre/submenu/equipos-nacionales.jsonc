@@ -1,0 +1,283 @@
+{
+    "vtex.menu@2.x:submenu#TextilHombreCamisetasdeequiposEquiposnacionales": {
+        "children": [
+            "experimental__visibility-layout#bannerTextilHombreCamisetasdeequiposEquiposnacionales",
+            "flex-layout.row#equipos-nacionales",
+            "AddCustomMenuIcon"
+        ],
+        "props": {
+            "blockClass": [
+                "thirdlevel"
+            ]
+        }
+    },
+    "experimental__visibility-layout#bannerTextilHombreCamisetasdeequiposEquiposnacionales": {
+        "children": [
+            "image#bannerTextilHombreCamisetasdeequiposEquiposnacionales"
+        ],
+        "props": {
+            "visible": true
+        }
+    },
+    "image#bannerTextilHombreCamisetasdeequiposEquiposnacionales": {
+        "title": "Banner Premier League",
+        "props": {
+            "src": "assets/img/menu/banner-golty-menu.png",
+            "blockClass":"imagenMenu"
+        }
+    },
+    "flex-layout.row#equipos-nacionales": {
+        "title":"Col menu",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass":"columna-submenu"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesMillonarios",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesNacional",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesSantaFe",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesIndependienteMedellín",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesJuniorFC",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesAméricadeCali",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesBucaramanga",
+          "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesOnceCaldas"
+        ]
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesMillonarios": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem1",
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem2",
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem3",
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem4"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem1": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesMillonarios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/millonarios",
+                "noFollow": false,
+                "tagTitle": "Millonarios",
+                "text": "Millonarios"                
+            },
+            "blockClass":"bold"
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem2": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesMillonarios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/millonarios/local",
+                "noFollow": false,
+                "tagTitle": "Local",
+                "text": "Local"                
+            }
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem3": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesMillonarios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/millonarios/visitante",
+                "noFollow": false,
+                "tagTitle": "Visitante",
+                "text": "Visitante"                
+            }
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem4": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesMillonarios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/millonarios/tercera",
+                "noFollow": false,
+                "tagTitle": "Tercera",
+                "text": "Tercera"                
+            }
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem5": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesMillonarios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/millonarios/edicion-limitada",
+                "noFollow": false,
+                "tagTitle": "Edición limitada",
+                "text": "Edición limitada"                
+            }
+        }
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesMillonariossubitem6": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesMillonarios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/millonarios/sale",
+                "noFollow": false,
+                "tagTitle": "SALE",
+                "text": "SALE"                
+            }
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesNacional": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesNacionalsubitem1"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesNacionalsubitem1": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesNacional",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/nacional",
+                "noFollow": false,
+                "tagTitle": "Nacional",
+                "text": "Nacional"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesSantaFe": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesSantaFesubitem1"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesSantaFesubitem1": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalessantafe",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/independiente-santa-fe",
+                "noFollow": false,
+                "tagTitle": "Independiente Santa Fe",
+                "text": "Independiente Santa Fe"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesIndependienteMedellín": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesIndependienteMedellín"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesIndependienteMedellín": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesmedellin",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/independiente-medellin",
+                "noFollow": false,
+                "tagTitle": "Independiente Medellín",
+                "text": "Independiente Medellín"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesJuniorFC": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesJuniorFC"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesJuniorFC": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesJuniorFC",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/junior-fc",
+                "noFollow": false,
+                "tagTitle": "Junior FC",
+                "text": "Junior FC"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesAméricadeCali": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesAméricadeCali"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesAméricadeCali": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesAméricadeCali",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/América-de-Cali",
+                "noFollow": false,
+                "tagTitle": "América de Cali",
+                "text": "América de Cali"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesBucaramanga": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesBucaramanga"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesBucaramanga": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesBucaramanga",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/Bucaramanga",
+                "noFollow": false,
+                "tagTitle": "Bucaramanga",
+                "text": "Bucaramanga"                
+            },
+            "blockClass":"bold"
+        }
+    },    
+    "vtex.menu@2.x:menu#TextilHombreCamisetasdeequiposEquiposnacionalesOnceCaldas": {
+        "children": [
+            "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesOnceCaldas"
+        ]
+    },
+    "menu-item#TextilHombreCamisetasdeequiposEquiposnacionalesOnceCaldas": {
+        "props": {
+            "id": "TextilHombreCamisetasdeequiposEquiposnacionalesOnceCaldas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/Textil/Hombre/Camisetas-de-equipos/equipos-nacionales/Once-Caldas",
+                "noFollow": false,
+                "tagTitle": "Once Caldas",
+                "text": "Once Caldas"                
+            },
+            "blockClass":"bold"
+        }
+    }
+}

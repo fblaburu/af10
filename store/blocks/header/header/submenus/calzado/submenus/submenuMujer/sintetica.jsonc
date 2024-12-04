@@ -1,0 +1,67 @@
+{
+    "vtex.menu@2.x:menu#MujerCalzadoSintetica": {
+        "children": [
+            "menu-item#MujerCalzadoSinteticasubitem1",
+            "menu-item#MujerCalzadoSinteticasubitem2",
+            "menu-item#MujerCalzadoSinteticasubitem3",
+            "menu-item#MujerCalzadoSinteticasubitem4"
+        ]
+    },
+    "menu-item#MujerCalzadoSinteticasubitem1": {
+        "props": {
+            "id": "MujerCalzadoSintetica",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/Mujer/sintetica",
+                "noFollow": false,
+                "tagTitle": "Sintética",
+                "text": "Sintética"                
+            },
+            "blockClass":"bold"
+        }
+    },
+    "menu-item#MujerCalzadoSinteticasubitem2": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/Mujer/sintetica/Principiante",
+                "noFollow": false,
+                "tagTitle": "Principiante",
+                "text": "Principiante"
+            }
+        }
+    },
+    "menu-item#MujerCalzadoSinteticasubitem3": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/Mujer/sintetica/Semi-Profesional",
+                "noFollow": false,
+                "tagTitle": "Semi-Profesional",
+                "text": "Semi-Profesional"
+            }
+        }
+    },
+    "menu-item#MujerCalzadoSinteticasubitem4": {
+        "props": {
+            "id": "serie-a",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/Mujer/sintetica/Profesional",
+                "noFollow": false,
+                "tagTitle": "Profesional",
+                "text": "Profesional"
+            }
+        }
+    }
+}
