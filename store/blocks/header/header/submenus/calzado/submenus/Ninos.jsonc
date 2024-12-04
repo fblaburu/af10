@@ -1,8 +1,8 @@
 {
-    "vtex.menu@2.x:submenu#NiñosCalzado": {
+    "vtex.menu@2.x:submenu#NinosCalzado": {
         "children": [
-            "experimental__visibility-layout#bannerNiñosCalzado",
-            "flex-layout.row#calzadoNiños",
+            "experimental__visibility-layout#bannerNinosCalzado",
+            "flex-layout.row#calzadoNinos",
             "AddCustomMenuIcon"
         ],
         "props": {
@@ -11,22 +11,22 @@
             ]
         }
     },
-    "experimental__visibility-layout#bannerNiñosCalzado": {
+    "experimental__visibility-layout#bannerNinosCalzado": {
         "children": [
-            "image#bannerNiñosCalzado"
+            "image#bannerNinosCalzado"
         ],
         "props": {
             "visible": true
         }
     },
-    "image#bannerNiñosCalzado": {
+    "image#bannerNinosCalzado": {
         "title": "Banner Premier League",
         "props": {
             "src": "assets/img/menu/banner-golty-menu.png",
             "blockClass":"imagenMenu"
         }
     },
-    "flex-layout.row#calzadoNiños": {
+    "flex-layout.row#calzadoNinos": {
         "title":"Col menu",
         "props": {
             "horizontalAlign": "center",
@@ -37,9 +37,9 @@
             "blockClass":"columna-submenu"
         },
         "children": [
-          "vtex.menu@2.x:menu#NiñosCalzadoTerrenoFirme",
-          "vtex.menu@2.x:menu#NiñosCalzadoSintetica",
-          "vtex.menu@2.x:menu#NiñosCalzadoCanchaCubierta"
+          "vtex.menu@2.x:menu#NinosCalzadoTerrenoFirme",
+          "vtex.menu@2.x:menu#NinosCalzadoSintetica",
+          "vtex.menu@2.x:menu#NinosCalzadoCanchaCubierta"
         ]
     }
 }

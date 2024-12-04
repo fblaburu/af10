@@ -27,7 +27,7 @@
         "children": [
             "menu-item#HombreCalzado",
             "menu-item#MujerCalzado",
-            "menu-item#NiñosCalzado"
+            "menu-item#NinosCalzado"
         ]
     },
     "menu-item#HombreCalzado": {
@@ -64,21 +64,21 @@
             "vtex.menu@2.x:submenu#MujerCalzado"
         ]
     },
-    "menu-item#NiñosCalzado": {
+    "menu-item#NinosCalzado": {
         "props": {
             "id": "la-liga",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/niños",
+                "href": "/calzado/ninos",
                 "noFollow": false,
                 "tagTitle": "Niños",
                 "text": "Niños"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#NiñosCalzado"
+            "vtex.menu@2.x:submenu#NinosCalzado"
         ]
     }
 }

@@ -27,7 +27,7 @@
         "children": [
             "menu-item#HombreTextil",
             "menu-item#MujerTextil",
-            "menu-item#NiñosTextil"
+            "menu-item#NinosTextil"
         ]
     },
     "menu-item#HombreTextil": {
@@ -64,21 +64,21 @@
             "vtex.menu@2.x:submenu#MujerTextil"
         ]
     },
-    "menu-item#NiñosTextil": {
+    "menu-item#NinosTextil": {
         "props": {
             "id": "la-liga",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/Textil/niños",
+                "href": "/Textil/Ninos",
                 "noFollow": false,
                 "tagTitle": "Niños",
                 "text": "Niños"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#NiñosTextil"
+            "vtex.menu@2.x:submenu#NinosTextil"
         ]
     }
 }

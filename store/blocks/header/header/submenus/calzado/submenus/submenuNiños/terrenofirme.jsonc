@@ -1,20 +1,20 @@
 {
-    "vtex.menu@2.x:menu#NiñosCalzadoTerrenoFirme": {
+    "vtex.menu@2.x:menu#NinosCalzadoTerrenoFirme": {
         "children": [
-            "menu-item#NiñosCalzadoTerrenoFirmesubitem1",
-            "menu-item#NiñosCalzadoTerrenoFirmesubitem2",
-            "menu-item#NiñosCalzadoTerrenoFirmesubitem3",
-            "menu-item#NiñosCalzadoTerrenoFirmesubitem4"
+            "menu-item#NinosCalzadoTerrenoFirmesubitem1",
+            "menu-item#NinosCalzadoTerrenoFirmesubitem2",
+            "menu-item#NinosCalzadoTerrenoFirmesubitem3",
+            "menu-item#NinosCalzadoTerrenoFirmesubitem4"
         ]
     },
-    "menu-item#NiñosCalzadoTerrenoFirmesubitem1": {
+    "menu-item#NinosCalzadoTerrenoFirmesubitem1": {
         "props": {
-            "id": "NiñosCalzadoTerrenoFirme",
+            "id": "NinosCalzadoTerrenoFirme",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/terreno-firme",
+                "href": "/calzado/Ninos/terreno-firme",
                 "noFollow": false,
                 "tagTitle": "Terreno Firme",
                 "text": "Terreno Firme"                
@@ -22,42 +22,42 @@
             "blockClass":"bold"
         }
     },
-    "menu-item#NiñosCalzadoTerrenoFirmesubitem2": {
+    "menu-item#NinosCalzadoTerrenoFirmesubitem2": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/terreno-firme/Principiante",
+                "href": "/calzado/Ninos/terreno-firme/Principiante",
                 "noFollow": false,
                 "tagTitle": "Principiante",
                 "text": "Principiante"
             }
         }
     },
-    "menu-item#NiñosCalzadoTerrenoFirmesubitem3": {
+    "menu-item#NinosCalzadoTerrenoFirmesubitem3": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/terreno-firme/Semi-Profesional",
+                "href": "/calzado/Ninos/terreno-firme/Semi-Profesional",
                 "noFollow": false,
                 "tagTitle": "Semi-Profesional",
                 "text": "Semi-Profesional"
             }
         }
     },
-    "menu-item#NiñosCalzadoTerrenoFirmesubitem4": {
+    "menu-item#NinosCalzadoTerrenoFirmesubitem4": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/terreno-firme/Profesional",
+                "href": "/calzado/Ninos/terreno-firme/Profesional",
                 "noFollow": false,
                 "tagTitle": "Profesional",
                 "text": "Profesional"

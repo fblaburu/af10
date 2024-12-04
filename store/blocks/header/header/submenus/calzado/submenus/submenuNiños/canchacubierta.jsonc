@@ -1,20 +1,20 @@
 {
-    "vtex.menu@2.x:menu#NiñosCalzadoCanchaCubierta": {
+    "vtex.menu@2.x:menu#NinosCalzadoCanchaCubierta": {
         "children": [
-            "menu-item#NiñosCalzadoCanchaCubiertasubitem1",
-            "menu-item#NiñosCalzadoCanchaCubiertasubitem2",
-            "menu-item#NiñosCalzadoCanchaCubiertasubitem3",
-            "menu-item#NiñosCalzadoCanchaCubiertasubitem4"
+            "menu-item#NinosCalzadoCanchaCubiertasubitem1",
+            "menu-item#NinosCalzadoCanchaCubiertasubitem2",
+            "menu-item#NinosCalzadoCanchaCubiertasubitem3",
+            "menu-item#NinosCalzadoCanchaCubiertasubitem4"
         ]
     },
-    "menu-item#NiñosCalzadoCanchaCubiertasubitem1": {
+    "menu-item#NinosCalzadoCanchaCubiertasubitem1": {
         "props": {
-            "id": "NiñosCalzadoCanchaCubierta",
+            "id": "NinosCalzadoCanchaCubierta",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/cancha-cubierta",
+                "href": "/calzado/Ninos/cancha-cubierta",
                 "noFollow": false,
                 "tagTitle": "Cancha Cubierta",
                 "text": "Cancha Cubierta"                
@@ -22,42 +22,42 @@
             "blockClass":"bold"
         }
     },
-    "menu-item#NiñosCalzadoCanchaCubiertasubitem2": {
+    "menu-item#NinosCalzadoCanchaCubiertasubitem2": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/cancha-cubierta/Principiante",
+                "href": "/calzado/Ninos/cancha-cubierta/Principiante",
                 "noFollow": false,
                 "tagTitle": "Principiante",
                 "text": "Principiante"
             }
         }
     },
-    "menu-item#NiñosCalzadoCanchaCubiertasubitem3": {
+    "menu-item#NinosCalzadoCanchaCubiertasubitem3": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/cancha-cubierta/Semi-Profesional",
+                "href": "/calzado/Ninos/cancha-cubierta/Semi-Profesional",
                 "noFollow": false,
                 "tagTitle": "Semi-Profesional",
                 "text": "Semi-Profesional"
             }
         }
     },
-    "menu-item#NiñosCalzadoCanchaCubiertasubitem4": {
+    "menu-item#NinosCalzadoCanchaCubiertasubitem4": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/cancha-cubierta/Profesional",
+                "href": "/calzado/Ninos/cancha-cubierta/Profesional",
                 "noFollow": false,
                 "tagTitle": "Profesional",
                 "text": "Profesional"

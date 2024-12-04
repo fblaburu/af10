@@ -1,20 +1,20 @@
 {
-    "vtex.menu@2.x:menu#NiñosCalzadoSintetica": {
+    "vtex.menu@2.x:menu#NinosCalzadoSintetica": {
         "children": [
-            "menu-item#NiñosCalzadoSinteticasubitem1",
-            "menu-item#NiñosCalzadoSinteticasubitem2",
-            "menu-item#NiñosCalzadoSinteticasubitem3",
-            "menu-item#NiñosCalzadoSinteticasubitem4"
+            "menu-item#NinosCalzadoSinteticasubitem1",
+            "menu-item#NinosCalzadoSinteticasubitem2",
+            "menu-item#NinosCalzadoSinteticasubitem3",
+            "menu-item#NinosCalzadoSinteticasubitem4"
         ]
     },
-    "menu-item#NiñosCalzadoSinteticasubitem1": {
+    "menu-item#NinosCalzadoSinteticasubitem1": {
         "props": {
-            "id": "NiñosCalzadoSintetica",
+            "id": "NinosCalzadoSintetica",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/sintetica",
+                "href": "/calzado/Ninos/sintetica",
                 "noFollow": false,
                 "tagTitle": "Sintética",
                 "text": "Sintética"                
@@ -22,42 +22,42 @@
             "blockClass":"bold"
         }
     },
-    "menu-item#NiñosCalzadoSinteticasubitem2": {
+    "menu-item#NinosCalzadoSinteticasubitem2": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/sintetica/Principiante",
+                "href": "/calzado/Ninos/sintetica/Principiante",
                 "noFollow": false,
                 "tagTitle": "Principiante",
                 "text": "Principiante"
             }
         }
     },
-    "menu-item#NiñosCalzadoSinteticasubitem3": {
+    "menu-item#NinosCalzadoSinteticasubitem3": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/sintetica/Semi-Profesional",
+                "href": "/calzado/Ninos/sintetica/Semi-Profesional",
                 "noFollow": false,
                 "tagTitle": "Semi-Profesional",
                 "text": "Semi-Profesional"
             }
         }
     },
-    "menu-item#NiñosCalzadoSinteticasubitem4": {
+    "menu-item#NinosCalzadoSinteticasubitem4": {
         "props": {
             "id": "serie-a",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/calzado/Niños/sintetica/Profesional",
+                "href": "/calzado/Ninos/sintetica/Profesional",
                 "noFollow": false,
                 "tagTitle": "Profesional",
                 "text": "Profesional"
