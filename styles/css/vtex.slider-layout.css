@@ -43,3 +43,20 @@
 .paginationDot--isActive {
   background-color: #02012E;
 }
+.sliderLayoutContainer--desktop {
+  display: block;
+}
+.sliderLayoutContainer--mobile{
+  display: none;
+}
+.sliderLayoutContainer--slider-home-mobile {
+  display: none;
+}
+.slideChildrenContainer--slider-home-mobile {
+  display: block;
+}
+@media screen and (max-width:768px) {
+  .sliderLayoutContainer--slider-home-mobile {
+    display: block;
+  }
+}

@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#slider",
+      "list-context.image-list#sliderGeneral",
       "flex-layout.row#zonaHincha",
       "flex-layout.row#bannerCountDown",
       // "tab-layout#pdp",

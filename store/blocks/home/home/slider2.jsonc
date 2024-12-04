@@ -1,0 +1,50 @@
+{
+    "list-context.image-list#sliderGeneral": {
+      "title": "Slider principal",
+      "children": [
+        "slider-layout#slider-homeNuevo"
+      ],
+      "props": {
+        "images": [
+          {
+            "image": "/arquivos/bg-home.png",
+            "mobileImage": "/arquivos/slider-mobile.png",
+            "link": {
+              "url": "#"
+            }
+          },
+          {
+            "image": "/arquivos/bg-home.png",
+            "mobileImage": "/arquivos/slider-mobile.png",
+            "link": {
+              "url": "#"
+            }
+          },
+          {
+            "image": "/arquivos/bg-home.png",
+            "mobileImage": "/arquivos/slider-mobile.png",
+            "link": {
+              "url": "#"
+            }
+          }
+        ]
+      }
+    },
+    "slider-layout#slider-homeNuevo": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": false,
+            "blockClass": [
+                "carousel",
+                "slider-home-mobile"
+            ]
+        },
+        "children": [
+        ]
+    }
+  }

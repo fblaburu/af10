@@ -5,7 +5,8 @@
             "flex-layout.col#sliderContent"
         ],
         "props":{
-            "fullWidth":true
+            "fullWidth":true,
+            "blockClass":"desktop"
         }
     },
     "flex-layout.col#sliderContent": {

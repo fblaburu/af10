@@ -1,0 +1,69 @@
+{
+    "flex-layout.row#sliderMobile": {
+        "title":"slider mobile",
+        "children":[
+            "flex-layout.col#sliderContentMobile"
+        ],
+        "props":{
+            "fullWidth":true,
+            "blockClass":"mobile"
+        }
+    },
+    "flex-layout.col#sliderContentMobile": {
+        "children":[
+            "slider-layout#slider-homemobile"
+          
+        ],
+        "props":{
+            "fullWidth":true,
+            "blockClass":["homeSliderContainer"]
+        }
+    },
+    "slider-layout#slider-homemobile": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": false,
+            "blockClass": [
+                "carousel",
+                "slider-home"
+            ]
+        },
+        "children": [
+            "image#banner1mobile",
+            "image#banner2mobile",
+            "image#banner3mobile"
+        ]
+    },
+    "image#banner1mobile": {
+        "title": "Banner 1 Slider",
+        "props": {
+            "src": "assets/img/slider-home/banner1.jpg",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#banner2mobile": {
+        "title": "Banner 2 Slider",
+        "props": {
+            "src": "assets/img/slider-home/banner2.jpg",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#banner3mobile": {
+        "title": "Banner 3 Slider",
+        "props": {
+            "src": "assets/img/slider-home/banner3.jpg",
+            "link": {
+                "url": "#"
+            }
+        }
+    }
+}

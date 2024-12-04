@@ -264,3 +264,14 @@
         width: 50% !important;
     }
 }
+.flexRowContent--mobile {
+    display: none;
+}
+@media screen and (max-width:768px) {
+    .flexRowContent--mobile {
+      display: block;
+    }
+    .flexRowContent--desktop {
+        display: none;
+    }
+  }
