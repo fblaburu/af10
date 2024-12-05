@@ -6,6 +6,10 @@
   margin-bottom: 5px !important;
   display: flex;
   justify-content: center;
+  @media screen and (max-width:1026px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 .productNameContainer .brandName{
   width: 100%;
@@ -43,12 +47,11 @@
 }
 .SKUSelectorContainer{
   width: 100%;
-}
-@media screen and (min-width: 1027px) {
-  .SKUSelectorContainer{
+  @media screen and (min-width: 1027px) {
     display: none;
   }
 }
+
 .SKUSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSelectContainer){
   width: 98%;
 }
@@ -69,6 +72,7 @@ background-color: #f5f5f5;
     height: 143px;
     @media screen and (max-width:1026px) {
       height: 155px;
+      margin-bottom: 0;
     }
 }
 .skuSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSubcontainer){
@@ -83,7 +87,6 @@ background-color: #f5f5f5;
 }
 .containerNormal {
   position: relative;
-  min-height: 670px;
 }
 .containerNormal :global(.vtex-product-highlights-2-x-productHighlightText){
   margin-left: 0 !important;
@@ -240,4 +243,9 @@ display: none;
     overflow: hidden;
     text-overflow: ellipsis;
     width: 100%;
+}
+.containerNormal :global(.vtex-flex-layout-0-x-flexColChild--buttonsSelector):last-child{
+  @media screen and (max-width:1026px) {
+    display: none;
+  }
 }

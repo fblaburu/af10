@@ -144,10 +144,11 @@
     display: block;
     margin-bottom: 10px;
 }
-@media screen and (max-width:1025px) {
+@media screen and (max-width:1026px) {
     .flexCol--Addbutton :global(.vtex-button){
         display: block;
-        margin-top: 20px;
+        margin-top: 5px;
+        margin-bottom: 0;
     }
 }
 

@@ -236,7 +236,9 @@
 }
 
 .flexRowContent--CarouselHome :global(.vtex-product-summary-2-x-containerNormal){
-    height: 511px;
+    @media screen and (min-width:1027px) {
+        height: 511px;
+    }
     margin: 0 10px;
 }
 .flexRowContent--CarouselHome :global(.vtex-button__label){
