@@ -115,7 +115,7 @@
       //"flex-layout.row#list-price-savings",
       "sku-selector",
       "product-rating-summary",
-      "product-installments",
+      //"product-installments",
       "similar-products-variants",
       //"product-separator",
       //"product-identifier.product",

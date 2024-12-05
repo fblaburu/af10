@@ -93,7 +93,7 @@
     "children": [
       "product-summary-name",
       "product-summary-description",
-      "product-installments#summary",
+      //"product-installments#summary",
       "flex-layout.col#priceSummaryListDesktop",
       "product-summary-sku-selector#list",
       "flex-layout.row#PriceAddRow"
@@ -212,8 +212,8 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "product-selling-price#summary",
-      "product-installments#summary"
+      "product-selling-price#summary"
+      //"product-installments#summary"
     ]
   },
   "vtex.store-components:product-brand#summaryListMobile": {
