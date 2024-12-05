@@ -191,7 +191,10 @@
   "image#iconwhishlist": {
     "props": {
       "src": "assets/img/icons/Icono-wishlist.svg",
-      "maxHeight": 24
+      "maxHeight": 24,
+      "link":{
+        "url":"/account/#/wishlist"
+      }
     }
   }
 }
