@@ -6,7 +6,7 @@
             "AddCustomMenuIcon"
         ],
         "props":{
-            "blockClass":["noImage","secondLevel"]
+            "blockClass":["noImage","secondLevel","secondLevelPlus"]
         }
     },
     "experimental__visibility-layout#bannerTextilHombre": {

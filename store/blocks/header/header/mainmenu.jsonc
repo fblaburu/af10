@@ -12,10 +12,12 @@
             "menu-item#CalzadoHombre",
             "menu-item#Textil",
             "menu-item#Accesorios",
-            "menu-item#teamwear2"
+            "menu-item#teamwear2",
+            "menuMobileFunctions"
         ],
         "props": {
-          "orientation": "vertical"
+          "orientation": "vertical",
+          "blockClass":"MenuMobile"
         }
     },
     "menu-item#CalzadoHombre": {
