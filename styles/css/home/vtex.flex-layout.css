@@ -192,8 +192,7 @@
 /* Componente xona hincha */
 .flexCol--zonaHincha{
     position: relative;
-    margin: 40px 0 20px 0;
-    overflow: hidden;
+    margin: 20px 0 20px 0;
 }
 @media screen and (max-width: 1199px) {
     .flexRowContent--zonaHincha{
@@ -202,10 +201,11 @@
 }
 
 .flexRowContent--zonaHinchaInner{
-    position: absolute;
+    /* position: absolute;
     bottom: 98px;
     left: 0;
-    width: 100%;    
+    width: 100%;     */
+    width: 100%;
     padding: 0 60px;    
 }
 @media screen and (max-width: 1199px) {
@@ -275,5 +275,11 @@
     }
     .flexRowContent--desktop {
         display: none;
+    }
+  }
+
+  .flexRowContent--sticky-header-row-menu{
+    @media screen and (min-width:1027px) {
+    padding-right: 20% !important;
     }
   }

@@ -445,6 +445,7 @@ position: relative;
     font-weight: 400;
     line-height: 25px; /* 100% */
     position: relative;
+    text-align: center;
 }
 
 .container--zonaHinchaCarouselTeam{

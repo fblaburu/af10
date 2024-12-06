@@ -193,12 +193,12 @@ margin: 0 auto;
 
 .imageElement--zonaHinchaImage{
     display: none !important;
-}
-.imageElement--zonaHinchaImage.imageElement--zonaHinchaMobile{
-    display: block !important;
     position: absolute;
     bottom: 0;
     left: 0;
+}
+.imageElement--zonaHinchaImage.imageElement--zonaHinchaMobile{
+    display: block !important;    
 }
 @media screen and (min-width:1199px) {    
     .imageElement--zonaHinchaImage{

@@ -72,7 +72,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "sticky-header-row-menu"
+      "blockClass": ["sticky-header-row-menu","sticky-menu-desktop"]
     },
     "children": [
        "flex-layout.col#menu"
