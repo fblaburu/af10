@@ -67,7 +67,7 @@
   },
   "flex-layout.row#headerDown": {
     "props": {
-      "horizontalAlign": "left",
+      "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,

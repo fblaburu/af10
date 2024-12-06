@@ -85,7 +85,20 @@
   margin-top: 0;
 }
 .orderByText {
-  font-size: 0;
+  @media screen and (min-width:1027px) {
+    font-size: 0;
+  }
+  @media screen and (max-width:1026px) {
+    display: block;
+    color: #02012E;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: none;
+  }
 }
 .orderByText::before {
   content: 'Precio';
@@ -97,11 +110,19 @@
   font-weight: 400;
   line-height: 20px; /* 111.111% */
   text-transform: none;
+  @media screen and (max-width:1026px) {
+    display: none;
+  }
 }
 .filterPopupTitle {
-  font-size: 0;
   width: 100%;
   text-align: left;
+  @media screen and (min-width:1027px) {
+    font-size: 0;
+  }
+}
+.orderByDropdown .filterPopupTitle {
+  font-size: 0;
 }
 .orderByDropdown {
   padding-top: 0;
@@ -109,6 +130,10 @@
 .galleryLayoutSwitcher {
   margin-left: 5px;
   display: flex;
+  @media screen and (max-width:1026px){
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
 }
 .galleryLayoutSwitcher .galleryLayoutOptionButton {
   background: #fff;
@@ -154,4 +179,70 @@
   border: 0;
   border-radius: 5px;
   width: 100%;
+}
+
+.filterBreadcrumbsText {
+  @media screen and (max-width:1026px) {
+    color: #02012E;
+    text-align: left;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 111.111% */
+  }
+}
+.accordionFilterItemTitle{
+  @media screen and (max-width:1026px) {
+    color: #02012E;
+    text-align: left;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 111.111% */
+  }
+}
+.accordionFilterContainer--category-5, .accordionFilterContainer--category-4, .accordionFilterContainer--category-3, .accordionFilterContainer--category-2, .accordionFilterContainer--category-1{
+  display: none;
+}
+.filterBreadcrumbsItemName--FiltersPLP {
+  @media screen and (max-width:1026px) {
+    color: #02012E;
+    text-align: left;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+.filterBreadcrumbsItem--FiltersPLP{
+  @media screen and (max-width:1026px) {
+    margin-left: 5px;
+  }
+}
+.filterAccordionItemBox{
+  @media screen and (max-width:1026px) {
+    color: #02012E;
+    text-align: left;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+.filterClearButtonWrapper--FiltersPLP :global(.vtex-button), .filterApplyButtonWrapper :global(.vtex-button){
+  @media screen and (max-width:1026px) {
+    background-color: #DE1940;
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
 }

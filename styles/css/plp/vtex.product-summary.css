@@ -238,11 +238,11 @@ display: none;
 }
 
 .containerNormal .productNameContainer .productBrand  {
-  height: 24px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100%;
+  height: 43px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 .containerNormal :global(.vtex-flex-layout-0-x-flexColChild--buttonsSelector):last-child{
   @media screen and (max-width:1026px) {
