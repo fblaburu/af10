@@ -1,11 +1,9 @@
 {
     "flex-layout.row#zonaHincha": {
       "title": "zonaHincha Home Carousel",
-      "props": {
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "preventHorizontalStretch": false,
-        "preventVerticalStretch": true,
+      "props": {        
+        // "preventHorizontalStretch": false,
+        // "preventVerticalStretch": true,
         "fullWidth": false,
         "blockClass": ["zonaHincha"]
       },
@@ -16,10 +14,10 @@
     "flex-layout.col#zonaHincha": {
       "title": "zonaHincha Home Image",
       "props": {
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "preventHorizontalStretch": false,
-        "preventVerticalStretch": true,
+        // "horizontalAlign": "center",
+        // "verticalAlign": "center",
+        // "preventHorizontalStretch": false,
+        // "preventVerticalStretch": true,
         "fullWidth": false,
         "blockClass": "zonaHincha"
       },
@@ -32,10 +30,10 @@
     "flex-layout.row#zonaHinchaInner": {
       "title": "zonaHincha Home Carousel",
       "props": {
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "preventHorizontalStretch": false,
-        "preventVerticalStretch": true,
+        // "horizontalAlign": "center",
+        // "verticalAlign": "center",
+        // "preventHorizontalStretch": false,
+        // "preventVerticalStretch": true,
         "fullWidth": false,
         "blockClass": ["zonaHinchaInner"]
       },
@@ -46,10 +44,10 @@
     "flex-layout.col#zonaHinchaInner": {
       "title": "zonaHincha Home Image",
       "props": {
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "preventHorizontalStretch": false,
-        "preventVerticalStretch": true,
+        // "horizontalAlign": "center",
+        // "verticalAlign": "center",
+        // "preventHorizontalStretch": false,
+        // "preventVerticalStretch": true,
         "fullWidth": false,
         "blockClass": "zonaHincha"
       },
@@ -63,11 +61,11 @@
     "flex-layout.row#zonaHinchaInnerCarousel": {
       "title": "zonaHincha Home Carousel",
       "props": {
-        "horizontalAlign": "center",
-        "verticalAlign": "bottom",
-        "preventHorizontalStretch": false,
-        "preventVerticalStretch": true,
-        "fullWidth": false,
+        // "horizontalAlign": "center",
+        // "verticalAlign": "bottom",
+        // "preventHorizontalStretch": false,
+        // "preventVerticalStretch": true,
+        // "fullWidth": false,
         "blockClass": ["zonaHincha","CarouselHome","noImageborder"]
       },
       "children": [
@@ -78,11 +76,11 @@
     "flex-layout.col#zonaHinchaCarousel":{
         "title": "zonaHincha Home Carousel",
       "props": {
-        "horizontalAlign": "center",
-        "verticalAlign": "bottom",
-        "preventHorizontalStretch": false,
-        "preventVerticalStretch": true,
-        "fullWidth": false,
+        // "horizontalAlign": "center",
+        // "verticalAlign": "bottom",
+        // "preventHorizontalStretch": false,
+        // "preventVerticalStretch": true,
+        // "fullWidth": false,
         "blockClass": "zonaHinchaHomeCarousel",
         "width":"60%"
       },
@@ -123,7 +121,7 @@
         "itemsPerPage": {
           "(min-width:1400px)": 3,
           "tablet": 2,
-          "phone": 1          
+          "phone": 2          
         },
         "infinite": true,
         "showNavigationArrows": false,

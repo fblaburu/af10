@@ -190,13 +190,18 @@
 }
 
 /* Componente xona hincha */
+.flexRow--zonaHincha{    
+    @media screen and (min-width: 1199px) {
+        margin-bottom: 40px;
+    }
+}
 .flexCol--zonaHincha{
     position: relative;
-    margin: 20px 0 20px 0;
+    /* margin: 20px 0 20px 0; */
 }
 @media screen and (max-width: 1199px) {
     .flexRowContent--zonaHincha{
-        flex-direction: column;
+        /* flex-direction: column; */
     }    
 }
 
@@ -205,7 +210,7 @@
     bottom: 98px;
     left: 0;
     width: 100%;     */
-    width: 100%;
+    /* width: 100%; */
     padding: 0 60px;    
 }
 @media screen and (max-width: 1199px) {
@@ -219,6 +224,9 @@
     }
     .flexRowContent--zonaHinchaInner .stretchChildrenWidth{
         width: 100% !important;
+    }
+    .flexRowContent--zonaHinchaInner :global(.vtex-slider-layout-0-x-paginationDotsContainer){
+        z-index: 5;
     }
 }
 /* carruseles home */

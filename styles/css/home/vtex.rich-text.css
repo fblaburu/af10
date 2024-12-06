@@ -432,6 +432,9 @@ font-weight: 700;
 line-height: 35px; /* 100% */
 margin-top: 22px;
 position: relative;
+width: 100%;
+display: block;
+text-align: center;
 }
 .container--zonaHinchaCarouselTextTitle .paragraph, .container--zonaHinchaCarouselTextDescription .paragraph, .container--zonaHinchaCarouselTeam .paragraph, .container--zonaHinchaCarouselTeamTitle .paragraph{
     margin: 0;
@@ -456,6 +459,9 @@ position: relative;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media screen and (max-width:1026px) {
+        margin-top: 36px;
+    }
 }
 
 .container--zonaHinchaCarouselTeamTitle{
