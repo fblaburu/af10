@@ -37,6 +37,7 @@
     display: flex;
     justify-content: center;
 }
+
 .flexRowContent--productprices :global(.vtex-product-price-1-x-currencyContainer--summary){
     color: #FFF;
     text-align: center;
@@ -45,6 +46,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: 18px; /* 100% */
+   
 }
 .flexRowContent--productprices :global(.vtex-product-price-1-x-listPrice){
     color: #fff;
@@ -65,6 +67,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 18px; /* 81.818% */
+    
     
 }
 .flexCol--buttonsSelector{
@@ -185,6 +188,9 @@ align-items: center;
     content: url('assets/img/plp/ico-cart.png');
     display: block;
     margin-right: 15px;
+    @media screen and (max-width: 374px) {
+        display: none;
+    }
 }
 .flexCol--Addbutton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary)::before{
     display: none;

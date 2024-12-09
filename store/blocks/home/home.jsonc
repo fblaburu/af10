@@ -5,7 +5,7 @@
       "list-context.image-list#sliderGeneral",
       "flex-layout.row#zonaHincha",
       "flex-layout.row#bannerCountDown",
-      // "tab-layout#pdp",
+      "tab-layout#pdp",
       "flex-layout.row#destacadosHome",
       "flex-layout.row#bannerMarcas",      
       "flex-layout.row#ligasInternacionalesCarousel",

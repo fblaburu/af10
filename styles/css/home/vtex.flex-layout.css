@@ -211,7 +211,10 @@
     left: 0;
     width: 100%;     */
     /* width: 100%; */
-    padding: 0 60px;    
+    padding: 0 60px;
+    @media screen and (max-width:768px) {
+        padding: 0;
+    }
 }
 @media screen and (max-width: 1199px) {
     .flexRowContent--zonaHinchaInner{
@@ -241,6 +244,9 @@
 }
 .flexRowContent--CarouselHome :global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
     font-size: 18px !important;
+    @media screen and (max-width:374px) {
+        font-size: 14px !important;
+    }
 }
 
 .flexRowContent--CarouselHome :global(.vtex-product-summary-2-x-containerNormal){
@@ -290,4 +296,13 @@
     @media screen and (min-width:1027px) {
     padding-right: 20% !important;
     }
+  }
+
+
+  .flexRow--TabContentCarruselSlider{
+    max-width: 1109px;
+    margin: 0 auto;
+  }
+  .flexRow--TabContentCarruselSlider :global(.vtex-slider-layout-0-x-sliderLayoutContainer){
+    margin-bottom: 20px;
   }

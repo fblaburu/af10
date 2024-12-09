@@ -10,6 +10,9 @@
     padding-top: 0;
     padding-bottom: 0;
   }
+  @media screen and (max-width:374px) {
+    margin-top: 20px;
+  }
 }
 .productNameContainer .brandName{
   width: 100%;
@@ -172,6 +175,9 @@ padding: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  @media screen and (max-width:374px) {
+    font-size: 10px !important;
+}
 }
 .element--listLayout :global(.vtex-product-price-1-x-listPrice--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
   color: #02012E;
@@ -181,6 +187,7 @@ padding: 15px;
   font-weight: 400;
   line-height: normal;
   text-decoration-line: strikethrough;
+  
 }
 .element--listLayout :global(.vtex-product-summary-2-x-skuSelectorContainer){
   max-height: 115px;

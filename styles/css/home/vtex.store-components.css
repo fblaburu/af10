@@ -126,17 +126,13 @@ margin: 0 auto;
     right: 0;
     margin: 0 auto;
     max-width: 526px;
-}
-@media screen and (max-width:1439px) {
-    .CountDownContainer{
-        bottom: -36px
-    }
-}
-@media screen and (max-width:1120px) {
-    .CountDownContainer{
+    @media screen and (max-width:1120px) {
         bottom: inherit;
         top: 16%;
         width: 80%;
+    };
+    @media screen and (max-width:375px) {
+        top: 10%
     }
 }
 .CountDownBox{
