@@ -144,7 +144,7 @@
     },
     "image#zonaHinchaCarouselMobile": {
           "props": {
-              "src": "assets/img/home/zonahinchamobile.png",
+              "src": "assets/img/home/zonahinchamobile-v2.jpg",
               "width": "100%",
               "blockClass":["zonaHinchaImage","zonaHinchaMobile"]
           }

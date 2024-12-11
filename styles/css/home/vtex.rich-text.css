@@ -337,6 +337,18 @@
     width: 90%;
     display: block;
     transition: bottom 0.2s linear;
+    @media screen and (max-width:1358px) {
+        bottom: 10%;
+    }
+    @media screen and (max-width:1267px) {
+        bottom: 20%;
+    }
+    @media screen and (max-width:1105px) {
+        bottom: 30%;
+    }
+    @media screen and (max-width:1026px) {
+        bottom: 0;
+    }
 }
 .paragraph--CarouselPlusImageText{
     color: #FFF;
@@ -381,6 +393,12 @@
     content: 'a';
     font-size: 0;
     display: block;
+    @media screen and (max-width:1026px) {
+        width: 70%;
+    }
+    @media screen and (max-width:425px) {
+        width: 90%;
+    }
 }
 .link--CarouselPlusImageText::after{
     bottom: -13px;
@@ -394,12 +412,24 @@
     font-size: 0;
     display: block;
     transform: rotate(45deg);
+    @media screen and (max-width:1026px) {
+        right: 15%;
+    }
+    @media screen and (max-width:425px) {
+        right: 5%;
+    }
 }
 
 .wrapper--CarouselPlusImageText.wrapper--Invert .link--CarouselPlusImageText::after{
     right: inherit;
-    left: 0;
+    left: 0;    
     transform: rotate(-135deg);
+    @media screen and (max-width:1026px) {
+        left: 15%;
+    }
+    @media screen and (max-width:425px) {
+        left: 5%;
+    }
 }
 
 

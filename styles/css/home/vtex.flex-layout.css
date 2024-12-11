@@ -201,7 +201,7 @@
 }
 @media screen and (max-width: 1199px) {
     .flexRowContent--zonaHincha{
-        /* flex-direction: column; */
+        flex-direction: column;
     }    
 }
 
