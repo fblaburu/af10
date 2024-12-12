@@ -35,7 +35,7 @@
 .newsletter .form {
     width: 90%;
     max-width: 1600px;
-    background-color: #DE1940;
+    background-color: #AB220D;
     padding: 20px 30px;
     border-radius: 5px;
     position: relative;
@@ -44,7 +44,7 @@
 .newsletter.confirmation{
     width: 90%;
     max-width: 1600px;
-    background-color: #DE1940;
+    background-color: #AB220D;
     padding: 20px 30px;
     border-radius: 5px;
     position: relative;
@@ -68,7 +68,7 @@ max-width: 857px;
 margin: 0 auto;
 }
 .newsletter .form .inputGroup :global(.vtex-styleguide-9-x-input){
-    background-color: #DE1940;
+    background-color: #AB220D;
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -83,7 +83,7 @@ margin: 0 auto;
 }
 .newsletter .form .inputGroup :global(.vtex-button){
     background-color: #fff;
-    color: #DE1940;
+    color: #AB220D;
     border: 0;
     font-family: 'gothambold';
     min-width: 237px;
@@ -116,7 +116,7 @@ margin: 0 auto;
 /* Countdown */
 .CountDownContainer{
     border-radius: 12px;
-    background: #02012E;
+    background: #000009;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.12);
     position: absolute;
     display: flex;

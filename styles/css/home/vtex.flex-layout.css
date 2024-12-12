@@ -4,7 +4,7 @@
 
 
 .flexRow--sticky-header-row{    
-    background-color: #02012E;    
+    background-color: #000009;    
 }
 .flexColChild--wishlistIcon{
     height: 100% !important;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 .flexRowContent--sticky-header-row-menu {
-    border-top: 1px solid #DE1940;
+    border-top: 1px solid #AB220D;
     padding-top: 0;
     margin-top: 10px;
 }
@@ -20,7 +20,7 @@
 
 /* footer */
 .flexRow--footer-content{
-    background-color: #02012E;
+    background-color: #000009;
     padding-top: 40px;
     position: relative;
 }
@@ -60,7 +60,7 @@
     margin-bottom: 20px;
 }
 .flexRow--footer-content-designedby{
-    background-color: #02012E;
+    background-color: #000009;
     padding: 0 20px;
 }
 
@@ -93,7 +93,7 @@
 
 /* componente our experience home */
 .flexRow--OurExperience{
-    background-color: #02012E;
+    background-color: #000009;
 }
 .flexCol--OurExperienceText{
     padding: 80px 30px 0 30px;

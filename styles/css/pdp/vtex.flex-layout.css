@@ -10,7 +10,7 @@
 .flexColChild--descriptionpdp :global(.vtex-disclosure-layout-1-x-trigger){
     width: 100%;
     border: none;
-    border-bottom: 1px solid #02012E;
+    border-bottom: 1px solid #000009;
     background-color: transparent;
     position: relative;
 }
@@ -74,18 +74,18 @@
     }
 }
 .flexRowContent--buttonFloat :global(.vtex-button) {
-    background-color: #DE1940;
-    border: 1px solid #DE1940;
+    background-color: #AB220D;
+    border: 1px solid #AB220D;
     height: 50px;
     width: 288px;
     border: 0;    
 }
 .flexRowContent--buttonFloat :global(.vtex-button):hover {
     background-color: #fff;
-    border: 1px solid #DE1940;
+    border: 1px solid #AB220D;
 }
 .flexRowContent--buttonFloat :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText){
-    color:#DE1940;
+    color:#AB220D;
 }
 .flexRowContent--buttonFloat :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
     display: none;
@@ -141,14 +141,14 @@
 .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__plus-button), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__minus-button) {
     height: 50px;
     background-color: transparent;
-    color: #DE1940;
+    color: #AB220D;
     border: none;
     @media screen and (max-width: 720px) {
         height: 25px;
     }
 }
 .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__minus-button__text), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__plus-button__text){
-    border: 3px solid #DE1940;
+    border: 3px solid #AB220D;
     padding: 7px 9px;
     border-radius: 41px;
     font-size: 25px;

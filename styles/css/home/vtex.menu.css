@@ -21,10 +21,10 @@
     font-family: 'gothambold';
 }
 .menuItem--isOpen .styledLinkContent{
-    color:#DE1940;
+    color:#AB220D;
 }
 .styledLink--highlight{
-    background-color: #DE1940;
+    background-color: #AB220D;
 }
 .menuItem--isOpen .styledLink--highlight .styledLinkContent{
     color: #fff;
@@ -44,7 +44,7 @@
     width: 100%;
 }
 .submenuWrapper .styledLinkContent{
-    color: #02012E;
+    color: #000009;
     padding: 20px 20px;
 }
 .submenuWrapper--imageSubmenu .menuItem{
@@ -64,7 +64,7 @@
 }
 .submenuWrapper .menuItem--isOpen .styledLinkContent{
     font-family: 'gothambold';
-    color: #02012E;
+    color: #000009;
 }
 .submenu--thirdlevel{
     margin-top: 5px;
@@ -77,7 +77,7 @@
 }
 .submenu--thirdlevel .menuItem--isOpen .styledLinkContent{
     font-family: 'gothambold';
-    color: #02012E;
+    color: #000009;
 }
 
 
@@ -91,9 +91,9 @@
 .menuContainerNav--footermenu::after{
     margin: 20px 0 20px;
     content: '-';
-    color: #DE1940;
+    color: #AB220D;
     font-size: 1px;
-    background-color: #DE1940;
+    background-color: #AB220D;
     height: 1px;
     width: 100%;
     display: block;
@@ -110,7 +110,7 @@
 }
 
 .submenuWrapper--noImage{
-    background-color: #DE1940;
+    background-color: #AB220D;
 }
 .submenuWrapper--noImage .styledLinkContent {
     padding: 0;
@@ -134,23 +134,23 @@
 }
 
 .submenuWrapper--noImage .submenu--thirdlevel .styledLinkContent:hover {
-    color: #02012E;
+    color: #000009;
 }
 .submenuWrapper--noImage .menuItem--isOpen .styledLinkContent{
     color: #fff;
     text-decoration: underline;
 }
 .submenuWrapper--noImage .submenu--thirdlevel .styledLinkContent{
-    color: #02012E !important;
+    color: #000009 !important;
     text-decoration: none;
 }
 .submenuContainer--noImageChildSubmenu  .styledLinkContent{
-    color: #02012E !important;
+    color: #000009 !important;
     text-decoration: none !important;
     font-family: 'gothambook' !important;
 }
 .submenuContainer--noImageChildSubmenu .menuItem--isOpen .styledLinkContent{
-    color: #02012E !important;
+    color: #000009 !important;
     text-decoration: none !important;
     font-family: 'gothambook' !important;
 }
@@ -158,7 +158,7 @@
     justify-content: flex-start;
 }
 .submenu--thirdlevel .styledLinkContent{
-    color: #02012E;
+    color: #000009;
     font-family: 'gothammedium';
     font-size: 16px;
     font-style: normal;
@@ -167,7 +167,7 @@
     margin-bottom: 10px;
 }
 .submenu--thirdlevel .styledLinkContent--bold{
-    color: #02012E;
+    color: #000009;
     font-family: 'gothambold';
     font-size: 16px;
     font-style: normal;
@@ -179,7 +179,7 @@
     top: 14px;
 }
 .submenuWrapper--noImage{
-    /* background-color: #DE1940;
+    /* background-color: #AB220D;
     position: relative;
     top: 13px;
     border: 1px solid #000; */
@@ -190,7 +190,7 @@
     top: 12px;
 }
 .submenuWrapper--noImage.submenuWrapper--secondLevel .menuItem .styledLinkContent, .submenuWrapper--noImage.submenuWrapper--secondLevel .menuItem--isOpen .styledLinkContent {
-    color: #02012E !important;
+    color: #000009 !important;
     text-decoration: none !important;
     font-weight: 400 !important;
     font-family: 'gothambook';

@@ -33,12 +33,12 @@
     }
 }
 .star {
-    color: #DE1940;
+    color: #AB220D;
     padding-right: 5px;
 }
 .reviewCommentUser {
     display: block;
-    color: #02012E;
+    color: #000009;
     font-family: 'gothambook';
     font-size: 20px;
     font-style: normal;
@@ -48,7 +48,7 @@
 }
 .reviewCommentMessage {
     display: block;
-    color: #02012E;
+    color: #000009;
     font-family: 'gothambook';
     font-size: 17px;
     font-style: normal;
@@ -61,7 +61,7 @@
     bottom: 0px;
 }
 .loginLink {
-    color: #02012E;
+    color: #000009;
     font-family: 'gothambook';
     font-size: 17px;
     font-style: normal;

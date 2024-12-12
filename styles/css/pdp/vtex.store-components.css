@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-family: 'gothambook';
-    color: #02012E;
+    color: #000009;
     margin-top: 15px;
 }
 .productDescriptionTitle {
@@ -13,7 +13,7 @@
     margin-top: 15px;
 }
 .skuSelectorName {
-    color: #02012E;
+    color: #000009;
     font-family: 'gothambook';
     font-size: 13px;
     font-style: normal;
@@ -25,7 +25,7 @@
     background: #F5F5F5;
 }
 .valueWrapper {
-    color:#02012E;
+    color:#000009;
     text-align: center;
     font-family: 'gothambook';
     font-size: 18px;
@@ -35,8 +35,8 @@
 }
 .skuSelectorItem--selected {
     border-radius: 5px;
-    border: 1px solid #02012E;
-    background: #02012E;
+    border: 1px solid #000009;
+    background: #000009;
     border: none;
 }
 .skuSelectorItem--selected :global(.vtex-store-components-3-x-skuSelectorItemTextValue){

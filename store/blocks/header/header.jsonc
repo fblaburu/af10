@@ -99,7 +99,7 @@
   "image#logo": {
     "props": {
       "width": 196,
-      "src": "assets/img/footer/lf10Footer.png",
+      "src": "assets/img/footer/logo-lf10-v3.png",
       "link":{
         "url":"/"
       },
@@ -114,7 +114,7 @@
   "image#logoMobile": {
     "props": {
       "width": 80,
-      "src": "assets/img/footer/lf10Footer.png",
+      "src": "assets/img/footer/logo-lf10-v3.png",
       "link":{
         "url":"/"
       },

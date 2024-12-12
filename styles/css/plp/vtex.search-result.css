@@ -32,7 +32,7 @@
 }
 .filter--FiltersPLP{
   padding: 0;
-  color: #02012E;
+  color: #000009;
   text-align: center;
   font-family: 'gothambook';
   font-size: 18px;
@@ -63,13 +63,13 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  color: #02012E;
+  color: #000009;
 }
 .filterIcon--FiltersPLP, .filterPopupArrowIcon{
   position: absolute;
   right: 0;
   top: 13px;
-  color: #02012E;
+  color: #000009;
 }
 .filter__container--priceRange{
   display: none;
@@ -90,7 +90,7 @@
   }
   @media screen and (max-width:1026px) {
     display: block;
-    color: #02012E;
+    color: #000009;
     text-align: center;
     font-family: 'gothambook';
     font-size: 14px;
@@ -102,7 +102,7 @@
 }
 .orderByText::before {
   content: 'Precio';
-  color: #02012E;
+  color: #000009;
   text-align: center;
   font-family: 'gothambook';
   font-size: 16px;
@@ -183,7 +183,7 @@
 
 .filterBreadcrumbsText {
   @media screen and (max-width:1026px) {
-    color: #02012E;
+    color: #000009;
     text-align: left;
     font-family: 'gothambook';
     font-size: 18px;
@@ -194,7 +194,7 @@
 }
 .accordionFilterItemTitle{
   @media screen and (max-width:1026px) {
-    color: #02012E;
+    color: #000009;
     text-align: left;
     font-family: 'gothambook';
     font-size: 18px;
@@ -208,7 +208,7 @@
 }
 .filterBreadcrumbsItemName--FiltersPLP {
   @media screen and (max-width:1026px) {
-    color: #02012E;
+    color: #000009;
     text-align: left;
     font-family: 'gothambook';
     font-size: 18px;
@@ -224,7 +224,7 @@
 }
 .filterAccordionItemBox{
   @media screen and (max-width:1026px) {
-    color: #02012E;
+    color: #000009;
     text-align: left;
     font-family: 'gothambook';
     font-size: 18px;
@@ -235,7 +235,7 @@
 }
 .filterClearButtonWrapper--FiltersPLP :global(.vtex-button), .filterApplyButtonWrapper :global(.vtex-button){
   @media screen and (max-width:1026px) {
-    background-color: #DE1940;
+    background-color: #AB220D;
     color: #fff;
     text-transform: none;
     text-align: center;

@@ -4,11 +4,11 @@
     margin: 4px 20px 0 0;
 }
 .minicartContainer :global(.vtex-button):hover{
-    background-color: #DE1940 !important;
+    background-color: #AB220D !important;
     border-radius: 100%;
 }
 .minicartContainer :global(.vtex-button):focus{
-    background-color: #DE1940 !important;
+    background-color: #AB220D !important;
 }
 .cartIcon{
     display: none;

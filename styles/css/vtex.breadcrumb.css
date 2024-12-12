@@ -1,7 +1,7 @@
 .homeLink::after {
     display: block;
     content: "Home";
-    color: #02012E;
+    color: #000009;
     text-align: center;
     font-family: 'gothambook';
     font-size: 15px;
@@ -23,7 +23,7 @@
     padding-left: 0px;
 }
 .link {
-    color: #02012E;
+    color: #000009;
     text-align: center;
     font-family: 'gothambook';
     font-size: 15px;
@@ -38,7 +38,7 @@
     }
 }
 .term {
-    color: #02012E;
+    color: #000009;
     text-align: center;
     font-family: 'gothambook';
     font-size: 15px;
@@ -53,5 +53,5 @@
     }
 }
 .caretIcon {
-    color: #02012E;
+    color: #000009;
 }

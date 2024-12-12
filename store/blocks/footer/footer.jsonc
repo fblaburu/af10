@@ -95,7 +95,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "![dirección](assets/img/icons/address-icon.svg) Calle 82 # 14 - Bogotá",
+      "text": "![dirección](assets/img/icons/address-icon-v3.svg) Calle 82 # 14 - Bogotá",
       "blockClass": "footer-richlinks"
     }
   },
@@ -111,7 +111,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "![dirección](assets/img/icons/email-icon.svg) correoelectronico@gmail.com",
+      "text": "![dirección](assets/img/icons/email-icon-v3.svg) correoelectronico@gmail.com",
       "blockClass": "footer-richlinks"
     }
   },
@@ -135,7 +135,7 @@
     "props": {
       "title": "Logo LF10",
       "href": "/",
-      "url": "assets/img/footer/lf10Footer.png",
+      "url": "assets/img/footer/logo-lf10-v3.png",
       "width": "170"
     }
   },

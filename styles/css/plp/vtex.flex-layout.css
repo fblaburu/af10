@@ -32,7 +32,7 @@
     width: 80%;
     margin: 0 auto;
     border-radius: 5px;
-    background: #02012E;
+    background: #000009;
     padding: 5px 15px;
     display: flex;
     justify-content: center;
@@ -148,8 +148,8 @@
 }
 .flexCol--Addbutton :global(.vtex-button){
     border-radius: 8px;
-    border: 1px solid #DE1940;
-    background: #DE1940;
+    border: 1px solid #AB220D;
+    background: #AB220D;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
     max-width: 216px;
     margin: 0 auto;
@@ -182,10 +182,10 @@ display: flex;
 align-items: center;
 }
 .flexCol--Addbutton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary){
-    color: #DE1940;
+    color: #AB220D;
 }
 .flexCol--Addbutton :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary)::before{
-    content: url('assets/img/plp/ico-cart.png');
+    content: url('assets/img/plp/ico-cart-v3.png');
     display: block;
     margin-right: 15px;
     @media screen and (max-width: 374px) {
@@ -219,7 +219,7 @@ align-items: center;
 }
 .flexCol--ViewButton :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--ViewButtonSummary){
     text-transform: none;
-    color: #DE1940;
+    color: #AB220D;
     font-family: 'gothambook';
     font-size: 15px;
     font-style: normal;
@@ -227,10 +227,10 @@ align-items: center;
     line-height: normal;
 }
 .flexCol--ViewButton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--ViewButtonSummary){
-    color: #DE1940;
+    color: #AB220D;
 }
 .flexCol--ViewButton :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--ViewButtonSummary)::after{
-    content: url('assets/img/plp/icon-eye.png');
+    content: url('assets/img/plp/icon-eye-v2.png');
     display: block;
     margin-left: 15px;
 }

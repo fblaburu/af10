@@ -305,7 +305,7 @@
     .paragraph--bannerCountDownText4 .link--bannerCountDownText4{
         padding: 15px 50px;
         border-radius: 15px;
-        background: #DE1940;
+        background: #AB220D;
         box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
         color: #FFF;
         font-family: 'gothambook';
@@ -318,13 +318,13 @@
 @media screen and (max-width:1120px) {
     .paragraph--bannerCountDownText1{
         margin-top: 40px;
-        color: #02012E;
+        color: #000009;
     }
     .paragraph--bannerCountDownText2{
-        color: #02012E;
+        color: #000009;
     }
     .paragraph--bannerCountDownText3{
-        color: #02012E;
+        color: #000009;
     }
 }
     /* bannerpluscarrusel */
@@ -461,7 +461,7 @@
 
 /* zona hincha home */
 .container--zonaHinchaCarouselTextTitle{
-    color: #02012E;
+    color: #000009;
 font-family: 'Raleway';
 font-size: 30px;
 font-style: normal;
@@ -478,7 +478,7 @@ text-align: center;
 }
 
 .container--zonaHinchaCarouselTextDescription {
-    color: #02012E;
+    color: #000009;
     font-family: 'gothambook';
     font-size: 25px;
     font-style: normal;
@@ -550,7 +550,7 @@ text-align: center;
     z-index: 99;
 }
 .wrapper--buttonCall :global(.vtex-rich-text-0-x-link--buttonCall){
-    background-color: #DE1940;
+    background-color: #AB220D;
     border: 0px;
     padding: 15px 50px;
     color: white;
@@ -570,7 +570,7 @@ text-align: center;
 }
 
 .paragraph--tabCarruselHomeCarouselTextTitle{
-    color: #02012E;
+    color: #000009;
     font-family: 'Raleway';
     font-size: 30px;
     font-style: normal;
@@ -583,7 +583,7 @@ text-align: center;
     }
 }
 .paragraph--tabCarruselHomeCarouselTextTitleDesc{
-    color: #02012E;
+    color: #000009;
     text-align: center;
     font-family: 'Raleway';
     font-size: 25px;
