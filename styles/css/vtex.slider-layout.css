@@ -41,7 +41,7 @@
   background-color: #b3b3c0;
 }
 .paginationDot--isActive {
-  background-color: #000009;
+  background-color: #02012E;
 }
 .sliderLayoutContainer--desktop {
   display: block;
@@ -55,8 +55,16 @@
 .slideChildrenContainer--slider-home-mobile {
   display: block;
 }
+@media screen and (min-width:1000px) {
+  .slideChildrenContainer--slider-home :global(.vtex-store-components-3-x-imageElement) {
+    height: auto !important;
+  }
+}
 @media screen and (max-width:768px) {
   .sliderLayoutContainer--slider-home-mobile {
     display: block;
+  }
+  .sliderTrackContainer--CarouselHomeSlider {
+    max-width: 70%;
   }
 }
