@@ -1,14 +1,4 @@
 {
-    "responsive-layout.desktop#zonaHincha":{
-      "children":[
-        "flex-layout.row#zonaHincha"
-      ]
-    },
-    "responsive-layout.mobile#zonaHincha":{
-      "children":[
-        "flex-layout.row#zonaHinchaMobile"
-      ]
-    },
     "flex-layout.row#zonaHincha": {
       "title": "zonaHincha Home Carousel",
       "props": {        
