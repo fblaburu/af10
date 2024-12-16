@@ -176,7 +176,9 @@
 }
 
 .flexCol--CarouselPlusImage:hover :global(.vtex-rich-text-0-x-container--CarouselPlusImageText){
-    bottom: 95px;
+    @media screen and (min-width:1027px) {
+        bottom: 95px;
+    }    
 }
 
 /* destacados */
@@ -261,6 +263,7 @@
 
 @media screen and (max-width:1026px) {
     .flexRowContent--ligasInternacionalesCarousel{
+        display: flex;
         flex-direction: column;
     }
     .flexRowContent--ligasInternacionalesCarousel .stretchChildrenWidth {

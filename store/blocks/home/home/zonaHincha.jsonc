@@ -1,4 +1,14 @@
 {
+    "responsive-layout.desktop#zonaHincha":{
+      "children":[
+        "flex-layout.row#zonaHincha"
+      ]
+    },
+    "responsive-layout.mobile#zonaHincha":{
+      "children":[
+        "flex-layout.row#zonaHinchaMobile"
+      ]
+    },
     "flex-layout.row#zonaHincha": {
       "title": "zonaHincha Home Carousel",
       "props": {        
@@ -198,5 +208,21 @@
               "blockClass": "zonaHinchaCarouselTeamLink",
               "width": "100%"
           } 
+    },
+    "flex-layout.row#zonaHinchaMobile": {
+      "children":[
+        "flex-layout.col#zonaHinchaMobile"
+      ]
+    },
+    "flex-layout.col#zonaHinchaMobile":{
+      "children":[
+        "image#zonaHinchaCarouselMobile",
+        "rich-text#zonaHinchaCarousel",
+        "rich-text#zonaHinchaCarouselDescription",
+        "list-context.product-list#zonaHinchaCarousel",
+        "rich-text#zonaHinchaTeam",
+        "rich-text#zonaHinchaTeamTitle",
+        "rich-text#zonaHinchaTeamLink"
+      ]
     }
   }
