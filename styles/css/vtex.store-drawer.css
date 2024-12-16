@@ -1,0 +1,28 @@
+.childrenContainer--searchMobile{
+    padding: 0 20px;
+}
+.childrenContainer--searchMobile :global(.vtex-store-components-3-x-portalContainer--mainSearch){
+    width: 100%;
+    top: 110px !important;
+}
+.childrenContainer--searchMobile :global(.vtex-search-2-x-sellingPriceValue){
+    color: #000009;
+    text-align: center;
+    font-family: 'gothambold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 81.818% */
+}
+.childrenContainer--searchMobile :global(.vtex-search-2-x-currencyDecimal), .childrenContainer--searchMobile :global(.vtex-search-2-x-currencyFraction){
+    display: none;
+}
+.childrenContainer--searchMobile :global(.vtex-search-2-x-productBrand){
+    color: var(--1, #000009);
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128% */
+}

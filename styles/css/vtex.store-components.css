@@ -105,3 +105,7 @@
 .imageElement--imagenMenu{
   width: 40%;
 }
+.imageElement--lupaMobile{
+  position: relative;
+  top: 3px;
+}

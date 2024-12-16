@@ -132,6 +132,7 @@
       "image#iconwhishlist",
       "image#logoMobile",
       "flex-layout.col#spacer",
+      "drawer#searchmobile",
       "login",
       "minicart.v2"
     ],
@@ -165,6 +166,30 @@
       ]
     }
   },
+  "search-bar#mobile": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": 567,
+      "autocompleteFullWidth":true,
+      "blockClass":[
+        "mainSearch"
+      ]
+    }
+  },
+  "drawer#searchmobile": {
+    "children": [
+      "search-bar#mobile"
+    ],
+    "blocks": ["drawer-trigger#searchmobile"],
+    "props":{
+      "blockClass":"searchMobile"
+    }
+  },
+
+  "drawer-trigger#searchmobile": {
+    "children": ["image#searchMobile"]
+  },
   "autocomplete-result-list.v2": {
     "blocks": ["product-summary.shelf"]
   },
@@ -195,6 +220,13 @@
       "link":{
         "url":"/account/#/wishlist"
       }
+    }
+  },
+  "image#searchMobile": {
+    "props": {
+      "src": "assets/img/icons/Icono-Lupa.png",
+      "maxHeight": 24,
+      "blockClass":"lupaMobile"
     }
   }
 }
