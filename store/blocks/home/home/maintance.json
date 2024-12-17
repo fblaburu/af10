@@ -9,15 +9,33 @@
     },
     "flex-layout.col#mantenimiento": {
         "children":[
-            "image#mantenimiento"
+            "responsive-layout.desktop#mantenimiento",
+            "responsive-layout.mobile#mantenimiento"
         ],
         "props":{
              "blockClass":"imageMantenimiento"
         }
     },
+    "responsive-layout.desktop#mantenimiento": {
+        "children": [
+            "image#mantenimiento"
+        ]
+    },
+    "responsive-layout.mobile#mantenimiento": {
+        "children": [
+        "image#mantenimientoMobile"
+        ]
+    },
     "image#mantenimiento": {
         "props": {
             "src": "assets/img/home/BANNER-WEB-EN-SERVICIO-100.jpg",
+            "width": "100%",
+            "blockClass":"imageMantenimiento"
+        }
+    },
+    "image#mantenimientoMobile": {
+        "props": {
+            "src": "assets/img/home/imageMantenimientoMobile.jpeg",
             "width": "100%",
             "blockClass":"imageMantenimiento"
         }
