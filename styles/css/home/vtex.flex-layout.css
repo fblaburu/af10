@@ -315,3 +315,29 @@
   .flexRow--TabContentCarruselSlider :global(.vtex-slider-layout-0-x-sliderLayoutContainer){
     margin-bottom: 20px;
   }
+
+
+
+
+
+
+
+  /* quitar esto */
+  :global(.vtex-store-footer-2-x-footerLayout), :global(.vtex-sticky-layout-0-x-container){
+    display: none;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--imageMantenimiento) :global(.vtex-store-components-3-x-container){
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--imageMantenimiento){
+    position: absolute;
+    height: 100vh;
+    background: #000009;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }

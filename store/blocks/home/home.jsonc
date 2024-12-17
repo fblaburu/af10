@@ -1,19 +1,20 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#slider",
-      "list-context.image-list#sliderGeneral",
-      "flex-layout.row#zonaHincha",
-      "flex-layout.row#bannerCountDown",
+      "flex-layout.row#mantenimiento"
+      // "flex-layout.row#slider",
+      // "list-context.image-list#sliderGeneral",
+      // "flex-layout.row#zonaHincha",
+      // "flex-layout.row#bannerCountDown",
       //"tab-layout#pdp",
-      "flex-layout.row#destacadosHome",
-      "flex-layout.row#bannerMarcas",      
-      "flex-layout.row#ligasInternacionalesCarousel",
-      "flex-layout.row#ligaNacionalCarousel",
-      "flex-layout.row#guayosCarousel",
-      "flex-layout.row#bannerImplementos",
-      "flex-layout.row#OurExperience",
-      "flex-layout.row#bannerBlogs"
+      // "flex-layout.row#destacadosHome",
+      // "flex-layout.row#bannerMarcas",      
+      // "flex-layout.row#ligasInternacionalesCarousel",
+      // "flex-layout.row#ligaNacionalCarousel",
+      // "flex-layout.row#guayosCarousel",
+      // "flex-layout.row#bannerImplementos",
+      // "flex-layout.row#OurExperience",
+      // "flex-layout.row#bannerBlogs"
     ]
   }  
 }

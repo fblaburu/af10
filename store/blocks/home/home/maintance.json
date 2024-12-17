@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#mantenimiento": {
+        "children":[
+            "flex-layout.col#mantenimiento"
+        ],
+        "props":{
+             "blockClass":"imageMantenimiento"
+        }
+    },
+    "flex-layout.col#mantenimiento": {
+        "children":[
+            "image#mantenimiento"
+        ],
+        "props":{
+             "blockClass":"imageMantenimiento"
+        }
+    },
+    "image#mantenimiento": {
+        "props": {
+            "src": "assets/img/home/BANNER-WEB-EN-SERVICIO-100.jpg",
+            "width": "100%",
+            "blockClass":"imageMantenimiento"
+        }
+    }
+}
