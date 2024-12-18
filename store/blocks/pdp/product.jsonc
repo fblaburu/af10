@@ -112,6 +112,7 @@
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#product-name",
       "flex-layout.row#selling-price",
+      // "camisetasAttatchment",
       //"flex-layout.row#list-price-savings",
       "sku-selector",
       "product-rating-summary",
@@ -119,7 +120,8 @@
       "similar-products-variants",
       //"product-separator",
       //"product-identifier.product",
-      "product-assembly-options",
+      "flex-layout.row#assembly-options",
+      "camisetasAttatchment",
       "product-gifts",
       //"availability-subscriber",
       //"shipping-simulator",
@@ -129,7 +131,15 @@
       "flex-layout.row#descriptionpdp"
     ]
   },
-
+  "flex-layout.row#assembly-options":{
+    "children":["flex-layout.col#assembly-options"]
+  },
+  "flex-layout.col#assembly-options":{
+    "children":["product-assembly-options"],
+    "props":{
+      "blockClass":"btnpersonalization"
+    }    
+  },
   "vtex.product-highlights@2.x:product-highlights": {
     "props": {
       "blockClass": "flagspdp"

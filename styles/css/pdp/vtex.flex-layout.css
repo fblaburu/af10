@@ -183,4 +183,77 @@
     margin-bottom: 100px;
 
 }
-
+.flexCol--btnpersonalization .flexColChild--btnpersonalization{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexCol--btnpersonalization .flexColChild--btnpersonalization::before{
+    content: '¿Personalizar?';
+    display: block;
+    color: #000009;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 30px;
+}
+.flexCol--btnpersonalization :global(.vtex-button){
+    border-radius: 5px;
+    border: 1px solid #616161;
+    background: #F5F5F5;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 67px;
+    padding: 12px 0;
+}
+.flexCol--btnpersonalization :global(.vtex-button):hover{
+    background: #AB220D;
+}
+.flexCol--btnpersonalization :global(.vtex-button) :global(.vtex-button__label)::before{
+    content: 'Si';
+    display: block;
+    color: #000009;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+    text-transform: capitalize;
+}
+.flexCol--btnpersonalization :global(.vtex-button):hover :global(.vtex-button__label)::before{
+    color: #fff;
+}
+.flexCol--btnpersonalization :global(.vtex-button) :global(.vtex-button__label){
+    font-size: 0;
+}
+.flexCol--btnpersonalization :global(.vtex-product-customizer-2-x-productAssemblyGroupName){
+    display: none;
+}
+.flexCol--btnpersonalization :global(.vtex-product-customizer-2-x-productAssemblyGroupNameRow) :global(.vtex-button){
+    background: #AB220D;    
+}
+.flexCol--btnpersonalization :global(.vtex-product-customizer-2-x-productAssemblyGroupNameRow) :global(.vtex-button) :global(.vtex-button__label)::before{
+    color: #fff;
+}
+.flexCol--btnpersonalization .flexRow{
+    width: 100%;
+}
+:global(.vtex-product-customizer-2-x-textInputValue){
+    margin-top: 30px;
+    margin-right: 30px;
+    @media screen and (max-width:768px) {
+        margin-right: 5px;
+    }
+}
+.flexCol--btnpersonalization :global(.vtex-input){
+    position: relative;    
+}
+.flexCol--btnpersonalization :global(.vtex-input__label){
+   display: none;
+}
+.flexCol--btnpersonalization :global(.vtex-input-prefix__group){
+    max-width: 123px;    
+}
