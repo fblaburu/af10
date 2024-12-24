@@ -27,6 +27,7 @@ const CSS_HANDLES = [
   'seeAllLink',
   'submenuContainerTitle',
   'hideArrow',
+  'separated'
 ] as const
 
 const messages = defineMessages({
@@ -143,7 +144,6 @@ const Submenu: FC<ItemProps> = observer((props) => {
                 <>
                   <Item
                     to={category.slug}
-                    iconId={category.icon}
                     level={2}
                     style={category.styles}
                     isTitle
@@ -151,7 +151,11 @@ const Submenu: FC<ItemProps> = observer((props) => {
                     closeMenu={closeMenu}
                   >
                     {category.icon!=''?<img src={`https://lf10.myvtex.com/arquivos/${category.icon}.png`}/>:null}
-                    {category.name}
+                    <br/>
+                    <div className={handles.separated}>
+                      {category.name} <span>ver todo &gt;</span>
+                    </div>
+                    
                   </Item>
 
                   {!!subcategories.length && subcategories}
@@ -218,12 +222,12 @@ const Submenu: FC<ItemProps> = observer((props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [departmentActive, collapsibleStates]
   )
-
+  console.log('showBtnCat',showBtnCat)
   return (
     <>
       {departmentActive && (
         <>
-          <h3
+          {/* <h3
             className={classNames(
               handles.submenuContainerTitle,
               'f4 fw7 c-on-base lh-copy ma0 flex items-center',
@@ -242,7 +246,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
             ) : (
               <div />
             )}
-          </h3>
+          </h3> */}
           <div
             className={classNames(
               orientation === 'horizontal' &&
@@ -260,8 +264,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
                 <ExtensionPoint id="after-menu" />
               </>
             ) : (
-              <>
-               
+              <>               
                 {items}
                 {/* showBtnCat ? seeAllLink(departmentActive.slug) : <div /> */}
               </>

@@ -6,7 +6,6 @@ import type { InjectedIntlProps } from 'react-intl'
 import { injectIntl } from 'react-intl'
 import Skeleton from 'react-loading-skeleton'
 import { useCssHandles } from 'vtex.css-handles'
-import { formatIOMessage } from 'vtex.native-types'
 
 import { megaMenuState } from '../State'
 import styles from '../styles.css'
@@ -31,12 +30,12 @@ const HorizontalMenu: FC<
   const {
     departments,
     departmentActive,
-    config: { title, defaultDepartmentActive },
+    config: { defaultDepartmentActive },
     setDepartmentActive,
     openMenu,
   } = megaMenuState
 
-  const { openOnly, orientation, intl } = props
+  const { openOnly, orientation } = props
 
   const departmentActiveHasCategories = !!departmentActive?.menu?.length
   const navRef = useRef<HTMLDivElement>(null)
@@ -106,7 +105,6 @@ const HorizontalMenu: FC<
               <Item
                 id={d.id}
                 to={d.slug}
-                iconId={d.icon}
                 accordion={hasCategories}
                 className={classNames('pv3 mh5')}
                 style={d.styles}
@@ -141,7 +139,7 @@ const HorizontalMenu: FC<
     <nav
       className={classNames(
         handles.menuContainerNav,
-        'absolute left-0 bg-white bw1 bb b--muted-3 flex'
+        'left-0 bg-white bw1 bb b--muted-3 flex'
       )}
       ref={navRef}
     >
@@ -151,9 +149,6 @@ const HorizontalMenu: FC<
           'list ma0 pa0 pb3 br b--muted-4'
         )}
       >
-        <h3 className="f4 fw7 c-on-base lh-copy ma0 pv5 ph5">
-          {formatIOMessage({ id: title, intl })}
-        </h3>
         {departments.length ? (
           departmentItems
         ) : (
@@ -165,7 +160,7 @@ const HorizontalMenu: FC<
       {departments.length ? (
         departmentActive &&
         departmentActiveHasCategories && (
-          <div className={classNames(styles.submenuContainer, 'pa5 w-100')}>
+          <div className={classNames(styles.submenuContainer, 'pa5 w-100','absolute')}>
             <Submenu closeMenu={openMenu ?? 'horizontal'} openOnly={openOnly} />
           </div>
         )

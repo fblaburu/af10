@@ -5,9 +5,18 @@
 }
 
 .menuContainer {
-  width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
-
+.submenuContainer{
+  width: 100%;
+  left: 0;
+  top: 124px;
+  background-color: #fff;
+  max-height: 100vh;
+  min-height: 50vh;
+}
 .submenuList {
   display: grid;
   gap: 2rem;
@@ -28,4 +37,17 @@
 
 .hideArrow svg {
   display: none;
+}
+.styledLinkText {
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+.caretIcon{
+  display: none;
+}
+.separated{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
