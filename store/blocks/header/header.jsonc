@@ -75,9 +75,14 @@
       "blockClass": ["sticky-header-row-menu","sticky-menu-desktop"]
     },
     "children": [
-       "flex-layout.col#menu"
-      // "flex-layout.row#4-desktop",
-      // "flex-layout.row#mega-menu"
+      //  "flex-layout.col#menu"
+      "flex-layout.col#headerDown"
+    ]
+  },
+  "flex-layout.col#headerDown":{
+    "children":[
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#mega-menu"
     ]
   },
   "flex-layout.col#menu": {

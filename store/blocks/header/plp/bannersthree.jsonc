@@ -1,0 +1,85 @@
+{
+    "flex-layout.row#BannersFourPLP": {
+        "children":[
+            "flex-layout.col#BannersFourPLPLeft",
+            "flex-layout.col#BannersFourPLPRight"
+        ]
+    },
+    "flex-layout.col#BannersFourPLPLeft": {
+        "children":[
+            "flex-layout.row#BannersFourPLPContentLeft"
+        ],
+        "props":{
+            "width":"60%"
+        }
+    },
+    "flex-layout.row#BannersFourPLPContentLeft":{
+        "children":[
+            "flex-layout.col#BannersFourPLPContentLeft"
+        ]       
+    },
+    "flex-layout.col#BannersFourPLPContentLeft":{
+        "children":[
+            "image#BannersFourPLPContentLeftImage"
+        ]
+    },
+    "flex-layout.col#BannersFourPLPRight":{
+        "children":[
+            "flex-layout.row#BannersFourPLPContentRightFirstBanner",
+            "flex-layout.row#BannersFourPLPContentRightSecondBanner"
+        ],
+        "props":{
+            "width":"40%"
+        }
+    },    
+    "flex-layout.row#BannersFourPLPContentRightFirstBanner":{
+        "children":[
+            "flex-layout.col#BannersFourPLPContentRightFirstBanner"
+        ]       
+    },
+    "flex-layout.col#BannersFourPLPContentRightFirstBanner":{
+        "children":[
+            "image#BannersFourPLPContentRightFirstBannerImage"
+        ] 
+    },
+    "flex-layout.row#BannersFourPLPContentRightSecondBanner":{
+        "children":[
+            "flex-layout.col#BannersFourPLPContentRightSecondBanner"
+        ]       
+    },
+    "flex-layout.col#BannersFourPLPContentRightSecondBanner":{
+        "children":[
+            "image#BannersFourPLPContentRightSecondBannerImage"
+        ] 
+    },
+    "image#BannersFourPLPContentLeftImage": {
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerleft-plp.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "image#BannersFourPLPContentRightFirstBannerImage": {
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerright-plp-1.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "image#BannersFourPLPContentRightSecondBannerImage": {
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerright-plp-2.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    }
+}

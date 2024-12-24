@@ -64,7 +64,7 @@
     "children": [
       "flex-layout.row#searchbread",
       // "image#bannersearch",
-      "video#backgroundPLP",
+      "flex-layout.row#BannersFourPLP",
       "flex-layout.row#searchtitle",
       "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#result"

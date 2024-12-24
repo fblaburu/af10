@@ -200,6 +200,9 @@
     line-height: normal;
     margin-right: 30px;
 }
+.flexCol--btnpersonalization--IsHidden .flexColChild--btnpersonalization::before{
+    display: none;
+}
 .flexCol--btnpersonalization :global(.vtex-button){
     border-radius: 5px;
     border: 1px solid #616161;
