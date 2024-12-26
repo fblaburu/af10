@@ -1,14 +1,16 @@
-.menuContainer  :global(.vtex-mega-menu-2-x-styledLinkContainer){
-    padding: 7px 20px;
-}
-.menuContainer :global(.vtex-mega-menu-2-x-styledLink) {
-    color: white;
-    font-family: "Roboto", serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.menuContainer :global(.vtex-mega-menu-2-x-styledLink):hover, .menuContainer :global(.vtex-mega-menu-2-x-styledLink):hover  {
-    color: #AB220D;
+@media screen and (min-width:992px) {
+    .menuContainer  :global(.vtex-mega-menu-2-x-styledLinkContainer){
+        padding: 7px 20px;
+    }
+    .menuContainer :global(.vtex-mega-menu-2-x-styledLink) {
+        color: white;
+        font-family: "Roboto", serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .menuContainer :global(.vtex-mega-menu-2-x-styledLink):hover, .menuContainer :global(.vtex-mega-menu-2-x-styledLink):hover  {
+        color: #AB220D;
+    }
 }

@@ -6,7 +6,7 @@ import type { InjectedIntlProps } from 'react-intl'
 import { injectIntl } from 'react-intl'
 import Skeleton from 'react-loading-skeleton'
 import { useCssHandles } from 'vtex.css-handles'
-import { formatIOMessage } from 'vtex.native-types'
+// import { formatIOMessage } from 'vtex.native-types'
 import { useDevice } from 'vtex.device-detector'
 
 import { megaMenuState } from '../State'
@@ -28,18 +28,15 @@ const VerticalMenu: FC<VerticalMenuProps> = observer((props) => {
   const {
     departments,
     departmentActive,
-    config,
     setDepartmentActive,
     isOpenMenu,
   } = megaMenuState
 
   const { isMobile } = useDevice()
 
-  const { openOnly, orientation, intl } = props
+  const { openOnly, orientation } = props
 
   const departmentActiveHasCategories = !!departmentActive?.menu?.length
-
-  const { title } = config
 
   const departmentItems = useMemo(
     () =>
@@ -89,14 +86,6 @@ const VerticalMenu: FC<VerticalMenuProps> = observer((props) => {
           dn: !!departmentActive,
         })}
       >
-        <h3
-          className={classNames(
-            handles.departmentsTitle,
-            'f4 fw7 c-on-base mv5 lh-copy ph5'
-          )}
-        >
-          {formatIOMessage({ id: title, intl })}
-        </h3>
         <ul className={classNames(handles.menuContainerVertical, 'list pa0')}>
           {departments.length ? (
             departmentItems
