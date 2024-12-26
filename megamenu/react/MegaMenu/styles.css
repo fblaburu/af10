@@ -12,15 +12,14 @@
 .submenuContainer{
   width: 100%;
   left: 0;
-  top: 124px;
+  top: 120px;
   background-color: #fff;
   max-height: 100vh;
   min-height: 50vh;
 }
 .submenuList {
-  display: grid;
+  display: flex;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .submenuList > .submenuItem {
@@ -49,5 +48,83 @@
 .separated{
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   width: 100%;
+  color: #000009;
+  font-family: 'gothambold';
+  font-size: 23px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+}
+.submenubox1{
+  width: 35%;
+}
+.submenubox2{
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.submenubox2.noImageDpto{
+  width: 100%;
+}
+.submenuItem{
+  min-width: 33%;
+  width: 33%;
+  padding: 0 2%;  
+}
+.separatorItem{
+  background: rgba(0, 0, 9, 0.20);
+  width: 1px;
+}
+.separatorItem:last-child{
+  display: none;
+}
+.ImageSubmenu{
+  width: 100%;
+}
+.separatedChilds{
+  font-size: 16px;
+}
+.submenuItemChild .submenuItem {
+  padding-left: 0;
+  width: 100%;
+}
+.submenuItemChild .styledLinkText {
+  color: #000009;
+  font-family: 'gothambook';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;  
+}
+.indispensableLink{
+  min-width: 33%;
+  width: 33%;
+  position: relative;
+}
+.indispensableLink .separated{
+  position: absolute;
+  bottom: 42px;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #FFF;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.indispensableLink .separated .separatedChilds{
+  display: none;
 }

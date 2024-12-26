@@ -27,7 +27,15 @@ const CSS_HANDLES = [
   'seeAllLink',
   'submenuContainerTitle',
   'hideArrow',
-  'separated'
+  'separated',
+  "dptoImage",
+  "submenubox1",
+  "submenubox2",
+  "separatorItem",
+  "ImageSubmenu",
+  "separatedChilds",
+  "submenuItemChild",
+  "noImageDpto"
 ] as const
 
 const messages = defineMessages({
@@ -84,21 +92,28 @@ const Submenu: FC<ItemProps> = observer((props) => {
     return items
       .filter((v) => v.display)
       .map((x) => (
-        <div key={x.id} className={classNames(handles.submenuItem, 'mt3')}>
-          <Item
-            to={x.slug}
-            iconId={x.icon}
-            level={3}
-            style={x.styles}
-            enableStyle={x.enableSty}
-            closeMenu={closeMenu}
-          >
-            {x.name}
-          </Item>
-        </div>
+        <div className={handles.submenuItemChild}>
+          <div key={x.id} className={classNames(handles.submenuItem, 'mt3')}>
+            <Item
+              to={x.slug}
+              iconId={x.icon}
+              level={3}
+              style={x.styles}
+              enableStyle={x.enableSty}
+              closeMenu={closeMenu}
+            >
+              {x.name}
+            </Item>
+          </div>
+        </div>        
       ))
   }
-
+  const prepareStyleClass = (style:any)=>{    
+    let formatedStyle = style.toString();
+    formatedStyle = formatedStyle.replace('{','');
+    formatedStyle = formatedStyle.replace('}','')
+    return formatedStyle;
+  };
   const items = useMemo(
     () => {
       if (!departmentActive) return
@@ -114,8 +129,8 @@ const Submenu: FC<ItemProps> = observer((props) => {
       }
 
       const categories = getCategories()
-
-      return categories
+      
+        return categories
         .filter((j) => j.display)
         .map((category, i) => {
           const subcategories = category.menu?.length
@@ -123,12 +138,13 @@ const Submenu: FC<ItemProps> = observer((props) => {
             : []
 
           return (
+            <>
             <div
               key={category.id}
               className={classNames(
                 applyModifiers(
                   orientation === 'horizontal' && openOnly === 'horizontal'
-                    ? styles.submenuItem
+                    ? (styles.submenuItem)
                     : handles.submenuItemVertical,
                   collapsibleStates[category.id] ? 'isOpen' : 'isClosed'
                 ),
@@ -137,7 +153,8 @@ const Submenu: FC<ItemProps> = observer((props) => {
                 (orientation === 'vertical' || openOnly === 'vertical') &&
                   i === 0 &&
                   'bt',
-                collapsibleStates[category.id] && 'bg-near-white'
+                collapsibleStates[category.id] && 'bg-near-white',
+              `vtex-mega-menu-2-x-${prepareStyleClass(category.styles)}`
               )}
             >
               {orientation === 'horizontal' && openOnly === 'horizontal' ? (
@@ -150,20 +167,14 @@ const Submenu: FC<ItemProps> = observer((props) => {
                     enableStyle={category.enableSty}
                     closeMenu={closeMenu}
                   >
-                    {category.icon!=''?<img src={`https://lf10.myvtex.com/arquivos/${category.icon}.png`}/>:null}
+                    {category.icon!=''?<img className={handles.ImageSubmenu} src={`https://lf10.myvtex.com/arquivos/${category.icon}.png?v=${Math.random()}`}/>:null}
                     <br/>
                     <div className={handles.separated}>
-                      {category.name} <span>ver todo &gt;</span>
+                      {category.name} <span className={handles.separatedChilds}>ver todo &gt;</span>
                     </div>
                     
                   </Item>
-
-                  {!!subcategories.length && subcategories}
-                  {subcategories.length > 1 ? (
-                    seeAllLink(category.slug, 2)
-                  ) : (
-                    <div />
-                  )}
+                  {!!subcategories.length && subcategories}                  
                 </>
               ) : (
                 <div
@@ -216,6 +227,8 @@ const Submenu: FC<ItemProps> = observer((props) => {
                 </div>
               )}
             </div>
+            {orientation === 'horizontal'?(<div className={handles.separatorItem}></div>):null}
+            </>
           )
         })
     },
@@ -256,19 +269,22 @@ const Submenu: FC<ItemProps> = observer((props) => {
                 handles.submenuListVertical
             )}
           >
-            {departmentActive.icon !=''?<img src={`https://lf10.myvtex.com/arquivos/${departmentActive.icon}.png`}/>:null}
-             
-            {orientation === 'horizontal' && openOnly === 'horizontal' ? (
-              <>
-                <ExtensionPoint id="before-menu" /> {items}{' '}
-                <ExtensionPoint id="after-menu" />
-              </>
-            ) : (
-              <>               
-                {items}
-                {/* showBtnCat ? seeAllLink(departmentActive.slug) : <div /> */}
-              </>
-            )}
+            
+            {departmentActive.icon !=''?<div className={handles.submenubox1}><img className={handles.dptoImage} src={`https://lf10.myvtex.com/arquivos/${departmentActive.icon}.png?v=${Math.random()}`}/></div>:null}
+            
+            <div className={`${handles.submenubox2} ${departmentActive.icon ==''?handles.noImageDpto:''}`}>
+              {orientation === 'horizontal' && openOnly === 'horizontal' ? (
+                <>
+                  <ExtensionPoint id="before-menu" /> {items}{' '}
+                  <ExtensionPoint id="after-menu" />
+                </>
+              ) : (
+                <>               
+                  {items}
+                  {/* showBtnCat ? seeAllLink(departmentActive.slug) : <div /> */}
+                </>
+              )}
+            </div>
           </div>
         </>
       )}

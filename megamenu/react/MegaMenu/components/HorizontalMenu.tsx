@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import { observer } from 'mobx-react-lite'
 import type { FC } from 'react'
-import React, { useCallback, useEffect, useMemo, useRef } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { InjectedIntlProps } from 'react-intl'
 import { injectIntl } from 'react-intl'
 import Skeleton from 'react-loading-skeleton'
@@ -36,7 +36,7 @@ const HorizontalMenu: FC<
   } = megaMenuState
 
   const { openOnly, orientation } = props
-
+  const [showSubcategories, setShowSubcategories]=useState(true);
   const departmentActiveHasCategories = !!departmentActive?.menu?.length
   const navRef = useRef<HTMLDivElement>(null)
 
@@ -142,6 +142,8 @@ const HorizontalMenu: FC<
         'left-0 bg-white bw1 bb b--muted-3 flex'
       )}
       ref={navRef}
+      onMouseLeave={()=>{setShowSubcategories(false)}}
+      onMouseEnter={()=>{setShowSubcategories(true)}}
     >
       <ul
         className={classNames(
@@ -157,14 +159,19 @@ const HorizontalMenu: FC<
           </div>
         )}
       </ul>
-      {departments.length ? (
-        departmentActive &&
-        departmentActiveHasCategories && (
-          <div className={classNames(styles.submenuContainer, 'pa5 w-100','absolute')}>
-            <Submenu closeMenu={openMenu ?? 'horizontal'} openOnly={openOnly} />
-          </div>
-        )
-      ) : null}
+      {
+        showSubcategories?
+          departments.length ? (
+            departmentActive &&
+            departmentActiveHasCategories && (
+              <div className={classNames(styles.submenuContainer, 'pa5 w-100','absolute')}>
+                <Submenu closeMenu={openMenu ?? 'horizontal'} openOnly={openOnly} />
+              </div>
+            )
+          ) : null
+        :null
+      }
+      
     </nav>
   ) : null
 })
