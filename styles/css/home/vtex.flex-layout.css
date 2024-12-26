@@ -303,7 +303,8 @@
 
   .flexRowContent--sticky-header-row-menu{
     @media screen and (min-width:1027px) {
-    padding-right: 20% !important;
+    padding-right: 0% !important;
+    display: block;
     }
   }
 
@@ -314,6 +315,15 @@
   }
   .flexRow--TabContentCarruselSlider :global(.vtex-slider-layout-0-x-sliderLayoutContainer){
     margin-bottom: 20px;
+  }
+
+
+  .flexRowContent--sticky-menu-desktop :global(.vtex-mega-menu-2-x-menuContainerNav) {
+    background-color: #000009;
+    border: none;
+  }
+  .flexRowContent--sticky-menu-desktop :global(.vtex-mega-menu-2-x-menuContainer) {
+    border: 0px;
   }
 
 

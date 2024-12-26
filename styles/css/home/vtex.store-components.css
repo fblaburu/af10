@@ -1,5 +1,5 @@
 .searchBarContainer{
-    background-color: #32316E;
+    background-color:  #373535;
     padding: 0 10px 0 10px;
     border-radius: 5px;
     margin-top: 10px;
@@ -13,7 +13,7 @@
     display: flex;
 }
 .autoCompleteOuterContainer--mainSearch :global(.vtex-input__suffix){
-    background-color: #32316E;
+    background-color: #373535;
     padding: 0;
     border-radius: 0;
 }
@@ -25,7 +25,7 @@
     font-family: 'gothambook';
     border-bottom: 1px solid #9898b7;
     padding: 0;
-    background-color: #32316E;
+    background-color:#373535;
     order: 1;
     padding-left: 3px;
 }

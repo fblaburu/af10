@@ -331,3 +331,6 @@ width: 100%;
 .menuContainerNav--MenuMobile .submenu--secondLevelPlus .submenu--thirdlevel .styledLinkContent {
     margin-bottom: 0;
 }
+.menuContainer :global(.vtex-mega-menu-2-x-styledLinkContainer) {
+    
+}
