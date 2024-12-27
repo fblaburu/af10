@@ -59,7 +59,7 @@
 
 .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPriceValue) {
     color: white;
-    font-size: 25.8px;
+    font-size: 31.8px;
     
 }
 @media screen and (max-width: 720px) {
@@ -149,9 +149,12 @@
 }
 .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__minus-button__text), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__plus-button__text){
     border: 3px solid #AB220D;
-    padding: 7px 9px;
+    padding: 0px 2px;
     border-radius: 41px;
-    font-size: 25px;
+    font-size: 22px;
+}
+:global(.vtex-product-price-1-x-currencyDecimal), :global(.vtex-product-price-1-x-currencyFraction){
+    display: none;
 }
 .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPrice) {
     margin-top: 7px;
