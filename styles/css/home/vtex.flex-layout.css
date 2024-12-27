@@ -11,6 +11,11 @@
     display: flex;
     align-items: center;
 }
+.flexColChild--wishlistIcon :global(.vtex-store-components-3-x-imageElement){
+    @media screen and (max-width:991px) {
+        width: 15px;
+    }    
+}
 .flexRowContent--sticky-header-row-menu {
     border-top: 1px solid #AB220D;
     padding-top: 0;

@@ -204,6 +204,16 @@
       "blockClass":["imageLogo"]
     }
   },
+  "image#logoMobileHeader": {
+    "props": {
+      "width": 80,
+      "src": "assets/img/footer/logo-lf10-v3.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass":["imageLogo"]
+    }
+  },
   "header-layout.mobile": {
     "children": [
       "sticky-layout#mobile"
@@ -216,19 +226,72 @@
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer#menu-mobile",
-      "image#iconwhishlist",
-      "image#logoMobile",
-      "flex-layout.col#spacer",
-      "drawer#searchmobile",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#drawer-menu-mobile",
+      "flex-layout.col#wishlistheadermobile",
+      "flex-layout.col#imageheadermobile",
+      "flex-layout.col#SearchHeaderMobile",
+      "flex-layout.col#LoginHeaderMobile",
+      "flex-layout.col#MinicartHeaderMobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-menu-mobile":{
+    "children": [
+      "drawer#menu-mobile"
+    ],
+    "props":{
+      "width":"10%",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#wishlistheadermobile":{
+    "children": [
+      "image#iconwhishlist"
+    ],
+    "props":{
+      "width":"10%",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#imageheadermobile":{
+    "children": [
+      "image#logoMobileHeader"
+    ],
+    "props":{
+      "width":"50%",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#SearchHeaderMobile":{
+    "children": [
+      "drawer#searchmobile"
+    ],
+    "props":{
+      "width":"10%",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#LoginHeaderMobile":{
+    "children": [
+      "login"
+    ],
+    "props":{
+      "width":"10%",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#MinicartHeaderMobile":{
+    "children": [
+      "minicart.v2"
+    ],
+    "props":{
+      "width":"10%",
+      "horizontalAlign": "center"
     }
   },
   "drawer": {

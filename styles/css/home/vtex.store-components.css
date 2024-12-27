@@ -99,6 +99,9 @@ margin: 0 auto;
 
 .imageElement--imageLogo{
     margin: 0 40px 0 20px;
+    @media screen and (max-width:991px) {
+        margin: 0;
+    }
 }
 
 
