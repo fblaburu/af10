@@ -1,0 +1,127 @@
+{
+    "experimental__visibility-layout#BannersThreePLP": {
+        "title":"Ocultar/Mostrar Tres Banners PLP",
+        "children": [
+            "flex-layout.row#BannersThreePLP"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "flex-layout.row#BannersThreePLP": {
+        "children":[
+            "flex-layout.col#BannersThreePLPLeft",
+            "flex-layout.col#BannersThreePLPRight"
+        ]
+    },
+    "flex-layout.col#BannersThreePLPLeft": {
+        "children":[
+            "flex-layout.row#BannersThreePLPContentLeft"
+        ],
+        "props":{
+            "width":"60%"
+        }
+    },
+    "flex-layout.row#BannersThreePLPContentLeft":{
+        "children":[
+            "flex-layout.col#BannersThreePLPContentLeft"
+        ]       
+    },
+    "flex-layout.col#BannersThreePLPContentLeft":{
+        "children":[
+            "image#BannersThreePLPContentLeftImage",
+            "rich-text#LeftImageText"
+        ],
+        "props":{
+            "blockClass":"BannersPLPBigImage"
+        }
+    },
+    "flex-layout.col#BannersThreePLPRight":{
+        "children":[
+            "flex-layout.row#BannersThreePLPContentRightFirstBanner",
+            "flex-layout.row#BannersThreePLPContentRightSecondBanner"
+        ],
+        "props":{
+            "width":"40%"
+        }
+    },    
+    "flex-layout.row#BannersThreePLPContentRightFirstBanner":{
+        "children":[
+            "flex-layout.col#BannersThreePLPContentRightFirstBanner"
+        ]       
+    },
+    "flex-layout.col#BannersThreePLPContentRightFirstBanner":{
+        "children":[
+            "image#BannersThreePLPContentRightFirstBannerImage",
+            "rich-text#RightImageText1"
+        ],
+        "props":{
+            "blockClass":"BannersPLPBigImage"
+        } 
+    },
+    "flex-layout.row#BannersThreePLPContentRightSecondBanner":{
+        "children":[
+            "flex-layout.col#BannersThreePLPContentRightSecondBanner"
+        ]   
+    },
+    "flex-layout.col#BannersThreePLPContentRightSecondBanner":{
+        "children":[
+            "image#BannersThreePLPContentRightSecondBannerImage",
+            "rich-text#RightImageText2"
+        ],
+        "props":{
+            "blockClass":"BannersPLPBigImage"
+        } 
+    },
+    "image#BannersThreePLPContentLeftImage": {
+        "title":"Imagen Izquierda",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerleft-plp.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#LeftImageText": {
+        "title": "Texto Imagen Izquierda",
+        "props": {
+            "text": "Colección adidas 3rd [Ver toda la indumentaria](#)"
+        }
+    },
+    "image#BannersThreePLPContentRightFirstBannerImage": {
+        "title":"Imagen Derecha 1",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerright-plp-1.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#RightImageText1": {
+        "title": "Texto Imagen Derecha 1",
+        "props": {
+            "text": "Federaciones"
+        }
+    },
+    "image#BannersThreePLPContentRightSecondBannerImage": {
+        "title":"Imagen Derecha 2",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerright-plp-2.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#RightImageText2": {
+        "title": "Texto Imagen Derecha 2",
+        "props": {
+            "text": "Clubes"
+        }
+    }
+}

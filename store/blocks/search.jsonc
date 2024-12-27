@@ -64,9 +64,10 @@
     "children": [
       "flex-layout.row#searchbread",
       // "image#bannersearch",
-      "flex-layout.row#BannersFourPLP",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#ligasInternacionalesPLP",
+      "experimental__visibility-layout#BannersThreePLP",
+      "experimental__visibility-layout#BannersFourPLP",
+      // "flex-layout.row#searchtitle",
+      // "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#result"
     ],
     "props": {
@@ -192,9 +193,9 @@
 
   "search-result-layout.mobile": {
     "children": [
-      "video#backgroundPLP",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#ligasInternacionalesPLP",
+      // "video#backgroundPLP",
+      // "flex-layout.row#searchtitle",
+      // "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#switcherMobile",
       "flex-layout.row#searchbread",

@@ -1,0 +1,159 @@
+{
+    "experimental__visibility-layout#BannersFourPLP": {
+        "title":"Ocultar/Mostrar Cuatro Banners PLP",
+        "children": [
+            "flex-layout.row#BannersFourPLP"
+        ],
+        "props": {
+            "visible": true
+        }
+    },
+    "flex-layout.row#BannersFourPLP": {
+        "children":[
+            "flex-layout.col#BannersFourPLPLeft",
+            "flex-layout.col#BannersFourPLPRight"
+        ]
+    },
+    "flex-layout.col#BannersFourPLPLeft": {
+        "children":[
+            "flex-layout.row#BannersFourPLPContentLeft"
+        ],
+        "props":{
+            "width":"65%"
+        }
+    },
+    "flex-layout.row#BannersFourPLPContentLeft":{
+        "children":[
+            "flex-layout.col#BannersFourPLPContentLeft"
+        ]       
+    },
+    "flex-layout.col#BannersFourPLPContentLeft":{
+        "children":[
+            "image#BannersFourPLPContentLeftImage",
+            "rich-text#LeftImageTextFour"
+        ],
+        "props":{
+            "blockClass":"BannersPLPBigImage"
+        }
+    },
+    "flex-layout.col#BannersFourPLPRight":{
+        "children":[
+            "flex-layout.row#BannersFourPLPContentRightFirstBanner",
+            "flex-layout.row#BannersFourPLPContentRightSecondBanner",
+            "flex-layout.row#BannersFourPLPContentRightThirdBanner"
+        ],
+        "props":{
+            "width":"35%"
+        }
+    },    
+    "flex-layout.row#BannersFourPLPContentRightFirstBanner":{
+        "children":[
+            "flex-layout.col#BannersFourPLPContentRightFirstBanner"
+        ]       
+    },
+    "flex-layout.col#BannersFourPLPContentRightFirstBanner":{
+        "children":[
+            "image#BannersFourPLPContentRightFirstBannerImage",
+            "rich-text#RightImageTextFour1"
+        ],
+        "props":{
+            "blockClass":"BannersPLPTinyImage"
+        } 
+    },
+    "flex-layout.row#BannersFourPLPContentRightSecondBanner":{
+        "children":[
+            "flex-layout.col#BannersFourPLPContentRightSecondBanner"
+        ]   
+    },
+    "flex-layout.col#BannersFourPLPContentRightSecondBanner":{
+        "children":[
+            "image#BannersFourPLPContentRightSecondBannerImage",
+            "rich-text#RightImageTextFour2"
+        ],
+        "props":{
+            "blockClass":"BannersPLPTinyImage"
+        } 
+    },
+    "flex-layout.row#BannersFourPLPContentRightThirdBanner":{
+        "children":[
+            "flex-layout.col#BannersFourPLPContentRightSecondBanner"
+        ]   
+    },
+    "flex-layout.col#BannersFourPLPContentRightThirdBanner":{
+        "children":[
+            "image#BannersFourPLPContentRightThirdBannerImage",
+            "rich-text#RightImageTextFour3"
+        ],
+        "props":{
+            "blockClass":"BannersPLPTinyImage"
+        } 
+    },
+    "image#BannersFourPLPContentLeftImage": {
+        "title":"Imagen Izquierda",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerleft-plp.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#LeftImageTextFour": {
+        "title": "Texto Imagen Izquierda",
+        "props": {
+            "text": "Nuevos adidas copa pure [Ver toda la indumentaria](#)"
+        }
+    },
+    "image#BannersFourPLPContentRightFirstBannerImage": {
+        "title":"Imagen Derecha 1",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerrightfour-plp-1.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#RightImageTextFour1": {
+        "title": "Texto Imagen Derecha 1",
+        "props": {
+            "text": "**Be Bold!**\nCanchas de pasto natural"
+        }
+    },
+    "image#BannersFourPLPContentRightSecondBannerImage": {
+        "title":"Imagen Derecha 2",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerrightfour-plp-2.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#RightImageTextFour2": {
+        "title": "Texto Imagen Derecha 2",
+        "props": {
+            "text": "**Be Bold!**\nCanchas de pasto natural"
+        }
+    },
+    "image#BannersFourPLPContentRightThirdBannerImage": {
+        "title":"Imagen Derecha 3",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerrightfour-plp-3.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#RightImageTextFour3": {
+        "title": "Texto Imagen Derecha 3",
+        "props": {
+            "text": "**Be Bold!**\nCanchas de pasto natural"
+        }
+    }
+}
