@@ -4,10 +4,10 @@ import { observer } from 'mobx-react-lite'
 import type { FC } from 'react'
 import React, { useMemo, useState } from 'react'
 import type { InjectedIntlProps } from 'react-intl'
-import { defineMessages, injectIntl } from 'react-intl'
+import { injectIntl } from 'react-intl'
 import { applyModifiers, useCssHandles } from 'vtex.css-handles'
-import { formatIOMessage } from 'vtex.native-types'
-import { ExtensionPoint, Link } from 'vtex.render-runtime'
+// import { formatIOMessage } from 'vtex.native-types'
+import { ExtensionPoint } from 'vtex.render-runtime'
 import { Collapsible } from 'vtex.styleguide'
 
 import type { MenuItem } from '../../shared'
@@ -38,12 +38,12 @@ const CSS_HANDLES = [
   "noImageDpto"
 ] as const
 
-const messages = defineMessages({
-  seeAllTitle: {
-    defaultMessage: '',
-    id: 'store/mega-menu.submenu.seeAllButton.title',
-  },
-})
+// const messages = defineMessages({
+//   seeAllTitle: {
+//     defaultMessage: '',
+//     id: 'store/mega-menu.submenu.seeAllButton.title',
+//   },
+// })
 
 export type ItemProps = InjectedIntlProps & {
   closeMenu?: (open: boolean) => void
@@ -51,7 +51,7 @@ export type ItemProps = InjectedIntlProps & {
 }
 
 const Submenu: FC<ItemProps> = observer((props) => {
-  const { intl, closeMenu, openOnly } = props
+  const { closeMenu, openOnly } = props
   const { handles } = useCssHandles(CSS_HANDLES)
   const { departmentActive, config, getCategories } = megaMenuState
   const { orientation } = config
@@ -62,31 +62,31 @@ const Submenu: FC<ItemProps> = observer((props) => {
 
   const [showBtnCat, setShowBtnCat] = useState(false)
 
-  const seeAllLink = (to: string, level = 1, className?: string) => {
-    return (
-      <div
-        className={classNames(
-          handles.seeAllLinkContainer,
-          !className && level === 1 && 'bb b--light-gray pv5 ph5 w-100',
-          !className && level > 1 && 'mt4 mb6 t-body',
-          className
-        )}
-      >
-        <Link
-          to={to}
-          className={classNames(
-            handles.seeAllLink,
-            'link underline fw7 c-on-base'
-          )}
-          onClick={() => {
-            if (closeMenu) closeMenu(false)
-          }}
-        >
-          {formatIOMessage({ id: messages.seeAllTitle.id, intl })}
-        </Link>
-      </div>
-    )
-  }
+  // const seeAllLink = (to: string, level = 1, className?: string) => {
+  //   return (
+  //     <div
+  //       className={classNames(
+  //         handles.seeAllLinkContainer,
+  //         !className && level === 1 && 'bb b--light-gray pv5 ph5 w-100',
+  //         !className && level > 1 && 'mt4 mb6 t-body',
+  //         className
+  //       )}
+  //     >
+  //       <Link
+  //         to={to}
+  //         className={classNames(
+  //           handles.seeAllLink,
+  //           'link underline fw7 c-on-base'
+  //         )}
+  //         onClick={() => {
+  //           if (closeMenu) closeMenu(false)
+  //         }}
+  //       >
+  //         {formatIOMessage({ id: messages.seeAllTitle.id, intl })}
+  //       </Link>
+  //     </div>
+  //   )
+  // }
 
   const subCategories = (items: MenuItem[]) => {
     return items
@@ -167,7 +167,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
                     enableStyle={category.enableSty}
                     closeMenu={closeMenu}
                   >
-                    {category.icon!=''?<img className={handles.ImageSubmenu} src={`https://lf10.myvtex.com/arquivos/${category.icon}.png?v=${Math.random()}`}/>:null}
+                    {category.icon!=''?<a href={category.slug}><img className={handles.ImageSubmenu} src={`https://lf10.myvtex.com/arquivos/${category.icon}${window.screen.width < 992?'-mobile':''}.png?v=${Math.random()}`}/></a>:null}
                     <br/>
                     <div className={handles.separated}>
                       {category.name} <span className={handles.separatedChilds}>ver todo &gt;</span>
@@ -211,18 +211,22 @@ const Submenu: FC<ItemProps> = observer((props) => {
                       collapsibleStates[category.id] ? 'base' : 'muted'
                     }`}
                   >
+                    
                     {!!subcategories.length && (
+                      <>
+                      {category.icon!=''?<a href={category.slug}><img className={handles.ImageSubmenu} src={`https://lf10.myvtex.com/arquivos/${category.icon}${window.screen.width < 992?'-mobile':''}.png?v=${Math.random()}`}/></a>:null}
                       <div className={handles.collapsibleContent}>
                         {subcategories}
                       </div>
+                      </>
                     )}
 
-                    {subcategories.length >= 0 ? (
+                    {/* {subcategories.length >= 0 ? (
                       seeAllLink(category.slug, 2)
                     ) : (
                       // eslint-disable-next-line jsx-a11y/anchor-has-content
                       <a href={category.slug} />
-                    )}
+                    )} */}
                   </Collapsible>
                 </div>
               )}
@@ -240,7 +244,8 @@ const Submenu: FC<ItemProps> = observer((props) => {
     <>
       {departmentActive && (
         <>
-          {/* <h3
+        {window.screen.width < 992?(
+          <h3
             className={classNames(
               handles.submenuContainerTitle,
               'f4 fw7 c-on-base lh-copy ma0 flex items-center',
@@ -251,15 +256,10 @@ const Submenu: FC<ItemProps> = observer((props) => {
                 'pv5 ph5'
             )}
           >
-            {departmentActive.name}
-            {orientation === 'horizontal' &&
-            openOnly === 'horizontal' &&
-            showBtnCat ? (
-              seeAllLink(departmentActive.slug, 1, 't-small ml7')
-            ) : (
-              <div />
-            )}
-          </h3> */}
+            {departmentActive.name}            
+          </h3>
+        ):null}
+          
           <div
             className={classNames(
               orientation === 'horizontal' &&
@@ -270,7 +270,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
             )}
           >
             
-            {departmentActive.icon !=''?<div className={handles.submenubox1}><img className={handles.dptoImage} src={`https://lf10.myvtex.com/arquivos/${departmentActive.icon}.png?v=${Math.random()}`}/></div>:null}
+            {departmentActive.icon !=''?<div className={handles.submenubox1}><a href={departmentActive.slug}><img className={handles.dptoImage} src={`https://lf10.myvtex.com/arquivos/${departmentActive.icon}${window.screen.width < 992?'-mobile':''}.png?v=${Math.random()}`}/></a></div>:null}
             
             <div className={`${handles.submenubox2} ${departmentActive.icon ==''?handles.noImageDpto:''}`}>
               {orientation === 'horizontal' && openOnly === 'horizontal' ? (

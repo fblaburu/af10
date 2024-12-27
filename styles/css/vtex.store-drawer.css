@@ -26,3 +26,7 @@
     font-weight: 700;
     line-height: 18px; /* 128% */
 }
+.drawerContent--drawerMenuMobile .drawerHeader{
+justify-content: space-between;
+padding-top: 30px;
+}

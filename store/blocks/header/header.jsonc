@@ -116,7 +116,10 @@
   },
   "drawer#menu-mobile": {
     "children": ["mega-menu#mobile"],
-    "blocks": ["drawer-header#my-drawer"]
+    "blocks": ["drawer-header#my-drawer"],
+    "props":{
+      "blockClass":"drawerMenuMobile"
+    }
   },
   "mega-menu#mobile": {
     "props": {
@@ -131,12 +134,12 @@
   "flex-layout.row#drawer-header": {
     "children": [
       "flex-layout.col#mega-menu-go-back-btn",
-      "flex-layout.col#spacer",
+      "flex-layout.col#logo-mobile",
       "flex-layout.col#drawer-close-button"
     ],
     "props": {
       "blockClass": "drawer-header",
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
@@ -146,7 +149,8 @@
     "children": ["drawer-close-button"],
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "right"
+      "horizontalAlign": "right",
+      "width": "30%"
     }
   },
   "flex-layout.col#mega-menu-go-back-btn": {
@@ -154,7 +158,8 @@
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "left",
-      "paddingLeft": 4
+      "paddingLeft": 4,
+      "width":"30%"
     }
   },
   "flex-layout.col#spacer": {
@@ -170,9 +175,28 @@
       "image#logo"
     ]
   },
+  "flex-layout.col#logo-mobile": {
+    "props": {
+      "verticalAlign": "middle",
+      "width":"40%"
+    },
+    "children": [
+      "image#logoMobile"
+    ]
+  },
   "image#logo": {
     "props": {
       "width": 196,
+      "src": "assets/img/footer/logo-lf10-v3.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass":["imageLogo"]
+    }
+  },
+  "image#logoMobile": {
+    "props": {
+      "width": 107,
       "src": "assets/img/footer/logo-lf10-v3.png",
       "link":{
         "url":"/"
@@ -184,16 +208,6 @@
     "children": [
       "sticky-layout#mobile"
     ]
-  },
-  "image#logoMobile": {
-    "props": {
-      "width": 80,
-      "src": "assets/img/footer/logo-lf10-v3.png",
-      "link":{
-        "url":"/"
-      },
-      "blockClass":["imageLogo"]
-    }
   },
   "sticky-layout#mobile": {
     "children": [

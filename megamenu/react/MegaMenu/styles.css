@@ -149,7 +149,9 @@
     border-top: 0;
   }
   .menuItemVertical .styledLinkContainer {
-    padding-bottom: 40px;    
+    padding-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .submenuContainerVertical {
     background-color: #000009;
@@ -160,5 +162,40 @@
   .submenuItemVertical {
     border-top: 0;
     background-color: #000009;
+  }
+  .submenuContainerTitle {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 25px 0;
+  }
+  .dptoImage{
+    width: 100%;
+  }
+  .collapsibleHeaderText {
+    color:#fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .submenuItem .styledLinkText{
+    font-weight: 400;
+  }
+  .menuContainerNavVertical {
+    padding: 0 25px;
+  }
+  .submenuItemChild{
+    margin: 25px 0;
+  }
+  .submenuItemVertical{
+    padding: 0;
+  }
+  :global(.vtex__icon-caret-up ){
+    color: #fff;
   }
 }
