@@ -135,7 +135,7 @@ margin: 0 auto;
         width: 80%;
     };
     @media screen and (max-width:375px) {
-        top: 10%
+        top: 15%
     }
 }
 .CountDownBox{
@@ -153,6 +153,14 @@ margin: 0 auto;
     width: 25%;
     padding: 16px 0;
     position: relative;
+    @media screen and (max-width:1025px) {
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
 }
 .CountDownBox::after{
     position: absolute;
@@ -179,6 +187,14 @@ margin: 0 auto;
     line-height: normal;
     margin: 0;
     margin-top: 2px;
+    @media screen and (max-width:1025px) {
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
 }
 
 /* Destacados home */

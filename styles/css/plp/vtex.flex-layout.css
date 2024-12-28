@@ -67,11 +67,22 @@
     font-style: normal;
     font-weight: 700;
     line-height: 18px; /* 81.818% */
-    
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; /* 112.5% *//* White */
+      }
     
 }
 .flexCol--buttonsSelector{
     padding: 10px;
+    @media screen and (max-width:1025px) {
+        display: none;
+    }
 }
 .flexCol--HoverSection{
     position: absolute;

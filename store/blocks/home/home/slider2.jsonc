@@ -38,7 +38,8 @@
                 "phone": 1
             },
             "infinite": true,
-            "showNavigationArrows": false,
+            "showNavigationArrows": "always",
+            "showPaginationDots": false,
             "blockClass": [
                 "carousel",
                 "slider-home-mobile"

@@ -68,3 +68,15 @@
     max-width: 100%;
   }
 }
+.sliderLeftArrow--slider-home-mobile, .sliderRightArrow--slider-home-mobile{
+  top: 50%;
+  border-radius: 25px !important;
+  background: #AB220D !important;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  color: #fff;
+}
+.caretIcon--slider-home-mobile{
+  width: 15px;
+  height: 25px;
+}

@@ -99,15 +99,32 @@
 /* componente our experience home */
 .flexRow--OurExperience{
     background-color: #000009;
+    
+}
+.flexRow--OurExperience :global(.vtex-store-components-3-x-container){
+    @media screen and (max-width:1026px) {
+        padding: 0;
+    }
 }
 .flexCol--OurExperienceText{
     padding: 80px 30px 0 30px;
-    @media screen and (max-width:1026px) {
-        padding: 80px 10px 0 10px;
+    @media screen and (max-width:1025px) {
+        padding: 35px 15px 0 15px;
     }
 }
-
-
+.flexRowContent--OurExperienceQR{
+    display: flex;
+}
+.flexRowContent--OurExperienceQR .stretchChildrenWidth:first-child{
+    @media screen and (max-width:1025px) {
+        width: 35% !important;
+    }
+}
+.flexRowContent--OurExperienceQR .stretchChildrenWidth:last-child{
+    @media screen and (max-width:1025px) {
+        width: 65% !important;
+    }
+}
 /* banner blogs */
 .flexRow--bannerBlogs{
     position: relative;

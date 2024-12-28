@@ -24,6 +24,13 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
+  @media screen and (max-width:1025px) {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 112.5% */
+  }
 }
 .containerNormal{
   background-color: #fff;
@@ -250,6 +257,9 @@ display: none;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  @media screen and (max-width:1025px) {
+    height: 36px;
+  }
 }
 .containerNormal :global(.vtex-flex-layout-0-x-flexColChild--buttonsSelector):last-child{
   @media screen and (max-width:1026px) {
