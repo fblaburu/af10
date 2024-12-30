@@ -4,6 +4,9 @@
 }
 .sellingPriceValue {
     font-size: 30px;
+    @media screen and (max-width:1025px) {
+        font-size: 25px;
+    }
 }
 .listPrice {
     font-size: 19px;

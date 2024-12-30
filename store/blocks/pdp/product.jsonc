@@ -23,6 +23,7 @@
       "flex-layout.row#destacadosHome"
     ]
   },
+  
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
@@ -80,7 +81,7 @@
   },
 
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": ["responsive-layout.mobile#NameAndPrice","stack-layout"],
     "props": {
       "width": "50%",
       "rowGap": 0,
@@ -109,8 +110,7 @@
     },
     "children": [
       "vtex.product-highlights@2.x:product-highlights",
-      "flex-layout.row#product-name",
-      "flex-layout.row#selling-price",
+      "responsive-layout.desktop#NameAndPrice",
       //"flex-layout.row#list-price-savings",
       "sku-selector",
       "product-rating-summary",
@@ -171,6 +171,18 @@
   "responsive-layout.desktop#buttonBuy": {
     "children": [
       "flex-layout.row#buy-button"
+    ]
+  },
+  "responsive-layout.desktop#NameAndPrice": {
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#selling-price"
+    ]
+  },
+  "responsive-layout.mobile#NameAndPrice": {
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#selling-price"
     ]
   },
 

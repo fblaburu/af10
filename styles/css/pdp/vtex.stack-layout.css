@@ -1,8 +1,6 @@
 :global(.vtex-flex-layout-0-x-flexRow--buttonFloatPDP) {
-  display: block;
-  height: auto;
-  max-height: 90px;
-  display: block;
+  @media screen and (min-width: 1025px) {
+    display: block;
   height: auto;
   max-height: 90px;
   position: inherit;
@@ -14,7 +12,8 @@
   position: sticky;
   bottom: 0px;
   margin-top: 16px;
-  @media screen and (max-width: 720px) {
+  }
+  @media screen and (max-width: 1025px) {
     max-height: none;
     padding: 20px 30px 20px 10px;
   }

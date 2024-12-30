@@ -5,12 +5,35 @@
     font-family: 'gothambook';
     color: #000009;
     margin-top: 15px;
+    @media screen and (max-width:1025px) {
+        color: #000009;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 112% */
+    }
 }
 .productDescriptionTitle {
     display: none;
 }
 .productDescriptionContainer {
     margin-top: 15px;
+}
+.productDescriptionText{
+    color: #000009;
+    font-family: 'gothambook';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+}
+.showMoreButton {
+    color: #fff;
+    background-color: #AB220D;
+    font-family: 'gothambook';
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 .skuSelectorName {
     color: #000009;
