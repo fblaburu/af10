@@ -181,6 +181,11 @@
 .flexRowContent--bannerMarcas {
     max-width: 1550px;
     margin: 0 auto;
+    @media screen and (max-width:1025px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 .flexRow--containerPDP  :global(.vtex-flex-layout-0-x-flexRow--destacadosHome){
     margin-bottom: 100px;
