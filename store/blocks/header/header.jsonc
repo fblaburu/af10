@@ -118,7 +118,8 @@
     "children": ["mega-menu#mobile"],
     "blocks": ["drawer-header#my-drawer"],
     "props":{
-      "blockClass":"drawerMenuMobile"
+      "blockClass":"drawerMenuMobile",
+      "isFullWidth":true
     }
   },
   "mega-menu#mobile": {

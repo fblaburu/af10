@@ -13,7 +13,11 @@
         "children":[
             "flex-layout.col#BannersTwoPLPContentRightFirstBanner",
             "flex-layout.col#BannersTwoPLPContentRightSecondBanner"
-        ]
+        ],
+        "props":{
+            "blockClass":"bannersTwoPLP",
+            "preserveLayoutOnMobile": true
+        }
     },
     "flex-layout.col#BannersTwoPLPContentRightFirstBanner":{
         "children":[

@@ -211,7 +211,6 @@
       "flex-layout.row#searchtitleCategory",
       // "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore"
@@ -222,7 +221,8 @@
         "mode1": "small",
         "mode2": "normal"
       },
-      "defaultGalleryLayout": "grid"
+      "defaultGalleryLayout": "grid",
+      "preventRouteChange": true
     }
   },
   "flex-layout.row#contentmobile": {
@@ -372,13 +372,16 @@
     }
   },
   "filter-navigator.v3":{
+    "blocks": ["sidebar-close-button"],
     "props": {
       "blockClass":"FiltersPLP",
       "width": "65%",
       "initiallyCollapsed":false,
-      "closeOnOutsideClick": true,
-      "priceRangeLayout": "inputAndSlider",
-      "openFiltersMode": "one"
+      "closeOnOutsideClick": true,      
+      "openFiltersMode": "one",
+      "fullWidthOnMobile": true,
+      "updateOnFilterSelectionOnMobile": true,
+      "priceRangeLayout": "inputAndSlider"
     }
   },
   "order-by.v2":{

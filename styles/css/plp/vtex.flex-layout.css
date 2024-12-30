@@ -406,9 +406,7 @@ align-items: center;
     }
 }
 .flexRowContent--imageBigLeftBannersFour{
-    @media screen and (max-width:1025px) {
-        margin-bottom: 40px;
-    }
+    margin-bottom: 40px;
 }
 .flexRowContent--imageBigLeftBannersFour .stretchChildrenWidth:first-child{
     @media screen and (max-width:1025px) {
@@ -445,5 +443,26 @@ align-items: center;
     @media screen and (max-width:1025px) {
         min-width: 250px;
         margin-right: 12px;
+    }
+}
+.flexRowContent--bannersTwoPLP{    
+    margin-bottom: 30px;
+}
+.flexRowContent--bannersTwoPLP .flexColChild--BannersPLPBigImage :global(.vtex-rich-text-0-x-paragraph){
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+.flexRowContent--bannersTwoPLP .flexColChild--BannersPLPBigImage{
+    @media screen and (max-width:1025px) {
+        padding: 0 6px;
     }
 }

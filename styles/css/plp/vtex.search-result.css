@@ -198,13 +198,12 @@
 }
 .accordionFilterItemTitle{
   @media screen and (max-width:1026px) {
-    color: #000009;
-    text-align: left;
-    font-family: 'gothambook';
+    color: var(--3, #FFF);
+    font-family: 'Roboto';
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 111.111% */
+    font-weight: 700;
+    line-height: normal;
   }
 }
 .accordionFilterContainer--category-5, .accordionFilterContainer--category-4, .accordionFilterContainer--category-3, .accordionFilterContainer--category-2, .accordionFilterContainer--category-1{
@@ -212,18 +211,23 @@
 }
 .filterBreadcrumbsItemName--FiltersPLP {
   @media screen and (max-width:1026px) {
-    color: #000009;
-    text-align: left;
-    font-family: 'gothambook';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
+    color: #fff;
+      font-family: 'gothambook';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
   }
 }
 .filterBreadcrumbsItem--FiltersPLP{
   @media screen and (max-width:1026px) {
     margin-left: 5px;
+  }
+}
+.filterBreadcrumbsItem .caretIcon--FiltersPLP{
+  @media screen and (max-width:1026px) {
+    color: #fff;
+    font-size: 10px;
   }
 }
 .filterAccordionItemBox{
@@ -248,5 +252,32 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+  }
+}
+.accordionFilterItemIcon--FiltersPLP{
+  @media screen and (max-width:1025px) {
+    color: #fff;
+    transform: rotate(-90deg);
+    position: relative;
+    right: -15px;
+  }
+}
+.filterAccordionItemBox :global(.vtex-checkbox__label){
+  @media screen and (max-width:1025px) {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.closeIcon{
+  @media screen and (max-width:1025px) {
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    width: 20px;
+    height: 20px;
   }
 }
