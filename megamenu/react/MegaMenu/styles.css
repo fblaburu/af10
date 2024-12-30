@@ -37,6 +37,9 @@
 .hideArrow svg {
   display: none;
 }
+.ImageSubmenu{
+  width: 100%;
+}
 @media screen and (min-width:992px) {
   .styledLinkText {
     flex-direction: column;
@@ -83,9 +86,7 @@
   .separatorItem:last-child{
     display: none;
   }
-  .ImageSubmenu{
-    width: 100%;
-  }
+  
   .separatedChilds{
     font-size: 16px;
   }

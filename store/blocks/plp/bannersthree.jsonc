@@ -2,37 +2,58 @@
     "experimental__visibility-layout#BannersThreePLP": {
         "title":"Ocultar/Mostrar Tres Banners PLP",
         "children": [
-            "flex-layout.row#BannersThreePLP"
+            "responsive-layout.desktop#BannersThreePLPLeft",
+            "responsive-layout.mobile#BannersThreePLPLeft"
         ],
         "props": {
             "visible": false
         }
     },
+    "responsive-layout.desktop#BannersThreePLPLeft":{
+        "children":[
+             "flex-layout.row#BannersThreePLP"
+        ]
+    },
+    "responsive-layout.mobile#BannersThreePLPLeft":{
+        "children":[
+             "flex-layout.row#BannersThreePLPMobile"
+        ],
+        "props":{"fullWidth": true}
+    },
     "flex-layout.row#BannersThreePLP": {
         "children":[
             "flex-layout.col#BannersThreePLPLeft",
             "flex-layout.col#BannersThreePLPRight"
-        ]
-    },
-    "flex-layout.col#BannersThreePLPLeft": {
-        "children":[
-            "flex-layout.row#BannersThreePLPContentLeft"
         ],
         "props":{
-            "width":"60%"
+            "blockClass":"bannersthreedesktop"
         }
     },
-    "flex-layout.row#BannersThreePLPContentLeft":{
+    "flex-layout.row#BannersThreePLPMobile": {
         "children":[
-            "flex-layout.col#BannersThreePLPContentLeft"
-        ]       
+            "flex-layout.col#BannersThreePLPLeftMobile",
+            "flex-layout.col#BannersThreePLPRightMobile"
+        ],
+        "props":{"fullWidth": true,"blockClass":["bigimageMobilePLPContainer"]}
     },
-    "flex-layout.col#BannersThreePLPContentLeft":{
+    "flex-layout.col#BannersThreePLPLeft": {
         "children":[
             "image#BannersThreePLPContentLeftImage",
             "rich-text#LeftImageText"
         ],
         "props":{
+            "width":"60%",
+            "blockClass":"BannersPLPBigImage"
+        }
+    },
+    "flex-layout.col#BannersThreePLPLeftMobile": {
+        "children":[
+            "image#BannersThreePLPContentLeftImage",
+            "rich-text#LeftImageText"
+        ],
+        "props":{
+            "width":"60%",
+            "fullWidth": true,
             "blockClass":"BannersPLPBigImage"
         }
     },
@@ -44,7 +65,25 @@
         "props":{
             "width":"40%"
         }
-    },    
+    },
+    "flex-layout.col#BannersThreePLPRightMobile":{
+        "children":[
+            "flex-layout.row#BannersThreePLPRightMobileContent"
+        ],
+        "props":{
+            "width":"40%",
+            "blockClass":"bigimageMobilePLPContainerRight"
+        }
+    },
+    "flex-layout.row#BannersThreePLPRightMobileContent":{
+        "children":[
+            "flex-layout.col#BannersThreePLPContentRightFirstBanner",
+            "flex-layout.col#BannersThreePLPContentRightSecondBanner"
+        ],
+        "props":{
+            "preserveLayoutOnMobile": true
+        }
+    },
     "flex-layout.row#BannersThreePLPContentRightFirstBanner":{
         "children":[
             "flex-layout.col#BannersThreePLPContentRightFirstBanner"
@@ -104,7 +143,8 @@
     "rich-text#RightImageText1": {
         "title": "Texto Imagen Derecha 1",
         "props": {
-            "text": "Federaciones"
+            "text": "Federaciones",
+            "blockClass": "BannersThreeMobileText"
         }
     },
     "image#BannersThreePLPContentRightSecondBannerImage": {
@@ -121,7 +161,8 @@
     "rich-text#RightImageText2": {
         "title": "Texto Imagen Derecha 2",
         "props": {
-            "text": "Clubes"
+            "text": "Clubes",
+            "blockClass": "BannersThreeMobileText"
         }
     }
 }

@@ -66,6 +66,7 @@
       // "image#bannersearch",
       "experimental__visibility-layout#BannersThreePLP",
       "experimental__visibility-layout#BannersFourPLP",
+      "experimental__visibility-layout#BannersTwoPLP",
       // "flex-layout.row#searchtitle",
       // "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#result"
@@ -79,14 +80,23 @@
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
     "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
     }
   },
   "flex-layout.row#searchtitle": {
     "children": [
-      // "search-title.v2",
+      // "search-title.v2"
      "rich-text#searchtitle"
+    ]
+  },
+  "flex-layout.row#searchtitleCategory": {
+    "children": [
+      "search-title.v2"
     ]
   },
   "rich-text#searchtitle": {
@@ -193,12 +203,14 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "flex-layout.row#searchbread",
+      "experimental__visibility-layout#BannersThreePLP",
+      "experimental__visibility-layout#BannersFourPLP",
+      "experimental__visibility-layout#BannersTwoPLP",
       // "video#backgroundPLP",
-      // "flex-layout.row#searchtitle",
+      "flex-layout.row#searchtitleCategory",
       // "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#switcherMobile",
-      "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",

@@ -1,0 +1,70 @@
+{
+    "experimental__visibility-layout#BannersTwoPLP": {
+        "title":"Ocultar/Mostrar Dos Banners PLP",
+        "children": [
+            "flex-layout.row#searchtitle",
+            "flex-layout.row#BannersTwoPLP"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "flex-layout.row#BannersTwoPLP": {
+        "children":[
+            "flex-layout.col#BannersTwoPLPContentRightFirstBanner",
+            "flex-layout.col#BannersTwoPLPContentRightSecondBanner"
+        ]
+    },
+    "flex-layout.col#BannersTwoPLPContentRightFirstBanner":{
+        "children":[
+            "image#BannersTwoPLPContentRightFirstBannerImage",
+            "rich-text#BannersTwoPLPRightImageText1"
+        ],
+        "props":{
+            "blockClass":"BannersPLPBigImage"
+        } 
+    },
+    "flex-layout.col#BannersTwoPLPContentRightSecondBanner":{
+        "children":[
+            "image#BannersTwoPLPContentRightSecondBannerImage",
+            "rich-text#BannersTwoPLPRightImageText2"
+        ],
+        "props":{
+            "blockClass":"BannersPLPBigImage"
+        } 
+    },
+    "image#BannersTwoPLPContentRightFirstBannerImage": {
+        "title":"Imagen Derecha 1",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerright-plp-1.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#BannersTwoPLPRightImageText1": {
+        "title": "Texto Imagen Derecha 1",
+        "props": {
+            "text": "Federaciones"
+        }
+    },
+    "image#BannersTwoPLPContentRightSecondBannerImage": {
+        "title":"Imagen Derecha 2",
+        "props": {
+            "width": "100%",
+            "src": "assets/img/plp/bannerright-plp-2.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    },
+    "rich-text#BannersTwoPLPRightImageText2": {
+        "title": "Texto Imagen Derecha 2",
+        "props": {
+            "text": "Clubes"
+        }
+    }
+}

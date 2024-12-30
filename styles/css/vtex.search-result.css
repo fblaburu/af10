@@ -26,3 +26,22 @@
     font-family: 'gothambook';
     margin-bottom: 20px;
 }
+.galleryTitle--layout{
+  @media screen and (max-width:1025px) {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 40px;
+  }  
+}
+.filterPopupButton{
+  @media screen and (max-width:1025px) {
+    position: relative;
+  }
+}

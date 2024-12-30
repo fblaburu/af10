@@ -12,7 +12,8 @@
         "children":[
             "flex-layout.col#BannersFourPLPLeft",
             "flex-layout.col#BannersFourPLPRight"
-        ]
+        ],
+        "props":{"blockClass":"imageBigLeftBannersFour"}
     },
     "flex-layout.col#BannersFourPLPLeft": {
         "children":[
@@ -43,7 +44,8 @@
             "flex-layout.row#BannersFourPLPContentRightThirdBanner"
         ],
         "props":{
-            "width":"35%"
+            "width":"35%",
+            "blockClass":"parentRightBannersFour"
         }
     },    
     "flex-layout.row#BannersFourPLPContentRightFirstBanner":{
