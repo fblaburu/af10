@@ -32,17 +32,18 @@
         left: -4px;   
     }
 }
-@media screen and (max-width:991px) {
+@media screen and (max-width:1025px) {
     .minicartContainer :global(.vtex-button)::after{
         background: url('assets/img/icons/Icono-carrito.svg') no-repeat;
         content: '';
-        width: 15px;
-        height: 15px;
+        width: 16px;
+        height: 16px;
         background-size: 100%;
         content: 'a';
         font-size: 0;
-        top: 14px;
-        left: 4px;
+        top: 11px;
+        left: 2px;
+        
     }
 }
 .minicartQuantityBadge{

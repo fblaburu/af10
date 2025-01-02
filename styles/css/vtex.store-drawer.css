@@ -3,7 +3,7 @@
 }
 .childrenContainer--searchMobile :global(.vtex-store-components-3-x-portalContainer--mainSearch){
     width: 100%;
-    top: 110px !important;
+    top: 136px !important;
 }
 .childrenContainer--searchMobile :global(.vtex-search-2-x-sellingPriceValue){
     color: #000009;
@@ -37,4 +37,12 @@ padding-top: 30px;
     @media screen and (max-width:991px) {
         padding: 0;    
     }    
+}
+.childrenContainer--searchMobile{
+    padding-top: 50px;
+}
+.childrenContainer--searchMobile :global(.vtex-flex-layout-0-x-flexColChild){
+    justify-content: center;
+    width: 100%;
+    display: flex;
 }

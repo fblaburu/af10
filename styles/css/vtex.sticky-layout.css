@@ -1,17 +1,19 @@
 .wrapper  {
     @media screen and (max-width:1025px) {
         position: fixed !important;
-        bottom: 0;
+        bottom: 30px;
         height: max-content !important;
         z-index: 999;
+        padding: 0 15px;
     }
 }
 .container{
     @media screen and (max-width:1025px) {
         position: fixed !important;
-        bottom: 0;
+        bottom: 30px;
         height: max-content !important;
         z-index: 999;
         top: inherit !important;
+        padding: 0 15px;
     }
 }

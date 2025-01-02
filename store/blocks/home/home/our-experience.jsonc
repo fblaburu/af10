@@ -6,7 +6,7 @@
             "verticalAlign": "center",
             "preventHorizontalStretch": false,
             "preventVerticalStretch": true,
-            "fullWidth": false,
+            "fullWidth": true,
             "blockClass": "OurExperience"
         },
         "children": [

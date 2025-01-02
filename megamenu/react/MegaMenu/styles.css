@@ -12,7 +12,7 @@
 .submenuContainer{
   width: 100%;
   left: 0;
-  top: 120px;
+  top: 118px;
   background-color: #fff;
   max-height: 100vh;
   min-height: 50vh;
@@ -40,7 +40,10 @@
 .ImageSubmenu{
   width: 100%;
 }
-@media screen and (min-width:992px) {
+.ImageSubmenuLink{
+  width: 100%;
+}
+@media screen and (min-width:1026px) {
   .styledLinkText {
     flex-direction: column;
     align-items: start;
@@ -62,6 +65,7 @@
     text-decoration-skip-ink: none;
     text-decoration-thickness: auto;
     text-underline-offset: auto;
+    margin-bottom: 5px;
   }
   .submenubox1{
     width: 35%;
@@ -90,9 +94,14 @@
   .separatedChilds{
     font-size: 16px;
   }
+  
+  .submenuItemChild{
+    padding: 15px 0;
+  }
   .submenuItemChild .submenuItem {
     padding-left: 0;
     width: 100%;
+    margin-top: 0;
   }
   .submenuItemChild .styledLinkText {
     color: #000009;
@@ -101,6 +110,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;  
+  }
+  .submenuItemChild .styledLinkText:hover{
+    font-family: 'gothambold';
+    font-weight: 700;
+    text-decoration: underline;
   }
   .indispensableLink{
     min-width: 33%;
@@ -149,8 +163,11 @@
   .menuItemVertical {
     border-top: 0;
   }
+  .menuItemVertical:last-child {
+    border-bottom: 0;
+  }
   .menuItemVertical .styledLinkContainer {
-    padding-bottom: 40px;
+    padding: 40px 0;
     margin-left: 0;
     margin-right: 0;
   }
@@ -159,10 +176,14 @@
   }
   .collapsibleHeaderText{
     color: #fff;
+    margin: 20px 0;
   }
   .submenuItemVertical {
     border-top: 0;
     background-color: #000009;
+  }
+  .submenuItemVertical:last-child {
+    border-bottom: 0;
   }
   .submenuContainerTitle {
     color: #FFF;

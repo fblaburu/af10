@@ -108,7 +108,24 @@
 .imageElement--lupaMobile{
   position: relative;
   top: 3px;
-  @media screen and (max-width:992px) {
-    width: 13px;
+  @media screen and (max-width:1025px) {
+    width: 15px;
+    position: relative;
+    top: 2px;
+
+  }
+}
+.imageElement--wishlistIcon{
+  @media screen and (min-width:1027px) {
+    position: relative;
+    top: 3px;
+    left: -5px;
+  }
+}
+:global(.vtex-search-2-x-biggy-autocomplete){
+  @media screen and (min-width:1027px) {
+    width: 100%;
+    max-width: 565px;
+    right: -9px !important;
   }
 }

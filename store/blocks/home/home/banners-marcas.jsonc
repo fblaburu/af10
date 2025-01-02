@@ -1,7 +1,8 @@
 {
     "responsive-layout.desktop#bannermarcas":{
         "children":[
-             "flex-layout.row#bannerMarcas"
+             "flex-layout.row#bannerMarcas",
+             "flex-layout.row#bannerMarcas2"
         ]
     },
     "responsive-layout.mobile#bannermarcasMobile":{
@@ -24,6 +25,23 @@
           "rich-text#bannerMarcas1",
             "rich-text#bannerMarcas2",
             "rich-text#bannerMarcas3"
+        ]
+    },
+    "flex-layout.row#bannerMarcas2": {
+        "title":"banners marcas",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "bannerMarcas",
+            "colGap": "20"
+        },
+        "children": [
+          "rich-text#bannerMarcas4",
+            "rich-text#bannerMarcas5",
+            "rich-text#bannerMarcas6"
         ]
     },
     "flex-layout.row#bannerMarcasMobile": {
@@ -70,6 +88,33 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": "[![adidas](assets/img/home/adidas.png) **ADIDAS**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },    
+    "rich-text#bannerMarcas4": {
+        "title": "Banner Marcas Home 4",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![UNDER ARMOUR](https://lf10.vteximg.com.br/arquivos/under-armour.png) **UNDER ARMOUR**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },
+    "rich-text#bannerMarcas5": {
+        "title": "Banner Marcas Home 5",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![sKECHERS](https://lf10.vteximg.com.br/arquivos/skechers.png) **SKECHERS**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },
+    "rich-text#bannerMarcas6": {
+        "title": "Banner Marcas Home 6",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![NEW BALANCE](https://lf10.vteximg.com.br/arquivos/new-balance.png) **NEW BALANCE**](#)",
             "blockClass": "bannerMarcas"
         }
     },

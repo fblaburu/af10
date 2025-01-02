@@ -35,7 +35,8 @@ const CSS_HANDLES = [
   "ImageSubmenu",
   "separatedChilds",
   "submenuItemChild",
-  "noImageDpto"
+  "noImageDpto",
+  "ImageSubmenuLink"
 ] as const
 
 // const messages = defineMessages({
@@ -167,7 +168,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
                     enableStyle={category.enableSty}
                     closeMenu={closeMenu}
                   >
-                    {category.icon!=''?<a href={category.slug}><img className={handles.ImageSubmenu} src={`https://lf10.myvtex.com/arquivos/${category.icon}${window.screen.width < 992?'-mobile':''}.png?v=${Math.random()}`}/></a>:null}
+                    {category.icon!=''?<a href={category.slug} className={handles.ImageSubmenuLink}><img className={handles.ImageSubmenu} src={`https://lf10.myvtex.com/arquivos/${category.icon}${window.screen.width < 992?'-mobile':''}.png`}/></a>:null}
                     <br/>
                     <div className={handles.separated}>
                       {category.name} <span className={handles.separatedChilds}>ver todo &gt;</span>
@@ -214,7 +215,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
                     
                     {!!subcategories.length && (
                       <>
-                      {category.icon!=''?<a href={category.slug}><img className={handles.ImageSubmenu} src={`https://lf10.myvtex.com/arquivos/${category.icon}${window.screen.width < 992?'-mobile':''}.png?v=${Math.random()}`}/></a>:null}
+                      {category.icon!=''?<a href={category.slug}><img className={handles.ImageSubmenu} src={`https://lf10.myvtex.com/arquivos/${category.icon}${window.screen.width < 992?'-mobile':''}.png`}/></a>:null}
                       <div className={handles.collapsibleContent}>
                         {subcategories}
                       </div>
@@ -270,7 +271,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
             )}
           >
             
-            {departmentActive.icon !=''?<div className={handles.submenubox1}><a href={departmentActive.slug}><img className={handles.dptoImage} src={`https://lf10.myvtex.com/arquivos/${departmentActive.icon}${window.screen.width < 992?'-mobile':''}.png?v=${Math.random()}`}/></a></div>:null}
+            {departmentActive.icon !=''?<div className={handles.submenubox1}><a href={departmentActive.slug}><img className={handles.dptoImage} src={`https://lf10.myvtex.com/arquivos/${departmentActive.icon}${window.screen.width < 992?'-mobile':''}.png`}/></a></div>:null}
             
             <div className={`${handles.submenubox2} ${departmentActive.icon ==''?handles.noImageDpto:''}`}>
               {orientation === 'horizontal' && openOnly === 'horizontal' ? (

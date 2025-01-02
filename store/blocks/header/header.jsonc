@@ -151,7 +151,8 @@
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "right",
-      "width": "30%"
+      "width": "30%",
+      "blockClass":"closeIconMenu"
     }
   },
   "flex-layout.col#mega-menu-go-back-btn": {
@@ -179,6 +180,7 @@
   "flex-layout.col#logo-mobile": {
     "props": {
       "verticalAlign": "middle",
+      "horizontalAlign": "center",
       "width":"40%"
     },
     "children": [
@@ -246,17 +248,17 @@
       "drawer#menu-mobile"
     ],
     "props":{
-      "width":"10%",
-      "horizontalAlign": "center"
+      "width":"15%",
+      "horizontalAlign": "left"
     }
   },
   "flex-layout.col#wishlistheadermobile":{
     "children": [
-      "image#iconwhishlist"
+      "image#iconwhishlistMobile"
     ],
     "props":{
-      "width":"10%",
-      "horizontalAlign": "center"
+      "width":"15%",
+      "horizontalAlign": "left"
     }
   },
   "flex-layout.col#imageheadermobile":{
@@ -264,7 +266,7 @@
       "image#logoMobileHeader"
     ],
     "props":{
-      "width":"50%",
+      "width":"40%",
       "horizontalAlign": "center"
     }
   },
@@ -331,19 +333,32 @@
   },
   "drawer#searchmobile": {
     "children": [
-      "search-bar#mobile"
+      "flex-layout.col#headerSearchMobile"
     ],
     "blocks": ["drawer-trigger#searchmobile"],
     "props":{
-      "blockClass":"searchMobile"
+      "blockClass":"searchMobile",
+      "isFullWidth":true
     }
   },
-
+  "flex-layout.col#headerSearchMobile":{
+    "children":[
+      "image#logoMobile",
+      "search-bar#mobile"
+    ],
+    "props":{
+      "width":"100%",
+      "horizontalAlign":"center"
+    }
+  },
   "drawer-trigger#searchmobile": {
     "children": ["image#searchMobile"]
   },
   "autocomplete-result-list.v2": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf"],
+    "props":{
+      "maxSuggestedProducts":2
+    }
   },
   "login": {
     "props":{
@@ -369,6 +384,16 @@
     "props": {
       "src": "assets/img/icons/Icono-wishlist.svg",
       "maxHeight": 24,
+      "link":{
+        "url":"/account/#/wishlist"
+      },
+      "blockClass":"wishlistIcon"
+    }
+  },
+  "image#iconwhishlistMobile": {
+    "props": {
+      "src": "assets/img/icons/wishlist-mobile.png",
+      "maxHeight": 14,
       "link":{
         "url":"/account/#/wishlist"
       }

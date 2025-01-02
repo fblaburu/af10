@@ -117,3 +117,16 @@
 .flexRow--drawer-header{
   width: 100%;
 }
+.flexRow--main-header-mobile{
+  @media screen and (max-width:1025px) {
+    padding: 0 15px !important;
+    border-radius: 5px;
+    border: 0.5px solid var(--2, #AB220D);
+    background: var(--1, #000009);
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+.flexColChild--closeIconMenu :global(.vtex-store-drawer-0-x-closeIconButton){
+  top: -25px;
+  position: relative;
+}

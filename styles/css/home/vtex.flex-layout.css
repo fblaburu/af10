@@ -89,7 +89,10 @@
 }
 /* banner marcas */
 .flexRow--bannerMarcas{
-    padding: 60px 0;
+    padding: 60px 0 0 0;
+}
+.flexRow--bannerMarcas:last-child{
+    padding: 0 0 60px 0;
 }
 /* componente banner implementos */
 .flexRow--bannerImplementos{
@@ -107,7 +110,7 @@
     }
 }
 .flexCol--OurExperienceText{
-    padding: 80px 30px 0 30px;
+    padding: 143px 63px 0 63px;
     @media screen and (max-width:1025px) {
         padding: 35px 15px 0 15px;
     }

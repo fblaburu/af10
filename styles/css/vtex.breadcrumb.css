@@ -55,3 +55,7 @@
 .caretIcon {
     color: #000009;
 }
+.arrow:last-child .link {
+    font-weight: 700;
+    color: #000009;
+}

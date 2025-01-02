@@ -89,7 +89,7 @@ background-color: #f5f5f5;
   margin-bottom: 5px;
   display: none;
 }
-.skuSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+.skuSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSubcontainer--tallas){
   display: block;
 }
 .skuSelectorContainer :global(.vtex-store-components-3-x-skuSelectorSubcontainer--color){
