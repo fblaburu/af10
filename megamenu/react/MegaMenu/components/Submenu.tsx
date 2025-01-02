@@ -155,7 +155,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
                   i === 0 &&
                   'bt',
                 collapsibleStates[category.id] && 'bg-near-white',
-              `vtex-mega-menu-2-x-${prepareStyleClass(category.styles)}`
+              `lf10-mega-menu-3-x-${prepareStyleClass(category.styles)}`
               )}
             >
               {orientation === 'horizontal' && openOnly === 'horizontal' ? (
