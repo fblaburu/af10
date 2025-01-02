@@ -335,6 +335,11 @@ align-items: center;
      }
     
 }
+.flexColChild--BannersPLPBigImage {
+    @media screen and (min-width:800px) {
+        margin-right: 30px;  
+     }
+}
 .flexColChild--BannersPLPBigImage:last-child{
     position: absolute;
     bottom: 15px;
