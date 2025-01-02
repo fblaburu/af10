@@ -108,4 +108,7 @@
 .imageElement--lupaMobile{
   position: relative;
   top: 3px;
+  @media screen and (max-width:992px) {
+    width: 13px;
+  }
 }

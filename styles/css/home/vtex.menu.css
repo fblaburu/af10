@@ -99,6 +99,13 @@
     display: block;
     position: relative;
 }
+.menuContainer--footermenu2{
+    @media screen and (max-width: 1025px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 .menuContainerNav--footermenu2::after{
     display: none;
 }
@@ -330,4 +337,7 @@ width: 100%;
 }
 .menuContainerNav--MenuMobile .submenu--secondLevelPlus .submenu--thirdlevel .styledLinkContent {
     margin-bottom: 0;
+}
+.menuContainer :global(.vtex-mega-menu-2-x-styledLinkContainer) {
+    
 }

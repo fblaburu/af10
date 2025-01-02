@@ -67,11 +67,22 @@
     font-style: normal;
     font-weight: 700;
     line-height: 18px; /* 81.818% */
-    
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; /* 112.5% *//* White */
+      }
     
 }
 .flexCol--buttonsSelector{
     padding: 10px;
+    @media screen and (max-width:1025px) {
+        display: none;
+    }
 }
 .flexCol--HoverSection{
     position: absolute;
@@ -84,7 +95,8 @@
     z-index: 13;
     padding: 10px;
     opacity: 0;
-    min-height: 100px;
+    min-height: 360px;
+    width: 98%;
 }
 @media screen and (min-width:1027px) {
     .flexCol--HoverSection :global(.vtex-product-summary-2-x-SKUSelectorContainer){
@@ -287,5 +299,170 @@ align-items: center;
     }
     .flexRowContent--ligasInternacionalesPLP .flexRowContent--ligaInternacionalPLP .stretchChildrenWidth{
         width: 100% !important;
+    }
+}
+
+
+
+/* Banners Three PLP */
+.flexRow--bannersthreedesktop{
+    margin-bottom: 40px;
+}
+.flexCol--BannersPLPBigImage{
+    position: relative;
+}
+
+.flexRowContent--bigimageMobilePLPContainer .stretchChildrenWidth:first-child{
+    @media screen and (max-width:1025px) {
+        width:  104% !important;
+    left: -2%;
+    position: relative;
+    }
+
+}
+.flexRow--bigimageMobilePLPContainer{
+    margin-bottom: 40px;
+}
+.flexRowContent--bigimageMobilePLPContainer .flexColChild--bigimageMobilePLPContainerRight .stretchChildrenWidth:first-child{
+     @media screen and (max-width:1025px) {
+        width: 50% !important;
+        left: inherit;
+        position: relative;    
+     }
+    
+}
+.flexColChild--BannersPLPBigImage:last-child{
+    position: absolute;
+    bottom: 15px;
+    z-index: 6;
+    display: block;
+    height: max-content !important;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    max-width: 100%;
+}
+.flexColChild--BannersPLPBigImage:last-child :global(.vtex-rich-text-0-x-paragraph){
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    @media screen and (max-width:1025px) {
+        font-size: 25px;
+        padding: 0 5px;
+    }
+}
+.flexColChild--BannersPLPBigImage:last-child :global(.vtex-rich-text-0-x-paragraph) :global(.vtex-rich-text-0-x-link){
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 15px;
+    background: #AB220D;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 19px;
+    @media screen and (max-width:1025px) {
+        font-size: 16px;
+        padding: 10px 30px;
+        width: max-content;
+        max-width: 100%;
+        margin: 19px auto 0 auto;
+    }
+}
+.flexColChild--BannersPLPTinyImage :global(.vtex-rich-text-0-x-paragraph){
+    margin: 0;
+    color: #000009;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 111.111% */
+    @media screen and (max-width:1025px) {
+        font-size: 16px;
+    }
+}
+.flexColChild--BannersPLPTinyImage :global(.vtex-rich-text-0-x-paragraph) :global(.vtex-rich-text-0-x-strong){
+    color: #000009;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 80% */
+    margin-top: 10px;
+    @media screen and (max-width:1025px) {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+}
+.flexRowContent--imageBigLeftBannersFour{
+    margin-bottom: 40px;
+}
+.flexRowContent--imageBigLeftBannersFour .stretchChildrenWidth:first-child{
+    @media screen and (max-width:1025px) {
+        left: -3%;
+        position: relative;
+        width: 106% !important;
+    }
+}
+.flexRowContent--imageBigLeftBannersFour .stretchChildrenWidth:last-child{
+    @media screen and (max-width:1025px) {
+        position: relative;
+        width: 104.5% !important;
+        padding-right: 0;
+    }
+}
+.flexRowContent--imageBigLeftBannersFour .flexCol--parentRightBannersFour .stretchChildrenWidth:first-child{
+    @media screen and (max-width:1025px) {
+        left: inherit;
+        position: relative;
+        width: 100% !important;
+    }
+}
+
+.flexCol--parentRightBannersFour{
+    @media screen and (max-width:1025px) {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        padding-bottom: 20px;
+    }    
+}
+.flexColChild--parentRightBannersFour{
+    @media screen and (max-width:1025px) {
+        min-width: 250px;
+        margin-right: 12px;
+    }
+}
+.flexRowContent--bannersTwoPLP{    
+    margin-bottom: 30px;
+}
+.flexRowContent--bannersTwoPLP .flexColChild--BannersPLPBigImage :global(.vtex-rich-text-0-x-paragraph){
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+.flexRowContent--bannersTwoPLP .flexColChild--BannersPLPBigImage{
+    @media screen and (max-width:1025px) {
+        padding: 0 6px;
     }
 }

@@ -88,6 +88,15 @@
 :global(.vtex-store-drawer-0-x-menuIcon),:global(.vtex-store-drawer-0-x-closeIcon){
   color:#AB220D;
 }
+:global(.vtex-store-drawer-0-x-closeIcon){
+  border: 2px solid #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  color: #fff;
+  position: relative;
+  top: -25px;
+}
 :global(.vtex-store-drawer-0-x-opened){
   background-color: #000009;
 }

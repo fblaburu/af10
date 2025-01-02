@@ -36,6 +36,12 @@
     position: relative;
     display: flex;
 }
+.paragraph--bannerMarcas{
+    @media screen and (max-width:991px) {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
 .strong--bannerMarcas{
     position: absolute;
     left: 0;
@@ -52,6 +58,17 @@
     line-height: 41px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
 }
 .link--bannerMarcas::after{
     width: 100%;
@@ -62,7 +79,8 @@
     background: rgba(0, 0, 0, 0.5);
 }
 .link--bannerMarcas::before{
-    content: 'Ver todo';
+    @media screen and (min-width:992px) {
+        content: 'Ver todo';
     position: absolute;
     display: none;
     color: #fff;
@@ -81,6 +99,8 @@
     right: 0;
     margin: 0 auto;
     transition: bottom 0.2s linear;
+    }
+    
 }
 .link--bannerMarcas:hover::after{
     display: block;
@@ -93,6 +113,12 @@
 
 
 /* banner Implementos home */
+.paragraph--bannerImplementos{
+    @media screen and (max-width:1026px) {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
 .container--bannerImplementos{
     padding: 0 10px;
     @media screen and (max-width:1026px) {
@@ -117,15 +143,31 @@
     width: 100%;
     text-align: center;
     transition: bottom 0.2s linear, margin 0.2s linear;
-    @media screen and (max-width:1026px) {
-        font-size: 20px;
-    }
-    @media screen and (max-width:374px) {
-        font-size: 15px;
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
     }
 }
 .wrapper--bannerImplementosBig .strong--bannerImplementos{
     font-size: 45px;
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
 }
 .link--bannerImplementos::after{
     width: 100%;
@@ -136,19 +178,26 @@
     background: rgba(0, 0, 0, 0.5);
 }
 .link--bannerImplementos:hover::after{
+    @media screen and (min-width:1026px) {
     display: block;
+    }
 }
 .link--bannerImplementos:hover .strong--bannerImplementos{
-    z-index: 3;
-    font-size: 35px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    @media screen and (min-width:1026px) {
+        z-index: 3;
+        font-size: 35px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;    
+    }
+    
 }
 .wrapper--bannerImplementosBig .link--bannerImplementos:hover .strong--bannerImplementos{
-    font-size: 45px;
+    @media screen and (min-width:1026px) {
+        font-size: 45px;    
+    }    
 }
 /* fin banner Implementos home */
 
@@ -164,6 +213,15 @@
     max-width: 80%;
     text-align: left;
     margin: 0 0 20px 0;
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 112% */
+        max-width: 90%;
+    }
 }
 
 .paragraph--OurExperienceSubtitle{
@@ -174,6 +232,14 @@
     font-weight: 400;
     line-height: 27px; /* 108% */
     margin: 0 0 20px 0;
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px; /* 115% */
+    }
 }
 .paragraph--OurExperienceDescription{
     color: #FFF;
@@ -183,6 +249,13 @@
     font-weight: 300;
     line-height: 30px; /* 166.667% */
     margin: 0 0 20px 0;
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px; /* 118.75% */
+    }
 }
 
 .paragraph--OurExperienceAddress{
@@ -193,8 +266,31 @@
     font-weight: 300;
     line-height: 42px; /* 105% */
     margin: 0 0 20px 0;
+    position: relative;
+    padding-left: 50px;
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 112% */
+    }
 }
-
+.image--OurExperienceAddress{
+    position: absolute;
+    left: 0;
+}
+.strong--OurExperienceAddress{
+    @media screen and (max-width:1025px) {
+        color: #FFF;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+}
 .paragraph--OurExperienceQRTextTitle{
     color: #FFF;
     font-family: 'Raleway';
@@ -205,8 +301,16 @@
     padding-left: 20px;
     margin: 0;
     padding-top: 40px;
-    @media screen and (max-width: 1026px) {
-        padding-left: 0;
+    @media screen and (max-width: 1025px) {
+        padding-left: 16px;
+        color: #FFF;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px; /* 115% */
+        margin-bottom: 10px;
+        padding-top: 14px;
     }
 }
 
@@ -219,8 +323,44 @@
     line-height: 27px; /* 108% */
     padding-left: 20px;
     margin: 0;
-    @media screen and (max-width: 1026px) {
-        padding-left: 0;
+    @media screen and (max-width: 1025px) {
+        padding-left: 16px;
+        color: #FFF;
+        font-family: 'gothambook';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px; /* 118.75% */
+        position: relative;
+    }
+}
+.paragraph--OurExperienceQRTextDescription::after{
+    @media screen and (max-width: 1025px) {
+    position: absolute;
+    bottom: -10px;
+    content: 'a';
+    display: block;
+    font-size: 0;
+    width: 95%;
+    right: 0;
+    height: 1px;
+    background-color: #fff;
+    }
+}
+.paragraph--OurExperienceQRTextDescription::before{
+    @media screen and (max-width: 1025px) {
+    position: absolute;
+    content: 'a';
+    display: block;
+    font-size: 0;
+    width: 5px;
+    height: 5px;
+    left: 0;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transform: rotate(-45deg);
+    left: 13px;
+    bottom: -12px;
     }
 }
 
@@ -291,6 +431,14 @@
         font-weight: 700;
         line-height: 50px; /* 100% */
         margin: 6px 0;
+        @media screen and (max-width:1025px) {
+            color: var(--1, #000009);
+            font-family: 'Roboto';
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px; /* 100% */
+        }
     }
     .paragraph--bannerCountDownText2{
         color: #FFF;
@@ -300,6 +448,14 @@
         font-weight: 400;
         line-height: 25px; /* 100% */
         margin: 6px 0;
+        @media screen and (max-width:1025px) {
+            color:#000009;
+            font-family: 'Roboto';
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 100% */
+        }
     }
     .paragraph--bannerCountDownText3{
         color: #FFF;
@@ -309,10 +465,21 @@
         font-weight: 400;
         line-height: 25px; /* 100% */
         margin: 6px 0;
+        @media screen and (max-width:1025px) {
+            color: var(--1, #000009);
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px; /* 156.25% */
+        }
     }
 
     .paragraph--bannerCountDownText4{        
         margin-top: 60px;
+        @media screen and (max-width:1025px) {
+            margin-top: 30px;
+        }
     }
     .paragraph--bannerCountDownText4 .link--bannerCountDownText4{
         padding: 15px 50px;
@@ -375,8 +542,16 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    @media screen and (max-width: 425px) {
-        font-size: 25px;
+    @media screen and (max-width: 1025px) {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
     }
 }
 .link--CarouselPlusImageText{
@@ -392,6 +567,16 @@
     text-decoration: none;
     width: 80%;
     position: relative;
+    @media screen and (max-width: 1025px) {
+        color: #FFF;
+        text-align: center;
+        font-family: 'gothambook';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10px;
+    }
 }
 .link--CarouselPlusImageText::before{
     bottom: -8px;
@@ -405,11 +590,8 @@
     content: 'a';
     font-size: 0;
     display: block;
-    @media screen and (max-width:1026px) {
-        width: 70%;
-    }
-    @media screen and (max-width:425px) {
-        width: 90%;
+    @media screen and (max-width:1025px) {
+        display: none;
     }
 }
 .link--CarouselPlusImageText::after{
@@ -424,11 +606,8 @@
     font-size: 0;
     display: block;
     transform: rotate(45deg);
-    @media screen and (max-width:1026px) {
-        right: 15%;
-    }
-    @media screen and (max-width:425px) {
-        right: 5%;
+    @media screen and (max-width:1025px) {
+        display: none;
     }
 }
 
@@ -462,11 +641,16 @@
     line-height: normal;
     text-transform: uppercase;
     margin: 40px auto 30px;
-    @media screen and (max-width: 720px) {
-        font-size: 40px;
-    }
-    @media screen and (max-width: 374px) {
-        font-size: 20px;
+    @media screen and (max-width: 1025px) {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
     }
 }
 
@@ -484,6 +668,14 @@ position: relative;
 width: 100%;
 display: block;
 text-align: center;
+@media screen and (max-width:1025px) {
+    color: #000009;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 140% */
+}
 }
 .container--zonaHinchaCarouselTextTitle .paragraph, .container--zonaHinchaCarouselTextDescription .paragraph, .container--zonaHinchaCarouselTeam .paragraph, .container--zonaHinchaCarouselTeamTitle .paragraph{
     margin: 0;
@@ -498,6 +690,15 @@ text-align: center;
     line-height: 25px; /* 100% */
     position: relative;
     text-align: center;
+    @media screen and (max-width: 1025px) {
+        color: #000009;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 125% */
+    }
 }
 
 .container--zonaHinchaCarouselTeam{
@@ -510,6 +711,13 @@ text-align: center;
     line-height: normal;
     @media screen and (max-width:1026px) {
         margin-top: 36px;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
 
@@ -522,7 +730,13 @@ text-align: center;
     font-weight: 700;
     line-height: normal;
     @media screen and (max-width:768px) {
-        font-size: 20px; 
+        color: #FFF;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 }
 .link--zonaHinchaCarouselTeamLink{
@@ -542,8 +756,14 @@ text-align: center;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    @media screen and (max-width:768px) {
-        padding: 15px 27px;
+    @media screen and (max-width:1025px) {
+        padding: 12px 30px;
+        color: #FFF;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
 @media screen and (max-width: 1026px) {
@@ -552,6 +772,7 @@ text-align: center;
     }
     .paragraph--zonaHinchaCarouselTextTitle{
         text-align: center;
+        
     }
 }
 .container--buttonCall {

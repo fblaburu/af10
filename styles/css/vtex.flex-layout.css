@@ -114,3 +114,6 @@
   width: 25% !important;
   margin-bottom: 10px;
 }
+.flexRow--drawer-header{
+  width: 100%;
+}

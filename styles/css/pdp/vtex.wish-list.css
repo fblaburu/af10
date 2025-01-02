@@ -3,6 +3,7 @@
     top: 5px;
     left: 10px;
 }
+
 .wishlistIconContainer :global(.vtex-button):hover {
     background-color: transparent;
 

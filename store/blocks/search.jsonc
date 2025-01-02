@@ -64,9 +64,11 @@
     "children": [
       "flex-layout.row#searchbread",
       // "image#bannersearch",
-      "video#backgroundPLP",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#ligasInternacionalesPLP",
+      "experimental__visibility-layout#BannersThreePLP",
+      "experimental__visibility-layout#BannersFourPLP",
+      "experimental__visibility-layout#BannersTwoPLP",
+      // "flex-layout.row#searchtitle",
+      // "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#result"
     ],
     "props": {
@@ -78,14 +80,23 @@
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
     "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
     }
   },
   "flex-layout.row#searchtitle": {
     "children": [
-      // "search-title.v2",
+      // "search-title.v2"
      "rich-text#searchtitle"
+    ]
+  },
+  "flex-layout.row#searchtitleCategory": {
+    "children": [
+      "search-title.v2"
     ]
   },
   "rich-text#searchtitle": {
@@ -192,13 +203,14 @@
 
   "search-result-layout.mobile": {
     "children": [
-      "video#backgroundPLP",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#ligasInternacionalesPLP",
-      "flex-layout.row#searchinfomobile",
-      "flex-layout.row#switcherMobile",
       "flex-layout.row#searchbread",
-      "flex-layout.row#productCountMobile",
+      "experimental__visibility-layout#BannersThreePLP",
+      "experimental__visibility-layout#BannersFourPLP",
+      "experimental__visibility-layout#BannersTwoPLP",
+      // "video#backgroundPLP",
+      "flex-layout.row#searchtitleCategory",
+      // "flex-layout.row#ligasInternacionalesPLP",
+      "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore"
@@ -209,7 +221,8 @@
         "mode1": "small",
         "mode2": "normal"
       },
-      "defaultGalleryLayout": "grid"
+      "defaultGalleryLayout": "grid",
+      "preventRouteChange": true
     }
   },
   "flex-layout.row#contentmobile": {
@@ -359,13 +372,16 @@
     }
   },
   "filter-navigator.v3":{
+    "blocks": ["sidebar-close-button"],
     "props": {
       "blockClass":"FiltersPLP",
       "width": "65%",
       "initiallyCollapsed":false,
-      "closeOnOutsideClick": true,
-      "priceRangeLayout": "inputAndSlider",
-      "openFiltersMode": "one"
+      "closeOnOutsideClick": true,      
+      "openFiltersMode": "one",
+      "fullWidthOnMobile": true,
+      "updateOnFilterSelectionOnMobile": true,
+      "priceRangeLayout": "inputAndSlider"
     }
   },
   "order-by.v2":{

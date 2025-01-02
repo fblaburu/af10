@@ -26,3 +26,127 @@
     font-family: 'gothambook';
     margin-bottom: 20px;
 }
+.galleryTitle--layout{
+  @media screen and (max-width:1025px) {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 40px;
+  }  
+}
+.filterPopupButton{
+  @media screen and (max-width:1025px) {
+    position: relative;
+    border-radius: 8px;
+background: var(--1, #000009);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 12px 15px;
+height: max-content;
+  }
+}
+.filterPopupButton .filterPopupTitle--FiltersPLP{
+  @media screen and (max-width:1025px) {
+  color: #fff;
+  font-family: 'gothambook';
+  font-size: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+}
+.filterPopupButton .filterPopupTitle--FiltersPLP::before{
+  @media screen and (max-width:1025px) {
+  content: 'Filtros';
+  font-size: 16px;
+  }
+}
+.filterPopupButton .filterPopupTitle--FiltersPLP::after{
+  @media screen and (max-width:1025px) {
+  content: url('https://lf10.vteximg.com.br/arquivos/filter-icon.png');
+  display: inline-block;
+  margin-left: 7px;
+  }
+}
+.filterPopupButton .filterPopupArrowIcon {
+  @media screen and (max-width:1025px) {
+  display: none;
+  }
+}
+
+.accordionFilter{
+ background-color: #000009;
+}
+  @media screen and (max-width:1025px) {
+    .accordionFilter::before {
+    display: block;
+    font-size: 0;
+    content: 'a';
+    background: url('assets/img/icons/logo-lf10-v3.png') no-repeat;
+    background-size: 100%;
+    width: 106px;
+    height: 36px;
+    margin: 30px auto 50px;
+    }
+  }
+
+  .filterButtonsBox {
+    @media screen and (max-width:1025px) {
+      display: none;
+    }
+  }
+  .filterAccordionBreadcrumbs {
+    @media screen and (max-width:1025px) {
+      padding: 0 16px !important;
+      background-color: #000009;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border: 0;
+      height: max-content;
+    }
+  }
+  .filterBreadcrumbsContent--FiltersPLP{
+    @media screen and (max-width:1025px) {
+      padding: 0;
+    }
+  }
+  .filterAccordionBreadcrumbs .filterBreadcrumbsContent .filterBreadcrumbsText{
+    @media screen and (max-width:1025px) {
+      color: #fff;
+      font-family: 'gothambook';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  @media screen and (max-width:1025px) {
+  .filterAccordionBreadcrumbs .filterBreadcrumbsContent:first-child .filterBreadcrumbsText::before{
+
+    content: url('https://lf10.vteximg.com.br/arquivos/filter-icon.png');
+  display: inline-block;
+  margin-right: 7px;
+  }
+  }
+  .accordionFilterContainer--FiltersPLP{
+    @media screen and (max-width:1025px) {
+      padding: 0 16px;
+    }
+  }
+  .gallery--grid{
+    @media screen and (max-width:1025px) {
+      margin-top: 10px;
+    }
+  }
+  .galleryItem--grid {
+    @media screen and (max-width:1025px) {
+      padding: 0;
+    }
+  }

@@ -1,0 +1,17 @@
+.wrapper  {
+    @media screen and (max-width:1025px) {
+        position: fixed !important;
+        bottom: 0;
+        height: max-content !important;
+        z-index: 999;
+    }
+}
+.container{
+    @media screen and (max-width:1025px) {
+        position: fixed !important;
+        bottom: 0;
+        height: max-content !important;
+        z-index: 999;
+        top: inherit !important;
+    }
+}

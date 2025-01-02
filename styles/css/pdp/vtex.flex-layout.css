@@ -2,6 +2,14 @@
 
 .flexRow--containerPDP{
     padding: 0 20px;
+    @media screen and (max-width: 1025px) {
+        padding: 0 15px;
+    }
+}
+.flexRow--containerPDP :global(.vtex-store-components-3-x-container){
+    @media screen and (max-width: 1025px) {
+        padding: 0;
+    }
 }
 /* faqs home */
 .flexColChild--descriptionpdp{
@@ -13,6 +21,9 @@
     border-bottom: 1px solid #000009;
     background-color: transparent;
     position: relative;
+    @media screen and (max-width:1025px) {
+        padding-left: 0;
+    }
 }
 .flexColChild--descriptionpdp .flexRowContent {
     margin-bottom: 0;
@@ -33,18 +44,12 @@
 }
 .flexRowContent--buttonFloat {
     margin: 0;
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 1025px) {
         display: flex;
     }
-    @media screen and (max-width: 374px) {
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        
-    }    
 }
 .flexRowContent--buttonFloat .stretchChildrenWidth:first-child{
-    @media screen and (max-width: 374px) {
+    @media screen and (max-width: 1025px) {
         display: none;
     }
 }
@@ -59,17 +64,17 @@
 
 .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPriceValue) {
     color: white;
-    font-size: 25.8px;
+    font-size: 31.8px;
     
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1025px) {
     .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPriceValue) {
         font-size: 17px;
         display: none;
     }
 }
 .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-listPrice) {
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 1025px) {
         display: none;
     }
 }
@@ -78,7 +83,13 @@
     border: 1px solid #AB220D;
     height: 50px;
     width: 288px;
-    border: 0;    
+    border: 0;
+    @media screen and (max-width:1025px) {
+        height: 43px;
+        position: relative;
+    top: 5px;
+    border-radius: 8px;
+    }
 }
 .flexRowContent--buttonFloat :global(.vtex-button):hover {
     background-color: #fff;
@@ -90,9 +101,10 @@
 .flexRowContent--buttonFloat :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
     display: none;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1025px) {
     .flexRowContent--buttonFloat :global(.vtex-button) {
-        width: 187px;
+        width: 100%;
+        max-width: 188px;
     }
 }
 .flexRowContent--buttonFloat :global(.vtex-add-to-cart-button-0-x-buttonText) {
@@ -103,6 +115,9 @@
     font-style: normal;
     font-weight: 400;
     text-transform: capitalize;
+    @media screen and (max-width: 1025px) {
+        
+    }
 }
 .flexRowContent--buttonFloat :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
     content: "";
@@ -124,14 +139,16 @@
     font-size: 30px;
     border: none;
     font-family: 'Montserrat';
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 1025px) {
         height: 25px;
+        color: #000009;
     }
 }
 .flexRowContent--buttonFloat :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 1025px) {
         margin-top: 13px;
         margin-right: 10px;
+        align-items: center;
     }
     @media screen and (max-width: 374px) {
         margin-right: 0;
@@ -143,34 +160,45 @@
     background-color: transparent;
     color: #AB220D;
     border: none;
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 1025px) {
         height: 25px;
     }
 }
 .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__minus-button__text), .flexRowContent--buttonFloat :global(.vtex-numeric-stepper__plus-button__text){
     border: 3px solid #AB220D;
-    padding: 7px 9px;
+    padding: 0px 2px;
     border-radius: 41px;
-    font-size: 25px;
+    font-size: 22px;
+    @media screen and (max-width:1026px) {
+        border: 2px solid #AB220D;
+        font-size: 14px;
+    }
+}
+:global(.vtex-product-price-1-x-currencyDecimal), :global(.vtex-product-price-1-x-currencyFraction){
+    display: none;
 }
 .flexRowContent--buttonFloat :global(.vtex-product-price-1-x-sellingPrice) {
     margin-top: 7px;
 }
 .flexRowContent--product-main{
-    @media screen and (max-width: 720px) {
-        padding-bottom: 0;
+    @media screen and (max-width: 1025px) {
+        padding: 0;
+        margin-top: 0;
     }
 }
 .flexRowContent--product-main :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     position: sticky;
     top: 159px;
     height: 100%;
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 1025px) {
         position: initial;
     }  
 }
 .flexColChild--bannerMarcasSmall {
     width: 50%;
+    @media screen and (max-width:1025px) {
+        width: 100%;
+    }
 }
 .flexCol--bannerMarcasSmall {
     display: ruby;
@@ -178,9 +206,90 @@
 .flexRowContent--bannerMarcas {
     max-width: 1550px;
     margin: 0 auto;
+    @media screen and (max-width:1025px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 .flexRow--containerPDP  :global(.vtex-flex-layout-0-x-flexRow--destacadosHome){
     margin-bottom: 100px;
 
 }
-
+.flexCol--btnpersonalization .flexColChild--btnpersonalization{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexCol--btnpersonalization .flexColChild--btnpersonalization::before{
+    content: '¿Personalizar?';
+    display: block;
+    color: #000009;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 30px;
+}
+.flexCol--btnpersonalization--IsHidden .flexColChild--btnpersonalization::before{
+    display: none;
+}
+.flexCol--btnpersonalization :global(.vtex-button){
+    border-radius: 5px;
+    border: 1px solid #616161;
+    background: #F5F5F5;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 67px;
+    padding: 12px 0;
+}
+.flexCol--btnpersonalization :global(.vtex-button):hover{
+    background: #AB220D;
+}
+.flexCol--btnpersonalization :global(.vtex-button) :global(.vtex-button__label)::before{
+    content: 'Si';
+    display: block;
+    color: #000009;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+    text-transform: capitalize;
+}
+.flexCol--btnpersonalization :global(.vtex-button):hover :global(.vtex-button__label)::before{
+    color: #fff;
+}
+.flexCol--btnpersonalization :global(.vtex-button) :global(.vtex-button__label){
+    font-size: 0;
+}
+.flexCol--btnpersonalization :global(.vtex-product-customizer-2-x-productAssemblyGroupName){
+    display: none;
+}
+.flexCol--btnpersonalization :global(.vtex-product-customizer-2-x-productAssemblyGroupNameRow) :global(.vtex-button){
+    background: #AB220D;    
+}
+.flexCol--btnpersonalization :global(.vtex-product-customizer-2-x-productAssemblyGroupNameRow) :global(.vtex-button) :global(.vtex-button__label)::before{
+    color: #fff;
+}
+.flexCol--btnpersonalization .flexRow{
+    width: 100%;
+}
+:global(.vtex-product-customizer-2-x-textInputValue){
+    margin-top: 30px;
+    margin-right: 30px;
+    @media screen and (max-width:768px) {
+        margin-right: 5px;
+    }
+}
+.flexCol--btnpersonalization :global(.vtex-input){
+    position: relative;    
+}
+.flexCol--btnpersonalization :global(.vtex-input__label){
+   display: none;
+}
+.flexCol--btnpersonalization :global(.vtex-input-prefix__group){
+    max-width: 123px;    
+}

@@ -23,6 +23,7 @@
       "flex-layout.row#destacadosHome"
     ]
   },
+  
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
@@ -64,8 +65,7 @@
       "blockClass": "product"
     },
     "children": [
-      "flex-layout.row#product-image",
-      "flex-layout.row#buy-button",
+      "flex-layout.row#product-image",      
       "product-bookmark",
       "add-to-list-btn"
     ]
@@ -81,7 +81,7 @@
   },
 
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": ["responsive-layout.mobile#NameAndPrice","stack-layout"],
     "props": {
       "width": "50%",
       "rowGap": 0,
@@ -110,8 +110,7 @@
     },
     "children": [
       "vtex.product-highlights@2.x:product-highlights",
-      "flex-layout.row#product-name",
-      "flex-layout.row#selling-price",
+      "responsive-layout.desktop#NameAndPrice",
       //"flex-layout.row#list-price-savings",
       "sku-selector",
       "product-rating-summary",
@@ -119,17 +118,27 @@
       "similar-products-variants",
       //"product-separator",
       //"product-identifier.product",
-      "product-assembly-options",
+      "flex-layout.row#assembly-options",
+      "camisetasAttatchment",
       "product-gifts",
       //"availability-subscriber",
       //"shipping-simulator",
       //"share#default",
       "product-specification-badges",
       //"tab-layout#pdp",
+      "flex-layout.row#buy-button",
       "flex-layout.row#descriptionpdp"
     ]
   },
-
+  "flex-layout.row#assembly-options":{
+    "children":["flex-layout.col#assembly-options"]
+  },
+  "flex-layout.col#assembly-options":{
+    "children":["product-assembly-options"],
+    "props":{
+      "blockClass":"btnpersonalization"
+    }    
+  },
   "vtex.product-highlights@2.x:product-highlights": {
     "props": {
       "blockClass": "flagspdp"
@@ -164,6 +173,18 @@
       "flex-layout.row#buy-button"
     ]
   },
+  "responsive-layout.desktop#NameAndPrice": {
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#selling-price"
+    ]
+  },
+  "responsive-layout.mobile#NameAndPrice": {
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#selling-price"
+    ]
+  },
 
   "responsive-layout.phone#buttonBuy": {
     "children": [
@@ -175,7 +196,7 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass": "buttonFloat"
+      "blockClass": ["buttonFloat","buttonFloatPDP"]
     },
     "children": [
       "flex-layout.row#selling-price",

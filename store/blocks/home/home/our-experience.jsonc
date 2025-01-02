@@ -101,10 +101,10 @@
         "props": {
             "horizontalAlign": "left",
             "verticalAlign": "center",
-            "preventHorizontalStretch": true,
+            "preventHorizontalStretch": false,
             "preventVerticalStretch": true,
             "fullWidth": false,
-            "blockClass": "OurExperience",
+            "blockClass": ["OurExperience","OurExperienceQR"],
             "width": "100%"
         },
         "children": [
@@ -119,8 +119,8 @@
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": false,
-            "blockClass": "OurExperience",
-            "width": "100%"
+            "blockClass": ["OurExperience"],
+            "width": "70%"
         },
         "children": [          
           "rich-text#OurExperienceTextQRTitle",

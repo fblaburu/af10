@@ -1,4 +1,14 @@
 {
+    "responsive-layout.desktop#bannermarcas":{
+        "children":[
+             "flex-layout.row#bannerMarcas"
+        ]
+    },
+    "responsive-layout.mobile#bannermarcasMobile":{
+        "children":[
+             "flex-layout.row#bannerMarcasMobile"
+        ]
+    },
     "flex-layout.row#bannerMarcas": {
         "title":"banners marcas",
         "props": {
@@ -12,10 +22,30 @@
         },
         "children": [
           "rich-text#bannerMarcas1",
-          "rich-text#bannerMarcas2",
-          "rich-text#bannerMarcas3"
+            "rich-text#bannerMarcas2",
+            "rich-text#bannerMarcas3"
         ]
     },
+    "flex-layout.row#bannerMarcasMobile": {
+        "title":"banners marcas",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "bannerMarcas",
+            "colGap": "20"
+        },
+        "children": [
+          "rich-text#bannerMarcas1Mobile",
+            "rich-text#bannerMarcas2Mobile",
+            "rich-text#bannerMarcas3Mobile",
+            "rich-text#bannerMarcas4Mobile",
+            "rich-text#bannerMarcas5Mobile",
+            "rich-text#bannerMarcas6Mobile"
+        ]
+    },    
     "rich-text#bannerMarcas1": {
         "title": "Banner Marcas Home 1",
         "props": {
@@ -40,6 +70,60 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": "[![adidas](assets/img/home/adidas.png) **ADIDAS**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },
+    "rich-text#bannerMarcas1Mobile": {
+        "title": "Banner Marcas Home 1 Mobile",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![nike](https://lf10.vteximg.com.br/arquivos/puma-mobile.png) **nike**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },
+    "rich-text#bannerMarcas2Mobile": {
+        "title": "Banner Marcas Home 2 Mobile",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![puma](https://lf10.vteximg.com.br/arquivos/puma-mobile.png) **puma**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },
+    "rich-text#bannerMarcas3Mobile": {
+        "title": "Banner Marcas Home 3 Mobile",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![adidas](https://lf10.vteximg.com.br/arquivos/adidas-mobile.png) **adidas**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },
+    "rich-text#bannerMarcas4Mobile": {
+        "title": "Banner Marcas Home 3 Mobile",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![under armour](https://lf10.vteximg.com.br/arquivos/under-armour-mobile.png) **under armour**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },
+    "rich-text#bannerMarcas5Mobile": {
+        "title": "Banner Marcas Home 3 Mobile",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![skechers](https://lf10.vteximg.com.br/arquivos/skechers-mobile.png) **skechers**](#)",
+            "blockClass": "bannerMarcas"
+        }
+    },
+    "rich-text#bannerMarcas6Mobile": {
+        "title": "Banner Marcas Home 3 Mobile",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![new balance](https://lf10.vteximg.com.br/arquivos/new-balance-mobile.png) **new balance**](#)",
             "blockClass": "bannerMarcas"
         }
     }
