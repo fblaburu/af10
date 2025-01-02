@@ -71,7 +71,7 @@
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
     "vtex.wish-list": "1.x",
-    "vtex.mega-menu": "2.x"
+    "lf10.mega-menu": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
