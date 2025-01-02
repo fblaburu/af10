@@ -343,11 +343,11 @@
   }
 
 
-  .flexRowContent--sticky-menu-desktop :global(.vtex-mega-menu-2-x-menuContainerNav) {
+  .flexRowContent--sticky-menu-desktop :global(.lf10-mega-menu-3-x-menuContainerNav) {
     background-color: #000009;
     border: none;
   }
-  .flexRowContent--sticky-menu-desktop :global(.vtex-mega-menu-2-x-menuContainer) {
+  .flexRowContent--sticky-menu-desktop :global(.lf10-mega-menu-3-x-menuContainer) {
     border: 0px;
   }
 
