@@ -24,8 +24,17 @@
         "children": [
             "image#bannerCountDown",
             "flex-layout.row#bannerCountDownRow",
-            "countdown"
+            "experimental__visibility-layout#countdown"
         ]
+    },
+    "experimental__visibility-layout#countdown": {
+        "title":"Ocultar/Mostrar Contador",
+        "children": [
+            "countdown"
+        ],
+        "props": {
+            "visible": true
+        }
     },
     "image#bannerCountDown": {
         "title": "Banner Countdown",
