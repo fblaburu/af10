@@ -1,8 +1,8 @@
 @media screen and (min-width:992px) {
-    .menuContainer  :global(.lf10-mega-menu-3-x-styledLinkContainer){
+    .menuContainer  .styledLinkContainer{
         padding: 7px 20px;
     }
-    .menuContainer :global(.lf10-mega-menu-3-x-styledLink) {
+    .menuContainer .styledLink {
         color: white;
         font-family: "Roboto", serif;
         font-size: 16px;
@@ -10,7 +10,15 @@
         font-weight: 400;
         line-height: normal;
     }
-    .menuContainer :global(.lf10-mega-menu-3-x-styledLink):hover, .menuContainer :global(.lf10-mega-menu-3-x-styledLink):hover  {
+    .menuContainer .styledLink:hover, .menuContainer .styledLink:hover  {
         color: #AB220D;
     }
+}
+
+.menuContainerNav {
+    background-color: #000009;
+    border: none;
+  }
+.menuContainer {
+    border: 0px;
 }
