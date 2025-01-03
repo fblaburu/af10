@@ -71,6 +71,7 @@
       "experimental__visibility-layout#BannersThreePLP",
       "experimental__visibility-layout#BannersFourPLP",
       "experimental__visibility-layout#BannersTwoPLP",
+      "experimental__visibility-layout#BannerOne",
       // "flex-layout.row#searchtitle",
       // "flex-layout.row#ligasInternacionalesPLP",
       "flex-layout.row#result"
@@ -217,6 +218,7 @@
       "experimental__visibility-layout#BannersThreePLP",
       "experimental__visibility-layout#BannersFourPLP",
       "experimental__visibility-layout#BannersTwoPLP",
+      "experimental__visibility-layout#BannerOne",
       // "video#backgroundPLP",
       "flex-layout.row#searchtitleCategory",
       // "flex-layout.row#ligasInternacionalesPLP",

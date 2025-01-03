@@ -1,0 +1,36 @@
+{
+    "experimental__visibility-layout#BannerOne": {
+        "title":"Ocultar/Mostrar Un Banner PLP",
+        "children": [
+            "flex-layout.row#BannerOne"
+        ],
+        "props": {
+            "visible": false
+        }
+    },
+    "flex-layout.row#BannerOne": {
+        "children":[
+            "flex-layout.col#BannerOneContentRightFirstBanner"
+        ],
+        "props":{
+            "blockClass":"BannerOne",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#BannerOneContentRightFirstBanner":{
+        "children":[
+            "image#BannerOneContentRightFirstBannerImage"
+        ]
+    },
+    "image#BannerOneContentRightFirstBannerImage": {
+        "title":"Imagen",
+        "props": {
+            "width": "100%",
+            "src": "https://lf10.vteximg.com.br/arquivos/banner-seleccion.png",
+            "link":{
+                "url":"#",
+                "newTab":true
+            }
+        }
+    }
+}
