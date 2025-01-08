@@ -1,5 +1,6 @@
-.minicartContainer :global(.vtex-button){
+
     @media screen and (min-width:992px) {
+        .minicartContainer :global(.vtex-button){
         width: 40px;
         height: 20px;
         margin: 4px 20px 0 0;
@@ -25,7 +26,9 @@
     position: absolute;
     margin: auto;   
     top: 7px;
-    @media screen and (min-width:992px) {
+}
+@media screen and (min-width:992px) {
+    .minicartContainer :global(.vtex-button)::after{
         width: 40px;
         height: 40px;
         top: 7px;
@@ -50,7 +53,9 @@
     top: -18px;
     right: -25px;
     z-index: 1;
-    @media screen and (max-width:991px) {
+}
+@media screen and (max-width:991px) {
+    .minicartQuantityBadge{
         right: -19px;
         font-size: 8;
     }

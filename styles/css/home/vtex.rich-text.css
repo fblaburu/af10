@@ -28,16 +28,20 @@
 /* banner marcas home */
 .container--bannerMarcas{
     padding: 0 10px;
-    @media screen and (max-width:1026px) {
-        padding: 0;
+    
+}
+@media screen and (max-width:1026px) {
+    .container--bannerMarcas{
+    padding: 0;
     }
 }
 .link--bannerMarcas{
     position: relative;
     display: flex;
 }
-.paragraph--bannerMarcas{
+
     @media screen and (max-width:991px) {
+        .paragraph--bannerMarcas{
         margin-top: 0;
         margin-bottom: 10px;
     }
@@ -58,7 +62,9 @@
     line-height: 41px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
-    @media screen and (max-width:1025px) {
+}
+@media screen and (max-width:1025px) {
+    .strong--bannerMarcas{
         color: #FFF;
         text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
@@ -78,8 +84,9 @@
     opacity: 0;
     background: rgba(0, 0, 0, 0.5);
 }
-.link--bannerMarcas::before{
+
     @media screen and (min-width:992px) {
+        .link--bannerMarcas::before{
         content: 'Ver todo';
     position: absolute;
     color: #fff;
@@ -114,15 +121,18 @@
 
 
 /* banner Implementos home */
-.paragraph--bannerImplementos{
+
     @media screen and (max-width:1026px) {
+        .paragraph--bannerImplementos{
         margin: 0;
         margin-bottom: 10px;
     }
 }
 .container--bannerImplementos{
     padding: 0 10px;
-    @media screen and (max-width:1026px) {
+}
+@media screen and (max-width:1026px) {
+    .container--bannerImplementos{
         padding: 0 5px;
     }
 }
@@ -144,30 +154,36 @@
     width: 100%;
     text-align: center;
     transition: bottom 0.2s linear, margin 0.2s linear;
-    @media screen and (max-width:1025px) {
-        color: #FFF;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Roboto';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
+    
+}
+@media screen and (max-width:1025px) {
+    .strong--bannerImplementos{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
     }
 }
 .wrapper--bannerImplementosBig .strong--bannerImplementos{
     font-size: 45px;
-    @media screen and (max-width:1025px) {
-        color: #FFF;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Roboto';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
+    
+}
+@media screen and (max-width:1025px) {
+    .wrapper--bannerImplementosBig .strong--bannerImplementos{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
     }
 }
 .link--bannerImplementos::after{
@@ -178,13 +194,15 @@
     display: none;
     background: rgba(0, 0, 0, 0.5);
 }
-.link--bannerImplementos:hover::after{
+
     @media screen and (min-width:1026px) {
+        .link--bannerImplementos:hover::after{
     display: block;
     }
 }
-.link--bannerImplementos:hover .strong--bannerImplementos{
+
     @media screen and (min-width:1026px) {
+        .link--bannerImplementos:hover .strong--bannerImplementos{
         z-index: 3;
         font-size: 35px;
         top: 0;
@@ -195,8 +213,9 @@
     }
     
 }
-.wrapper--bannerImplementosBig .link--bannerImplementos:hover .strong--bannerImplementos{
+
     @media screen and (min-width:1026px) {
+        .wrapper--bannerImplementosBig .link--bannerImplementos:hover .strong--bannerImplementos{
         font-size: 45px;    
     }    
 }
@@ -214,14 +233,17 @@
     max-width: 100%;
     text-align: left;
     margin: 0 0 30px 0;
-    @media screen and (max-width:1025px) {
-        color: #FFF;
-        font-family: 'Roboto';
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 28px; /* 112% */
-        max-width: 90%;
+    
+}
+@media screen and (max-width:1025px) {
+    .paragraph--OurExperienceTitle{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 112% */
+    max-width: 90%;
     }
 }
 
@@ -233,13 +255,16 @@
     font-weight: 400;
     line-height: 27px; /* 108% */
     margin: 0 0 58px 0;
-    @media screen and (max-width:1025px) {
-        color: #FFF;
-        font-family: 'Roboto';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 23px; /* 115% */
+    
+}
+@media screen and (max-width:1025px) {
+    .paragraph--OurExperienceSubtitle{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 115% */
     }
 }
 .paragraph--OurExperienceDescription{
@@ -269,21 +294,25 @@
     margin: 0 0 90px 0;
     position: relative;
     padding-left: 50px;
-    @media screen and (max-width:1025px) {
-        color: #FFF;
-        font-family: 'Roboto';
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px; /* 112% */
+    
+}
+@media screen and (max-width:1025px) {
+    .paragraph--OurExperienceAddress{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 112% */
     }
 }
 .image--OurExperienceAddress{
     position: absolute;
     left: 0;
 }
-.strong--OurExperienceAddress{
+
     @media screen and (max-width:1025px) {
+        .strong--OurExperienceAddress{
         color: #FFF;
         font-family: 'Roboto';
         font-size: 25px;
@@ -303,16 +332,19 @@
     margin: 0;
     padding-top: 40px;
     margin-bottom: 15px;
-    @media screen and (max-width: 1025px) {
-        padding-left: 16px;
-        color: #FFF;
-        font-family: 'Roboto';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 23px; /* 115% */
-        margin-bottom: 10px;
-        padding-top: 14px;
+    
+}
+@media screen and (max-width: 1025px) {
+    .paragraph--OurExperienceQRTextTitle{
+    padding-left: 16px;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 115% */
+    margin-bottom: 10px;
+    padding-top: 14px;
     }
 }
 
@@ -325,19 +357,23 @@
     line-height: 27px; /* 108% */
     padding-left: 20px;
     margin: 0;
-    @media screen and (max-width: 1025px) {
-        padding-left: 16px;
-        color: #FFF;
-        font-family: 'gothambook';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 19px; /* 118.75% */
-        position: relative;
+   
+}
+@media screen and (max-width: 1025px) {
+    .paragraph--OurExperienceQRTextDescription{
+    padding-left: 16px;
+    color: #FFF;
+    font-family: 'gothambook';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 118.75% */
+    position: relative;
     }
 }
-.paragraph--OurExperienceQRTextDescription::after{
+
     @media screen and (max-width: 1025px) {
+        .paragraph--OurExperienceQRTextDescription::after{
     position: absolute;
     bottom: -10px;
     content: 'a';
@@ -349,8 +385,9 @@
     background-color: #fff;
     }
 }
-.paragraph--OurExperienceQRTextDescription::before{
+
     @media screen and (max-width: 1025px) {
+        .paragraph--OurExperienceQRTextDescription::before{
     position: absolute;
     content: 'a';
     display: block;
@@ -433,13 +470,16 @@ line-height: normal;
         font-weight: 700;
         line-height: 50px; /* 100% */
         margin: 6px 0;
-        @media screen and (max-width:1025px) {
-            color: var(--1, #000009);
-            font-family: 'Roboto';
-            font-size: 25px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 25px; /* 100% */
+        
+    }
+    @media screen and (max-width:1025px) {
+        .paragraph--bannerCountDownText1{
+        color: var(--1, #000009);
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 100% */
         }
     }
     .paragraph--bannerCountDownText2{
@@ -450,13 +490,16 @@ line-height: normal;
         font-weight: 400;
         line-height: 25px; /* 100% */
         margin: 6px 0;
-        @media screen and (max-width:1025px) {
-            color:#000009;
-            font-family: 'Roboto';
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 20px; /* 100% */
+        
+    }
+    @media screen and (max-width:1025px) {
+        .paragraph--bannerCountDownText2{
+        color:#000009;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 100% */
         }
     }
     .paragraph--bannerCountDownText3{
@@ -467,20 +510,25 @@ line-height: normal;
         font-weight: 400;
         line-height: 25px; /* 100% */
         margin: 6px 0;
-        @media screen and (max-width:1025px) {
-            color: var(--1, #000009);
-            font-family: 'Roboto';
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 25px; /* 156.25% */
+        
+    }
+    @media screen and (max-width:1025px) {
+        .paragraph--bannerCountDownText3{
+        color: var(--1, #000009);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 156.25% */
         }
     }
-
     .paragraph--bannerCountDownText4{        
         margin-top: 60px;
-        @media screen and (max-width:1025px) {
-            margin-top: 30px;
+        
+    }
+    @media screen and (max-width:1025px) {
+        .paragraph--bannerCountDownText4{        
+        margin-top: 30px;
         }
     }
     .paragraph--bannerCountDownText4 .link--bannerCountDownText4{
@@ -518,17 +566,26 @@ line-height: normal;
     width: 90%;
     display: block;
     transition: bottom 0.2s linear;
-    @media screen and (max-width:1358px) {
-        bottom: 10%;
+    
+}
+@media screen and (max-width:1358px) {
+    .container--CarouselPlusImageText{
+    bottom: 10%;
     }
-    @media screen and (max-width:1267px) {
-        bottom: 20%;
+}
+@media screen and (max-width:1267px) {
+    .container--CarouselPlusImageText{
+    bottom: 20%;
     }
-    @media screen and (max-width:1105px) {
-        bottom: 30%;
+}
+@media screen and (max-width:1105px) {
+    .container--CarouselPlusImageText{
+    bottom: 30%;
     }
-    @media screen and (max-width:1026px) {
-        bottom: 0;
+}
+@media screen and (max-width:1026px) {
+    .container--CarouselPlusImageText{
+    bottom: 0;
     }
 }
 .paragraph--CarouselPlusImageText{
@@ -544,16 +601,19 @@ line-height: normal;
     display: flex;
     flex-direction: column;
     width: 100%;
-    @media screen and (max-width: 1025px) {
-        color: #FFF;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Roboto';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
+    
+}
+@media screen and (max-width: 1025px) {
+    .paragraph--CarouselPlusImageText{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
     }
 }
 .link--CarouselPlusImageText{
@@ -569,15 +629,18 @@ line-height: normal;
     text-decoration: none;
     width: 80%;
     position: relative;
-    @media screen and (max-width: 1025px) {
-        color: #FFF;
-        text-align: center;
-        font-family: 'gothambook';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: 10px;
+    
+}
+@media screen and (max-width: 1025px) {
+    .link--CarouselPlusImageText{
+    color: #FFF;
+    text-align: center;
+    font-family: 'gothambook';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
     }
 }
 .link--CarouselPlusImageText::before{
@@ -592,7 +655,9 @@ line-height: normal;
     content: 'a';
     font-size: 0;
     display: block;
-    @media screen and (max-width:1025px) {
+}
+@media screen and (max-width:1025px) {
+    .link--CarouselPlusImageText::before{
         display: none;
     }
 }
@@ -608,8 +673,11 @@ line-height: normal;
     font-size: 0;
     display: block;
     transform: rotate(45deg);
-    @media screen and (max-width:1025px) {
-        display: none;
+    
+}
+@media screen and (max-width:1025px) {
+    .link--CarouselPlusImageText::after{
+    display: none;
     }
 }
 
@@ -617,11 +685,16 @@ line-height: normal;
     right: inherit;
     left: 0;    
     transform: rotate(-135deg);
-    @media screen and (max-width:1026px) {
-        left: 15%;
+    
+}
+@media screen and (max-width:1026px) {
+    .wrapper--CarouselPlusImageText.wrapper--Invert .link--CarouselPlusImageText::after{
+    left: 15%;
     }
-    @media screen and (max-width:425px) {
-        left: 5%;
+}
+@media screen and (max-width:425px) {
+    .wrapper--CarouselPlusImageText.wrapper--Invert .link--CarouselPlusImageText::after{
+    left: 5%;
     }
 }
 
@@ -643,16 +716,19 @@ line-height: normal;
     line-height: normal;
     text-transform: uppercase;
     margin: 40px auto 30px;
-    @media screen and (max-width: 1025px) {
-        color: #FFF;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Roboto';
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        text-transform: uppercase;
+    
+}
+@media screen and (max-width: 1025px) {
+    .paragraph--destacadosHomeCarouselText{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
     }
 }
 
@@ -671,7 +747,10 @@ width: 100%;
 display: block;
 text-align: center;
 margin-top: 140px;
+
+}
 @media screen and (max-width:1025px) {
+    .container--zonaHinchaCarouselTextTitle{
     margin-top: 22px;
     color: #000009;
     font-family: 'Roboto';
@@ -679,7 +758,7 @@ margin-top: 140px;
     font-style: normal;
     font-weight: 700;
     line-height: 35px; /* 140% */
-}
+    }
 }
 .container--zonaHinchaCarouselTextTitle .paragraph, .container--zonaHinchaCarouselTextDescription .paragraph, .container--zonaHinchaCarouselTeam .paragraph, .container--zonaHinchaCarouselTeamTitle .paragraph{
     margin: 0;
@@ -695,17 +774,19 @@ margin-top: 140px;
     position: relative;
     text-align: center;
     padding-bottom: 83px;
-    @media screen and (max-width: 1025px) {
-        color: #000009;
-        text-align: center;
-        font-family: 'Roboto';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px; /* 125% */
+    
+}
+@media screen and (max-width: 1025px) {
+    .container--zonaHinchaCarouselTextDescription {
+    color: #000009;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
     }
 }
-
 .container--zonaHinchaCarouselTeam{
     color: #FFF;
     text-align: center;
@@ -714,15 +795,18 @@ margin-top: 140px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    @media screen and (max-width:1026px) {
-        margin-top: 36px;
-        color: #FFF;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+    
+}
+@media screen and (max-width:1026px) {
+    .container--zonaHinchaCarouselTeam{
+    margin-top: 36px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     }
 }
 
@@ -734,14 +818,17 @@ margin-top: 140px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    @media screen and (max-width:768px) {
-        color: #FFF;
-        text-align: center;
-        font-family: 'Roboto';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+    
+}
+@media screen and (max-width:768px) {
+    .container--zonaHinchaCarouselTeamTitle{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     }
 }
 .link--zonaHinchaCarouselTeamLink{
@@ -761,14 +848,17 @@ margin-top: 140px;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    @media screen and (max-width:1025px) {
-        padding: 12px 30px;
-        color: #FFF;
-        font-family: 'Roboto';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+    
+}
+@media screen and (max-width:1025px) {
+    .link--zonaHinchaCarouselTeamLink{
+    padding: 12px 30px;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     }
 }
 @media screen and (max-width: 1026px) {
@@ -800,10 +890,12 @@ margin-top: 140px;
     font-weight: 400;
     line-height: normal;
     margin-top: 30px;
-    @media screen and (max-width:768px) {
-        display: block;
-        max-width: 300px;
-        margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+    .wrapper--buttonCall :global(.vtex-rich-text-0-x-link--buttonCall){
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
     }
 }
 
@@ -816,8 +908,11 @@ margin-top: 140px;
     line-height: normal;
     text-align: center;
     margin-bottom: 15px;
-    @media screen and (max-width:768px) {
-        font-size: 20px;
+    
+}
+@media screen and (max-width:768px) {
+    .paragraph--tabCarruselHomeCarouselTextTitle{
+    font-size: 20px;
     }
 }
 .paragraph--tabCarruselHomeCarouselTextTitleDesc{
@@ -830,8 +925,11 @@ margin-top: 140px;
     line-height: normal;
     text-align: center;
     margin-top: 0;
-    @media screen and (max-width:768px) {
-        font-size: 16px;
+    
+}
+@media screen and (max-width:768px) {
+    .paragraph--tabCarruselHomeCarouselTextTitleDesc{
+    font-size: 16px;
     }
 }
 .container--tabCarruselHomeCarouselTextTitle{

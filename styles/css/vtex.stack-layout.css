@@ -1,8 +1,10 @@
 .stackItem--product {
   width: 100%;
-  @media screen and (min-width:1026px) {
+}
+@media screen and (min-width:1026px) {
+  .stackItem--product {
     min-height: 257px  
-  }  
+  }
 }
 
 .stackItem--quickview {

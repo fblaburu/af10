@@ -117,8 +117,9 @@
 .flexRow--drawer-header{
   width: 100%;
 }
-.flexRow--main-header-mobile{
+
   @media screen and (max-width:1025px) {
+    .flexRow--main-header-mobile{
     padding: 0 15px !important;
     border-radius: 5px;
     border: 0.5px solid var(--2, #AB220D);

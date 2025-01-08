@@ -1,12 +1,14 @@
-.container{
+
     @media screen and (max-width:991px) {
+        .container{
         float: none;
         display: flex;
     justify-content: center;
     }
 }
-.container :global(.vtex-button){
+
     @media screen and (min-width:992px) {
+        .container :global(.vtex-button){
         width: 40px;
         height: 20px;
         margin: 0 20px; 
@@ -30,7 +32,9 @@
     align-items: center;
     position: relative;
     top: 2px;
-    @media screen and (max-width:1025px) {
+}
+@media screen and (max-width:1025px) {
+    .container :global(.vtex-button){
         top: 0px;
     }
 }

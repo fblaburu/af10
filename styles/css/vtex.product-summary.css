@@ -1,8 +1,9 @@
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
-.skuSelectorContainer{
+
   @media screen and (min-width:1027px) {
+    .skuSelectorContainer{
     width: 100%;
   }
 }

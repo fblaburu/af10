@@ -1,5 +1,6 @@
-.wrapper  {
+
     @media screen and (max-width:1025px) {
+        .wrapper  {
         position: fixed !important;
         bottom: 30px;
         height: max-content !important;
@@ -7,8 +8,9 @@
         padding: 0 15px;
     }
 }
-.container{
+
     @media screen and (max-width:1025px) {
+        .container{
         position: fixed !important;
         bottom: 30px;
         height: max-content !important;
