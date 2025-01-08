@@ -1,7 +1,11 @@
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
-
+.skuSelectorContainer{
+  @media screen and (min-width:1027px) {
+    width: 100%;
+  }
+}
 .container :global(.vtex-modal-layout-0-x-triggerContainer) {
   opacity: 0;
   transition: opacity 200ms ease-in-out;

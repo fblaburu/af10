@@ -96,7 +96,16 @@
     ]
   },
   "flex-layout.row#mega-menu": {
-    "children": ["mega-menu#desktop"]
+    "children": ["flex-layout.col#mega-menu"],
+    "props": {
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.col#mega-menu":{
+    "children": ["mega-menu#desktop"],
+    "props": {
+      "horizontalAlign": "left"
+    }
   },
   "mega-menu#desktop": {
     "props": {

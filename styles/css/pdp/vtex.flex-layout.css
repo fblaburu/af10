@@ -201,7 +201,9 @@
     }
 }
 .flexCol--bannerMarcasSmall {
-    display: ruby;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .flexRowContent--bannerMarcas {
     max-width: 1550px;

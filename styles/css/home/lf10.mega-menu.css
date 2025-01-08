@@ -18,7 +18,10 @@
 .menuContainerNav {
     background-color: #000009;
     border: none;
-  }
+    @media screen and (min-width:992px) {
+    width: max-content !important;
+    }
+}
 .menuContainer {
     border: 0px;
 }
