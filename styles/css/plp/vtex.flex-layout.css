@@ -1,10 +1,13 @@
 .flexRowContent--orderByAndSwitcher{
     justify-content: center;
-    @media screen and (min-width:1026px) {
-        margin-top: 30px;
-        margin-bottom: 30px;    
-    }    
+       
 }
+@media screen and (min-width:1026px) {
+    .flexRowContent--orderByAndSwitcher{
+    margin-top: 30px;
+    margin-bottom: 30px;    
+    }
+} 
 .flexColChild--HighlightsCol {
     position: relative;
     display: flex;
@@ -71,21 +74,27 @@
     font-style: normal;
     font-weight: 700;
     line-height: 18px; /* 81.818% */
-    @media screen and (max-width:1025px) {
-        color: #FFF;
-        text-align: center;
-        font-family: 'Roboto';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 18px; /* 112.5% *//* White */
-      }
+    
     
 }
+@media screen and (max-width:1025px) {
+    .flexRowContent--productprices :global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 112.5% *//* White */
+    }
+  }
 .flexCol--buttonsSelector{
     padding: 10px;
-    @media screen and (max-width:1025px) {
-        display: none;
+    
+}
+@media screen and (max-width:1025px) {
+    .flexCol--buttonsSelector{
+    display: none;
     }
 }
 .flexCol--HoverSection{
@@ -119,8 +128,11 @@
 }
 :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) {
     display: none;
-    @media screen and (max-width:1026px) {
-        display: block;
+    
+}
+@media screen and (max-width:1026px) {
+    :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) {
+    display: block;
     }
 }
 .flexCol--HoverSection :global(.vtex-product-quantity-1-x-quantitySelectorContainer--numericStepperSummary) {
@@ -210,8 +222,11 @@ align-items: center;
     content: url('assets/img/plp/ico-cart-v3.png');
     display: block;
     margin-right: 15px;
-    @media screen and (max-width: 374px) {
-        display: none;
+    
+}
+@media screen and (max-width: 374px) {
+    .flexCol--Addbutton :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary)::before{
+    display: none;
     }
 }
 .flexCol--Addbutton :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--AddButtonSummary)::before{
@@ -220,8 +235,9 @@ align-items: center;
 
 
 
-.flexCol--ViewButton{
+
     @media screen and (max-width:1026px) {
+        .flexCol--ViewButton{
         display: none;
     }
 }
@@ -321,8 +337,9 @@ align-items: center;
     position: relative;
 }
 
-.flexRowContent--bigimageMobilePLPContainer .stretchChildrenWidth:first-child{
+
     @media screen and (max-width:1025px) {
+        .flexRowContent--bigimageMobilePLPContainer .stretchChildrenWidth:first-child{
         width:  104% !important;
     left: -2%;
     position: relative;
@@ -332,16 +349,18 @@ align-items: center;
 .flexRow--bigimageMobilePLPContainer{
     margin-bottom: 40px;
 }
-.flexRowContent--bigimageMobilePLPContainer .flexColChild--bigimageMobilePLPContainerRight .stretchChildrenWidth:first-child{
+
      @media screen and (max-width:1025px) {
+        .flexRowContent--bigimageMobilePLPContainer .flexColChild--bigimageMobilePLPContainerRight .stretchChildrenWidth:first-child{
         width: 50% !important;
         left: inherit;
         position: relative;    
      }
     
 }
-.flexColChild--BannersPLPBigImage {
+
     @media screen and (min-width:800px) {
+        .flexColChild--BannersPLPBigImage {
         margin-right: 30px;  
      }
 }
@@ -366,9 +385,12 @@ align-items: center;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    @media screen and (max-width:1025px) {
-        font-size: 25px;
-        padding: 0 5px;
+    
+}
+@media screen and (max-width:1025px) {
+    .flexColChild--BannersPLPBigImage:last-child :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 25px;
+    padding: 0 5px;
     }
 }
 .flexColChild--BannersPLPBigImage:last-child :global(.vtex-rich-text-0-x-paragraph) :global(.vtex-rich-text-0-x-link){
@@ -385,12 +407,15 @@ align-items: center;
     background: #AB220D;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 19px;
-    @media screen and (max-width:1025px) {
-        font-size: 16px;
-        padding: 10px 30px;
-        width: max-content;
-        max-width: 100%;
-        margin: 19px auto 0 auto;
+    
+}
+@media screen and (max-width:1025px) {
+    .flexColChild--BannersPLPBigImage:last-child :global(.vtex-rich-text-0-x-paragraph) :global(.vtex-rich-text-0-x-link){
+    font-size: 16px;
+    padding: 10px 30px;
+    width: max-content;
+    max-width: 100%;
+    margin: 19px auto 0 auto;
     }
 }
 .flexColChild--BannersPLPTinyImage :global(.vtex-rich-text-0-x-paragraph){
@@ -402,8 +427,11 @@ align-items: center;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 111.111% */
-    @media screen and (max-width:1025px) {
-        font-size: 16px;
+    
+}
+@media screen and (max-width:1025px) {
+    .flexColChild--BannersPLPTinyImage :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 16px;
     }
 }
 .flexColChild--BannersPLPTinyImage :global(.vtex-rich-text-0-x-paragraph) :global(.vtex-rich-text-0-x-strong){
@@ -414,38 +442,44 @@ align-items: center;
     font-weight: 700;
     line-height: 20px; /* 80% */
     margin-top: 10px;
-    @media screen and (max-width:1025px) {
-        font-size: 18px;
-        margin-bottom: 16px;
+    
+}
+@media screen and (max-width:1025px) {
+    .flexColChild--BannersPLPTinyImage :global(.vtex-rich-text-0-x-paragraph) :global(.vtex-rich-text-0-x-strong){
+    font-size: 18px;
+    margin-bottom: 16px;
     }
 }
 .flexRowContent--imageBigLeftBannersFour{
     margin-bottom: 40px;
 }
-.flexRowContent--imageBigLeftBannersFour .stretchChildrenWidth:first-child{
+
     @media screen and (max-width:1025px) {
+        .flexRowContent--imageBigLeftBannersFour .stretchChildrenWidth:first-child{
         left: -3%;
         position: relative;
         width: 106% !important;
     }
 }
+@media screen and (max-width:1025px) {
 .flexRowContent--imageBigLeftBannersFour .stretchChildrenWidth:last-child{
-    @media screen and (max-width:1025px) {
+    
         position: relative;
         width: 104.5% !important;
         padding-right: 0;
     }
 }
+@media screen and (max-width:1025px) {
 .flexRowContent--imageBigLeftBannersFour .flexCol--parentRightBannersFour .stretchChildrenWidth:first-child{
-    @media screen and (max-width:1025px) {
+    
         left: inherit;
         position: relative;
         width: 100% !important;
     }
 }
-
+@media screen and (max-width:1025px) {
 .flexCol--parentRightBannersFour{
-    @media screen and (max-width:1025px) {
+    
         display: flex;
         flex-direction: row;
         overflow-x: scroll;
@@ -453,8 +487,9 @@ align-items: center;
         padding-bottom: 20px;
     }    
 }
+@media screen and (max-width:1025px) {
 .flexColChild--parentRightBannersFour{
-    @media screen and (max-width:1025px) {
+    
         min-width: 250px;
         margin-right: 12px;
     }
@@ -462,8 +497,9 @@ align-items: center;
 .flexRowContent--bannersTwoPLP{    
     margin-bottom: 30px;
 }
+@media screen and (max-width:1025px) {
 .flexRowContent--bannersTwoPLP .flexColChild--BannersPLPBigImage :global(.vtex-rich-text-0-x-paragraph){
-    @media screen and (max-width:1025px) {
+    
         color: #FFF;
         text-align: center;
         font-family: 'Roboto';
@@ -475,8 +511,9 @@ align-items: center;
         margin: 0;
     }
 }
+@media screen and (max-width:1025px) {
 .flexRowContent--bannersTwoPLP .flexColChild--BannersPLPBigImage{
-    @media screen and (max-width:1025px) {
+    
         padding: 0 6px;
     }
 }

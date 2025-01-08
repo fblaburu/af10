@@ -14,23 +14,32 @@
 .writeReviewContainer {
     position: absolute;
     bottom: -30px;
-    @media screen and (max-width:720px) {
-        position: initial;
+    
+}
+@media screen and (max-width:720px) {
+    .writeReviewContainer {
+    position: initial;
     }
 }
 .reviewsRating {
     width: 50%;
     padding: 10px;
-    @media screen and (max-width:720px) {
-        width: 100%;
+   
+}
+@media screen and (max-width:720px) {
+    .reviewsRating {
+    width: 100%;
     }
 }
 .reviewCommentsContainer {
     width: 50%;
     position: relative;
-    @media screen and (max-width:720px) {
-       width: 100%;
-    }
+    
+}
+@media screen and (max-width:720px) {
+    .reviewCommentsContainer {
+    width: 100%;
+ }
 }
 .star {
     color: #AB220D;

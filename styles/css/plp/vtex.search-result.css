@@ -5,9 +5,12 @@
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  @media screen and (min-width:1026px) {
-    justify-content: center;
-    margin-top: 30px;
+  
+}
+@media screen and (min-width:1026px) {
+  .filtersWrapper--FiltersPLP{
+  justify-content: center;
+  margin-top: 30px;
   }
 }
 @media screen and (max-width:1025) {
@@ -87,25 +90,32 @@
   margin: 0 5px;
   min-width: 150px;
   margin-top: 0;
-  @media screen and (max-width:1025px) {
-    margin: 0;
-    padding: 10px 10px;
+  
+}
+@media screen and (max-width:1025px) {
+  .orderByButton {
+  margin: 0;
+  padding: 10px 10px;
   }
 }
-.orderByText {
-  @media screen and (min-width:1027px) {
-    font-size: 0;
+
+
+@media screen and (min-width:1027px) {
+  .orderByText {
+  font-size: 0;
   }
-  @media screen and (max-width:1026px) {
-    display: block;
-    color: #000009;
-    font-family: 'gothambook';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    text-transform: none;
-    text-align: left;
+}
+@media screen and (max-width:1026px) {
+  .orderByText {
+  display: block;
+  color: #000009;
+  font-family: 'gothambook';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: none;
+  text-align: left;
   }
 }
 .orderByText::before {
@@ -118,15 +128,21 @@
   font-weight: 400;
   line-height: 20px; /* 111.111% */
   text-transform: none;
-  @media screen and (max-width:1026px) {
-    display: none;
+  
+}
+@media screen and (max-width:1026px) {
+  .orderByText::before {
+  display: none;
   }
 }
 .filterPopupTitle {
   width: 100%;
   text-align: left;
-  @media screen and (min-width:1027px) {
-    font-size: 0;
+  
+}
+@media screen and (min-width:1027px) {
+  .filterPopupTitle {
+  font-size: 0;
   }
 }
 .orderByDropdown .filterPopupTitle {
@@ -138,9 +154,12 @@
 .galleryLayoutSwitcher {
   margin-left: 5px;
   display: flex;
-  @media screen and (max-width:1026px){
-    margin-left: 0;
-    margin-bottom: 10px;
+  
+}
+@media screen and (max-width:1026px){
+  .galleryLayoutSwitcher {
+  margin-left: 0;
+  margin-bottom: 10px;
   }
 }
 .galleryLayoutSwitcher .galleryLayoutOptionButton {
@@ -189,8 +208,9 @@
   width: 100%;
 }
 
-.filterBreadcrumbsText {
+
   @media screen and (max-width:1026px) {
+    .filterBreadcrumbsText {
     color: #000009;
     text-align: left;
     font-family: 'gothambook';
@@ -200,8 +220,9 @@
     line-height: 20px; /* 111.111% */
   }
 }
-.accordionFilterItemTitle{
+
   @media screen and (max-width:1026px) {
+    .accordionFilterItemTitle{
     color: var(--3, #FFF);
     font-family: 'Roboto';
     font-size: 18px;
@@ -213,8 +234,9 @@
 .accordionFilterContainer--category-5, .accordionFilterContainer--category-4, .accordionFilterContainer--category-3, .accordionFilterContainer--category-2, .accordionFilterContainer--category-1{
   display: none;
 }
+@media screen and (max-width:1026px) {
 .filterBreadcrumbsItemName--FiltersPLP {
-  @media screen and (max-width:1026px) {
+  
     color: #fff;
       font-family: 'gothambook';
       font-size: 20px;
@@ -223,19 +245,22 @@
       line-height: normal;
   }
 }
+@media screen and (max-width:1026px) {
 .filterBreadcrumbsItem--FiltersPLP{
-  @media screen and (max-width:1026px) {
+  
     margin-left: 5px;
   }
 }
+@media screen and (max-width:1026px) {
 .filterBreadcrumbsItem .caretIcon--FiltersPLP{
-  @media screen and (max-width:1026px) {
+  
     color: #fff;
     font-size: 10px;
   }
 }
+@media screen and (max-width:1026px) {
 .filterAccordionItemBox{
-  @media screen and (max-width:1026px) {
+  
     color: #000009;
     text-align: left;
     font-family: 'gothambook';
@@ -245,8 +270,9 @@
     line-height: 20px;
   }
 }
+@media screen and (max-width:1026px) {
 .filterClearButtonWrapper--FiltersPLP :global(.vtex-button), .filterApplyButtonWrapper :global(.vtex-button){
-  @media screen and (max-width:1026px) {
+  
     background-color: #AB220D;
     color: #fff;
     text-transform: none;
@@ -258,16 +284,18 @@
     line-height: 20px;
   }
 }
+@media screen and (max-width:1025px) {
 .accordionFilterItemIcon--FiltersPLP{
-  @media screen and (max-width:1025px) {
+  
     color: #fff;
     transform: rotate(-90deg);
     position: relative;
     right: -15px;
   }
 }
+@media screen and (max-width:1025px) {
 .filterAccordionItemBox :global(.vtex-checkbox__label){
-  @media screen and (max-width:1025px) {
+  
     color: #fff;
     font-family: 'Roboto';
     font-size: 18px;
@@ -276,8 +304,9 @@
     line-height: normal;
   }
 }
+@media screen and (max-width:1025px) {
 .closeIcon{
-  @media screen and (max-width:1025px) {
+  
     color: #fff;
     border-radius: 25px;
     border: 1px solid #fff;

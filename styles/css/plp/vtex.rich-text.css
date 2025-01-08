@@ -38,8 +38,9 @@ font-weight: 400;
 line-height: normal;
 }
 
-.wrapper--BannersThreeMobileText .paragraph{
+
   @media screen and (max-width:1025px) {
+    .wrapper--BannersThreeMobileText .paragraph{
     font-size: 16px !important;
     margin: 0 !important;
   }

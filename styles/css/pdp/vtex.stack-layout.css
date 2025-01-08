@@ -1,5 +1,6 @@
-:global(.vtex-flex-layout-0-x-flexRow--buttonFloatPDP) {
+
   @media screen and (min-width: 1025px) {
+    :global(.vtex-flex-layout-0-x-flexRow--buttonFloatPDP) {
     display: block;
   height: auto;
   max-height: 90px;
@@ -12,13 +13,17 @@
   position: sticky;
   bottom: 0px;
   margin-top: 16px;
+    }
   }
   @media screen and (max-width: 1025px) {
+    :global(.vtex-flex-layout-0-x-flexRow--buttonFloatPDP) {
     max-height: none;
     padding: 20px 30px 20px 10px;
+    }
   }
   @media screen and (max-width: 374px) {
+    :global(.vtex-flex-layout-0-x-flexRow--buttonFloatPDP) {
     padding: 20px 10px !important;
+    }
   }
 
-}
