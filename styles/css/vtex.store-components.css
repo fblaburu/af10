@@ -109,6 +109,15 @@
   position: relative;
   top: 3px;
 }
+.skuSelectorSubcontainer--tipo {
+  display: none;
+}
+.skuSelectorSubcontainer--estilo {
+  display: none;
+}
+.skuSelectorSubcontainer--division {
+  display: none;
+}
 @media screen and (max-width:1025px) {
   .imageElement--lupaMobile{
     width: 15px;
