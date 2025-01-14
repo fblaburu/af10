@@ -10,7 +10,8 @@
       "flex-layout.row#faqsFooter",
       "newsletter",
       "flex-layout.row#footer",
-      "flex-layout.row#designedBy"
+      "flex-layout.row#designedBy",
+      "image#WhatsAppFixed"
     ]
   },
   "footer-layout.mobile": {
@@ -137,6 +138,19 @@
       "href": "/",
       "url": "assets/img/footer/logo-lf10-v3.png",
       "width": "170"
+    }
+  },
+  "image#WhatsAppFixed": {
+    "props": {
+      "width": "100%",
+      "src": "https://lf10.vteximg.com.br/arquivos/whatsapp-icon.webp",
+      "blockClass":[
+        "whatsappLink"
+      ],
+      "link":{
+        "url":"https://api.whatsapp.com/send/?phone=573102411695&text=Hola+quisiera+comunicarme+con+ustedes+&type=phone_number&app_absent=0",
+        "newTab":true
+      }
     }
   },
   "image#facebook": {

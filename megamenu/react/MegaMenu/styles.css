@@ -220,4 +220,7 @@
   :global(.vtex__icon-caret-up ){
     color: #fff;
   }
+  .goBackButtonText {
+    display: none;
+  }
 }
