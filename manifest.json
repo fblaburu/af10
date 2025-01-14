@@ -40,7 +40,6 @@
     "vtex.product-identifier": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.product-customizer": "2.x",
     "vtex.stack-layout": "0.x",
     "vtex.product-specification-badges": "0.x",
     "vtex.product-review-interfaces": "1.x",
@@ -66,7 +65,10 @@
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
-    "vtex.similar-products-variants": "0.x"
+    "vtex.similar-products-variants": "0.x",
+    "vtex.product-context": "0.x",
+    "lf10.product-customizer": "2.x",
+    "vtex.formatted-price": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

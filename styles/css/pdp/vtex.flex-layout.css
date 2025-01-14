@@ -255,10 +255,51 @@ border-radius: 8px;
 }
 .flexCol--btnpersonalization .flexColChild--btnpersonalization{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
 }
-.flexCol--btnpersonalization .flexColChild--btnpersonalization::before{
+.flexCol--btnpersonalization :global(.vtex-button){
+    padding: 0;
+    background-color: #fff;
+    border: 0;
+}
+.flexCol--btnpersonalization :global(.vtex-button) :global(.vtex-button__label){
+    display: inline-block;
+    color: #000009;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 30px;
+    padding: 0;
+    text-transform: none;
+}
+.flexCol--btnpersonalization :global(.vtex-button) :global(.vtex-button__label)::after{
+    border-radius: 5px;
+    border: 1px solid #616161;
+    background: #F5F5F5;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 5px 0;
+    content: 'Sí';
+    width: 67px;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px !important;
+}
+
+.flexCol--btnpersonalization :global(.vtex-button){
+    order: 5 !important;
+}
+.flexCol--btnpersonalization :global(.vtex-button-isHidden){
+    /* display: none; */
+}
+.flexCol--btnpersonalization :global(.vtex-input__label){
+    display: none;
+}
+/* .flexCol--btnpersonalization .flexColChild--btnpersonalization::before{
     content: '¿Personalizar?';
     display: block;
     color: #000009;
@@ -293,7 +334,7 @@ border-radius: 8px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 100% */
+    line-height: 18px;
     text-transform: capitalize;
 }
 .flexCol--btnpersonalization :global(.vtex-button):hover :global(.vtex-button__label)::before{
@@ -332,4 +373,4 @@ border-radius: 8px;
 }
 .flexCol--btnpersonalization :global(.vtex-input-prefix__group){
     max-width: 123px;    
-}
+} */

@@ -1,0 +1,112 @@
+
+.productAssemblyGroupNameRow :global(.vtex-button) :global(.vtex-button__label){
+    font-size: 0;
+}
+
+.productAssemblyGroupName{
+    display: inline-block;
+    color: #000009;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+:global(.vtex-button-nombre-impreso) :global(.vtex-button__label),:global(.vtex-button-numero-impreso) :global(.vtex-button__label),:global(.vtex-button-Numero) :global(.vtex-button__label){
+    font-size: 0 !important;
+}
+:global(.vtex-button-nombre-impreso) :global(.vtex-button__label)::before{
+    content: 'Personalizar';
+    display: inline-block;
+    color: #000009;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+:global(.vtex-button-numero-impreso) .productAssemblyGroupNameRow :global(.vtex-button) :global(.vtex-button__label)::after{
+    display: inline-block;
+    color: #fff;
+    background-color: #AB220D;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 30px;
+}
+:global(.vtex-button-nombre-impreso) .productAssemblyGroupNameRow :global(.vtex-button) :global(.vtex-button__label)::after{
+    display: inline-block;
+    color: #fff;
+    background-color: #AB220D;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 30px;
+}
+:global(.vtex-button-nombre-impreso) .productAssemblyGroupName, :global(.vtex-button-numero-impreso) .productAssemblyGroupName, :global(.vtex-button-Numero) .productAssemblyGroupName{
+    display: none;
+}
+:global(.vtex-button-nombre-impreso){
+    margin-bottom: 20px;
+}
+:global(.vtex-button-numero-impreso){
+    margin-bottom: 20px;
+}
+.itemContainer{
+    background: #fff;
+}
+.itemContainer:hover{
+    background: #fff;
+}
+.productAssemblyOptionItemImage{
+    display: none;
+}
+.itemContainer :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    order: 1;
+}
+.itemContainer :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+    order: 0;
+}
+.itemContainer .productAssemblyOptionItemName{
+    font-size: 0;
+}
+.itemContainer .productAssemblyOptionItemName::after{
+    content: 'Costo';
+    display: inline-block;
+    color: #000009;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.itemContainer .productAssemblyOptionItemSign{
+    display: none;
+}
+:global(.vtex-button-nombre-impreso){
+    order:0;
+}
+:global(.vtex-button-Nombre){
+    order: 1;
+}
+:global(.vtex-button-numero-impreso){
+    order: 2;
+}
+:global(.vtex-button-Numero){
+    order: 3;
+}
+:global(.vtex-button-Nombre) .productAssemblyGroupNameRow, :global(.vtex-button-Numero) .productAssemblyGroupNameRow, :global(.vtex-button-numero-impreso) .productAssemblyGroupNameRow{
+    display: none;
+}
+:global(.vtex-button-Nombre-boton),:global(.vtex-button-Numero-boton),:global(.vtex-button-numero-impreso-boton){
+    display: none;
+}
