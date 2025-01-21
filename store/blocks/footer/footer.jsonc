@@ -16,7 +16,8 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer",
+      "image#WhatsAppFixed"
     ]
   },
   "flex-layout.row#footer": {
