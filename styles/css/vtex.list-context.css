@@ -1,0 +1,27 @@
+.list--listwhislist{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item--listwhislist{
+    width: 25%;
+    padding: 0 1%;
+}
+@media screen and (max-width:1025px) {
+    .item--listwhislist{
+        width: 33.3%;
+    }
+}
+@media screen and (max-width:768px) {
+    .list--listwhislist{
+        padding-left: 0;
+    }
+    .item--listwhislist{
+        width: 50%;
+    }
+}
+.item--listwhislist::marker{
+    font-size: 0;
+}
+.item--listwhislist :global(.vtex-flex-layout-0-x-flexColChild--ViewButton) :global(.vtex-button__label){
+    padding: 9px 20px;
+}

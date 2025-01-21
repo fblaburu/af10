@@ -134,3 +134,14 @@
 .flexRowContent--sliderThumbnails :global(.vtex-store-components-3-x-imageElement){
   width: 98%;
 }
+:global(.vtex-account__page){
+  width: 100%;
+  overflow: hidden;
+}
+:global(.vtex-my-account-1-x-menu){
+  width: 20%;
+}
+:global(.vtex-account__page){
+  width: 100%;
+  max-width: 100%;
+}

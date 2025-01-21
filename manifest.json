@@ -68,7 +68,8 @@
     "vtex.similar-products-variants": "0.x",
     "vtex.product-context": "0.x",
     "lf10.product-customizer": "2.x",
-    "vtex.formatted-price": "0.x"
+    "vtex.formatted-price": "0.x",
+    "vtex.list-context": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

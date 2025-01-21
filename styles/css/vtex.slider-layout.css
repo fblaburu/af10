@@ -83,3 +83,7 @@
 .paginationDotsContainer--slider-home{
   display: none;
 }
+
+.sliderTrackContainer--sliderWhisList{
+  max-width: 1078px;
+}
