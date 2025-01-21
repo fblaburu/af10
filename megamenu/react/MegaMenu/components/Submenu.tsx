@@ -203,7 +203,7 @@ const Submenu: FC<ItemProps> = observer((props) => {
                           [category.id]: e.target.isOpen,
                         })
                       } else {
-                        window.location.assign(`${category.slug}`)
+                        window.location.href = `/${category.slug}`
                         if (closeMenu) closeMenu(false)
                       }
                     }}
