@@ -4,6 +4,9 @@ const CamisetasAttachment = () => {
     const [total,setTotal] = useState(0);
     const productContextValue = useProduct();
     const price = productContextValue?.selectedItem?.sellers[0]?.commertialOffer?.ListPrice;
+    const inputValuesName = productContextValue?.assemblyOptions?.inputValues?.['Nombre']?.['nombre-input'];
+    const inputValuesNumber = productContextValue?.assemblyOptions?.inputValues?.['Numero']?.['numero-input'];
+        
     useEffect(() => {
         addplaceholder();
         hideButtons();        
@@ -81,12 +84,19 @@ const CamisetasAttachment = () => {
         return new Intl.NumberFormat("es-CO").format(numero);
     }
     return (
-        total!==0?(
+        <>
+        {total!==0?(
+            <>
             <div className='vtex-button-totalAssemblyPrices'>
                 <p>Total: <b>${formatearNumero(price)} + ${formatearNumero(total)} = ${formatearNumero(price+total)}</b></p>
-            </div>
-        ):null
-        
+                
+            </div>            
+            </>
+        ):null}
+        {inputValuesName && inputValuesNumber && inputValuesName !== '' && inputValuesNumber !== ''?(
+            <div className='vtex-store-components-3-x-Previsualizacion'>Previsualizar</div>
+        ):null}
+        </>
     )
 };
 

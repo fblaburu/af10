@@ -1,7 +1,7 @@
 {
   "extends": "@vtex/tsconfig",
   "compilerOptions": {
-    "lib": ["es5", "es6", "dom"],
+    "lib": ["es5", "es6", "dom","dom.iterable"],
     "noEmitOnError": false,
     "typeRoots": [
       "node_modules/@types"

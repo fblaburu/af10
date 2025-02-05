@@ -81,7 +81,7 @@
   },
 
   "flex-layout.col#stack": {
-    "children": ["responsive-layout.mobile#NameAndPrice","stack-layout"],
+    "children": ["responsive-layout.mobile#NameAndPrice","stack-layout","renderpersonalization"],
     "props": {
       "width": "50%",
       "rowGap": 0,

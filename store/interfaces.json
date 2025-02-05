@@ -27,5 +27,8 @@
   },
   "camisetasAttatchment": {
     "component": "camisetasAttachment"
+  },
+  "renderpersonalization": {
+    "component": "renderpersonalization"
   }
 }

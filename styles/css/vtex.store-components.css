@@ -154,3 +154,53 @@
     bottom: 105px;
   }
 }
+.canvasPersonalization{
+  width: 100%;
+}
+.is-hidden{
+  display: none !important;
+}
+.canvasRenderPersonalization{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+@media screen and (max-width:640px) {
+  .canvasRenderPersonalization{
+    max-width: 60%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+.canvasRenderPersonalizationClose{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #AB220D;
+  border-radius: 100%;
+  border: 2px solid #AB220D;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-weight: 800;
+  font-family: 'gothambold';
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+.Previsualizacion{
+  background-color: #AB220D;
+    border: 1px solid #AB220D;
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Previsualizacion:hover{
+  color: #AB220D;
+  background-color: #fff;
+}
