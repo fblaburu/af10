@@ -97,7 +97,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "![dirección](assets/img/icons/address-icon-v3.svg) Calle 82 # 14 - Bogotá",
+      "text": "![dirección](/arquivos/address-icon-v3.svg) Calle 82 # 14 - Bogotá",
       "blockClass": "footer-richlinks"
     }
   },
@@ -105,7 +105,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "![dirección](assets/img/icons/phone-icon.svg) (601) 123 45 67 - 765 43 21",
+      "text": "![dirección](/arquivos/phone-icon.svg) (601) 123 45 67 - 765 43 21",
       "blockClass": "footer-richlinks"
     }
   },
@@ -113,7 +113,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "![dirección](assets/img/icons/email-icon-v3.svg) correoelectronico@gmail.com",
+      "text": "![dirección](/arquivos/email-icon-v3.svg) correoelectronico@gmail.com",
       "blockClass": "footer-richlinks"
     }
   },
@@ -129,7 +129,7 @@
     "props": {
       "textAlignment": "RIGHT",
       "textPosition": "RIGHT",
-      "text": "Powered by: ![laburu](assets/img/footer/laburu-vtex.png)",
+      "text": "Powered by: ![laburu](/arquivos/laburu-vtex.png)",
       "blockClass": "footer-richlinksallRights"
     }
   },
@@ -137,7 +137,7 @@
     "props": {
       "title": "Logo LF10",
       "href": "/",
-      "url": "assets/img/footer/logo-lf10-v3.png",
+      "url": "/arquivos/logo-lf10-v3.png",
       "width": "170"
     }
   },
@@ -157,7 +157,7 @@
   "image#facebook": {
     "props": {
       "width": 13,
-      "src": "assets/img/icons/facebook.svg",
+      "src": "/arquivos/facebook.svg",
       "blockClass":[
         "footerSocialLink"
       ],
@@ -170,7 +170,7 @@
   "image#instagram": {
     "props": {
       "width": 22,
-      "src": "assets/img/icons/instagram.svg",
+      "src": "/arquivos/instagram.svg",
       "blockClass":[
         "footerSocialLink"
       ],
@@ -183,7 +183,7 @@
   "image#youtube": {
     "props": {
       "width": 29,
-      "src": "assets/img/icons/youtube.svg",
+      "src": "/arquivos/youtube.svg",
       "blockClass":[
         "footerSocialLink"
       ],

@@ -154,7 +154,7 @@
 }
 :global(.vtex-disclosure-layout-1-x-trigger)::after{
     display: block;
-    content: url('assets/img/icons/angle-down.png');
+    content: url('/arquivos/angle-down.png');
     position: absolute;
     right: 11px;
     top: 24px;
@@ -280,7 +280,7 @@
     font-size: 13px !important;
 }
 .flexRowContent--CarouselHome :global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer--summary){
-    font-size: 18px !important;
+    font-size: 16px !important;
     
 }
 @media screen and (max-width:374px) {
@@ -292,9 +292,9 @@
     margin: 0 10px;
 }
 @media screen and (min-width:1027px) {
-    .flexRowContent--CarouselHome :global(.vtex-product-summary-2-x-containerNormal){
+    /* .flexRowContent--CarouselHome :global(.vtex-product-summary-2-x-containerNormal){
         height: 511px;
-    }
+    } */
 }
 .flexRowContent--CarouselHome :global(.vtex-button__label){
     padding: 0 5px;

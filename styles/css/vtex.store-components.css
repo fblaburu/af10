@@ -54,6 +54,15 @@
 .skuSelectorContainer {
   margin: 1rem 0;
 }
+.skuSelectorTextContainer {
+  margin: 0;
+ }
+
+ .imageElement--logo_color {
+  max-width: 80px;
+  margin: 10px 0;
+  border-radius: 0 !important;
+ }
 
 @media only screen and (min-width: 640px) {
  

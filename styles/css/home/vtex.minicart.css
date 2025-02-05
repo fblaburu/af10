@@ -22,7 +22,7 @@
 }
 .minicartContainer :global(.vtex-button)::after{
     display: block;
-    content: url('assets/img/icons/Icono-carrito.svg');
+    content: url('/arquivos/Icono-carrito.svg');
     position: absolute;
     margin: auto;   
     top: 7px;
@@ -37,7 +37,7 @@
 }
 @media screen and (max-width:1025px) {
     .minicartContainer :global(.vtex-button)::after{
-        background: url('assets/img/icons/Icono-carrito.svg') no-repeat;
+        background: url('/arquivos/Icono-carrito.svg') no-repeat;
         content: '';
         width: 16px;
         height: 16px;

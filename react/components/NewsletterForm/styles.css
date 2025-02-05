@@ -1,0 +1,222 @@
+label {
+  color: #fff;
+
+}
+
+.newsletterForm__nameAndFormalTitle label a {
+  display: none;
+}
+
+.newsletterForm {
+  width: 100%;
+  height: 100%;
+}
+
+.newsletterForm__emailBtn {
+  max-width: 100%;
+}
+
+.newsletterForm__emailBtn .containerInputElement {
+  max-width: 100%;
+  width: 100%;
+}
+
+.newsletterForm__nameAndFormalTitle {
+  justify-content: space-between;
+}
+
+.newsletterForm__submitButton {
+  text-transform: capitalize !important;
+  line-height: 19.6px;
+  background-color: #a70e06;
+  color: #fff;
+  width: 100%;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding-block: 10px;
+  margin-top: 15px;
+}
+
+.groupCheckBox [type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+
+.groupCheckBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.lblCheckbox {
+  color: #000;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-left: 5px;
+}
+
+.newsletterForm__section {
+  margin-bottom: 20px;
+}
+
+.lblCheckbox a {
+  color: #000;
+  font-weight: bold;
+}
+
+.newsletterForm__resultMessage {
+  font-size: 13px;
+  line-height: 30px;
+  color: #000;
+  background-color: transparent;
+  max-height: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+  transition: all 0.2s;
+}
+
+.newsletterForm__nameAndFormalTitle .containerInputElement {
+  width: 100%;
+}
+
+.newsletterForm__nameAndFormalTitle>div {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .newsletterForm__nameAndFormalTitle .containerInputElement {
+    width: 100%;
+  }
+
+  .groupCheckBox {
+    max-width: 100%;
+    margin: 5px 0;
+  }
+
+  .newsletterForm__section {
+    margin-bottom: 0px;
+  }
+
+  .newsletterForm__nameAndFormalTitle {
+    flex-direction: column;
+  }
+
+  .containerInputElement {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .newsletterForm {
+    padding: 0 5px;
+  }
+
+  .newsletterForm__submitButton {
+    width: 100%;
+  }
+
+  .newsletterForm__submitButton {
+    max-height: 43px;
+  }
+
+  .newsletterForm__nameAndFormalTitle>div:nth-child(3)>div>input,
+  .newsletterForm__nameAndFormalTitle>div:nth-child(4)>div>input {
+    width: calc(100% - 3vw);
+  }
+
+  label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+  }
+}
+
+.newsletterForm__resultMessage--show {
+  margin: 5px 0;
+  max-height: 50px;
+}
+
+.newsletterSuccess {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletterSuccess__title {
+  margin: 0;
+  line-height: 0;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.newsletterSuccess__subtitle {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.newsletterSuccess__button {
+  width: 270px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #353535;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1.6px;
+}
+
+@media only screen and (min-width: 450px) {
+  .newsletterForm__nameAndFormalTitle .containerSelectElement {
+    width: 125px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletterForm__nameAndFormalTitle {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .newsletterForm {
+    max-width: 80%;
+  }
+
+  .newsletterForm__submitButton:hover {
+    opacity: 0.9;
+  }
+
+  .newsletterSuccess {
+    min-height: 600px;
+  }
+
+  .newsletterForm__nameAndFormalTitle {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+
+  .newsletterForm__submitButton {
+    margin: 0;
+  }
+
+  .newsletterForm__nameAndFormalTitle {
+    margin-bottom: 0;
+  }
+}
+
+:global(label.vtex-checkbox__label) {
+  color: #fff;
+  font-size: 10px;
+}

@@ -176,22 +176,22 @@
 }
 
 .galleryLayoutSwitcher .galleryLayoutOptionButton:first-child::after{
-  content: url('assets/img/plp/grid.png');
+  content: url('/arquivos/grid.png');
   display: block;
   max-width: 129px;
 }
 .galleryLayoutSwitcher .galleryLayoutOptionButton:first-child.galleryLayoutOptionButton--selected::after{
-  content: url('assets/img/plp/grid-active.png');
+  content: url('/arquivos/grid-active.png');
   display: block;
   max-width: 129px;
 }
 .galleryLayoutSwitcher .galleryLayoutOptionButton:last-child::after{
-  content: url('assets/img/plp/horizontal.png');
+  content: url('/arquivos/horizontal.png');
   display: block;
   max-width: 129px;
 }
 .galleryLayoutSwitcher .galleryLayoutOptionButton:last-child.galleryLayoutOptionButton--selected::after{
-  content: url('assets/img/plp/horizontal-active.png');
+  content: url('/arquivos/horizontal-active.png');
   display: block;
   max-width: 129px;
 }

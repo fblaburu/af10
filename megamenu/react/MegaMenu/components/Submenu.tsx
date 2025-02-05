@@ -185,14 +185,18 @@ const Submenu: FC<ItemProps> = observer((props) => {
                 >
                   <Collapsible
                     header={
+                      <>
                       <p
                         className={classNames(
                           handles.collapsibleHeaderText,
                           collapsibleStates[category.id] && 'fw7'
                         )}
-                      >
+                        >
                         {category.name}
+
                       </p>
+                          {!subcategories.length ?<a href={`/${category.slug}`} className={handles.ImageSubmenuLink}><img className={handles.ImageSubmenu} src={`/arquivos/${category.icon}${window.screen.width < 992?'-mobile':''}.png`}/></a>:null}
+                        </>
                     }
                     align="right"
                     // eslint-disable-next-line @typescript-eslint/no-explicit-any

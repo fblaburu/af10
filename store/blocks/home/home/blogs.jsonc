@@ -70,7 +70,7 @@
     "image#bannerBlogs1Image": {
         "title": "imagen 1 blog",
         "props": {
-            "src": "assets/img/home/blog1.png",
+            "src": "/arquivos/blog1.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -98,7 +98,7 @@
     "image#bannerBlogs2Image": {
         "title": "imagen 2 blog",
         "props": {
-            "src": "assets/img/home/blog2.png",
+            "src": "/arquivos/blog2.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -126,7 +126,7 @@
     "image#bannerBlogs3Image": {
         "title": "imagen 3 blog",
         "props": {
-            "src": "assets/img/home/blog3.png",
+            "src": "/arquivos/blog3.png",
             "link":{
                 "url":"#",
                 "newTab":true

@@ -43,7 +43,7 @@
     "image#banner1": {
         "title": "Banner 1 Slider",
         "props": {
-            "src": "assets/img/slider-home/banner1.jpg",
+            "src": "/arquivos/banner1.jpg",
             "link": {
                 "url": "#"
             }
@@ -52,7 +52,7 @@
     "image#banner2": {
         "title": "Banner 2 Slider",
         "props": {
-            "src": "assets/img/slider-home/banner2.jpg",
+            "src": "/arquivos/banner2.jpg",
             "link": {
                 "url": "#"
             }
@@ -61,7 +61,7 @@
     "image#banner3": {
         "title": "Banner 3 Slider",
         "props": {
-            "src": "assets/img/slider-home/banner3.jpg",
+            "src": "/arquivos/banner3.jpg",
             "link": {
                 "url": "#"
             }
@@ -86,21 +86,21 @@
     "image#thumbnailslider1": {
         "title": "Thumbnail 1 Slider",
         "props": {
-            "src": "assets/img/slider-home/thumbnail1.png",
+            "src": "/arquivos/thumbnail1.png",
             "blockClass":["sliderThumbnails","sliderThumbnails-1"]
         }
     },
     "image#thumbnailslider2": {
         "title": "Thumbnail 2 Slider",
         "props": {
-            "src": "assets/img/slider-home/thumbnail2.png",
+            "src": "/arquivos/thumbnail2.png",
             "blockClass":["sliderThumbnails","sliderThumbnails-2"]
         }
     },
     "image#thumbnailslider3": {
         "title": "Thumbnail 3 Slider",
         "props": {
-            "src": "assets/img/slider-home/thumbnail3.png",
+            "src": "/arquivos/thumbnail3.png",
             "blockClass":["sliderThumbnails","sliderThumbnails-3"]
         }
     }

@@ -42,25 +42,25 @@
     background-size: 65%;
 }
 .listItem--portugal :global(.vtex-button){
-    background-image: url("assets/img/home/equipos/portugal.png");
+    background-image: url("/arquivos/equipos/portugal.png");
 }
 .listItem--inglaterra :global(.vtex-button){
-    background-image: url("assets/img/home/equipos/inglaterra.png");
+    background-image: url("/arquivos/equipos/inglaterra.png");
 }
 .listItem--uruguay :global(.vtex-button){
-    background-image: url("assets/img/home/equipos/uruguay.png");
+    background-image: url("/arquivos/equipos/uruguay.png");
 }
 .listItem--colombia :global(.vtex-button){
-    background-image: url("assets/img/home/equipos/colombia.png");
+    background-image: url("/arquivos/equipos/colombia.png");
 }
 .listItem--francia :global(.vtex-button){
-    background-image: url("assets/img/home/equipos/francia.png");
+    background-image: url("/arquivos/equipos/francia.png");
 }
 .listItem--argentina :global(.vtex-button){
-    background-image: url("assets/img/home/equipos/argentina.png");
+    background-image: url("/arquivos/equipos/argentina.png");
 }
 .listItem--brasil :global(.vtex-button){
-    background-image: url("assets/img/home/equipos/brasil.png");
+    background-image: url("/arquivos/equipos/brasil.png");
 }
 .container--pdp-tabs :global(.vtex-rich-text-0-x-container--zonaHinchaCarouselTextTitle){
     display: block;

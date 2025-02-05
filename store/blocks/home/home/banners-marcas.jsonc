@@ -69,7 +69,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![nike](assets/img/home/nike.png) **NIKE**](#)",
+            "text": "[![nike](/arquivos/nike.png) **NIKE**](#)",
             "blockClass": "bannerMarcas"
         }
     },
@@ -78,7 +78,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![puma](assets/img/home/puma.png) **PUMA**](#)",
+            "text": "[![puma](/arquivos/puma.png) **PUMA**](#)",
             "blockClass": "bannerMarcas"
         }
     },
@@ -87,7 +87,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![adidas](assets/img/home/adidas.png) **ADIDAS**](#)",
+            "text": "[![adidas](/arquivos/adidas.png) **ADIDAS**](#)",
             "blockClass": "bannerMarcas"
         }
     },    

@@ -1,0 +1,36 @@
+{
+    "custom-size-guide-val":{
+        "children":[
+            "modal-trigger#size_guide"
+        ]
+    },
+    "modal-trigger#size_guide": {
+        "title":"Guia de tallas",
+        "children": [
+            "rich-text#size_guide",
+            "modal-layout#size_guide"
+        ]
+    },
+    "rich-text#size_guide": {
+        "title":"Titulo",
+        "props": {
+            "blockClass":"size_guide",
+            "text": "Guía de tallas"
+        }
+    },
+    "modal-layout#size_guide": {
+        "title":"Contenido",
+        "children": [
+            "modal-header",
+            "custom-size-guide"
+        ],
+        "props":{
+            "blockClass":"size_guide"
+        }
+    },
+    "rich-text#modal-content": {
+        "props": {
+            "text": "Hello"
+        }
+    }
+}
