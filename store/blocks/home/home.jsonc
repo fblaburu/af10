@@ -144,7 +144,7 @@
       "modal-layout#newsletter"
     ],
     "props": {
-      "trigger": "load"
+      "trigger": "load-session"
     }
   },
   "modal-layout#newsletter": {
