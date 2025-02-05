@@ -68,7 +68,7 @@
   },
   "image#LigaNacional": {
         "props": {
-            "src": "assets/img/home/banner-golty.png",
+            "src": "/arquivos/banner-golty.png",
             "link":{
                 "url":"#",
                 "newTab":true

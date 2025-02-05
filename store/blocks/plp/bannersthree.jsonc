@@ -116,7 +116,7 @@
         "title":"Imagen Izquierda",
         "props": {
             "width": "100%",
-            "src": "assets/img/plp/bannerleft-plp.png",
+            "src": "/arquivos/bannerleft-plp.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -133,7 +133,7 @@
         "title":"Imagen Derecha 1",
         "props": {
             "width": "100%",
-            "src": "assets/img/plp/bannerright-plp-1.png",
+            "src": "/arquivos/bannerright-plp-1.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -151,7 +151,7 @@
         "title":"Imagen Derecha 2",
         "props": {
             "width": "100%",
-            "src": "assets/img/plp/bannerright-plp-2.png",
+            "src": "/arquivos/bannerright-plp-2.png",
             "link":{
                 "url":"#",
                 "newTab":true

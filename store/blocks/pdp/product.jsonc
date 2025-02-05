@@ -112,7 +112,7 @@
       "vtex.product-highlights@2.x:product-highlights",
       "responsive-layout.desktop#NameAndPrice",
       //"flex-layout.row#list-price-savings",
-      "sku-selector",
+      "flex-layout.row#sku&size",
       "product-rating-summary",
       //"product-installments",
       "similar-products-variants",
@@ -129,6 +129,19 @@
       "flex-layout.row#buy-button",
       "flex-layout.row#descriptionpdp"
     ]
+  },
+  "flex-layout.row#sku&size": {
+    "title": "Selector y guia de tallas",
+    "children": [
+      "sku-selector",
+      "custom-size-guide-val"
+    ],
+    "props": {
+      "blockClass": "sku_size",
+      "colSizing": "auto",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.row#assembly-options":{
     "children":["flex-layout.col#assembly-options"]

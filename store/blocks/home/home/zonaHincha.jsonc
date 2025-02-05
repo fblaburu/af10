@@ -130,21 +130,21 @@
     },    
     "image#zonaHinchaEquipo": {
           "props": {
-              "src": "assets/img/home/millonarios.png",
+              "src": "/arquivos/millonarios.png",
               "width": "100%",
               "blockClass":"zonaHinchaImageEquipo"
           }
     },
     "image#zonaHinchaCarousel": {
           "props": {
-              "src": "assets/img/home/background-zona-hincha.png",
+              "src": "/arquivos/background-zona-hincha.png",
               "width": "100%",
               "blockClass":"zonaHinchaImage"
           }
     },
     "image#zonaHinchaCarouselMobile": {
           "props": {
-              "src": "assets/img/home/zonahinchamobile-v2.jpg",
+              "src": "/arquivos/zonahinchamobile-v2.jpg",
               "width": "100%",
               "blockClass":["zonaHinchaImage","zonaHinchaMobile"]
           }

@@ -48,7 +48,7 @@
     },
     "image#ourexperience": {
         "props": {
-            "src": "assets/img/home/af10-fachada.png",
+            "src": "/arquivos/af10-fachada.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -92,7 +92,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "![dirección](assets/img/icons/ico-address.png) **Calle 82 - 14** Bogotá - Colombia",
+            "text": "![dirección](/arquivos/ico-address.png) **Calle 82 - 14** Bogotá - Colombia",
             "blockClass": "OurExperienceAddress",
             "width": "100%"
         }
@@ -130,7 +130,7 @@
     "image#ourexperienceQR": {
         "title": "¡Escanea el QR!",
         "props": {
-            "src": "assets/img/home/qr-af10.png",
+            "src": "/arquivos/qr-af10.png",
             "link":{
                 "url":"#",
                 "newTab":true

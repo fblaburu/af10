@@ -1,8 +1,10 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       // "flex-layout.row#mantenimiento"
-      "flex-layout.row#slider",
+      /* "flex-layout.row#slider", */
+      "toggle-layout#newsletter",
+      "toggle-layout#banner_main",
       "list-context.image-list#sliderGeneral",
       "flex-layout.row#zonaHincha",
       "flex-layout.row#bannerCountDown",
@@ -17,5 +19,185 @@
       "flex-layout.row#OurExperience",
       "flex-layout.row#bannerBlogs"
     ]
-  }  
+  },
+  "toggle-layout#banner_main": {
+    "title": "Banner principal M/O",
+    "children": [
+      "list-context.image-list#banner_main"
+    ]
+  },
+  "list-context.image-list#banner_main": {
+    "title": "Contenido",
+    "children": [
+      "toggle-layout#sin_autoplay",
+      "toggle-layout#con_autoplay"
+    ],
+    "props": {
+      "images": []
+    }
+  },
+  "toggle-layout#sin_autoplay": {
+    "title": "Slider sin autoplay M/O",
+    "children": [
+      "slider-layout#sin_autoplay"
+    ]
+  },
+  "toggle-layout#con_autoplay": {
+    "title": "Slider con autoplay M/O",
+    "children": [
+      "slider-layout#con_autoplay"
+    ]
+  },
+  "slider-layout#con_autoplay": {
+    "title": "Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "fullWidth": true,
+      "infinite": true,
+      "blockClass": "slider_main"
+    }
+  },
+  "slider-layout#sin_autoplay": {
+    "title": "Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "blockClass": "slider_main"
+    }
+  },
+  "list-context.image-list#banner_top": {
+    "title": "Contenido",
+    "children": [
+      "toggle-layout#sin_autoplay_top",
+      "toggle-layout#con_autoplay_top"
+    ],
+    "props": {
+      "images": []
+    }
+  },
+  "toggle-layout#sin_autoplay_top": {
+    "title": "Slider sin autoplay M/O",
+    "children": [
+      "slider-layout#sin_autoplay_top"
+    ]
+  },
+  "toggle-layout#con_autoplay_top": {
+    "title": "Slider con autoplay M/O",
+    "children": [
+      "slider-layout#con_autoplay_top"
+    ]
+  },
+  "slider-layout#con_autoplay_top": {
+    "title": "Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "fullWidth": true,
+      "infinite": true,
+      "blockClass": "slider_top"
+    }
+  },
+  "slider-layout#sin_autoplay_top": {
+    "title": "Slider",
+    "props": {
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "blockClass": "slider_top"
+    }
+  },
+  "toggle-layout#newsletter": {
+    "title": "Newsletter M/O",
+    "children": [
+      "modal-trigger#newsletter"
+    ]
+  },
+  "modal-trigger#newsletter": {
+    "title": "Modal",
+    "children": [
+      "modal-layout#newsletter"
+    ],
+    "props": {
+      "trigger": "load"
+    }
+  },
+  "modal-layout#newsletter": {
+    "title": "Contenido",
+    "children": [
+      "modal-header",
+      "flex-layout.row#newsletter"
+    ],
+    "props": {
+      "blockClass":"newsletter"
+    }
+  },
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.col#newsletter",
+      
+      "responsive-layout.desktop#image"
+    ],
+    "props": {
+      "blockClass": "newsletter",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": false
+    }
+  },
+  "responsive-layout.desktop#image": {
+    "title": "Desktop",
+    "children": [
+      "image"
+    ]
+  },
+  "flex-layout.col#newsletter": {
+    "children": [
+      "image#logo_color",
+      "rich-text#newsletter",
+      "custom-newsletter"
+    ],
+    "props": {
+      
+    }
+  },
+  "image#logo_color":{
+    "title": "Logo",
+    "props": {
+      "blockClass":"logo_color",
+      "src": "/arquivos/logo-lf10-negro.svg"
+    }
+  },
+  
+  "rich-text#newsletter": {
+    "title": "Titulo",
+    "props": {
+      "text": "**Lorem Impsun dolor sit** \n Registraate y recibe un 15 % en tu primera compra",
+      "blockClass":"newsletter"
+    }
+  }
 }

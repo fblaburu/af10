@@ -114,7 +114,7 @@
   "image#bannersearch": {
     "props": {
       "width": "100%",
-      "src": "assets/img/plp/cancha.png",
+      "src": "/arquivos/cancha.png",
       "blockClass":[
         "canchaPLP"
       ]
@@ -131,7 +131,7 @@
       "src": "https://youtu.be/KoFJRfgpWE8",
       "blockClass": "videoEl",
       "controlsType": "native",
-      "poster": "assets/img/plp/cancha.png"
+      "poster": "/arquivos/cancha.png"
     }
   },
   "flex-layout.row#result": {

@@ -13,6 +13,19 @@
       }
     }
   },
+  "custom-html":{
+    "component": "html"
+  },
+  "custom-newsletter":{
+    "component": "NewsletterForm"
+  },
+  "custom-size-guide":{
+    "component": "sizeGuide"
+  },
+  "custom-size-guide-val":{
+    "component": "sizeGuideVal",
+    "composition": "children"
+  },
   "AddCustomMenuIcon":{
     "component": "addcustomimagesubmenu"
   },

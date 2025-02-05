@@ -1,0 +1,41 @@
+.containerInputElement {
+
+}
+.inputElement {
+  width: 100%;
+  outline: 0;
+  border: none;
+  border-bottom: solid 1px #3f3f3f;
+  font-style: initial;
+  height: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  padding-left: 10px;
+}
+.inputElement[name="phone"],
+.inputElement[name="date"] {
+  width: 96%;
+}
+.inputElement::placeholder {
+  color: #000;
+} 
+.labelError {
+  font-size: 14px;
+  color: red;
+  max-height: 0;
+  font-style: italic;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.showError {
+  margin-top: 5px;
+  max-height: 50px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .newsletterForm__emailBtn{
+    flex-direction: column;
+  }
+}

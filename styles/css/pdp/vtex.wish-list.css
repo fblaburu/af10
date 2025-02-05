@@ -1,9 +1,13 @@
 .wishlistIconContainer {
     position: absolute;
     top: 5px;
-    left: 10px;
+    right: 10px;
+    z-index: 1;
 }
-
+.wishlistIcon {
+    width: 20px;
+    height: 20px;
+}
 .wishlistIconContainer :global(.vtex-button):hover {
     background-color: transparent;
 
@@ -11,4 +15,14 @@
 .wishlistIconContainer :global(.vtex-button):focus {
     background-color: transparent;
 
+}
+
+@media screen and (min-width:1026px) {
+    .wishlistIconContainer {
+        display: none;
+        transition: all .3s;
+    }
+    :global(.vtex-product-summary-2-x-element):hover .wishlistIconContainer{
+        display: flex;
+    }
 }

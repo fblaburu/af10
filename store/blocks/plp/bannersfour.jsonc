@@ -94,7 +94,7 @@
         "title":"Imagen Izquierda",
         "props": {
             "width": "100%",
-            "src": "assets/img/plp/bannerleft-plp.png",
+            "src": "/arquivos/bannerleft-plp.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -111,7 +111,7 @@
         "title":"Imagen Derecha 1",
         "props": {
             "width": "100%",
-            "src": "assets/img/plp/bannerrightfour-plp-1.png",
+            "src": "/arquivos/bannerrightfour-plp-1.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -128,7 +128,7 @@
         "title":"Imagen Derecha 2",
         "props": {
             "width": "100%",
-            "src": "assets/img/plp/bannerrightfour-plp-2.png",
+            "src": "/arquivos/bannerrightfour-plp-2.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -145,7 +145,7 @@
         "title":"Imagen Derecha 3",
         "props": {
             "width": "100%",
-            "src": "assets/img/plp/bannerrightfour-plp-3.png",
+            "src": "/arquivos/bannerrightfour-plp-3.png",
             "link":{
                 "url":"#",
                 "newTab":true

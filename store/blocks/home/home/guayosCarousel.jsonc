@@ -68,7 +68,7 @@
   },
   "image#GuayosCarousel": {
         "props": {
-            "src": "assets/img/home/guayos.png",
+            "src": "/arquivos/guayos.png",
             "link":{
                 "url":"#",
                 "newTab":true

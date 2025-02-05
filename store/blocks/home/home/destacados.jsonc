@@ -26,8 +26,26 @@
       "children": [
         "image#destacadosHomeCarousel",
         "rich-text#destacadosHomeCarousel",
-        "flex-layout.row#destacadosHomeContainerCarrusel"
+        "shelf.relatedProducts"
+        /* ,
+        "flex-layout.row#destacadosHomeContainerCarrusel" */
       ]
+    },
+    "shelf.relatedProducts": {
+        "title": "Productos relacionados",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "recommendation": "view",
+            "productList": {
+                "showTitle": false,
+                "titleText": "Te Puede Interesar",
+                "itemsPerPage": 5,
+                "maxItems": 10,
+                "minItemsPerPage": 2
+            }
+        }
     },
     "flex-layout.row#destacadosHomeContainerCarrusel":{
       "children":[
@@ -59,7 +77,7 @@
     },
     "image#destacadosHomeCarousel": {
           "props": {
-              "src": "assets/img/home/destacados.png",
+              "src": "/arquivos/destacados.png",
               "width": "100%",
               "blockClass":"destacadosHomeImage"
           }

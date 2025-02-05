@@ -56,7 +56,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![nike](assets/img/pdp/bigimage.png) **NIKE**](#)",
+            "text": "[![nike](/arquivos/bigimage.png) **NIKE**](#)",
             "blockClass": "bannerMarcaspdp"
         }
     },
@@ -65,7 +65,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![puma](assets/img/pdp/smallimage.png) **PUMA**](#)",
+            "text": "[![puma](/arquivos/smallimage.png) **PUMA**](#)",
             "blockClass": "bannerMarcaspdp"
         }
     },
@@ -74,7 +74,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![adidas](assets/img/pdp/smallimage.png) **ADIDAS**](#)",
+            "text": "[![adidas](/arquivos/smallimage.png) **ADIDAS**](#)",
             "blockClass": "bannerMarcaspdp"
         }
     },
@@ -83,7 +83,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![adidas](assets/img/pdp/smallimage.png) **ADIDAS**](#)",
+            "text": "[![adidas](/arquivos/smallimage.png) **ADIDAS**](#)",
             "blockClass": "bannerMarcaspdp"
         }
     },
@@ -92,7 +92,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![adidas](assets/img/pdp/smallimage.png) **ADIDAS**](#)",
+            "text": "[![adidas](/arquivos/smallimage.png) **ADIDAS**](#)",
             "blockClass": "bannerMarcaspdp"
         }
     }
