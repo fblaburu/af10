@@ -1,21 +1,21 @@
 
     @media screen and (max-width:1025px) {
         .wrapper  {
-        position: fixed !important;
+        /* position: fixed !important;
         bottom: 30px;
         height: max-content !important;
         z-index: 999;
-        padding: 0 15px;
+        padding: 0 15px; */
     }
 }
 
     @media screen and (max-width:1025px) {
         .container{
-        position: fixed !important;
+        /* position: fixed !important;
         bottom: 30px;
         height: max-content !important;
         z-index: 999;
         top: inherit !important;
-        padding: 0 15px;
+        padding: 0 15px; */
     }
 }

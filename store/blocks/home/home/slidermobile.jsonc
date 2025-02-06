@@ -42,7 +42,7 @@
     "image#banner1mobile": {
         "title": "Banner 1 Slider",
         "props": {
-            "src": "assets/img/slider-home/banner1.jpg",
+            "src": "/arquivos/banner1.jpg",
             "link": {
                 "url": "#"
             }
@@ -51,7 +51,7 @@
     "image#banner2mobile": {
         "title": "Banner 2 Slider",
         "props": {
-            "src": "assets/img/slider-home/banner2.jpg",
+            "src": "/arquivos/banner2.jpg",
             "link": {
                 "url": "#"
             }
@@ -60,7 +60,7 @@
     "image#banner3mobile": {
         "title": "Banner 3 Slider",
         "props": {
-            "src": "assets/img/slider-home/banner3.jpg",
+            "src": "/arquivos/banner3.jpg",
             "link": {
                 "url": "#"
             }

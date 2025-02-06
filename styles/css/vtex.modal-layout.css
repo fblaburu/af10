@@ -7,6 +7,11 @@
   .actionsContainer--quickview {
     padding: 0 2rem 2rem 2rem;
   }
+  
+  .paper--size_guide {
+    max-width: 1200px;
+  }
+
 }
 
 @media screen and (min-width: 50em) {
@@ -86,4 +91,70 @@
 
 .paper--product-gifts {
   padding: 1.5rem;
+}
+
+.paper--size_guide .closeButton {
+  padding: 10px;
+}
+.paper--size_guide .headerContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+.paper--size_guide {
+  padding: 30px 20px 20px;
+}
+
+.backdrop--size_guide {
+  background: #000009;
+}
+
+.backdrop--newsletter {
+  background-color: #00000050;
+}
+
+.container--newsletter .headerContainer {
+  position: absolute;
+  right: 10px;
+  border: 0;
+  top: 10px;
+}
+
+.paper--newsletter {
+  border-radius: 20px;
+  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
+  padding: 20px;
+  max-width: 800px;
+}
+
+.container--newsletter :global(.vtex-store-components-3-x-imageElement) {
+  border-radius: 10px;
+}
+
+.container--newsletter .closeButton {
+  padding: 0;
+}
+
+@media screen and (min-width:1025px) {
+  .container--newsletter .closeButton {
+    margin-top: 4px;
+  }
+  .container--newsletter .headerContainer {
+    right: 30px;
+    top: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 1px 4px;
+  }
+  .container--newsletter .closeIcon {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    transition: all .3s;
+  }
+
+  .container--newsletter .closeIcon:hover {
+    transform: rotate(180deg);
+  }
 }

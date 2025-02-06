@@ -37,7 +37,7 @@
 }
 :global(.vtex-disclosure-layout-1-x-trigger)::after{
     display: block;
-    content: url('assets/img/icons/angle-down.png');
+    content: url('/arquivos/angle-down.png');
     position: absolute;
     right: 11px;
     top: 24px;

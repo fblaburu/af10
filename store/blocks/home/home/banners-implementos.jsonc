@@ -93,7 +93,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![MEDIAS](assets/img/home/banner-implementos/medias.png) **MEDIAS**](#)",
+            "text": "[![MEDIAS](/arquivos/banner-implementos/medias.png) **MEDIAS**](#)",
             "blockClass": "bannerImplementos"
         }
     },
@@ -102,7 +102,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![PANTALONETAS](assets/img/home/banner-implementos/pantalonetas.png) **PANTALONETAS**](#)",
+            "text": "[![PANTALONETAS](/arquivos/banner-implementos/pantalonetas.png) **PANTALONETAS**](#)",
             "blockClass": "bannerImplementos"
         }
     },
@@ -111,7 +111,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![GUANTES](assets/img/home/banner-implementos/guantes.png) **GUANTES**](#)",
+            "text": "[![GUANTES](/arquivos/banner-implementos/guantes.png) **GUANTES**](#)",
             "blockClass": "bannerImplementos"
         }
     },
@@ -120,7 +120,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![ROPA](assets/img/home/banner-implementos/ropa.png) **ROPA**](#)",
+            "text": "[![ROPA](/arquivos/banner-implementos/ropa.png) **ROPA**](#)",
             "blockClass": "bannerImplementos"
         }
     },
@@ -129,7 +129,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![BALONES](assets/img/home/banner-implementos/balones.png) **BALONES**](#)",
+            "text": "[![BALONES](/arquivos/banner-implementos/balones.png) **BALONES**](#)",
             "blockClass": [
                 "bannerImplementos",
                 "bannerImplementosBig"
@@ -141,7 +141,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![ACCESORIOS](assets/img/home/banner-implementos/accesorios.png) **ACCESORIOS**](#)",
+            "text": "[![ACCESORIOS](/arquivos/banner-implementos/accesorios.png) **ACCESORIOS**](#)",
             "blockClass": [
                 "bannerImplementos",
                 "bannerImplementosBig"
@@ -153,7 +153,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![TEAMWEAR](assets/img/home/banner-implementos/teamwear.png) **TEAMWEAR**](#)",
+            "text": "[![TEAMWEAR](/arquivos/banner-implementos/teamwear.png) **TEAMWEAR**](#)",
             "blockClass": [
                 "bannerImplementos",
                 "bannerImplementosBig"

@@ -39,6 +39,7 @@
 }
 .ImageSubmenu{
   width: 100%;
+  display: flex;
 }
 .ImageSubmenuLink{
   width: 100%;

@@ -4,32 +4,111 @@ const CamisetasAttachment = () => {
     const [total,setTotal] = useState(0);
     const productContextValue = useProduct();
     const price = productContextValue?.selectedItem?.sellers[0]?.commertialOffer?.ListPrice;
+    const inputValuesName = productContextValue?.assemblyOptions?.inputValues?.['Nombre']?.['nombre-input'];
+    const inputValuesNumber = productContextValue?.assemblyOptions?.inputValues?.['Numero']?.['numero-input'];
+    const assemblyOptions = productContextValue?.assemblyOptions?.items;
+    const nombre = assemblyOptions?assemblyOptions['vtex.assembly-option.Nombre_nombre-impreso']:false;
+    const number = assemblyOptions?assemblyOptions['vtex.assembly-option.Numero_numero-impreso']:false;
+
     useEffect(() => {
         addplaceholder();
         hideButtons();        
     });
     useEffect(()=>{
         handleupdatetotal();
+        handleAddlabels()
     },[productContextValue]);
+    useEffect(()=>{
+        handleAddlabels()
+    },[nombre,inputValuesName])
 
-    const handleupdatetotal = ()=>{
-        const assemblyOptions = productContextValue?.assemblyOptions?.items;
-        let totalprice = 0;
-        if(assemblyOptions){
-            const nombre = assemblyOptions['vtex.assembly-option.Nombre_nombre-impreso'];
-            const number = assemblyOptions['vtex.assembly-option.Numero_numero-impreso'];
-            if(nombre && nombre.length){
-                if(nombre[0].quantity ==1){
-                    totalprice = totalprice + nombre[0].price;
-                }                
+    const handleAddlabels = ()=>{
+        const btnadd = document.querySelector('.vtex-flex-layout-0-x-flexRow--buttonFloatPDP .vtex-button') as HTMLElement;
+        
+        if(nombre?.[0]?.quantity===1 && inputValuesName===''){            
+            const inputContainer = document.querySelector('.vtex-button-Nombre') as HTMLElement;
+            const input = inputContainer?.querySelector('.vtex-input-prefix__group') as HTMLInputElement;
+            const isadded = inputContainer.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;            
+            if(input){
+                isadded?.remove();
+                input.insertAdjacentHTML('afterend','<div class="vtex-store-components-3-x-LabelError">Por favor Ingrese un nombre</div>');
+                if(btnadd){
+                    btnadd.setAttribute('disabled','true');
+                }
             }
-            if(number && number.length){
-                if(number[0].quantity ==1){
-                    totalprice = totalprice + number[0].price;
-                }                
-            }
-            setTotal(totalprice);
         }
+        
+        if(nombre?.[0]?.quantity===0 && inputValuesName!==''){            
+            const inputContainer = document.querySelector('.vtex-button-Nombre') as HTMLElement;
+            const input = inputContainer?.querySelector('.vtex-input-prefix__group') as HTMLInputElement;
+            const isadded = inputContainer.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;            
+            if(input){
+                isadded?.remove();
+                input.insertAdjacentHTML('afterend','<div class="vtex-store-components-3-x-LabelError">Por favor active el costo</div>');
+                if(btnadd){
+                    btnadd.setAttribute('disabled','true');
+                }
+            }
+        }
+
+        if(nombre?.[0]?.quantity===1 && inputValuesName!=='' || nombre?.[0]?.quantity===0 && inputValuesName===''){
+            const inputContainer = document.querySelector('.vtex-button-Nombre') as HTMLElement;
+            const isadded = inputContainer.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;            
+            isadded?.remove();
+        }
+
+        if(number?.[0]?.quantity===1 && inputValuesNumber===''){            
+            const inputContainer = document.querySelector('.vtex-button-Numero') as HTMLElement;
+            const input = inputContainer?.querySelector('.vtex-input-prefix__group') as HTMLInputElement;
+            const isadded = inputContainer.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;            
+            if(input){
+                isadded?.remove();
+                input.insertAdjacentHTML('afterend','<div class="vtex-store-components-3-x-LabelError">Por favor Ingrese un Número</div>');
+                if(btnadd){
+                    btnadd.setAttribute('disabled','true');
+                }
+            }
+        }
+        
+        if(number?.[0]?.quantity===0 && inputValuesNumber!==''){            
+            const inputContainer = document.querySelector('.vtex-button-Numero') as HTMLElement;
+            const input = inputContainer?.querySelector('.vtex-input-prefix__group') as HTMLInputElement;
+            const isadded = inputContainer.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;            
+            if(input){
+                isadded?.remove();
+                input.insertAdjacentHTML('afterend','<div class="vtex-store-components-3-x-LabelError">Por favor active el costo</div>');
+                if(btnadd){
+                    btnadd.setAttribute('disabled','true');
+                }
+            }
+        }
+
+        if(number?.[0]?.quantity===1 && inputValuesNumber!=='' || number?.[0]?.quantity===0 && inputValuesNumber===''){
+            const inputContainer = document.querySelector('.vtex-button-Numero') as HTMLElement;
+            const isadded = inputContainer.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;            
+            isadded?.remove();
+        }
+
+        const getErrors = document.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;
+        if(!getErrors){
+            if(btnadd){
+                btnadd.removeAttribute('disabled');
+            }
+        }
+    }
+    const handleupdatetotal = ()=>{
+        let totalprice = 0;        
+        if(nombre && nombre.length){
+            if(nombre[0].quantity ==1){
+                totalprice = totalprice + nombre[0].price;
+            }                
+        }
+        if(number && number.length){
+            if(number[0].quantity ==1){
+                totalprice = totalprice + number[0].price;
+            }                
+        }
+        setTotal(totalprice);
         
     }
     const addplaceholder = () => {
@@ -81,12 +160,19 @@ const CamisetasAttachment = () => {
         return new Intl.NumberFormat("es-CO").format(numero);
     }
     return (
-        total!==0?(
+        <>
+        {total!==0?(
+            <>
             <div className='vtex-button-totalAssemblyPrices'>
                 <p>Total: <b>${formatearNumero(price)} + ${formatearNumero(total)} = ${formatearNumero(price+total)}</b></p>
-            </div>
-        ):null
-        
+                
+            </div>            
+            </>
+        ):null}
+        {inputValuesName && inputValuesNumber && inputValuesName !== '' && inputValuesNumber !== ''?(
+            <div className='vtex-store-components-3-x-Previsualizacion vtex-store-components-3-x-is-hidden'>Previsualizar</div>
+        ):null}
+        </>
     )
 };
 

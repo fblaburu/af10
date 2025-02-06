@@ -1,27 +1,39 @@
 {
   "header": {
+    "title":"Header",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
   "header.full": {
+    "title":"Header",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
   "header-layout.desktop": {
+    "title":"Desktop",
     "children": [
       "sticky-layout#desktop"
     ]
   },
   "sticky-layout#desktop": {
+    "title": "Contenido",
     "props": {
       "blockClass": "sticky-header"
     },
     "children": [
+      "toggle-layout#top_header",
       "flex-layout.row#desktop"
+    ]
+  },
+"toggle-layout#top_header": {
+    "title": "Top header M/O",
+    "children": [
+      "list-context.image-list#banner_top",
+      "custom-html"
     ]
   },
   "flex-layout.row#desktop": {
@@ -199,7 +211,7 @@
   "image#logo": {
     "props": {
       "width": 196,
-      "src": "assets/img/footer/logo-lf10-v3.png",
+      "src": "/arquivos/logo-lf10-v3.png",
       "link":{
         "url":"/"
       },
@@ -209,7 +221,7 @@
   "image#logoMobile": {
     "props": {
       "width": 107,
-      "src": "assets/img/footer/logo-lf10-v3.png",
+      "src": "/arquivos/logo-lf10-v3.png",
       "link":{
         "url":"/"
       },
@@ -219,7 +231,7 @@
   "image#logoMobileHeader": {
     "props": {
       "width": 80,
-      "src": "assets/img/footer/logo-lf10-v3.png",
+      "src": "/arquivos/logo-lf10-v3.png",
       "link":{
         "url":"/"
       },
@@ -227,7 +239,9 @@
     }
   },
   "header-layout.mobile": {
+    "title":"Mobile",
     "children": [
+      "toggle-layout#top_header",
       "sticky-layout#mobile"
     ]
   },
@@ -391,7 +405,7 @@
   },
   "image#iconwhishlist": {
     "props": {
-      "src": "assets/img/icons/Icono-wishlist.svg",
+      "src": "/arquivos/Icono-wishlist.svg",
       "maxHeight": 24,
       "link":{
         "url":"/account/#/wishlist"
@@ -401,7 +415,7 @@
   },
   "image#iconwhishlistMobile": {
     "props": {
-      "src": "assets/img/icons/wishlist-mobile.png",
+      "src": "/arquivos/wishlist-mobile.png",
       "maxHeight": 14,
       "link":{
         "url":"/account/#/wishlist"
@@ -410,7 +424,7 @@
   },
   "image#searchMobile": {
     "props": {
-      "src": "assets/img/icons/Icono-Lupa.png",
+      "src": "/arquivos/Icono-Lupa.png",
       "maxHeight": 24,
       "blockClass":"lupaMobile"
     }

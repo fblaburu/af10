@@ -1,3 +1,16 @@
+.sliderTrackContainer--slider_main {
+  padding-bottom: 40px;
+}
+.paginationDotsContainer--slider_main {
+  bottom: 5px !important;
+}
+.imageElementLink--slider_main,
+.imageElementLink--slider_top {
+  width: 100%;
+}
+.imageElement--slider_top {
+  display: flex;
+}
 .sliderLayoutContainer {
   justify-content: center;
 }

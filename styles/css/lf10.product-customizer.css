@@ -110,3 +110,6 @@
 :global(.vtex-button-Nombre-boton),:global(.vtex-button-Numero-boton),:global(.vtex-button-numero-impreso-boton){
     display: none;
 }
+.textInputValue :global(.vtex-input){
+    position: relative;
+  }

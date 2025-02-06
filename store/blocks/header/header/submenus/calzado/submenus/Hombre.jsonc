@@ -22,7 +22,7 @@
     "image#bannerHombreCalzado": {
         "title": "Banner Premier League",
         "props": {
-            "src": "assets/img/menu/banner-golty-menu.png",
+            "src": "/arquivos/banner-golty-menu.png",
             "blockClass":"imagenMenu"
         }
     },

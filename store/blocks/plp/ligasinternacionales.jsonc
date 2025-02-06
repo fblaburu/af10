@@ -152,7 +152,7 @@
     "image#ligaInternacional1Image": {
         "title": "imagen 1 ligaInternacional",
         "props": {
-            "src": "assets/img/plp/Premier-League-Logo.png",
+            "src": "/arquivos/Premier-League-Logo.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -171,7 +171,7 @@
     "image#ligaInternacional2Image": {
         "title": "imagen 2 ligaInternacional",
         "props": {
-            "src": "assets/img/plp/Serie_A.png",
+            "src": "/arquivos/Serie_A.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -190,7 +190,7 @@
     "image#ligaInternacional3Image": {
         "title": "imagen 3 ligaInternacional",
         "props": {
-            "src": "assets/img/plp/la-liga.png",
+            "src": "/arquivos/la-liga.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -209,7 +209,7 @@
     "image#ligaInternacional4Image": {
         "title": "imagen 4 ligaInternacional",
         "props": {
-            "src": "assets/img/plp/Bundesliga.png",
+            "src": "/arquivos/Bundesliga.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -228,7 +228,7 @@
     "image#ligaInternacional5Image": {
         "title": "imagen 5 ligaInternacional",
         "props": {
-            "src": "assets/img/plp/ligue-1.png",
+            "src": "/arquivos/ligue-1.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -247,7 +247,7 @@
     "image#ligaInternacional6Image": {
         "title": "imagen 6 ligaInternacional",
         "props": {
-            "src": "assets/img/plp/Eredivisie.png",
+            "src": "/arquivos/Eredivisie.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -266,7 +266,7 @@
     "image#ligaInternacional7Image": {
         "title": "imagen 7 ligaInternacional",
         "props": {
-            "src": "assets/img/plp/mls.png",
+            "src": "/arquivos/mls.png",
             "link":{
                 "url":"#",
                 "newTab":true
@@ -285,7 +285,7 @@
     "image#ligaInternacional8Image": {
         "title": "imagen 8 ligaInternacional",
         "props": {
-            "src": "assets/img/plp/liga-argentina.png",
+            "src": "/arquivos/liga-argentina.png",
             "link":{
                 "url":"#",
                 "newTab":true

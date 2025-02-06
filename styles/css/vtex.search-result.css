@@ -94,7 +94,7 @@ height: max-content;
     display: block;
     font-size: 0;
     content: 'a';
-    background: url('assets/img/icons/logo-lf10-v3.png') no-repeat;
+    background: url('/arquivos/logo-lf10-v3.png') no-repeat;
     background-size: 100%;
     width: 106px;
     height: 36px;

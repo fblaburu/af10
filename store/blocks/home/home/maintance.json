@@ -28,14 +28,14 @@
     },
     "image#mantenimiento": {
         "props": {
-            "src": "assets/img/home/BANNER-WEB-EN-SERVICIO-100.jpg",
+            "src": "/arquivos/BANNER-WEB-EN-SERVICIO-100.jpg",
             "width": "100%",
             "blockClass":"imageMantenimiento"
         }
     },
     "image#mantenimientoMobile": {
         "props": {
-            "src": "assets/img/home/imageMantenimientoMobile.jpeg",
+            "src": "/arquivos/imageMantenimientoMobile.jpeg",
             "width": "100%",
             "blockClass":"imageMantenimiento"
         }

@@ -69,7 +69,7 @@
   },
   "image#LigasInternacionacionales": {
         "props": {
-            "src": "assets/img/home/ligasInternacionales.png",
+            "src": "/arquivos/ligasInternacionales.png",
             "link":{
                 "url":"#",
                 "newTab":true

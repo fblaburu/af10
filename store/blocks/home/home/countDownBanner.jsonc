@@ -39,7 +39,7 @@
     "image#bannerCountDown": {
         "title": "Banner Countdown",
         "props": {
-            "src": "assets/img/home/bg-preventa-countdown.png",
+            "src": "/arquivos/bg-preventa-countdown.png",
             "width": "100%",
             "blockClass":"bannerCountDown"
         }

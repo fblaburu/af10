@@ -54,6 +54,15 @@
 .skuSelectorContainer {
   margin: 1rem 0;
 }
+.skuSelectorTextContainer {
+  margin: 0;
+ }
+
+ .imageElement--logo_color {
+  max-width: 80px;
+  margin: 10px 0;
+  border-radius: 0 !important;
+ }
 
 @media only screen and (min-width: 640px) {
  
@@ -153,4 +162,73 @@
   .imageElementLink--whatsappLink{
     bottom: 105px;
   }
+}
+.canvasPersonalization{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 615px;
+}
+.is-hidden{
+  display: none !important;
+}
+.canvasRenderPersonalization{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  
+}
+@media screen and (min-width:1200px) {
+  .canvasRenderPersonalization{
+    max-height: 600px;
+  overflow: hidden;
+  background-color: #fff;
+  }
+}
+@media screen and (max-width:639px) {
+  .canvasRenderPersonalization{
+    max-width: 60%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+.canvasRenderPersonalizationClose{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #AB220D;
+  border-radius: 100%;
+  border: 2px solid #AB220D;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-weight: 800;
+  font-family: 'gothambold';
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+.Previsualizacion{
+  background-color: #AB220D;
+    border: 1px solid #AB220D;
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Previsualizacion:hover{
+  color: #AB220D;
+  background-color: #fff;
+}
+
+.LabelError{
+  position: absolute;
+  font-size: 11px;
+  color: red;
+  bottom: -15px;
+  left: 3px;
 }

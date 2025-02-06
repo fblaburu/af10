@@ -1,3 +1,26 @@
+.paragraph--newsletter {
+  font-family: "Roboto", serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+}
+.strong--newsletter {
+  font-size: 22px;
+  line-height: 2.5;
+  font-family: 'gothambook';
+}
+.paragraph--size_guide:hover {
+  opacity: 0.7;
+}
+.paragraph--size_guide {
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
 .container--deals {
   color: #ffffff;
   text-align: center;

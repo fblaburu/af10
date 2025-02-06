@@ -20,7 +20,7 @@
     "image#bannerTextilHombre": {
         "title": "Banner Camisetas de fútbol",
         "props": {
-            "src": "assets/img/menu/banner-golty-menu.png"
+            "src": "/arquivos/banner-golty-menu.png"
         }
     },
     "vtex.menu@2.x:menu#TextilHombre": {
