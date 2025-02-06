@@ -70,7 +70,7 @@ const RenderPersonalization = () => {
                     }
                 })
             }
-        },1000);
+        },500);
        
     },[])
 
@@ -250,7 +250,7 @@ const RenderPersonalization = () => {
                 ctx.drawImage(images[0], 0, 0, 500, 500); // Dibuja la primera imagen en la posición (0, 0)
             }
         
-            let left = 145; // Starting position for subsequent images
+            let left = 150; // Starting position for subsequent images
             let totalWidth = 0; // To calculate the total width of the images
         
             // Calculate total width of images (except the first one)
@@ -272,7 +272,8 @@ const RenderPersonalization = () => {
                     const aspectRatio = img.width / img.height;
                     const newHeight = 100; // Fixed height for subsequent images
                     const newWidth = newHeight * aspectRatio; // Maintain the aspect ratio
-        
+                    ctx.imageSmoothingEnabled = true;
+                    ctx.imageSmoothingQuality = "high"
                     // Draw the image with calculated width and height
                     ctx.drawImage(img, left, publicidad && publicidad== 'si'?170:130, newWidth, newHeight);
                     left += newWidth + 10; // Space between images
@@ -282,8 +283,9 @@ const RenderPersonalization = () => {
             // Configurar el estilo del texto
             ctx.font = font;
             ctx.fillStyle = textColor;
-            ctx.strokeStyle = textBorderColor;
-            ctx.lineWidth = textBorderWidth;
+            ctx.strokeStyle = textBorderColor!= 'no'?textBorderColor:textColor;
+            
+            ctx.lineWidth =textBorderColor!= 'no'? textBorderWidth:0;
         
             // Calcular la posición X para centrar el texto
             const textWidth = ctx.measureText(text).width;

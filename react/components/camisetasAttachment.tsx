@@ -44,7 +44,7 @@ const CamisetasAttachment = () => {
             const isadded = inputContainer.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;            
             if(input){
                 isadded?.remove();
-                input.insertAdjacentHTML('afterend','<div class="vtex-store-components-3-x-LabelError">Por active el costo</div>');
+                input.insertAdjacentHTML('afterend','<div class="vtex-store-components-3-x-LabelError">Por favor active el costo</div>');
                 if(btnadd){
                     btnadd.setAttribute('disabled','true');
                 }
@@ -76,7 +76,7 @@ const CamisetasAttachment = () => {
             const isadded = inputContainer.querySelector('.vtex-store-components-3-x-LabelError') as HTMLElement;            
             if(input){
                 isadded?.remove();
-                input.insertAdjacentHTML('afterend','<div class="vtex-store-components-3-x-LabelError">Por active el costo</div>');
+                input.insertAdjacentHTML('afterend','<div class="vtex-store-components-3-x-LabelError">Por favor active el costo</div>');
                 if(btnadd){
                     btnadd.setAttribute('disabled','true');
                 }
