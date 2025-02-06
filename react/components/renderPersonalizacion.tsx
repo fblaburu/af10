@@ -31,13 +31,17 @@ const RenderPersonalization = () => {
     },[productContextValue]);
 
     useEffect(()=>{
-        if(inputValuesName && inputValuesNumber && inputValuesName !== '' && inputValuesNumber!==''){
+        if((inputValuesName && inputValuesName !== '') || (inputValuesNumber && inputValuesNumber!=='')){
             const arrayNumber = inputValuesNumber.split('');
             handleRender(arrayNumber);
             handleCloseEvents();
             handleShowEvent();
+            const btnshow = document.querySelector('.vtex-store-components-3-x-Previsualizacion');
+            if(btnshow){
+                btnshow.classList.add('vtex-store-components-3-x-is-hidden');
+            }
         }
-        if(inputValuesName === '' || inputValuesNumber===''){
+        if(inputValuesName === '' && inputValuesNumber===''){
             const canvas = document.getElementById('myCanvas');
             if(canvas){
                 canvas.remove();
@@ -46,7 +50,7 @@ const RenderPersonalization = () => {
             let mainSelector = document.querySelector('.vtex-store-components-3-x-productImageTag--main[title="camisa-mockup"]') as HTMLElement;            
             mainSelector?.classList.remove('vtex-store-components-3-x-is-hidden');
         }
-                
+                   
     },[inputValuesName,inputValuesNumber]);
 
     useEffect(()=>{
@@ -77,6 +81,10 @@ const RenderPersonalization = () => {
             if(btnClosedocument){
                 btnClosedocument.addEventListener('click',()=>{
                     document.getElementById('myCanvas')?.classList.add('vtex-store-components-3-x-is-hidden');
+                    const btnshow = document.querySelector('.vtex-store-components-3-x-Previsualizacion');
+                    if(btnshow){
+                        btnshow.classList.remove('vtex-store-components-3-x-is-hidden');
+                    }
                 })
             }
         },500);
@@ -86,6 +94,10 @@ const RenderPersonalization = () => {
             allThumbs.forEach((thumb)=>{
                 thumb.addEventListener('click',()=>{
                     document.getElementById('myCanvas')?.classList.add('vtex-store-components-3-x-is-hidden');
+                    const btnshow = document.querySelector('.vtex-store-components-3-x-Previsualizacion');
+                    if(btnshow){
+                        btnshow.classList.remove('vtex-store-components-3-x-is-hidden');
+                    }
                 })
             })
         }
@@ -95,6 +107,7 @@ const RenderPersonalization = () => {
         if(btnshow){
             btnshow.addEventListener('click',()=>{
                 document.getElementById('myCanvas')?.classList.remove('vtex-store-components-3-x-is-hidden');
+                btnshow.classList.add('vtex-store-components-3-x-is-hidden')
             })
         }
     }
