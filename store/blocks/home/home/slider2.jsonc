@@ -1,6 +1,13 @@
 {
+    "toggle-layout#banner_desactivar": {
+      "title": "Slider desactivar mobiel",
+      "children": [
+        "list-context.image-list#sliderGeneral"
+      ]
+    },
+  
     "list-context.image-list#sliderGeneral": {
-      "title": "Slider principal",
+      "title": "Slider principal desactivar",
       "children": [
         "slider-layout#slider-homeNuevo"
       ],

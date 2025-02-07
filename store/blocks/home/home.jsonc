@@ -5,7 +5,7 @@
       /* "flex-layout.row#slider", */
       "toggle-layout#newsletter",
       "toggle-layout#banner_main",
-      "list-context.image-list#sliderGeneral",
+      //"toggle-layout#banner_desactivar",
       "flex-layout.row#zonaHincha",
       "flex-layout.row#bannerCountDown",
       // "tab-layout#pdp",
