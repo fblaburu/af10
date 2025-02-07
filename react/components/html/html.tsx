@@ -1,6 +1,6 @@
 import React from 'react';
 
-const html = (format: any) => {
+const html = ({format}: any) => {
     return (
         <div>
             <div dangerouslySetInnerHTML={{ __html: format }} />
