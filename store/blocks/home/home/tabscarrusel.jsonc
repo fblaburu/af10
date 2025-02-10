@@ -286,7 +286,7 @@
   },
   "image#tabCarruselHomeCarouselTabs": {
     "props": {
-      "src": "/arquivos/FondoTabs.png",
+      "src": "/arquivos/FondoTabs.png?v=1.2",
       "width": "100%",
       "blockClass": "tabCarruselHomeImage"
     }

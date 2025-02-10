@@ -8,7 +8,7 @@
       //"toggle-layout#banner_desactivar",
       "flex-layout.row#zonaHincha",
       "flex-layout.row#bannerCountDown",
-      // "tab-layout#pdp",
+      "tab-layout#pdp",
       "flex-layout.row#destacadosHome",
       "responsive-layout.desktop#bannermarcas",
       "responsive-layout.mobile#bannermarcasMobile",
