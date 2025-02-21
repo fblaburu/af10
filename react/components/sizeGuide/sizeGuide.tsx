@@ -1,5 +1,5 @@
 import React from "react";
-import { useProduct } from "vtex.product-context";
+import { useProduct } from 'vtex.product-context';
 import { useDevice } from 'vtex.device-detector'
 
 interface Specification {
@@ -12,25 +12,30 @@ interface SpecificationGroup {
 }
 
 const sizeGuide: React.FC = () => {
-  const { product } = useProduct();
+  const productContextValue = useProduct();
   const { isMobile } = useDevice()
 
-  if (!product || !product.properties?.length) return null;
+  if (!productContextValue?.product || !productContextValue?.product.properties?.length) return null;
 
-  const bannerSizeGuide = product?.specificationGroups
-    ?.flatMap((group: SpecificationGroup) => group?.specifications)
-    .find((spec: Specification) => spec.name === "Guia de Tallas desktop")
-    ?.values[0];
+  // Se obtiene un arreglo con todas las especificaciones usando map y reduce.
+  const allSpecifications = productContextValue?.product?.specificationGroups
+    ?.map((group: SpecificationGroup) => group.specifications)
+    .reduce((acc: Specification[], curr: Specification[]) => acc.concat(curr), []);
 
-  const bannerSizeGuideMob = product?.specificationGroups
-    ?.flatMap((group: SpecificationGroup) => group?.specifications)
-    .find((spec: Specification) => spec.name === "guia de Tallas mobile")
-    ?.values[0];
+  const bannerSizeGuide = allSpecifications.find(
+    (spec: Specification) => spec.name === "Guia de Tallas desktop"
+  )?.values[0];
+  
+  const bannerSizeGuideMob = allSpecifications.find(
+    (spec: Specification) => spec.name === "guia de Tallas mobile"
+  )?.values[0];
 
   return (
     <div>
       {
-        isMobile ? <img src={bannerSizeGuideMob} alt="Guía de tallas" /> : <img src={bannerSizeGuide} alt="Guía de tallas" />
+        isMobile 
+          ? <img src={bannerSizeGuideMob} alt="Guía de tallas" /> 
+          : <img src={bannerSizeGuide} alt="Guía de tallas" />
       }
     </div>
   );
