@@ -90,6 +90,10 @@
   font-weight: 700;
 }
 
+.paragraph--size_guide {
+  color: #AB220D;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

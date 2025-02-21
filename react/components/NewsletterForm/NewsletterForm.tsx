@@ -13,21 +13,25 @@ const dataFields = {
   date: {
     type: "date",
     name: "date",
-    placeholder: "Fecha de chumpleaños",
+    placeholder: "Fecha de cumpleaños",
     label: ""
   },
-
   email: {
     type: "email",
     name: "email",
     placeholder: "Correo electrónico",
     label: ""
   },
-
   phone: {
     type: "number",
     name: "phone",
     placeholder: "Télefono",
+    label: ""
+  },
+  equipo: {
+    type: "text",
+    name: "equipo",
+    placeholder: "Nombre de tu equipo de fútbol",
     label: ""
   }
 };
@@ -37,13 +41,15 @@ const initialDataForm = {
   name: "",
   phone: "",
   date: "",
+  equipo: "",
   check: true
 };
 const initialErrorsDataForm = {
   email: "",
   name: "",
   phone: "",
-  date: ""
+  date: "",
+  equipo: ""
 };
 
 interface NewsletterFormProps {
@@ -207,7 +213,16 @@ const NewsletterForm = ({
               />
             </div>
 
-
+            <div>
+              <Input
+                name={dataFields.equipo.name}
+                type={dataFields.equipo.type}
+                placeholder={dataFields.equipo.placeholder}
+                value={dataForm.equipo}
+                onChange={onChange}
+                id={dataFields.equipo.label}
+              />
+            </div>
 
             <div>
 
