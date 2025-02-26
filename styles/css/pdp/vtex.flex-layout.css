@@ -249,7 +249,7 @@ border-radius: 8px;
     flex-direction: column;
     }
 }
-.flexRow--containerPDP  :global(.vtex-flex-layout-0-x-flexRow--destacadosHome){
+.flexRow--containerPDP  :global(.vtex-flex-layout-0-x-flexRow--destacados){
     margin-bottom: 100px;
 
 }

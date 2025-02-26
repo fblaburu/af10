@@ -18,9 +18,9 @@
       "condition-layout.product#availability",
       "product-reviews",
       "product-questions-and-answers",
-      "shelf.relatedProducts",
+      // "shelf.relatedProducts",
       "flex-layout.row#bannerMarcaspdp",
-      "flex-layout.row#destacadosHome"
+      "flex-layout.row#destacadosPDP"
     ]
   },
   

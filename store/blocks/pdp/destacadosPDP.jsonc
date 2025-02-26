@@ -1,6 +1,6 @@
 {
-  "flex-layout.row#destacadosHome": {
-    "title": "Destacados Home Carousel",
+  "flex-layout.row#destacadosPDP": {
+    "title": "Destacados PDP Carousel",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -14,11 +14,11 @@
       ]
     },
     "children": [
-      "flex-layout.col#destacadosHome"
+      "flex-layout.col#destacadosPDP"
     ]
   },
-  "flex-layout.col#destacadosHome": {
-    "title": "Destacados Home Image",
+  "flex-layout.col#destacadosPDP": {
+    "title": "Destacados PDP Image",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -28,19 +28,19 @@
       "blockClass": "DestacadosHome"
     },
     "children": [
-      "image#destacadosHomeCarousel",
-      "rich-text#destacadosHomeCarousel",
-      "flex-layout.row#destacadosHomeContainerCarrusel"
+      "image#destacadosPDPCarousel",
+      "rich-text#destacadosPDPCarousel",
+      "shelf.relatedProducts#shelfPDPRelatedProducts"
     ]
   },
-  "image#destacadosHomeCarousel": {
+  "image#destacadosPDPCarousel": {
     "props": {
       "src": "/arquivos/destacados.png",
       "width": "100%",
       "blockClass": "destacadosHomeImage"
     }
   },
-  "rich-text#destacadosHomeCarousel": {
+  "rich-text#destacadosPDPCarousel": {
     "title": "Titulo banner carrusel",
     "props": {
       "textAlignment": "center",
@@ -50,29 +50,19 @@
       "width": "100%"
     }
   },
-  "flex-layout.row#destacadosHomeContainerCarrusel": {
-    "children": [
-      "list-context.product-list#destacadosHomeCarousel"
-    ]
-  },
-  "list-context.product-list#destacadosHomeCarousel": {
+  "shelf.relatedProducts#shelfPDPRelatedProducts": {
+    "title": "Productos relacionados",
     "blocks": [
       "product-summary.shelf"
     ],
-    "children": [
-      "slider-layout#destacadosHomeCarousel"
-    ]
-  },
-  "slider-layout#destacadosHomeCarousel": {
     "props": {
-      "itemsPerPage": {
-        "(min-width:1300px)": 5,
-        "desktop": 4,
-        "tablet": 2,
-        "phone": 2
-      },
-      "infinite": true,
-      "showNavigationArrows": true
+      "productList": {
+        "showTitle": false,
+        "titleText": "Te Puede Interesar",
+        "itemsPerPage": 5,
+        "maxItems": 10,
+        "minItemsPerPage": 2
+      }
     }
   }
 }
