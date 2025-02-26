@@ -7,7 +7,7 @@
       "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "fullWidth": false,
-      "blockClass": ["ligasInternacionalesCarousel","CarouselHome","ligasNacionalesCarousel"]
+      "blockClass": ["ligasInternacionalesCarousel","carouselPpal","ligasNacionalesCarousel"]
     },
     "children": [
       "flex-layout.col#ligaNacionalCarousel",
