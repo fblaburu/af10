@@ -103,9 +103,8 @@
     "props":{
       "displayMode": "select",
       "showVariationsLabels": "none",
-      "visibleVariations": [
-          "Tallas"
-        ]
+      "sortVariationsByLabel": false,
+      "visibleVariations": ["Tallas", "Tallas.", "Talla"]
     }
   },
   "vtex.product-highlights@2.x:product-highlights#collection": {
