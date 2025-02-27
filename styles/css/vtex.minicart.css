@@ -29,11 +29,37 @@
 .minicartProductListContainer :global(.vtex-product-list-0-x-deleteIcon) {
     color: #AB220D;
 }
-.minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer ) {
+.minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer) {
     font-family: 'gothambook';
-    display: none;
-
 }
+/* Oculta todas las variaciones */
+.minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer)
+  :global(.vtex-product-list-0-x-productVariationsItem) {
+  display: none;
+}
+
+/* Muestra el primer elemento (por ejemplo, Tallas) */
+.minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer)
+  :global(.vtex-product-list-0-x-productVariationsItem):first-child {
+  display: block;
+  font-weight: bold;
+  color: #AB220D;
+}
+
+/* Muestra los elementos pares (esto mostrará el segundo y el cuarto) */
+.minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer)
+  :global(.vtex-product-list-0-x-productVariationsItem):nth-child(even) {
+  display: block;
+  font-weight: bold;
+  color: #AB220D;
+}
+
+/* Oculta el último elemento (asumiendo que es el cuarto) */
+.minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer)
+  :global(.vtex-product-list-0-x-productVariationsItem):last-child {
+  display: none;
+}
+
 .minicartProductListContainer :global(.vtex-product-list-0-x-productPrice){
     color: #000009;
     font-family: 'gothambook';

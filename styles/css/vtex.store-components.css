@@ -232,3 +232,7 @@
   bottom: -15px;
   left: 3px;
 }
+
+.seeMoreButton {
+  display: none !important;
+}
