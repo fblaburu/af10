@@ -1,0 +1,31 @@
+{
+    "store.custom#staticLayout": {
+        "blocks": [
+            "flex-layout.row#static-content"
+        ]
+    },
+    "flex-layout.row#static-content": {
+        "children": [
+            "image#staticImage",
+            "rich-text#staticContent"
+        ],
+        "props": {
+            "blockClass": "static-page-container"
+        },
+        "title": "Contenedor Principal"
+    },
+    "image#staticImage": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "blockClass": "static-image"
+        },
+        "title": "Imagen lateral"
+    },
+    "rich-text#staticContent": {
+        "props": {
+            "text": "**Aquí va tu texto.**",
+            "blockClass": "static-page-content"
+        },
+        "title": "Texto enriquecido"
+    }
+}
