@@ -174,3 +174,8 @@
   width: 100%;
   max-width: 100%;
 }
+
+.flexRowContent--static-page-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
