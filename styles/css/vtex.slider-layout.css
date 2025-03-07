@@ -48,7 +48,12 @@
   width: 100% !important;
 }
 .paginationDotsContainer {
-  bottom: -38px;
+  bottom: -25px;
+}
+@media screen and (min-width:1024px) {
+  .paginationDotsContainer {
+    bottom: -35px;
+  }
 }
 .paginationDot{  
   background-color: #b3b3c0;
