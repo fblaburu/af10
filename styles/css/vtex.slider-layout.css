@@ -51,8 +51,8 @@
   bottom: -25px;
 }
 @media screen and (min-width:1024px) {
-  .paginationDotsContainer {
-    bottom: -35px;
+  .paginationDotsContainer--CarouselHomeSlider {
+    bottom: -45px;
   }
 }
 .paginationDot{  
