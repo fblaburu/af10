@@ -176,12 +176,12 @@
 }
 
 .galleryLayoutSwitcher .galleryLayoutOptionButton:first-child::after{
-  content: url('/arquivos/grid.png');
+  content: url('/assets/vtex.file-manager-graphql/images/bbf0bf8c-e3fb-45c7-b734-ecba1acd55e7___97a820851bc71719a60993087c6e615d.png');
   display: block;
   max-width: 129px;
 }
 .galleryLayoutSwitcher .galleryLayoutOptionButton:first-child.galleryLayoutOptionButton--selected::after{
-  content: url('/arquivos/grid-active.png');
+  content: url('/assets/vtex.file-manager-graphql/images/0436ce06-b741-404b-92c6-14997c028ee5___996d952d28cb19b67f0fd05a43ef461a.png');
   display: block;
   max-width: 129px;
 }

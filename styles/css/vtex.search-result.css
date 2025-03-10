@@ -162,3 +162,9 @@ height: max-content;
       padding: 0;
     }
   }
+
+  @media screen and (min-width: 1280px) {
+    .searchResultContainer .gallery--grid {
+      max-width: 1280px;
+    }
+  }

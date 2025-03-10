@@ -66,7 +66,7 @@
   "slider-layout#destacadosHomeCarousel": {
     "props": {
       "itemsPerPage": {
-        "(min-width:1300px)": 5,
+        "(min-width:1400px)": 4,
         "desktop": 4,
         "tablet": 2,
         "phone": 2
