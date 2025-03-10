@@ -224,6 +224,16 @@
     width: 100%;
 }
 
+@media screen and (min-width:1280px) {
+    
+    .flexColChild--DestacadosHome :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        padding: 0 50px
+    }
+    .flexColChild--DestacadosHome :global(.vtex-shelf-1-x-shelfContentContainer) {
+        padding: 0 100px;
+    }
+}
+
 /* Componente xona hincha */
 .flexRow--zonaHincha{    
     @media screen and (min-width: 1199px) {
