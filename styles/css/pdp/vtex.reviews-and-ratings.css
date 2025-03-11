@@ -48,7 +48,7 @@
 .reviewCommentUser {
     display: block;
     color: #000009;
-    font-family: 'gothambook';
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -58,7 +58,7 @@
 .reviewCommentMessage {
     display: block;
     color: #000009;
-    font-family: 'gothambook';
+    font-family: "Raleway", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -71,7 +71,7 @@
 }
 .loginLink {
     color: #000009;
-    font-family: 'gothambook';
+    font-family: "Raleway", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;

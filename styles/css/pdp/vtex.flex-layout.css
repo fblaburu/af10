@@ -126,7 +126,7 @@ border-radius: 8px;
 .flexRowContent--buttonFloat :global(.vtex-add-to-cart-button-0-x-buttonText) {
     display: flex;
     color: #FFF;
-    font-family: 'gothambook';
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -151,7 +151,7 @@ border-radius: 8px;
     color: white;
     font-size: 30px;
     border: none;
-    font-family: 'Montserrat';
+    font-family: "Raleway", sans-serif;
     
 }
 @media screen and (max-width: 1025px) {
@@ -268,7 +268,7 @@ border-radius: 8px;
     display: inline-block;
     color: #000009;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
