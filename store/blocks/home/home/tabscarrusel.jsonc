@@ -1,325 +1,324 @@
 {
-  "tab-layout#pdp": {
-    "children": [
-      "rich-text#tabCarruselHomeCarouselTabs",
-      "rich-text#TabsCarouselDescription",
-      "tab-content#pdp",
-      "tab-list#pdp",
-      "rich-text#tabsPdpTeamLink",
-      "image#tabCarruselHomeCarouselTabs"
-    ],
-    "props": {
-      "blockClass": "pdp-tabs",
-      "defaultActiveTabId": "pdp1"
-    }
-  },
-  "rich-text#tabsPdpTeamLink": {
-    "title": "Titulo banner carrusel",
-    "props": {
-      "textAlignment": "center",
-      "textPosition": "center",
-      "text": "[Ver todas las selecciones](#)",
-      "blockClass": "buttonCall",
-      "width": "100%"
-    }
-  },
-  "tab-list#pdp": {
-    "children": [
-      "tab-list.item#pdp1",
-      "tab-list.item#pdp2",
-      "tab-list.item#pdp3",
-      "tab-list.item#pdp4",
-      "tab-list.item#pdp5",
-      "tab-list.item#pdp6",
-      "tab-list.item#pdp7"
-    ]
-  },
-  "tab-list.item#pdp1": {
-    "props": {
-      "tabId": "pdp1",
-      "label": "Portugal",
-      "blockClass": "portugal"
-    }
-  },
-  "tab-list.item#pdp2": {
-    "props": {
-      "tabId": "pdp2",
-      "label": "Inglaterra",
-      "blockClass": "inglaterra"
-    }
-  },
-  "tab-list.item#pdp3": {
-    "props": {
-      "tabId": "pdp3",
-      "label": "Uruguay",
-      "blockClass": "uruguay"
-    }
-  },
-  "tab-list.item#pdp4": {
-    "props": {
-      "tabId": "pdp4",
-      "label": "Colombia",
-      "blockClass": "colombia",
-      "defaultActiveTab": true
-    }
-  },
-  "tab-list.item#pdp5": {
-    "props": {
-      "tabId": "pdp5",
-      "label": "Francia",
-      "blockClass": "francia"
-    }
-  },
-  "tab-list.item#pdp6": {
-    "props": {
-      "tabId": "pdp6",
-      "label": "Argentina",
-      "blockClass": "argentina"
-    }
-  },
-  "tab-list.item#pdp7": {
-    "props": {
-      "tabId": "pdp7",
-      "label": "Brasil",
-      "blockClass": "brasil"
-    }
-  },
-  "tab-content#pdp": {
-    "children": [
-      "tab-content.item#pdp1",
-      "tab-content.item#pdp2",
-      "tab-content.item#pdp3",
-      "tab-content.item#pdp4",
-      "tab-content.item#pdp5",
-      "tab-content.item#pdp6",
-      "tab-content.item#pdp7"
-    ]
-  },
-  "tab-content.item#pdp1": {
-    "children": [
-      "flex-layout.row#tabitem1"
-    ],
-    "props": {
-      "tabId": "pdp1"
-    }
-  },
-  "flex-layout.row#tabitem1":{
-    "children":[
-      "list-context.product-list#tabCarruselHomeCarousel1"
-    ],
-    "props":{
-      "blockClass":"TabContentCarruselSlider"
-    }    
-  },
-  "list-context.product-list#tabCarruselHomeCarousel1": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#tabCarruselHomeCarousel"
-    ],
-    "props": {
-      "collection": "137"
-    }
-  },
-  "tab-content.item#pdp2": {
-    "children": [
-      "flex-layout.row#tabitem2"
-    ],
-    "props": {
-      "tabId": "pdp2"
-    }
-  },
-  "flex-layout.row#tabitem2":{
-    "children":[
-      "list-context.product-list#tabCarruselHomeCarousel2"
-    ],
-    "props":{
-      "blockClass":"TabContentCarruselSlider"
-    }    
-  },
-  "list-context.product-list#tabCarruselHomeCarousel2": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#tabCarruselHomeCarousel"
-    ],
-    "props": {
-      "collection": "137"
-    }
-  },
-  "tab-content.item#pdp3": {
-    "children": [
-      "flex-layout.row#tabitem3"
-    ],
-    "props": {
-      "tabId": "pdp3"
-    }
-  },
-  "flex-layout.row#tabitem3":{
-    "children":[
-      "list-context.product-list#tabCarruselHomeCarousel3"
-    ],
-    "props":{
-      "blockClass":"TabContentCarruselSlider"
-    }    
-  },
-  "list-context.product-list#tabCarruselHomeCarousel3": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#tabCarruselHomeCarousel"
-    ],
-    "props": {
-      "collection": "137"
-    }
-  },
-  "tab-content.item#pdp4": {
-    "children": [
-      "flex-layout.row#tabitem4"
-    ],
-    "props": {
-      "tabId": "pdp4"
-    }
-  },
-  "flex-layout.row#tabitem4":{
-    "children":[
-      "list-context.product-list#tabCarruselHomeCarousel4"
-    ],
-    "props":{
-      "blockClass":"TabContentCarruselSlider"
-    }    
-  },
-  "list-context.product-list#tabCarruselHomeCarousel4": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#tabCarruselHomeCarousel"
-    ],
-    "props": {
-      "collection": "137"
-    }
-  },
-  "tab-content.item#pdp5": {
-    "children": [
-      "flex-layout.row#tabitem5"
-    ],
-    "props": {
-      "tabId": "pdp5"
-    }
-  },
-  "flex-layout.row#tabitem5":{
-    "children":[
-      "list-context.product-list#tabCarruselHomeCarousel5"
-    ],
-    "props":{
-      "blockClass":"TabContentCarruselSlider"
-    }    
-  },
-  "list-context.product-list#tabCarruselHomeCarousel5": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#tabCarruselHomeCarousel"
-    ],
-    "props": {
-      "collection": "137"
-    }
-  },
-  "tab-content.item#pdp6": {
-    "children": [
-      "flex-layout.row#tabitem6"
-    ],
-    "props": {
-      "tabId": "pdp6"
-    }
-  },
-  "flex-layout.row#tabitem6":{
-    "children":[
-      "list-context.product-list#tabCarruselHomeCarousel6"
-    ],
-    "props":{
-      "blockClass":"TabContentCarruselSlider"
-    }    
-  },
-  "list-context.product-list#tabCarruselHomeCarousel6": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#tabCarruselHomeCarousel"
-    ],
-    "props": {
-      "collection": "137"
-    }
-  },
-  "tab-content.item#pdp7": {
-    "children": [
-      "flex-layout.row#tabitem7"
-    ],
-    "props": {
-      "tabId": "pdp7"
-    }
-  },
-  "flex-layout.row#tabitem7":{
-    "children":[
-      "list-context.product-list#tabCarruselHomeCarousel7"
-    ],
-    "props":{
-      "blockClass":"TabContentCarruselSlider"
-    }    
-  },
-  "list-context.product-list#tabCarruselHomeCarousel7": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#tabCarruselHomeCarousel"
-    ],
-    "props": {
-      "collection": "137"
-    }
-  },
-  "image#tabCarruselHomeCarouselTabs": {
-    "props": {
-      "src": "/arquivos/FondoTabs.png?v=1.2",
-      "width": "100%",
-      "blockClass": "tabCarruselHomeImage"
-    }
-  },
-  "rich-text#tabCarruselHomeCarouselTabs": {
-    "title": "Titulo banner carrusel",
-    "props": {
-      "textAlignment": "center",
-      "textPosition": "center",
-      "text": "¡Las mejores selecciones nacionales del mundo!",
-      "blockClass": "tabCarruselHomeCarouselTextTitle",
-      "width": "100%"
-    }
-  },
-  "rich-text#TabsCarouselDescription":{
-    "title": "Titulo banner description",
-    "props": {
-      "textAlignment": "center",
-      "textPosition": "center",
-      "text": "Lorem ipsum dolor sit",
-      "blockClass": "tabCarruselHomeCarouselTextTitleDesc",
-      "width": "100%"
-    }
-  },
-  "slider-layout#tabCarruselHomeCarousel": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 2,
-        "phone": 2
-      },
-      "infinite": true,
-      "showNavigationArrows": false
+    "tab-layout#pdp": {
+      "children": [
+        "rich-text#tabCarruselHomeCarouselTabs",
+        "rich-text#TabsCarouselDescription",
+        "tab-content#pdp",
+        "tab-list#pdp",
+        "rich-text#tabsPdpTeamLink",
+        "image#tabCarruselHomeCarouselTabs"
+      ],
+      "props": {
+        "blockClass": "pdp-tabs",
+        "defaultActiveTabId": "pdp1"
+      }
+    },
+    "rich-text#tabsPdpTeamLink": {
+      "title": "Titulo banner carrusel",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "[Ver todas las selecciones](#)",
+        "blockClass": "buttonCall",
+        "width": "100%"
+      }
+    },
+    "tab-list#pdp": {
+      "children": [
+        "tab-list.item#pdp1",
+        "tab-list.item#pdp2",
+        "tab-list.item#pdp3",
+        "tab-list.item#pdp4",
+        "tab-list.item#pdp5",
+        "tab-list.item#pdp6",
+        "tab-list.item#pdp7"
+      ]
+    },
+    "tab-list.item#pdp1": {
+      "props": {
+        "tabId": "pdp1",
+        "label": "Portugal",
+        "blockClass": "portugal"
+      }
+    },
+    "tab-list.item#pdp2": {
+      "props": {
+        "tabId": "pdp2",
+        "label": "Inglaterra",
+        "blockClass": "inglaterra"
+      }
+    },
+    "tab-list.item#pdp3": {
+      "props": {
+        "tabId": "pdp3",
+        "label": "Uruguay",
+        "blockClass": "uruguay"
+      }
+    },
+    "tab-list.item#pdp4": {
+      "props": {
+        "tabId": "pdp4",
+        "label": "Colombia",
+        "blockClass": "colombia"
+      }
+    },
+    "tab-list.item#pdp5": {
+      "props": {
+        "tabId": "pdp5",
+        "label": "Francia",
+        "blockClass": "francia"
+      }
+    },
+    "tab-list.item#pdp6": {
+      "props": {
+        "tabId": "pdp6",
+        "label": "Argentina",
+        "blockClass": "argentina"
+      }
+    },
+    "tab-list.item#pdp7": {
+      "props": {
+        "tabId": "pdp7",
+        "label": "Brasil",
+        "blockClass": "brasil"
+      }
+    },
+    "tab-content#pdp": {
+      "children": [
+        "tab-content.item#pdp1",
+        "tab-content.item#pdp2",
+        "tab-content.item#pdp3",
+        "tab-content.item#pdp4",
+        "tab-content.item#pdp5",
+        "tab-content.item#pdp6",
+        "tab-content.item#pdp7"
+      ]
+    },
+    "tab-content.item#pdp1": {
+      "children": [
+        "flex-layout.row#tabitem1"
+      ],
+      "props": {
+        "tabId": "pdp1"
+      }
+    },
+    "flex-layout.row#tabitem1": {
+      "children": [
+        "list-context.product-list#tabCarruselHomeCarousel1"
+      ],
+      "props": {
+        "blockClass": "TabContentCarruselSlider"
+      }
+    },
+    "list-context.product-list#tabCarruselHomeCarousel1": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#tabCarruselHomeCarousel"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "tab-content.item#pdp2": {
+      "children": [
+        "flex-layout.row#tabitem2"
+      ],
+      "props": {
+        "tabId": "pdp2"
+      }
+    },
+    "flex-layout.row#tabitem2": {
+      "children": [
+        "list-context.product-list#tabCarruselHomeCarousel2"
+      ],
+      "props": {
+        "blockClass": "TabContentCarruselSlider"
+      }
+    },
+    "list-context.product-list#tabCarruselHomeCarousel2": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#tabCarruselHomeCarousel"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "tab-content.item#pdp3": {
+      "children": [
+        "flex-layout.row#tabitem3"
+      ],
+      "props": {
+        "tabId": "pdp3"
+      }
+    },
+    "flex-layout.row#tabitem3": {
+      "children": [
+        "list-context.product-list#tabCarruselHomeCarousel3"
+      ],
+      "props": {
+        "blockClass": "TabContentCarruselSlider"
+      }
+    },
+    "list-context.product-list#tabCarruselHomeCarousel3": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#tabCarruselHomeCarousel"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "tab-content.item#pdp4": {
+      "children": [
+        "flex-layout.row#tabitem4"
+      ],
+      "props": {
+        "tabId": "pdp4"
+      }
+    },
+    "flex-layout.row#tabitem4": {
+      "children": [
+        "list-context.product-list#tabCarruselHomeCarousel4"
+      ],
+      "props": {
+        "blockClass": "TabContentCarruselSlider"
+      }
+    },
+    "list-context.product-list#tabCarruselHomeCarousel4": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#tabCarruselHomeCarousel"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "tab-content.item#pdp5": {
+      "children": [
+        "flex-layout.row#tabitem5"
+      ],
+      "props": {
+        "tabId": "pdp5"
+      }
+    },
+    "flex-layout.row#tabitem5": {
+      "children": [
+        "list-context.product-list#tabCarruselHomeCarousel5"
+      ],
+      "props": {
+        "blockClass": "TabContentCarruselSlider"
+      }
+    },
+    "list-context.product-list#tabCarruselHomeCarousel5": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#tabCarruselHomeCarousel"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "tab-content.item#pdp6": {
+      "children": [
+        "flex-layout.row#tabitem6"
+      ],
+      "props": {
+        "tabId": "pdp6"
+      }
+    },
+    "flex-layout.row#tabitem6": {
+      "children": [
+        "list-context.product-list#tabCarruselHomeCarousel6"
+      ],
+      "props": {
+        "blockClass": "TabContentCarruselSlider"
+      }
+    },
+    "list-context.product-list#tabCarruselHomeCarousel6": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#tabCarruselHomeCarousel"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "tab-content.item#pdp7": {
+      "children": [
+        "flex-layout.row#tabitem7"
+      ],
+      "props": {
+        "tabId": "pdp7"
+      }
+    },
+    "flex-layout.row#tabitem7": {
+      "children": [
+        "list-context.product-list#tabCarruselHomeCarousel7"
+      ],
+      "props": {
+        "blockClass": "TabContentCarruselSlider"
+      }
+    },
+    "list-context.product-list#tabCarruselHomeCarousel7": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#tabCarruselHomeCarousel"
+      ],
+      "props": {
+        "collection": "137"
+      }
+    },
+    "image#tabCarruselHomeCarouselTabs": {
+      "props": {
+        "src": "/arquivos/FondoTabs.png?v=1.2",
+        "width": "100%",
+        "blockClass": "tabCarruselHomeImage"
+      }
+    },
+    "rich-text#tabCarruselHomeCarouselTabs": {
+      "title": "Titulo banner carrusel",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "¡Las mejores selecciones nacionales del mundo!",
+        "blockClass": "tabCarruselHomeCarouselTextTitle",
+        "width": "100%"
+      }
+    },
+    "rich-text#TabsCarouselDescription": {
+      "title": "Titulo banner description",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "Lorem ipsum dolor sit",
+        "blockClass": "tabCarruselHomeCarouselTextTitleDesc",
+        "width": "100%"
+      }
+    },
+    "slider-layout#tabCarruselHomeCarousel": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 2,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": false
+      }
     }
   }
-}
